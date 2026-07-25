@@ -25,11 +25,11 @@
 ## 第3楽章 (Third Movement)
 | # | 曲名 | 長さ | ステータス | メモ |
 |---|------|------|-----------|------|
-| 10 | Dios Es un Stalker | 2:57 | ⬜ | |
-| 11 | La Yugular | 4:18 | ⬜ | |
-| 12 | Focu 'Ranni | 2:50 | ⬜ | シチリア語 |
-| 13 | Sauvignon Blanc | 2:42 | ⬜ | |
-| 14 | Jeanne | 3:51 | ⬜ | |
+| 10 | Dios Es un Stalker | 2:57 | ✅ | 2026-07-25 / #10。第3楽章の幕開け。神の視点＝崇拝と監視は紙一重 |
+| 11 | La Yugular | 4:18 | ✅ | 2026-07-25 / #11。頸静脈より近い愛。神秘家ラービアに着想。西/アラビア語 |
+| 12 | Focu 'Ranni | 2:50 | ✅ | 2026-07-25 / #12。シチリア語。名の由来サンタ・ロサリア。自立の宣言 |
+| 13 | Sauvignon Blanc | 2:42 | ✅ | 2026-07-25 / #13。第3弾シングル。豪華さの放棄と精神的充足 |
+| 14 | Jeanne | 3:51 | ✅ | 2026-07-25 / #14。フィジカル盤限定。ジャンヌ・ダルクに捧ぐ。仏/西 |
 
 ## 第4楽章 (Fourth Movement)
 | # | 曲名 | 長さ | ステータス | メモ |
@@ -53,5 +53,10 @@
 | #7 | docs/audio/episode_007_2026-07-25.mp3 | scripts/published/2026-07-25_ep007.json |
 | #8 | docs/audio/episode_008_2026-07-25.mp3 | scripts/published/2026-07-25_ep008.json |
 | #9 | docs/audio/episode_009_2026-07-25.mp3 | scripts/published/2026-07-25_ep009.json |
+| #10 | docs/audio/episode_010_2026-07-25.mp3 | scripts/published/2026-07-25_ep010.json |
+| #11 | docs/audio/episode_011_2026-07-25.mp3 | scripts/published/2026-07-25_ep011.json |
+| #12 | docs/audio/episode_012_2026-07-25.mp3 | scripts/published/2026-07-25_ep012.json |
+| #13 | docs/audio/episode_013_2026-07-25.mp3 | scripts/published/2026-07-25_ep013.json |
+| #14 | docs/audio/episode_014_2026-07-25.mp3 | scripts/published/2026-07-25_ep014.json |
 
 > メモ: 音声ファイル名は `episode_{連番}_{日付}.mp3` 形式(同日に複数話を作っても衝突しないよう `main.py` を修正済み)。
