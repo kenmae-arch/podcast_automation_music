@@ -8,8 +8,12 @@
 - ✅ 鹿島版からコード一式コピー済み(manual モード、そのまま動く)
 - ✅ `.env` 作成済み(番組情報・ボイスID設定済み)
 - ✅ `pronunciation_dict.json` 作成済み(スペイン語→カタカナ)
-- ✅ **第1話を生成済み**: ロサリア『LUX』1曲目「Sexo, Violencia y Llantas」。`docs/audio/episode_2026-07-25.mp3`(約6分)。台本は `scripts/published/2026-07-25.json` にアーカイブ済み。`docs/feed.xml` も生成済み
-- ⬜ 未実施: GitHubリポジトリ化・Pages・カバーアート・Spotify登録(ユーザー操作が必要な部分。下記手順参照)
+- ✅ **第1話・第2話を生成済み**: ロサリア『LUX』1曲目「Sexo, Violencia y Llantas」/2曲目「Reliquia」。音声は `docs/audio/episode_001_2026-07-25.mp3` / `episode_002_2026-07-25.mp3`。台本は `scripts/published/2026-07-25_ep01.json` / `_ep02.json` にアーカイブ済み。`docs/feed.xml` も生成済み(2話)
+- ✅ **音声ファイル名の衝突バグを修正**: 命名を `episode_{連番}_{日付}.mp3` に変更(同日に複数話でも上書きしない。`main.py` 参照)
+- ✅ **カバーアート**: `docs/cover.jpg`(3000px四方の仮カバー。Pillowで生成。あとで差し替え可)
+- ✅ **CURRICULUM.md 作成済み**: 『LUX』全18曲のトラックリスト+配信ステータス管理
+- ✅ **GitHubリポジトリ化・push・Pages有効化・Variables登録済み**(2026-07-25): https://github.com/kenmae-arch/podcast_automation_music 。Pages配信URL https://kenmae-arch.github.io/podcast_automation_music/
+- ⬜ 未実施(ユーザー操作が必要): **Secret `FISH_AUDIO_API_KEY` の登録**(Claude環境ではブロックされるため手動)・**Spotify登録**(下記手順参照)
 
 ## 1. 番組コンセプト
 
