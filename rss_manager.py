@@ -29,7 +29,7 @@ class RSSManager:
 
         image: docs/ からの相対パス(例 "art/lux.jpg")。シリーズごとに
         エピソード個別のアートワークを出し分けたい場合に指定する。
-        省略時は番組全体のカバー(cover.jpg)が使われる。
+        省略時は番組全体のカバー(config.PODCAST_COVER_FILE)が使われる。
         """
         episodes = self._load_episodes()
         entry = {
@@ -54,7 +54,7 @@ class RSSManager:
         fg.link(href=f"{self.base_url}/feed.xml", rel="self")
         fg.language(config.PODCAST_LANGUAGE)
         fg.author({"name": config.PODCAST_AUTHOR, "email": config.PODCAST_EMAIL})
-        cover_url = f"{self.base_url}/cover.jpg"
+        cover_url = f"{self.base_url}/{config.PODCAST_COVER_FILE}"
         fg.image(url=cover_url, title=config.PODCAST_TITLE, link=self.base_url)
         fg.podcast.itunes_image(cover_url)
         fg.podcast.itunes_author(config.PODCAST_AUTHOR)

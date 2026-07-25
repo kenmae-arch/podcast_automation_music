@@ -56,6 +56,11 @@ PODCAST_AUTHOR = os.getenv("PODCAST_AUTHOR", "AI Podcast Bot")
 PODCAST_EMAIL = os.getenv("PODCAST_EMAIL", "podcast@example.com")
 PODCAST_LANGUAGE = os.getenv("PODCAST_LANGUAGE", "ja")
 PODCAST_CATEGORY = os.getenv("PODCAST_CATEGORY", "News")
+# 番組カバー画像(docs/ 直下)のファイル名。
+# 【重要】カバーを差し替えるときは中身だけでなく**ファイル名も変える**こと。
+# Spotify等の配信先はアートワークをURL単位でキャッシュするため、同名のまま
+# 差し替えても反映されない。cover-v2 → cover-v3 のように番号を上げる運用。
+PODCAST_COVER_FILE = os.getenv("PODCAST_COVER_FILE", "cover-v2.jpg")
 # GitHub Pagesの公開URL(例: https://<user>.github.io/<repo>)
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://example.github.io/podcast").rstrip("/")
 

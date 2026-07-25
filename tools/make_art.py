@@ -1,6 +1,9 @@
 """ポッドキャストのアートワーク生成。
 
-- docs/cover.jpg    : 番組全体のカバー(チャンネル)
+- docs/cover-v2.jpg : 番組全体のカバー(チャンネル)
+  ※ 差し替えるときは COVER_FILE の番号を上げ、config.PODCAST_COVER_FILE も
+    合わせて更新すること。配信先がURL単位でキャッシュするため、同名のまま
+    中身だけ差し替えても反映されない。
 - docs/art/lux.jpg  : 第1弾 Rosalía『LUX』のエピソード・アート
 - docs/art/gkmc.jpg : 第2弾 Kendrick Lamar『good kid, m.A.A.d city』のエピソード・アート
 
@@ -17,6 +20,7 @@ S = 3000          # 書き出しサイズ(正方形)
 SMALL = 600       # グラデーション/マスクの内部生成サイズ(拡大して滑らかに)
 
 OUT = Path(__file__).resolve().parent.parent / "docs"
+COVER_FILE = "cover-v2.jpg"   # config.PODCAST_COVER_FILE と揃えること
 
 F_DIDOT = "/System/Library/Fonts/Supplemental/Didot.ttc"
 F_FUTURA = "/System/Library/Fonts/Supplemental/Futura.ttc"
@@ -310,6 +314,6 @@ def save(img, path, quality=88):
 
 
 if __name__ == "__main__":
-    save(make_channel_cover(), OUT / "cover.jpg")
+    save(make_channel_cover(), OUT / COVER_FILE)
     save(make_lux(), OUT / "art" / "lux.jpg")
     save(make_gkmc(), OUT / "art" / "gkmc.jpg")

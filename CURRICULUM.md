@@ -13,9 +13,11 @@
 ### アートワーク
 | 用途 | ファイル | 備考 |
 |---|---|---|
-| 番組カバー(チャンネル) | `docs/cover.jpg` | レコードの溝と灯り。全シリーズ共通 |
+| 番組カバー(チャンネル) | `docs/cover-v2.jpg` | レコードの溝と灯り。全シリーズ共通 |
 | 第1弾 LUX | `docs/art/lux.jpg` | 光背(ひかり)。#1〜#18 に付与 |
 | 第2弾 GKMC | `docs/art/gkmc.jpg` | 夜のコンプトン。#19〜 に付与 |
+
+> ⚠️ **番組カバーを差し替えるときは、ファイル名も必ず変える**(`cover-v2` → `cover-v3` …)。Spotify等はアートワークをURL単位でキャッシュするため、同名のまま中身だけ差し替えても反映されない。手順: `tools/make_art.py` の `COVER_FILE` と `config.PODCAST_COVER_FILE` を新しい名前に更新 → 再生成 → フィード再生成。
 
 新シリーズを始めるときは、`docs/art/<album>.jpg`(3000px四方・RGB)を追加し、台本 `scripts/pending.json` に `"image": "art/<album>.jpg"` を書けば、そのエピソードに反映される。いずれも実在のジャケットは複製せず、テーマから起こしたオリジナル図案。生成スクリプトは `tools/make_art.py`(`python3 tools/make_art.py` で3枚とも作り直せる)。
 
