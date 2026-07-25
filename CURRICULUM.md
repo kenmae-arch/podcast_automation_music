@@ -10,8 +10,8 @@
 |---|------|------|-----------|--------------|
 | 1 | Sexo, Violencia y Llantas | 2:20 | ✅ | 2026-07-25 / #1。世俗と神聖の対比で幕開け |
 | 2 | Reliquia | 3:49 | ✅ | 2026-07-25 / #2。聖遺物＝世界に置いてきた自分のかけら |
-| 3 | Divinize | 4:03 | ⬜ | 次回制作予定(#2ラストで予告済み) |
-| 4 | Porcelana (with Dougie F) | 4:07 | ⬜ | |
+| 3 | Divinize | 4:03 | ✅ | 2026-07-25 / #3。神化(テオーシス)。母語カタルーニャ語＋英語 |
+| 4 | Porcelana (with Dougie F) | 4:07 | ⬜ | 次回制作予定(#3ラストで予告済み) |
 | 5 | Mio Cristo Piange Diamanti | 4:29 | ⬜ | イタリア語 |
 
 ## 第2楽章 (Second Movement)
@@ -44,7 +44,8 @@
 ## 配信済みファイル対応
 | 話 | 音声ファイル | アーカイブ台本 |
 |----|------------|--------------|
-| #1 | docs/audio/episode_001_2026-07-25.mp3 | scripts/published/2026-07-25_ep01.json |
-| #2 | docs/audio/episode_002_2026-07-25.mp3 | scripts/published/2026-07-25_ep02.json |
+| #1 | docs/audio/episode_001_2026-07-25.mp3 | scripts/published/2026-07-25_ep001.json |
+| #2 | docs/audio/episode_002_2026-07-25.mp3 | scripts/published/2026-07-25_ep002.json |
+| #3 | docs/audio/episode_003_2026-07-25.mp3 | scripts/published/2026-07-25_ep003.json |
 
 > メモ: 音声ファイル名は `episode_{連番}_{日付}.mp3` 形式(同日に複数話を作っても衝突しないよう `main.py` を修正済み)。

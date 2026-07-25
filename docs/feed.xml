@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_music</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Jul 2026 05:17:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 05:39:07 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/cover.jpg"/>
@@ -22,6 +22,13 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>ロサリア『LUX』全曲解説 #3 身体を神へと高める『Divinize』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はロサリアの4作目『LUX』。第3回は第1楽章の3曲目『Divinize(ディヴィナイズ)』を取り上げます。タイトルは『神化する=人間を神聖なものへと高める』の意味。神学の『テオーシス(神化)』の概念、禁断の果実になぞらえた誘惑と自制の緊張、そして身体そのものの聖性というテーマを解説します。ロサリアの母語カタルーニャ語と英語で歌われる点、Caroline Shawやプロデューサー陣(Noah Goldstein、Sir Dylan)による、エレクトロニックとオーケストラを融合させたサウンドにも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_003_2026-07-25.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_003_2026-07-25.mp3" length="4798169" type="audio/mpeg"/>
+      <pubDate>Sat, 25 Jul 2026 05:39:07 +0000</pubDate>
+    </item>
     <item>
       <title>ロサリア『LUX』全曲解説 #2 世界に置いてきた自分のかけら『Reliquia』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はロサリアが2025年11月にリリースした4作目『LUX』。第2回は第1楽章の2曲目『Reliquia(レリキア)』を取り上げます。タイトルは『聖遺物』の意味。ペルーの聖女、リマの聖ローサに着想を得て、世界を旅しながら各地に自分のかけらを置いてきた——という『関係性を聖遺物として捉える』テーマを解説します。キャロライン・ショウによる弦のアレンジ、Daft PunkのGuy-Manuel de Homem-ChristoやOneRepublicのRyan Tedderら豪華な作家陣、そしてロサリア自身が歌詞を『ファクトチェック』した逸話にも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
