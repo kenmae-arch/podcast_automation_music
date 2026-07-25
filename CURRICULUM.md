@@ -1,11 +1,52 @@
-# カリキュラム進捗 — Rosalía『LUX』全曲解説(第1弾)
+# カリキュラム進捗 — アルバム全曲解説ポッドキャスト
 
-アルバム: Rosalía『LUX』(2025年11月7日 / Columbia Records / 全18曲・4楽章)
-トラックリストは英語版Wikipedia "Lux (Rosalía album)" で検証済み(2026-07-25時点)。各回の制作前に最新情報を必ず再確認すること。
+1つの番組(1つのフィード)で、名盤を1枚ずつ、シリーズとして解説していく運用。各回の制作前に、トラックリストと事実関係を必ず最新情報で再確認すること。
 
-ステータス: ✅配信済み / ⬜未作成
+ステータス: ✅配信済み / ⬜未作成 / 🔄進行中
 
-> 🎉 **2026-07-25、全18曲(4楽章)の解説を配信完了。第1弾『LUX』シリーズ完結。** 次シリーズ(別アルバム)を始める場合は、この番組(1つのフィード)に続けて配信していく運用。
+## シリーズ一覧
+- **第1弾**: Rosalía『LUX』(2025) — 全18曲・4楽章 … ✅ **完結**(番組内 #1〜#18)
+- **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … 🔄 **進行中**(番組内 #1〜#5 配信済み)
+
+> 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
+
+---
+
+# 第2弾: Kendrick Lamar『good kid, m.A.A.d city』(進行中)
+
+アルバム: 2012年10月22日 / Interscope・Top Dawg・Aftermath / 全12曲。"A Short Film by Kendrick Lamar" を掲げた映画的コンセプト作(コンプトンで育つ10代の“ある一日”)。エグゼクティブP: Dr. Dre & Anthony "Top Dawg" Tiffith。トラックリストは英語版Wikipedia で検証済み(2026-07-25時点)。
+
+| # | 曲名 | ステータス | 配信日 / メモ |
+|---|------|-----------|--------------|
+| 1 | Sherane a.k.a Master Splinter's Daughter | ✅ | 2026-07-25 / #1。物語の幕開け。17歳とSherane、留守電の仕掛け。prod. Tha Bizness |
+| 2 | Bitch, Don't Kill My Vibe | ✅ | 2026-07-25 / #2。自分の波長を守る宣言＋流行批判。prod. Sounwave / Boom Clap Bachelors sample |
+| 3 | Backseat Freestyle | ✅ | 2026-07-25 / #3。少年の空想と野望、MLK参照の皮肉。prod. Hit-Boy |
+| 4 | The Art of Peer Pressure | ✅ | 2026-07-25 / #4。同調圧力で強盗に加担。二重の自己。prod. Tabu |
+| 5 | Money Trees (feat. Jay Rock) | ✅ | 2026-07-25 / #5。誘惑としての金。prod. DJ Dahi / Beach House "Silver Soul" sample |
+| 6 | Poetic Justice (feat. Drake) | ⬜ | 次回制作予定(#5ラストで予告済み) |
+| 7 | good kid | ⬜ | |
+| 8 | m.A.A.d city (feat. MC Eiht) | ⬜ | |
+| 9 | Swimming Pools (Drank) | ⬜ | |
+| 10 | Sing About Me, I'm Dying of Thirst | ⬜ | 12分超の大曲 |
+| 11 | Real (feat. Anna Wise) | ⬜ | |
+| 12 | Compton (feat. Dr. Dre) | ⬜ | 最終曲 |
+
+### 配信済みファイル対応(第2弾)
+| 話 | 音声 | アーカイブ台本 |
+|----|------|--------------|
+| #1 | docs/audio/episode_019_2026-07-25.mp3 | scripts/published/2026-07-25_ep019.json |
+| #2 | docs/audio/episode_020_2026-07-25.mp3 | scripts/published/2026-07-25_ep020.json |
+| #3 | docs/audio/episode_021_2026-07-25.mp3 | scripts/published/2026-07-25_ep021.json |
+| #4 | docs/audio/episode_022_2026-07-25.mp3 | scripts/published/2026-07-25_ep022.json |
+| #5 | docs/audio/episode_023_2026-07-25.mp3 | scripts/published/2026-07-25_ep023.json |
+
+---
+
+# 第1弾: Rosalía『LUX』(完結)
+
+アルバム: Rosalía『LUX』(2025年11月7日 / Columbia Records / 全18曲・4楽章)。トラックリストは英語版Wikipedia "Lux (Rosalía album)" で検証済み。
+
+> 🎉 **2026-07-25、全18曲(4楽章)の解説を配信完了。第1弾『LUX』シリーズ完結。**
 
 ## 第1楽章 (First Movement)
 | # | 曲名 | 長さ | ステータス | 配信日 / メモ |
