@@ -5,6 +5,8 @@
 
 ステータス: ✅配信済み / ⬜未作成
 
+> 🎉 **2026-07-25、全18曲(4楽章)の解説を配信完了。第1弾『LUX』シリーズ完結。** 次シリーズ(別アルバム)を始める場合は、この番組(1つのフィード)に続けて配信していく運用。
+
 ## 第1楽章 (First Movement)
 | # | 曲名 | 長さ | ステータス | 配信日 / メモ |
 |---|------|------|-----------|--------------|
@@ -34,10 +36,10 @@
 ## 第4楽章 (Fourth Movement)
 | # | 曲名 | 長さ | ステータス | メモ |
 |---|------|------|-----------|------|
-| 15 | Novia Robot | 3:12 | ⬜ | |
-| 16 | La Rumba del Perdón (with Estrella Morente and Sílvia Pérez Cruz) | 4:11 | ⬜ | |
-| 17 | Memória (with Carminho) | 3:45 | ⬜ | ポルトガル語 |
-| 18 | Magnolias | 3:14 | ⬜ | 最終曲 |
+| 15 | Novia Robot | 3:12 | ✅ | 2026-07-25 / #15。最終楽章の幕開け。物象化への風刺と解放。中/ヘブライ語 |
+| 16 | La Rumba del Perdón (with Estrella Morente and Sílvia Pérez Cruz) | 4:11 | ✅ | 2026-07-25 / #16。裏切りと喪失を赦しのルンバへ。El Mal Querer期の旧曲 |
+| 17 | Memória (with Carminho) | 3:45 | ✅ | 2026-07-25 / #17。全編ポルトガル語のファド。記憶とアイデンティティ |
+| 18 | Magnolias | 3:14 | ✅ | 2026-07-25 / #18【最終回】。死を祝祭に。神と中間で出会う。シリーズ完結 |
 
 ---
 
@@ -58,5 +60,9 @@
 | #12 | docs/audio/episode_012_2026-07-25.mp3 | scripts/published/2026-07-25_ep012.json |
 | #13 | docs/audio/episode_013_2026-07-25.mp3 | scripts/published/2026-07-25_ep013.json |
 | #14 | docs/audio/episode_014_2026-07-25.mp3 | scripts/published/2026-07-25_ep014.json |
+| #15 | docs/audio/episode_015_2026-07-25.mp3 | scripts/published/2026-07-25_ep015.json |
+| #16 | docs/audio/episode_016_2026-07-25.mp3 | scripts/published/2026-07-25_ep016.json |
+| #17 | docs/audio/episode_017_2026-07-25.mp3 | scripts/published/2026-07-25_ep017.json |
+| #18 | docs/audio/episode_018_2026-07-25.mp3 | scripts/published/2026-07-25_ep018.json |
 
 > メモ: 音声ファイル名は `episode_{連番}_{日付}.mp3` 形式(同日に複数話を作っても衝突しないよう `main.py` を修正済み)。
