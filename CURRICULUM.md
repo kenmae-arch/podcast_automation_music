@@ -7,7 +7,11 @@
 ## シリーズ一覧
 - **第1弾**: Rosalía『LUX』(2025) — 全18曲・4楽章 … ✅ **完結**(番組内 #1〜#18)
 - **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
-- **第3弾**: 未定(候補: Kendrick Lamar『To Pimp a Butterfly』、Beyoncé『Lemonade』、Janelle Monáe など)
+- **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … 🔄 **進行中**
+- **第4弾(予定)**: Bad Bunny『Debí Tirar Más Fotos』(2025)
+- **第5弾(予定)**: Kendrick Lamar『To Pimp a Butterfly』(2015)
+
+> 以降の並びは「女性の物語 → 言語と土地 → 黒人音楽史の総括」という射程の広げ方で決定(2026-07-26)。
 
 > 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
 
@@ -16,11 +20,42 @@
 |---|---|---|
 | 番組カバー(チャンネル) | `docs/cover-v2.jpg` | レコードの溝と灯り。全シリーズ共通 |
 | 第1弾 LUX | `docs/art/lux.jpg` | 光背(ひかり)。#1〜#18 に付与 |
-| 第2弾 GKMC | `docs/art/gkmc.jpg` | 夜のコンプトン。#19〜 に付与 |
+| 第2弾 GKMC | `docs/art/gkmc.jpg` | 夜のコンプトン。#19〜#30 に付与 |
+| 第3弾 Lemonade | `docs/art/lemonade.jpg` | 黄金の水面(オシュンと南部の夜)。#31〜 に付与 |
 
 > ⚠️ **番組カバーを差し替えるときは、ファイル名も必ず変える**(`cover-v2` → `cover-v3` …)。Spotify等はアートワークをURL単位でキャッシュするため、同名のまま中身だけ差し替えても反映されない。手順: `tools/make_art.py` の `COVER_FILE` と `config.PODCAST_COVER_FILE` を新しい名前に更新 → 再生成 → フィード再生成。
 
 新シリーズを始めるときは、`docs/art/<album>.jpg`(3000px四方・RGB)を追加し、台本 `scripts/pending.json` に `"image": "art/<album>.jpg"` を書けば、そのエピソードに反映される。いずれも実在のジャケットは複製せず、テーマから起こしたオリジナル図案。生成スクリプトは `tools/make_art.py`(`python3 tools/make_art.py` で3枚とも作り直せる)。
+
+---
+
+# 第3弾: Beyoncé『Lemonade』(進行中)
+
+アルバム: 2016年4月23日 / Parkwood・Columbia / 全12曲。ヴィジュアル・アルバム。夫の裏切りをめぐる私的な物語を、アメリカにおける黒人女性の歴史的経験へと接続したコンセプト作。映像版はキューブラー・ロスの受容過程になぞらえた11章(Intuition / Denial / Anger / Apathy / Emptiness / Accountability / Reformation / Forgiveness / Resurrection / Hope / Redemption)で構成。詩人 Warsan Shire の詩篇が全編に配される。トラックリスト・章構成は英語版Wikipediaで検証済み(2026-07-26時点)。
+
+| # | 曲名 | 章 | ステータス | メモ |
+|---|------|----|-----------|------|
+| 1 | Pray You Catch Me | Intuition | ✅ | 2026-07-26 / #1。疑いの始まり。prod. Kevin Garrett & Beyoncé |
+| 2 | Hold Up | Denial | ✅ | 2026-07-26 / #2。黄金のドレス＝ヨルバの女神オシュン |
+| 3 | Don't Hurt Yourself (feat. Jack White) | Anger | ✅ | 2026-07-26 / #3。Led Zeppelin「When the Levee Breaks」sample(原曲は1929年の黒人ブルース)＋Malcolm X演説 |
+| 4 | Sorry | Apathy | ✅ | 2026-07-26 / #4。「good hair」＝美の序列への批評。犯人探しには乗らない書き方で |
+| 5 | 6 Inch (feat. The Weeknd) | Emptiness | ✅ | 2026-07-26 / #5。Isaac Hayes「Walk On By」sample。働く女性と労働の商品化 |
+| 6 | Daddy Lessons | Accountability | ⬜ | 次回制作予定。カントリー。父と銃と南部 |
+| 7 | Love Drought | Reformation | ⬜ | |
+| 8 | Sandcastles | Forgiveness | ⬜ | ピアノ弾き語り |
+| 9 | Forward (feat. James Blake) | Resurrection | ⬜ | 短い間奏曲。母たちの肖像 |
+| 10 | Freedom (feat. Kendrick Lamar) | Hope | ⬜ | **Kendrick参加**＝第2弾との接続 |
+| 11 | All Night | Redemption | ⬜ | |
+| 12 | Formation | — | ⬜ | 最終曲。ニューオーリンズと黒人性の宣言 |
+
+### 配信済みファイル対応(第3弾)
+| 話 | 音声 | アーカイブ台本 |
+|----|------|--------------|
+| #1 | docs/audio/episode_031_2026-07-26.mp3 | scripts/published/2026-07-26_ep031.json |
+| #2 | docs/audio/episode_032_2026-07-26.mp3 | scripts/published/2026-07-26_ep032.json |
+| #3 | docs/audio/episode_033_2026-07-26.mp3 | scripts/published/2026-07-26_ep033.json |
+| #4 | docs/audio/episode_034_2026-07-26.mp3 | scripts/published/2026-07-26_ep034.json |
+| #5 | docs/audio/episode_035_2026-07-26.mp3 | scripts/published/2026-07-26_ep035.json |
 
 ---
 

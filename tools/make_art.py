@@ -12,6 +12,7 @@ macOS のシステムフォント(Didot / Futura / Avenir Next / Hiragino)を使
 共通の意匠(粒状感・ヴィネット・トラッキングした欧文＋日本語)でシリーズ感を出す。
 """
 import math
+import random
 from pathlib import Path
 
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
@@ -307,6 +308,78 @@ def make_gkmc():
     return grain(img, 0.062)
 
 
+# =====================================================================
+# 4. 第3弾 Beyoncé『Lemonade』 ── 黄金の水面(オシュンと南部の夜)
+# =====================================================================
+
+def make_lemonade():
+    horizon = S * 0.600
+    img = vgradient([
+        (0.0, (8, 24, 27)), (0.30, (16, 44, 44)), (0.50, (58, 66, 46)),
+        (0.585, (152, 112, 42)), (0.601, (14, 30, 32)), (1.0, (7, 14, 17)),
+    ])
+
+    cx, sy = S / 2, horizon - S * 0.022
+    glow(img, cx, sy, S * 0.34, (186, 136, 44), falloff=2.6)   # オシュンの黄金
+    glow(img, cx, sy, S * 0.075, (255, 226, 152), falloff=1.8)
+
+    d = ImageDraw.Draw(img)
+    rr = S * 0.050
+    d.ellipse([cx - rr, sy - rr, cx + rr, sy + rr], fill=(255, 233, 172))
+
+    # 水面の反射(「When the Levee Breaks」の水、川の女神オシュン)
+    ripples = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    rp = ImageDraw.Draw(ripples)
+    random.seed(7)
+    y = horizon + S * 0.006
+    end = S * 0.735
+    while y < end:
+        t = (y - horizon) / (end - horizon)
+        w = S * 0.018 + S * 0.105 * t + random.uniform(-S * 0.014, S * 0.014)
+        a = int(165 * (1 - t) ** 1.25)
+        off = random.uniform(-S * 0.012, S * 0.012)
+        rp.line([cx - w + off, y, cx + w + off, y], fill=(255, 214, 140, a), width=5)
+        y += S * 0.0092
+    img = Image.alpha_composite(img.convert("RGBA"), ripples).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 南部の樹とサルオガセモドキ(スパニッシュモス)
+    moss = (7, 17, 17)
+    branch = []
+    for i in range(41):
+        t = i / 40
+        branch.append((S * t, S * (0.052 + 0.030 * math.sin(t * 3.1 + 0.6))))
+    for i in range(len(branch) - 1):
+        d.line([branch[i], branch[i + 1]], fill=moss, width=int(S * 0.020), joint="curve")
+
+    random.seed(3)
+    for i in range(19):
+        bx = S * (0.028 + 0.052 * i) + random.uniform(-S * 0.008, S * 0.008)
+        by = S * (0.052 + 0.030 * math.sin((bx / S) * 3.1 + 0.6)) + S * 0.008
+        length = random.uniform(S * 0.055, S * 0.195)
+        seg = []
+        for j in range(16):
+            t = j / 15
+            seg.append((bx + S * 0.016 * math.sin(t * 5.0 + i), by + length * t))
+        for j in range(len(seg) - 1):
+            w = max(3, int((14 - 11 * (j / len(seg))) * (S / 3000) * 1.6))
+            d.line([seg[j], seg[j + 1]], fill=moss, width=w, joint="curve")
+
+    cream, gold, muted = (240, 232, 214), (223, 176, 86), (150, 156, 148)
+
+    Stack(d, S * 0.140).text("SERIES 03", font(F_FUTURA, 58, 0), muted, tracking=40)
+
+    s = Stack(d, S * 0.735)
+    s.text("BEYONCÉ", font(F_DIDOT, 142, 0), gold, tracking=52)
+    s.gap(58).text("LEMONADE", font(F_DIDOT, 296, 2), cream, tracking=24)
+    s.gap(68).rule(S * 0.084, (118, 106, 88), 3).gap(54)
+    s.text("全曲解説", font(F_JP, 76, 0), muted, tracking=26)
+    print("  lemonade type bottom:", int(s.y))
+
+    vignette(img, 0.58, 0.84)
+    return grain(img, 0.055)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -317,3 +390,4 @@ if __name__ == "__main__":
     save(make_channel_cover(), OUT / COVER_FILE)
     save(make_lux(), OUT / "art" / "lux.jpg")
     save(make_gkmc(), OUT / "art" / "gkmc.jpg")
+    save(make_lemonade(), OUT / "art" / "lemonade.jpg")
