@@ -17,10 +17,10 @@
 ## 第2楽章 (Second Movement)
 | # | 曲名 | 長さ | ステータス | メモ |
 |---|------|------|-----------|------|
-| 6 | Berghain (with Björk and Yves Tumor) | 2:58 | ⬜ | |
-| 7 | La Perla (with Yahritza y su Esencia) | 3:15 | ⬜ | |
-| 8 | Mundo Nuevo | 2:20 | ⬜ | |
-| 9 | De Madrugá | 1:44 | ⬜ | |
+| 6 | Berghain (with Björk and Yves Tumor) | 2:58 | ✅ | 2026-07-25 / #6。第2楽章の幕開け。崇拝としての愛。独西英 |
+| 7 | La Perla (with Yahritza y su Esencia) | 3:15 | ✅ | 2026-07-25 / #7。偽りの真珠=トキシックな相手への決別 |
+| 8 | Mundo Nuevo | 2:20 | ✅ | 2026-07-25 / #8。新しい世界への渇望。ペテネーラ。日本語ヴァース |
+| 9 | De Madrugá | 1:44 | ✅ | 2026-07-25 / #9。夜明け前と復讐の宿命。ウクライナ語。El Mal Querer期の未収録曲 |
 
 ## 第3楽章 (Third Movement)
 | # | 曲名 | 長さ | ステータス | メモ |
@@ -49,5 +49,9 @@
 | #3 | docs/audio/episode_003_2026-07-25.mp3 | scripts/published/2026-07-25_ep003.json |
 | #4 | docs/audio/episode_004_2026-07-25.mp3 | scripts/published/2026-07-25_ep004.json |
 | #5 | docs/audio/episode_005_2026-07-25.mp3 | scripts/published/2026-07-25_ep005.json |
+| #6 | docs/audio/episode_006_2026-07-25.mp3 | scripts/published/2026-07-25_ep006.json |
+| #7 | docs/audio/episode_007_2026-07-25.mp3 | scripts/published/2026-07-25_ep007.json |
+| #8 | docs/audio/episode_008_2026-07-25.mp3 | scripts/published/2026-07-25_ep008.json |
+| #9 | docs/audio/episode_009_2026-07-25.mp3 | scripts/published/2026-07-25_ep009.json |
 
 > メモ: 音声ファイル名は `episode_{連番}_{日付}.mp3` 形式(同日に複数話を作っても衝突しないよう `main.py` を修正済み)。
