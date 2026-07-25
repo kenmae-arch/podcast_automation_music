@@ -10,6 +10,15 @@
 
 > 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
 
+### アートワーク
+| 用途 | ファイル | 備考 |
+|---|---|---|
+| 番組カバー(チャンネル) | `docs/cover.jpg` | レコードの溝と灯り。全シリーズ共通 |
+| 第1弾 LUX | `docs/art/lux.jpg` | 光背(ひかり)。#1〜#18 に付与 |
+| 第2弾 GKMC | `docs/art/gkmc.jpg` | 夜のコンプトン。#19〜 に付与 |
+
+新シリーズを始めるときは、`docs/art/<album>.jpg`(3000px四方・RGB)を追加し、台本 `scripts/pending.json` に `"image": "art/<album>.jpg"` を書けば、そのエピソードに反映される。いずれも実在のジャケットは複製せず、テーマから起こしたオリジナル図案。生成スクリプトは `tools/make_art.py`(`python3 tools/make_art.py` で3枚とも作り直せる)。
+
 ---
 
 # 第2弾: Kendrick Lamar『good kid, m.A.A.d city』(進行中)

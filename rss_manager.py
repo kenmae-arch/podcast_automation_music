@@ -22,18 +22,26 @@ class RSSManager:
     def __init__(self, base_url: str | None = None):
         self.base_url = (base_url or config.SITE_BASE_URL).rstrip("/")
 
-    def add_episode(self, title: str, description: str, audio_path: Path) -> None:
-        """エピソードを登録してフィードを再生成する。"""
+    def add_episode(
+        self, title: str, description: str, audio_path: Path, image: str | None = None
+    ) -> None:
+        """エピソードを登録してフィードを再生成する。
+
+        image: docs/ からの相対パス(例 "art/lux.jpg")。シリーズごとに
+        エピソード個別のアートワークを出し分けたい場合に指定する。
+        省略時は番組全体のカバー(cover.jpg)が使われる。
+        """
         episodes = self._load_episodes()
-        episodes.append(
-            {
-                "title": title,
-                "description": description,
-                "audio_file": audio_path.name,
-                "size_bytes": audio_path.stat().st_size,
-                "published": datetime.now(timezone.utc).isoformat(),
-            }
-        )
+        entry = {
+            "title": title,
+            "description": description,
+            "audio_file": audio_path.name,
+            "size_bytes": audio_path.stat().st_size,
+            "published": datetime.now(timezone.utc).isoformat(),
+        }
+        if image:
+            entry["image"] = image
+        episodes.append(entry)
         self._save_episodes(episodes)
         self._generate_feed(episodes)
 
@@ -63,6 +71,9 @@ class RSSManager:
             fe.description(ep["description"])
             fe.enclosure(audio_url, str(ep["size_bytes"]), "audio/mpeg")
             fe.published(datetime.fromisoformat(ep["published"]))
+            # シリーズごとのエピソード・アートワーク(未指定なら番組カバーが使われる)
+            if ep.get("image"):
+                fe.podcast.itunes_image(f"{self.base_url}/{ep['image'].lstrip('/')}")
 
         config.FEED_PATH.parent.mkdir(parents=True, exist_ok=True)
         fg.rss_file(str(config.FEED_PATH), pretty=True)

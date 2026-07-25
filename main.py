@@ -54,7 +54,9 @@ def main() -> int:
 
         # 4. RSSフィード更新
         logger.info("=== 4/4 RSSフィード更新 ===")
-        RSSManager().add_episode(episode.title, episode.description, audio_path)
+        RSSManager().add_episode(
+            episode.title, episode.description, audio_path, image=episode.image
+        )
 
         # manualモード: 使用済み台本をアーカイブして二重配信を防ぐ
         if is_manual and config.PENDING_SCRIPT_PATH.exists():

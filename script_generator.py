@@ -44,6 +44,8 @@ class Episode:
     title: str
     description: str
     script: str
+    # docs/ からの相対パス(例 "art/lux.jpg")。シリーズ別アートワーク用。省略可。
+    image: str | None = None
 
 
 class ScriptGenerator(ABC):
@@ -123,7 +125,8 @@ class ManualScriptGenerator(ScriptGenerator):
     """scripts/pending.json に置かれた台本を読み込む。
 
     Claude Codeなど外部で作成した台本を使うモード。LLM APIを呼ばないため無料。
-    JSON形式: {"title": ..., "description": ..., "script": ...}
+    JSON形式: {"title": ..., "description": ..., "script": ..., "image": ...}
+    image は任意。docs/ からの相対パスでシリーズ別アートワークを指定できる。
     """
 
     def __init__(self, script_path=None):
@@ -141,6 +144,7 @@ class ManualScriptGenerator(ScriptGenerator):
             title=data["title"],
             description=data["description"],
             script=data["script"],
+            image=data.get("image"),
         )
 
 

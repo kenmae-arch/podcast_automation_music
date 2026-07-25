@@ -34,8 +34,10 @@
 | `rss_manager.py` | `feed.xml` / `episodes.json` の生成 |
 | `pronunciation_dict.json` | TTSが読み間違える固有名詞のカタカナ読み辞書 |
 | `scripts/pending.json` | 次に音声化する台本(処理後 `scripts/published/` へアーカイブ) |
-| `docs/` | GitHub Pages 配信ディレクトリ(`feed.xml` / `audio/` / `cover.jpg`) |
-| `CURRICULUM.md` | 『LUX』全18曲の進捗管理 |
+| `docs/` | GitHub Pages 配信ディレクトリ(`feed.xml` / `audio/` / `cover.jpg` / `art/`) |
+| `docs/art/` | シリーズ(アルバム)ごとのエピソード・アートワーク |
+| `tools/make_art.py` | カバー/シリーズ別アートワークの生成(`python3 tools/make_art.py`) |
+| `CURRICULUM.md` | シリーズごとの進捗管理 |
 
 ## セットアップ
 
@@ -52,6 +54,7 @@ cp .env.example .env   # 各種キー・番組情報を記入
 
 1. 対象曲を最新情報で裏付け(リリース情報・制作陣・音楽的特徴などを確認)
 2. 台本を `scripts/pending.json` に配置(`{"title", "description", "script"}` の JSON)
+   - 任意で `"image": "art/lux.jpg"` を添えると、そのエピソードのアートワークになる(省略時は番組カバー)
 3. 新出の固有名詞を `pronunciation_dict.json` に登録
 4. 音声生成 & フィード更新
    ```bash
