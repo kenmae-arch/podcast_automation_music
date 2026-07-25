@@ -4,7 +4,7 @@
 
 - **配信ページ**: https://kenmae-arch.github.io/podcast_automation_music/
 - **RSS フィード**: https://kenmae-arch.github.io/podcast_automation_music/feed.xml
-- **第1弾**: ロサリア(Rosalía)の4作目『LUX』(2025年) を1曲目から順に解説
+- **第1弾**: Rosalía(ロサリア)の4作目『LUX』(2025年) を1曲目から順に解説
 
 ## しくみ
 

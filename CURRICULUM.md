@@ -1,4 +1,4 @@
-# カリキュラム進捗 — ロサリア『LUX』全曲解説(第1弾)
+# カリキュラム進捗 — Rosalía『LUX』全曲解説(第1弾)
 
 アルバム: Rosalía『LUX』(2025年11月7日 / Columbia Records / 全18曲・4楽章)
 トラックリストは英語版Wikipedia "Lux (Rosalía album)" で検証済み(2026-07-25時点)。各回の制作前に最新情報を必ず再確認すること。
@@ -12,7 +12,7 @@
 | 2 | Reliquia | 3:49 | ✅ | 2026-07-25 / #2。聖遺物＝世界に置いてきた自分のかけら |
 | 3 | Divinize | 4:03 | ✅ | 2026-07-25 / #3。神化(テオーシス)。母語カタルーニャ語＋英語 |
 | 4 | Porcelana (with Dougie F) | 4:07 | ✅ | 2026-07-25 / #4。日本の尼僧・了然元総に着想。西英羅日の4言語 |
-| 5 | Mio Cristo Piange Diamanti | 4:29 | ⬜ | イタリア語。次回制作予定(#4ラストで予告済み) |
+| 5 | Mio Cristo Piange Diamanti | 4:29 | ✅ | 2026-07-25 / #5。ほぼ全編伊語。アッシジのフランチェスコと聖キアラの霊的友情に着想 |
 
 ## 第2楽章 (Second Movement)
 | # | 曲名 | 長さ | ステータス | メモ |
@@ -48,5 +48,6 @@
 | #2 | docs/audio/episode_002_2026-07-25.mp3 | scripts/published/2026-07-25_ep002.json |
 | #3 | docs/audio/episode_003_2026-07-25.mp3 | scripts/published/2026-07-25_ep003.json |
 | #4 | docs/audio/episode_004_2026-07-25.mp3 | scripts/published/2026-07-25_ep004.json |
+| #5 | docs/audio/episode_005_2026-07-25.mp3 | scripts/published/2026-07-25_ep005.json |
 
 > メモ: 音声ファイル名は `episode_{連番}_{日付}.mp3` 形式(同日に複数話を作っても衝突しないよう `main.py` を修正済み)。
