@@ -6,7 +6,7 @@
 
 ## シリーズ一覧
 - **第1弾**: Rosalía『LUX』(2025) — 全18曲・4楽章 … ✅ **完結**(番組内 #1〜#18)
-- **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … 🔄 **進行中**(番組内 #1〜#5 配信済み)
+- **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … 🔄 **進行中**(番組内 #1〜#10 配信済み)
 
 > 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
 
@@ -34,12 +34,12 @@
 | 3 | Backseat Freestyle | ✅ | 2026-07-25 / #3。少年の空想と野望、MLK参照の皮肉。prod. Hit-Boy |
 | 4 | The Art of Peer Pressure | ✅ | 2026-07-25 / #4。同調圧力で強盗に加担。二重の自己。prod. Tabu |
 | 5 | Money Trees (feat. Jay Rock) | ✅ | 2026-07-25 / #5。誘惑としての金。prod. DJ Dahi / Beach House "Silver Soul" sample |
-| 6 | Poetic Justice (feat. Drake) | ⬜ | 次回制作予定(#5ラストで予告済み) |
-| 7 | good kid | ⬜ | |
-| 8 | m.A.A.d city (feat. MC Eiht) | ⬜ | |
-| 9 | Swimming Pools (Drank) | ⬜ | |
-| 10 | Sing About Me, I'm Dying of Thirst | ⬜ | 12分超の大曲 |
-| 11 | Real (feat. Anna Wise) | ⬜ | |
+| 6 | Poetic Justice (feat. Drake) | ✅ | 2026-07-26 / #6。暴力の合間の恋。93年の同名映画＋Janet Jackson sample。prod. Scoop DeVille |
+| 7 | good kid | ✅ | 2026-07-26 / #7。ギャングと警察の板挟み。人種プロファイリング。prod. Pharrell |
+| 8 | m.A.A.d city (feat. MC Eiht) | ✅ | 2026-07-26 / #8。狂った街。前半 Sounwave & THC / 後半 Terrace Martin の G-Funk |
+| 9 | Swimming Pools (Drank) | ✅ | 2026-07-26 / #9。酒に沈む。良心の声との二重構造。prod. T-Minus |
+| 10 | Sing About Me, I'm Dying of Thirst | ✅ | 2026-07-26 / #10。12:04の大曲。三つの視点＋Maya Angelouの祈り。prod. Like / Skhye Hutch |
+| 11 | Real (feat. Anna Wise) | ⬜ | 次回制作予定(#10ラストで予告済み) |
 | 12 | Compton (feat. Dr. Dre) | ⬜ | 最終曲 |
 
 ### 配信済みファイル対応(第2弾)
@@ -50,6 +50,11 @@
 | #3 | docs/audio/episode_021_2026-07-25.mp3 | scripts/published/2026-07-25_ep021.json |
 | #4 | docs/audio/episode_022_2026-07-25.mp3 | scripts/published/2026-07-25_ep022.json |
 | #5 | docs/audio/episode_023_2026-07-25.mp3 | scripts/published/2026-07-25_ep023.json |
+| #6 | docs/audio/episode_024_2026-07-26.mp3 | scripts/published/2026-07-26_ep024.json |
+| #7 | docs/audio/episode_025_2026-07-26.mp3 | scripts/published/2026-07-26_ep025.json |
+| #8 | docs/audio/episode_026_2026-07-26.mp3 | scripts/published/2026-07-26_ep026.json |
+| #9 | docs/audio/episode_027_2026-07-26.mp3 | scripts/published/2026-07-26_ep027.json |
+| #10 | docs/audio/episode_028_2026-07-26.mp3 | scripts/published/2026-07-26_ep028.json |
 
 ---
 
