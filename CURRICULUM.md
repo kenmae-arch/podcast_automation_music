@@ -34,7 +34,7 @@
 | 3 | Backseat Freestyle | ✅ | 2026-07-25 / #3。少年の空想と野望、MLK参照の皮肉。prod. Hit-Boy |
 | 4 | The Art of Peer Pressure | ✅ | 2026-07-25 / #4。同調圧力で強盗に加担。二重の自己。prod. Tabu |
 | 5 | Money Trees (feat. Jay Rock) | ✅ | 2026-07-25 / #5。誘惑としての金。prod. DJ Dahi / Beach House "Silver Soul" sample |
-| 6 | Poetic Justice (feat. Drake) | ✅ | 2026-07-26 / #6。暴力の合間の恋。93年の同名映画＋Janet Jackson sample。prod. Scoop DeVille |
+| 6 | Poetic Justice (feat. Drake) | ✅ | 2026-07-26 / #6。暴力の合間の恋。93年の同名映画＋Janet Jackson sample。prod. Scoop DeVille。2024年のKendrick×Drakeのビーフにも言及 |
 | 7 | good kid | ✅ | 2026-07-26 / #7。ギャングと警察の板挟み。人種プロファイリング。prod. Pharrell |
 | 8 | m.A.A.d city (feat. MC Eiht) | ✅ | 2026-07-26 / #8。狂った街。前半 Sounwave & THC / 後半 Terrace Martin の G-Funk |
 | 9 | Swimming Pools (Drank) | ✅ | 2026-07-26 / #9。酒に沈む。良心の声との二重構造。prod. T-Minus |
