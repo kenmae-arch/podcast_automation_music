@@ -6,7 +6,8 @@
 
 ## シリーズ一覧
 - **第1弾**: Rosalía『LUX』(2025) — 全18曲・4楽章 … ✅ **完結**(番組内 #1〜#18)
-- **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … 🔄 **進行中**(番組内 #1〜#10 配信済み)
+- **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
+- **第3弾**: 未定(候補: Kendrick Lamar『To Pimp a Butterfly』、Beyoncé『Lemonade』、Janelle Monáe など)
 
 > 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
 
@@ -25,6 +26,8 @@
 
 # 第2弾: Kendrick Lamar『good kid, m.A.A.d city』(進行中)
 
+> 🎉 **2026-07-26、全12曲の解説を配信完了。第2弾『good kid, m.A.A.d city』シリーズ完結。**
+
 アルバム: 2012年10月22日 / Interscope・Top Dawg・Aftermath / 全12曲。"A Short Film by Kendrick Lamar" を掲げた映画的コンセプト作(コンプトンで育つ10代の“ある一日”)。エグゼクティブP: Dr. Dre & Anthony "Top Dawg" Tiffith。トラックリストは英語版Wikipedia で検証済み(2026-07-25時点)。
 
 | # | 曲名 | ステータス | 配信日 / メモ |
@@ -39,8 +42,8 @@
 | 8 | m.A.A.d city (feat. MC Eiht) | ✅ | 2026-07-26 / #8。狂った街。前半 Sounwave & THC / 後半 Terrace Martin の G-Funk |
 | 9 | Swimming Pools (Drank) | ✅ | 2026-07-26 / #9。酒に沈む。良心の声との二重構造。prod. T-Minus |
 | 10 | Sing About Me, I'm Dying of Thirst | ✅ | 2026-07-26 / #10。12:04の大曲。三つの視点＋Maya Angelouの祈り。prod. Like / Skhye Hutch |
-| 11 | Real (feat. Anna Wise) | ⬜ | 次回制作予定(#10ラストで予告済み) |
-| 12 | Compton (feat. Dr. Dre) | ⬜ | 最終曲 |
+| 11 | Real (feat. Anna Wise) | ✅ | 2026-07-26 / #11。“リアル=責任”。両親の留守電がアルバムの存在理由を明かす。prod. Terrace Martin |
+| 12 | Compton (feat. Dr. Dre) | ✅ | 2026-07-26 / #12【最終回】。街への凱旋歌。二人が初めて録音した曲。prod. Just Blaze |
 
 ### 配信済みファイル対応(第2弾)
 | 話 | 音声 | アーカイブ台本 |
@@ -55,6 +58,8 @@
 | #8 | docs/audio/episode_026_2026-07-26.mp3 | scripts/published/2026-07-26_ep026.json |
 | #9 | docs/audio/episode_027_2026-07-26.mp3 | scripts/published/2026-07-26_ep027.json |
 | #10 | docs/audio/episode_028_2026-07-26.mp3 | scripts/published/2026-07-26_ep028.json |
+| #11 | docs/audio/episode_029_2026-07-26.mp3 | scripts/published/2026-07-26_ep029.json |
+| #12 | docs/audio/episode_030_2026-07-26.mp3 | scripts/published/2026-07-26_ep030.json |
 
 ---
 
