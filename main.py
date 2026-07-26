@@ -46,6 +46,27 @@ def main() -> int:
         episode = create_script_generator().generate(topics)
         logger.info("台本: %s (%d文字)", episode.title, len(episode.script))
 
+        # 2.5 読みチェック(音声化前のゲート)
+        #     未登録の固有名詞や助数詞は日本語TTSが読み違えるため、ここで止める。
+        #     --skip-reading-check で明示的に飛ばせる。
+        if "--skip-reading-check" in sys.argv:
+            logger.warning("読みチェックをスキップしました(--skip-reading-check)")
+        else:
+            from tools.check_reading import check
+
+            issues = [i for i in check(episode.script) if i[0] == "HIGH"]
+            if issues:
+                logger.error("=== 読みチェックで %d 件の問題が見つかりました ===", len(issues))
+                for _, kind, matched, context in issues:
+                    logger.error("  [%s] %s", kind, matched)
+                    logger.error("      …%s…", context)
+                logger.error(
+                    "pronunciation_dict.json に読みを登録してから再実行してください"
+                    "(意図的に無視する場合は --skip-reading-check)"
+                )
+                return 1
+            logger.info("読みチェック: 問題なし")
+
         # 3. 音声生成
         logger.info("=== 3/4 音声生成 (Fish Audio: %s) ===", config.FISH_AUDIO_MODEL)
         seq = _next_episode_number()

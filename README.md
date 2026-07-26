@@ -36,6 +36,7 @@
 | `scripts/pending.json` | 次に音声化する台本(処理後 `scripts/published/` へアーカイブ) |
 | `docs/` | GitHub Pages 配信ディレクトリ(`feed.xml` / `audio/` / `cover-v2.jpg` / `art/`) |
 | `docs/art/` | シリーズ(アルバム)ごとのエピソード・アートワーク |
+| `tools/check_reading.py` | 読み事故の検出リンター(音声化前のゲート) |
 | `tools/make_art.py` | カバー/シリーズ別アートワークの生成(`python3 tools/make_art.py`) |
 | `CURRICULUM.md` | シリーズごとの進捗管理 |
 
@@ -60,6 +61,33 @@ cp .env.example .env   # 各種キー・番組情報を記入
    ```bash
    python main.py
    ```
+   実行時に**読みチェック**が走り、未登録の固有名詞や読みの割れる助数詞が残っていると
+   音声化せずに中止する。指摘された語を `pronunciation_dict.json` に登録して再実行する。
+
+## 読みチェック(TTSの誤読を防ぐ)
+
+日本語TTSは、未登録のアルファベットや助数詞を読み違える(例: 6分→「ろくぶん」、数ヶ月→「かずかげつ」、
+7日→「なのか」ではなく「なぬか/しちにち」)。`tools/check_reading.py` は、読み仮名辞書を適用した
+**後**のテキストを検査し、**まだ辞書に入っていない危険語だけ**を報告する。
+
+```bash
+python3 tools/check_reading.py            # scripts/pending.json を検査
+python3 tools/check_reading.py --all      # 配信済み全話を検査
+```
+
+検出対象:
+
+| 種別 | 例 |
+|---|---|
+| 未登録のラテン文字 | `Turista` `All Night` `G-Funk`(日本語TTSでは確実に崩れる) |
+| 数字+助数詞 | `15本` `15階` `6分` |
+| 日付の不規則読み | `2日`(ふつか) `7日`(なのか) `20日`(はつか) |
+| 1人/2人 | ひとり・ふたり |
+| 「数〜」 | `数ヶ月`(すうかげつ) |
+| 多音語(警告のみ) | `十分` `大分` `最中` |
+
+`main.py` はこのチェックをゲートとして実行し、HIGH が残っていれば音声化を中止する
+(`--skip-reading-check` で明示的に無視できる)。
 5. `git push` で公開(GitHub Pages が自動でビルド)
 
 音声ファイルは `episode_{連番}_{日付}.mp3` 形式で保存され、同じ日に複数話を作っても上書きされません。
