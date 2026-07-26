@@ -38,6 +38,9 @@ class RSSManager:
             "audio_file": audio_path.name,
             "size_bytes": audio_path.stat().st_size,
             "published": datetime.now(timezone.utc).isoformat(),
+            # エピソードの同一性を示すID。音声を差し替えてファイル名(URL)を変えても
+            # ここは変えないこと。変えると配信先で「別の新エピソード」として扱われる。
+            "guid": f"{self.base_url}/audio/{audio_path.name}",
         }
         if image:
             entry["image"] = image
@@ -66,7 +69,8 @@ class RSSManager:
         for ep in episodes:
             fe = fg.add_entry()
             audio_url = f"{self.base_url}/audio/{ep['audio_file']}"
-            fe.id(audio_url)
+            # guid は音声URLと切り離して固定する(差し替え時に重複配信させないため)
+            fe.id(ep.get("guid") or audio_url)
             fe.title(ep["title"])
             fe.description(ep["description"])
             fe.enclosure(audio_url, str(ep["size_bytes"]), "audio/mpeg")

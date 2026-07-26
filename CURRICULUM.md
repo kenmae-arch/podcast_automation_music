@@ -7,7 +7,7 @@
 ## シリーズ一覧
 - **第1弾**: Rosalía『LUX』(2025) — 全18曲・4楽章 … ✅ **完結**(番組内 #1〜#18)
 - **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
-- **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … 🔄 **進行中**
+- **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第4弾(予定)**: Bad Bunny『Debí Tirar Más Fotos』(2025)
 - **第5弾(予定)**: Kendrick Lamar『To Pimp a Butterfly』(2015)
 
@@ -22,6 +22,9 @@
 | 第1弾 LUX | `docs/art/lux.jpg` | 光背(ひかり)。#1〜#18 に付与 |
 | 第2弾 GKMC | `docs/art/gkmc.jpg` | 夜のコンプトン。#19〜#30 に付与 |
 | 第3弾 Lemonade | `docs/art/lemonade.jpg` | 黄金の水面(オシュンと南部の夜)。#31〜 に付与 |
+
+> ⚠️ **配信済みエピソードの音声を作り直したときは、ファイル名も変える**(`episode_023_..._v2.mp3` のように)。同名で中身だけ差し替えても、Spotify等は古い音声をキャッシュし続ける。
+> このとき `episodes.json` の **`guid` は絶対に変えないこと**。guid はエピソードの同一性を示すIDで、変えると配信先で「別の新エピソード」として重複してしまう。`rss_manager` は `guid` があればそれを、無ければ音声URLを使う実装。
 
 > ⚠️ **番組カバーを差し替えるときは、ファイル名も必ず変える**(`cover-v2` → `cover-v3` …)。Spotify等はアートワークをURL単位でキャッシュするため、同名のまま中身だけ差し替えても反映されない。手順: `tools/make_art.py` の `COVER_FILE` と `config.PODCAST_COVER_FILE` を新しい名前に更新 → 再生成 → フィード再生成。
 
@@ -45,8 +48,8 @@
 | 8 | Sandcastles | Forgiveness | ✅ | 2026-07-26 / #8。ピアノ一台。あえて崩した歌声。感情曲線の底 |
 | 9 | Forward (feat. James Blake) | Resurrection | ✅ | 2026-07-26 / #9。約1分。Sybrina Fulton / Lezley McSpadden / Gwen Carr が遺影を抱く |
 | 10 | Freedom (feat. Kendrick Lamar) | Hope | ✅ | 2026-07-26 / #10。Alan Lomax録音(1947 パーチマン刑務所 / 1959 賛美歌)＋Hattie Whiteの言葉＝アルバム名の由来。2024年に大統領選キャンペーン曲 |
-| 11 | All Night | Redemption | ⬜ | 次回制作予定 |
-| 12 | Formation | — | ⬜ | 最終曲。ニューオーリンズと黒人性の宣言 |
+| 11 | All Night | Redemption | ✅ | 2026-07-26 / #11。OutKast「SpottieOttieDopaliscious」sample。ホームビデオ＋次世代の女性たち |
+| 12 | Formation | — | ✅ | 2026-07-26 / #12【最終回】。章立ての外側。Katrinaと沈むパトカー、Big Freedia／Messy Myaの声。翌日のSuper Bowl 50 |
 
 ### 配信済みファイル対応(第3弾)
 | 話 | 音声 | アーカイブ台本 |
@@ -61,6 +64,8 @@
 | #8 | docs/audio/episode_038_2026-07-26.mp3 | scripts/published/2026-07-26_ep038.json |
 | #9 | docs/audio/episode_039_2026-07-26.mp3 | scripts/published/2026-07-26_ep039.json |
 | #10 | docs/audio/episode_040_2026-07-26.mp3 | scripts/published/2026-07-26_ep040.json |
+| #11 | docs/audio/episode_041_2026-07-26.mp3 | scripts/published/2026-07-26_ep041.json |
+| #12 | docs/audio/episode_042_2026-07-26.mp3 | scripts/published/2026-07-26_ep042.json |
 
 ---
 
@@ -92,8 +97,8 @@
 | #2 | docs/audio/episode_020_2026-07-25.mp3 | scripts/published/2026-07-25_ep020.json |
 | #3 | docs/audio/episode_021_2026-07-25.mp3 | scripts/published/2026-07-25_ep021.json |
 | #4 | docs/audio/episode_022_2026-07-25.mp3 | scripts/published/2026-07-25_ep022.json |
-| #5 | docs/audio/episode_023_2026-07-25.mp3 | scripts/published/2026-07-25_ep023.json |
-| #6 | docs/audio/episode_024_2026-07-26.mp3 | scripts/published/2026-07-26_ep024.json |
+| #5 | docs/audio/episode_023_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep023.json |
+| #6 | docs/audio/episode_024_2026-07-26_v2.mp3 | scripts/published/2026-07-26_ep024.json |
 | #7 | docs/audio/episode_025_2026-07-26.mp3 | scripts/published/2026-07-26_ep025.json |
 | #8 | docs/audio/episode_026_2026-07-26.mp3 | scripts/published/2026-07-26_ep026.json |
 | #9 | docs/audio/episode_027_2026-07-26.mp3 | scripts/published/2026-07-26_ep027.json |
