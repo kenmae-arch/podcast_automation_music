@@ -40,12 +40,12 @@
 | 3 | Don't Hurt Yourself (feat. Jack White) | Anger | ✅ | 2026-07-26 / #3。Led Zeppelin「When the Levee Breaks」sample(原曲は1929年の黒人ブルース)＋Malcolm X演説 |
 | 4 | Sorry | Apathy | ✅ | 2026-07-26 / #4。「good hair」＝美の序列への批評。犯人探しには乗らない書き方で |
 | 5 | 6 Inch (feat. The Weeknd) | Emptiness | ✅ | 2026-07-26 / #5。Isaac Hayes「Walk On By」sample。働く女性と労働の商品化 |
-| 6 | Daddy Lessons | Accountability | ⬜ | 次回制作予定。カントリー。父と銃と南部 |
-| 7 | Love Drought | Reformation | ⬜ | |
-| 8 | Sandcastles | Forgiveness | ⬜ | ピアノ弾き語り |
-| 9 | Forward (feat. James Blake) | Resurrection | ⬜ | 短い間奏曲。母たちの肖像 |
-| 10 | Freedom (feat. Kendrick Lamar) | Hope | ⬜ | **Kendrick参加**＝第2弾との接続 |
-| 11 | All Night | Redemption | ⬜ | |
+| 6 | Daddy Lessons | Accountability | ✅ | 2026-07-26 / #6。父から継いだ教えと痛みの反復。カントリーの黒人ルーツ、2016年CMAでのThe Chicks共演と反発 |
+| 7 | Love Drought | Reformation | ✅ | 2026-07-26 / #7。イボ・ランディング(1803)の伝承、Julie Dash『Daughters of the Dust』の影響 |
+| 8 | Sandcastles | Forgiveness | ✅ | 2026-07-26 / #8。ピアノ一台。あえて崩した歌声。感情曲線の底 |
+| 9 | Forward (feat. James Blake) | Resurrection | ✅ | 2026-07-26 / #9。約1分。Sybrina Fulton / Lezley McSpadden / Gwen Carr が遺影を抱く |
+| 10 | Freedom (feat. Kendrick Lamar) | Hope | ✅ | 2026-07-26 / #10。Alan Lomax録音(1947 パーチマン刑務所 / 1959 賛美歌)＋Hattie Whiteの言葉＝アルバム名の由来。2024年に大統領選キャンペーン曲 |
+| 11 | All Night | Redemption | ⬜ | 次回制作予定 |
 | 12 | Formation | — | ⬜ | 最終曲。ニューオーリンズと黒人性の宣言 |
 
 ### 配信済みファイル対応(第3弾)
@@ -56,6 +56,11 @@
 | #3 | docs/audio/episode_033_2026-07-26.mp3 | scripts/published/2026-07-26_ep033.json |
 | #4 | docs/audio/episode_034_2026-07-26.mp3 | scripts/published/2026-07-26_ep034.json |
 | #5 | docs/audio/episode_035_2026-07-26.mp3 | scripts/published/2026-07-26_ep035.json |
+| #6 | docs/audio/episode_036_2026-07-26.mp3 | scripts/published/2026-07-26_ep036.json |
+| #7 | docs/audio/episode_037_2026-07-26.mp3 | scripts/published/2026-07-26_ep037.json |
+| #8 | docs/audio/episode_038_2026-07-26.mp3 | scripts/published/2026-07-26_ep038.json |
+| #9 | docs/audio/episode_039_2026-07-26.mp3 | scripts/published/2026-07-26_ep039.json |
+| #10 | docs/audio/episode_040_2026-07-26.mp3 | scripts/published/2026-07-26_ep040.json |
 
 ---
 
