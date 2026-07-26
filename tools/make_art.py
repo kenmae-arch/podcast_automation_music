@@ -380,6 +380,75 @@ def make_lemonade():
     return grain(img, 0.055)
 
 
+# =====================================================================
+# 5. 第4弾 Bad Bunny『Debí Tirar Más Fotos』 ── 撮り忘れた午後(プエルトリコ)
+# =====================================================================
+
+def make_dtmf():
+    """カリブの午後の光、椰子、そして“写真”のフレーム。
+    タイトル(=もっと写真を撮っておけばよかった)にちなみ、白フチの
+    スナップ写真の枠を画面に据える。"""
+    img = vgradient([
+        (0.0, (18, 92, 132)), (0.34, (58, 148, 168)), (0.56, (150, 190, 168)),
+        (0.655, (214, 176, 96)), (0.668, (30, 78, 74)), (1.0, (14, 44, 46)),
+    ])
+
+    horizon = S * 0.665
+    glow(img, S * 0.50, horizon - S * 0.068, S * 0.32, (226, 168, 74), falloff=2.6)
+    glow(img, S * 0.50, horizon - S * 0.068, S * 0.062, (255, 236, 176), falloff=1.8)
+
+    d = ImageDraw.Draw(img)
+
+    # 海の照り返し
+    shim = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sp = ImageDraw.Draw(shim)
+    random.seed(11)
+    y = horizon + S * 0.005
+    while y < S * 0.80:
+        t = (y - horizon) / (S * 0.80 - horizon)
+        w = S * 0.02 + S * 0.115 * t + random.uniform(-S * 0.015, S * 0.015)
+        sp.line([S * 0.5 - w, y, S * 0.5 + w, y],
+                fill=(255, 226, 160, int(140 * (1 - t) ** 1.3)), width=5)
+        y += S * 0.0095
+    img = Image.alpha_composite(img.convert("RGBA"), shim).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 椰子(両端に配置して写真の枠を邪魔しない)
+    _palm(d, S * 0.085, horizon + S * 0.02, S * 0.40, lean=1.0, scale=1.05, col=(16, 46, 44))
+    _palm(d, S * 0.945, horizon + S * 0.015, S * 0.33, lean=-1.15, scale=0.9, col=(16, 46, 44))
+
+    # スナップ写真(ポラロイド風)。夕景そのものを“写真に収める”ように重ねる
+    fw, fh = int(S * 0.520), int(S * 0.390)
+    bw, bw_bottom = 34, 124
+    frame = Image.new("RGBA", (fw, fh), (247, 244, 236, 236))
+    ImageDraw.Draw(frame).rectangle(
+        [bw, bw, fw - bw, fh - bw_bottom], fill=(0, 0, 0, 0)
+    )
+    frame = frame.rotate(-3.0, expand=True, resample=Image.BICUBIC)
+    img = img.convert("RGBA")
+    img.alpha_composite(
+        frame,
+        (int(S * 0.5 - frame.width / 2), int(S * 0.475 - frame.height / 2)),
+    )
+    img = img.convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    cream, gold, muted = (243, 238, 226), (232, 196, 118), (176, 196, 192)
+
+    Stack(d, S * 0.055).text("SERIES 04", font(F_FUTURA, 58, 0), (228, 240, 238), tracking=40)
+
+    s = Stack(d, S * 0.700)
+    s.text("BAD BUNNY", font(F_FUTURA, 88, 0), gold, tracking=46)
+    s.gap(54).text("DEBÍ TIRAR", font(F_DIDOT, 180, 2), cream, tracking=18)
+    s.gap(28).text("MÁS FOTOS", font(F_DIDOT, 180, 2), cream, tracking=18)
+    s.gap(54).rule(S * 0.078, (126, 152, 146), 3).gap(48)
+    s.text("全曲解説", font(F_JP, 72, 0), muted, tracking=26)
+    print("  dtmf type bottom:", int(s.y))
+
+    vignette(img, 0.52, 0.86)
+    return grain(img, 0.058)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -391,3 +460,4 @@ if __name__ == "__main__":
     save(make_lux(), OUT / "art" / "lux.jpg")
     save(make_gkmc(), OUT / "art" / "gkmc.jpg")
     save(make_lemonade(), OUT / "art" / "lemonade.jpg")
+    save(make_dtmf(), OUT / "art" / "dtmf.jpg")

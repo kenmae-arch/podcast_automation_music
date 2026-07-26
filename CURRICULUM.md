@@ -8,7 +8,7 @@
 - **第1弾**: Rosalía『LUX』(2025) — 全18曲・4楽章 … ✅ **完結**(番組内 #1〜#18)
 - **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
-- **第4弾(予定)**: Bad Bunny『Debí Tirar Más Fotos』(2025)
+- **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … 🔄 **進行中**
 - **第5弾(予定)**: Kendrick Lamar『To Pimp a Butterfly』(2015)
 
 > 以降の並びは「女性の物語 → 言語と土地 → 黒人音楽史の総括」という射程の広げ方で決定(2026-07-26)。
@@ -21,7 +21,8 @@
 | 番組カバー(チャンネル) | `docs/cover-v2.jpg` | レコードの溝と灯り。全シリーズ共通 |
 | 第1弾 LUX | `docs/art/lux.jpg` | 光背(ひかり)。#1〜#18 に付与 |
 | 第2弾 GKMC | `docs/art/gkmc.jpg` | 夜のコンプトン。#19〜#30 に付与 |
-| 第3弾 Lemonade | `docs/art/lemonade.jpg` | 黄金の水面(オシュンと南部の夜)。#31〜 に付与 |
+| 第3弾 Lemonade | `docs/art/lemonade.jpg` | 黄金の水面(オシュンと南部の夜)。#31〜#42 に付与 |
+| 第4弾 DtMF | `docs/art/dtmf.jpg` | カリブの夕景をポラロイドが収める。#43〜 に付与 |
 
 > ⚠️ **配信済みエピソードの音声を作り直したときは、ファイル名も変える**(`episode_023_..._v2.mp3` のように)。同名で中身だけ差し替えても、Spotify等は古い音声をキャッシュし続ける。
 > このとき `episodes.json` の **`guid` は絶対に変えないこと**。guid はエピソードの同一性を示すIDで、変えると配信先で「別の新エピソード」として重複してしまう。`rss_manager` は `guid` があればそれを、無ければ音声URLを使う実装。
@@ -29,6 +30,41 @@
 > ⚠️ **番組カバーを差し替えるときは、ファイル名も必ず変える**(`cover-v2` → `cover-v3` …)。Spotify等はアートワークをURL単位でキャッシュするため、同名のまま中身だけ差し替えても反映されない。手順: `tools/make_art.py` の `COVER_FILE` と `config.PODCAST_COVER_FILE` を新しい名前に更新 → 再生成 → フィード再生成。
 
 新シリーズを始めるときは、`docs/art/<album>.jpg`(3000px四方・RGB)を追加し、台本 `scripts/pending.json` に `"image": "art/<album>.jpg"` を書けば、そのエピソードに反映される。いずれも実在のジャケットは複製せず、テーマから起こしたオリジナル図案。生成スクリプトは `tools/make_art.py`(`python3 tools/make_art.py` で3枚とも作り直せる)。
+
+---
+
+# 第4弾: Bad Bunny『Debí Tirar Más Fotos』(進行中)
+
+アルバム: 2025年1月5日 / Rimas Entertainment / 全17曲(米盤LPのみボーナス1曲)。タイトルは「もっと写真を撮っておけばよかった」。レゲトンに、プエルトリコの伝統音楽(プレーナ／ボンバ／ヒバロ／サルサ)を大きく取り込み、ジェントリフィケーションと文化の喪失、島への愛を歌う。1月3日に短編映画(Bad Bunny共同監督・Jacobo Morales主演)を先行公開。各曲のビジュアライザーにはプエルトリコ史の解説が付され、歴史家Jorell Meléndez Badilloが監修。**2026年グラミーで、スペイン語アルバムとして史上初の年間最優秀アルバム賞を受賞**(ラテン・グラミーでも年間最優秀アルバム)。Metacritic 95。トラックリストは英語版Wikipediaで検証済み(2026-07-26時点)。
+
+| # | 曲名 | ステータス | メモ |
+|---|------|-----------|------|
+| 1 | Nuevayol | ✅ | 2026-07-27 / #1。El Gran Combo「Un Verano en Nueva York」sample。NYのプエルトリコ人街 |
+| 2 | Voy a Llevarte Pa' PR | ✅ | 2026-07-27 / #2。島へ連れて行く。楽しむこと自体が主張になる構造 |
+| 3 | Baile Inolvidable | ✅ | 2026-07-27 / #3。6分超のサルサ。Escuela Libre de Músicaの若い奏者たち |
+| 4 | Perfumito Nuevo (feat. RaiNao) | ✅ | 2026-07-27 / #4。RaiNaoにとってキャリア初のBillboardチャート1位 |
+| 5 | Weltita (feat. Chuwi) | ✅ | 2026-07-27 / #5。Jarabe de Palo「La Flaca」をインターポレート |
+| 6 | Veldá (feat. Omar Courtz & Dei V) | ⬜ | 次回制作予定。Plan B sample |
+| 7 | El Clúb | ⬜ | |
+| 8 | Ketu Tecré | ⬜ | |
+| 9 | Bokete | ⬜ | |
+| 10 | Kloufrens | ⬜ | |
+| 11 | Turista | ⬜ | |
+| 12 | Café con Ron (feat. Los Pleneros de la Cresta) | ⬜ | プレーナ。共演で彼らの聴取数が激増 |
+| 13 | Pitorro de Coco | ⬜ | |
+| 14 | Lo Que Le Pasó a Hawaii | ⬜ | 最も政治的。ハワイの歴史に島の未来を重ねる |
+| 15 | Eoo | ⬜ | グラミー最優秀グローバル音楽パフォーマンス |
+| 16 | DtMF | ⬜ | 表題曲 |
+| 17 | La Mudanza | ⬜ | 最終曲。引っ越し＝去ること／留まること |
+
+### 配信済みファイル対応(第4弾)
+| 話 | 音声 | アーカイブ台本 |
+|----|------|--------------|
+| #1 | docs/audio/episode_043_2026-07-27.mp3 | scripts/published/2026-07-27_ep043.json |
+| #2 | docs/audio/episode_044_2026-07-27.mp3 | scripts/published/2026-07-27_ep044.json |
+| #3 | docs/audio/episode_045_2026-07-27.mp3 | scripts/published/2026-07-27_ep045.json |
+| #4 | docs/audio/episode_046_2026-07-27.mp3 | scripts/published/2026-07-27_ep046.json |
+| #5 | docs/audio/episode_047_2026-07-27.mp3 | scripts/published/2026-07-27_ep047.json |
 
 ---
 
