@@ -44,12 +44,12 @@
 | 3 | Baile Inolvidable | ✅ | 2026-07-27 / #3。6分超のサルサ。Escuela Libre de Músicaの若い奏者たち |
 | 4 | Perfumito Nuevo (feat. RaiNao) | ✅ | 2026-07-27 / #4。RaiNaoにとってキャリア初のBillboardチャート1位 |
 | 5 | Weltita (feat. Chuwi) | ✅ | 2026-07-27 / #5。Jarabe de Palo「La Flaca」をインターポレート |
-| 6 | Veldá (feat. Omar Courtz & Dei V) | ⬜ | 次回制作予定。Plan B sample |
-| 7 | El Clúb | ⬜ | |
-| 8 | Ketu Tecré | ⬜ | |
-| 9 | Bokete | ⬜ | |
-| 10 | Kloufrens | ⬜ | |
-| 11 | Turista | ⬜ | |
+| 6 | Veldá (feat. Omar Courtz & Dei V) | ✅ | 2026-07-27 / #6。verdadの島発音綴り。Plan B sample＋Wisinのアウトロ＝三世代の交差 |
+| 7 | El Clúb | ✅ | 2026-07-27 / #7。2024年の先行シングル。ハウス。MV終盤の「DTmF 2025」がアルバム予告 |
+| 8 | Ketu Tecré | ✅ | 2026-07-27 / #8。"Qué tú te crees"の島発音。停電・三賢者の日・ドミノ・ピトーロ |
+| 9 | Bokete | ✅ | 2026-07-27 / #9。boquete=道路の穴。心の穴と行政に放置された穴の二重性 |
+| 10 | Kloufrens | ✅ | 2026-07-27 / #10。"close friends"の島発音。自作『La Santa』(YHLQMDLG)への言及 |
+| 11 | Turista | ⬜ | 次回制作予定 |
 | 12 | Café con Ron (feat. Los Pleneros de la Cresta) | ⬜ | プレーナ。共演で彼らの聴取数が激増 |
 | 13 | Pitorro de Coco | ⬜ | |
 | 14 | Lo Que Le Pasó a Hawaii | ⬜ | 最も政治的。ハワイの歴史に島の未来を重ねる |
@@ -65,6 +65,11 @@
 | #3 | docs/audio/episode_045_2026-07-27.mp3 | scripts/published/2026-07-27_ep045.json |
 | #4 | docs/audio/episode_046_2026-07-27.mp3 | scripts/published/2026-07-27_ep046.json |
 | #5 | docs/audio/episode_047_2026-07-27.mp3 | scripts/published/2026-07-27_ep047.json |
+| #6 | docs/audio/episode_048_2026-07-27.mp3 | scripts/published/2026-07-27_ep048.json |
+| #7 | docs/audio/episode_049_2026-07-27.mp3 | scripts/published/2026-07-27_ep049.json |
+| #8 | docs/audio/episode_050_2026-07-27.mp3 | scripts/published/2026-07-27_ep050.json |
+| #9 | docs/audio/episode_051_2026-07-27.mp3 | scripts/published/2026-07-27_ep051.json |
+| #10 | docs/audio/episode_052_2026-07-27.mp3 | scripts/published/2026-07-27_ep052.json |
 
 ---
 
