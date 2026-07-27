@@ -9,9 +9,12 @@
 - **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
-- **第5弾(次回)**: Kendrick Lamar『To Pimp a Butterfly』(2015) — #17ラストで予告済み
+- **第5弾(次回)**: Radiohead『OK Computer』(1997) — #17ラストで予告済み
+- **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
-> 以降の並びは「女性の物語 → 言語と土地 → 黒人音楽史の総括」という射程の広げ方で決定(2026-07-26)。
+> 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
+> 現状の偏り: 年代が2012〜2025に集中、ジャンルがヒップホップ/R&B/ラテン/アートポップ、テーマが全てアイデンティティ。
+> → ロック・90年代・英国・非アイデンティティ主題を埋める『OK Computer』を第5弾に。
 
 > 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜030、第3弾 031〜042、第4弾 043〜059)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
 
@@ -82,7 +85,7 @@
 | #14 | docs/audio/episode_056_2026-07-27.mp3 | scripts/published/2026-07-27_ep056.json |
 | #15 | docs/audio/episode_057_2026-07-27.mp3 | scripts/published/2026-07-27_ep057.json |
 | #16 | docs/audio/episode_058_2026-07-27.mp3 | scripts/published/2026-07-27_ep058.json |
-| #17 | docs/audio/episode_059_2026-07-27.mp3 | scripts/published/2026-07-27_ep059.json |
+| #17 | docs/audio/episode_059_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep059.json |
 
 ---
 
