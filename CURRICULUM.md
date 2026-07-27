@@ -53,12 +53,12 @@
 | 8 | Ketu Tecré | ✅ | 2026-07-27 / #8。"Qué tú te crees"の島発音。停電・三賢者の日・ドミノ・ピトーロ |
 | 9 | Bokete | ✅ | 2026-07-27 / #9。boquete=道路の穴。心の穴と行政に放置された穴の二重性 |
 | 10 | Kloufrens | ✅ | 2026-07-27 / #10。"close friends"の島発音。自作『La Santa』(YHLQMDLG)への言及 |
-| 11 | Turista | ⬜ | 次回制作予定 |
-| 12 | Café con Ron (feat. Los Pleneros de la Cresta) | ⬜ | プレーナ。共演で彼らの聴取数が激増 |
-| 13 | Pitorro de Coco | ⬜ | |
-| 14 | Lo Que Le Pasó a Hawaii | ⬜ | 最も政治的。ハワイの歴史に島の未来を重ねる |
-| 15 | Eoo | ⬜ | グラミー最優秀グローバル音楽パフォーマンス |
-| 16 | DtMF | ⬜ | 表題曲 |
+| 11 | Turista | ✅ | 2026-07-27 / #11。恋人＝観光客の二重の意味(本人がポッドキャストで明言) |
+| 12 | Café con Ron (feat. Los Pleneros de la Cresta) | ✅ | 2026-07-27 / #12。プレーナ。共演で彼らの月間リスナーが数万→1200万規模へ |
+| 13 | Pitorro de Coco | ✅ | 2026-07-27 / #13。ヒバロのリズム。賑やかなクリスマスにひとりで飲む酒 |
+| 14 | Lo Que Le Pasó a Hawaii | ✅ | 2026-07-27 / #14。1898年に同じくアメリカ領へ。川と浜、そして「レロライ」を守れ。夢で丸ごと浮かんだ曲 |
+| 15 | Eoo | ✅ | 2026-07-27 / #15。Héctor & Tito＋自作『X 100pre』への二重の原点回帰。グラミー最優秀グローバル音楽パフォーマンス |
+| 16 | DtMF | ⬜ | 次回制作予定。表題曲 |
 | 17 | La Mudanza | ⬜ | 最終曲。引っ越し＝去ること／留まること |
 
 ### 配信済みファイル対応(第4弾)
@@ -74,6 +74,11 @@
 | #8 | docs/audio/episode_050_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep050.json |
 | #9 | docs/audio/episode_051_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep051.json |
 | #10 | docs/audio/episode_052_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep052.json |
+| #11 | docs/audio/episode_053_2026-07-27.mp3 | scripts/published/2026-07-27_ep053.json |
+| #12 | docs/audio/episode_054_2026-07-27.mp3 | scripts/published/2026-07-27_ep054.json |
+| #13 | docs/audio/episode_055_2026-07-27.mp3 | scripts/published/2026-07-27_ep055.json |
+| #14 | docs/audio/episode_056_2026-07-27.mp3 | scripts/published/2026-07-27_ep056.json |
+| #15 | docs/audio/episode_057_2026-07-27.mp3 | scripts/published/2026-07-27_ep057.json |
 
 ---
 
