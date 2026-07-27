@@ -9,3 +9,7 @@ venv/
 
 # 引き継ぎ資料はローカル管理(GitHubには上げない)
 HANDOFF.md
+
+# Instagram用の生成物とダミー素材(配信物ではない)
+out/
+posts/_dummy_photo.jpg

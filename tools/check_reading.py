@@ -22,16 +22,10 @@ from audio_generator import apply_pronunciation_dict  # noqa: E402
 
 # --- 検査ルール ---------------------------------------------------------
 
-# 読みが割れる助数詞。数字が付いたら辞書登録が必須。
-# (年/月/曲/回/位/点などは規則的に読まれるので対象外。誤検出を減らす)
-AMBIGUOUS_COUNTERS = "分本杯階匹羽"
+# 数字+助数詞。分/秒/日/月/人/階/本/杯 は audio_generator が数値から読みを
+# 計算するので、変換後に残っていたら「対応していない助数詞」ということになる。
+AMBIGUOUS_COUNTERS = "分秒日月人階本杯匹羽頭冊足膳"
 RE_NUM_COUNTER = re.compile(rf"[0-9０-９]+[{AMBIGUOUS_COUNTERS}]")
-
-# 「日」は1〜10日・14・20・24日だけが不規則読み(ついたち/ふつか/…/はつか)。
-RE_DATE = re.compile(r"(?<![0-9０-９])(?:[1-9]|10|14|20|24)日")
-
-# 「人」は1人(ひとり)・2人(ふたり)だけが不規則。
-RE_PERSON = re.compile(r"(?<![0-9０-９])[12]人")
 
 # 「数〜」= すう と読ませたい語。かず と読まれる事故が起きる。
 RE_SUU = re.compile(r"数[ヶかヵ箇]?[月年日週回人曲十百千万時][間後前]?")
@@ -58,6 +52,20 @@ CONFUSABLES = {
 }
 
 
+def numeric_counter_dict_keys() -> list[str]:
+    """辞書のうち「数字+助数詞」形式の危険なキーを返す。
+
+    例:「3分」を登録すると「53分」が「5さんぷん」に化ける。
+    この形式は audio_generator の数値計算に任せ、辞書には入れない。
+    (「50 Cent」「2Pac」のような数字始まりの固有名詞は安全なので対象外)
+    """
+    path = BASE / "pronunciation_dict.json"
+    if not path.exists():
+        return []
+    bad = re.compile(rf"^[0-9０-９]+[{AMBIGUOUS_COUNTERS}]")
+    return [k for k in json.loads(path.read_text(encoding="utf-8")) if bad.match(k)]
+
+
 def check(text: str) -> list[tuple[str, str, str, str]]:
     """(severity, kind, matched, context) のリストを返す。"""
     applied = apply_pronunciation_dict(text)
@@ -73,13 +81,8 @@ def check(text: str) -> list[tuple[str, str, str, str]]:
         found.append(("HIGH", "未登録のラテン文字", m.group(0), ctx(applied, m.start(), m.end())))
 
     for m in RE_NUM_COUNTER.finditer(applied):
-        found.append(("HIGH", "数字+助数詞(読み未指定)", m.group(0), ctx(applied, m.start(), m.end())))
+        found.append(("HIGH", "数字+助数詞(読み未対応)", m.group(0), ctx(applied, m.start(), m.end())))
 
-    for m in RE_DATE.finditer(applied):
-        found.append(("HIGH", "日付(不規則読み)", m.group(0), ctx(applied, m.start(), m.end())))
-
-    for m in RE_PERSON.finditer(applied):
-        found.append(("HIGH", "人数(ひとり/ふたり)", m.group(0), ctx(applied, m.start(), m.end())))
 
     for m in RE_SUU.finditer(applied):
         found.append(("HIGH", "「数〜」(すう/かず)", m.group(0), ctx(applied, m.start(), m.end())))
@@ -119,6 +122,12 @@ def main() -> int:
         return 0
 
     high_total = warn_total = 0
+
+    # 辞書そのものの健全性チェック(全体で1回)
+    for key in numeric_counter_dict_keys():
+        print(f"✗ [辞書に数字+助数詞のキー] {key}")
+        print("      より大きな数の一部に誤マッチして壊します。辞書から削除してください")
+        high_total += 1
     for name, script in load_scripts(paths):
         issues = check(script)
         if args.quiet_warn:

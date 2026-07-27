@@ -63,8 +63,8 @@
 ### 配信済みファイル対応(第5弾)
 | 話 | 音声 | アーカイブ台本 |
 |----|------|--------------|
-| #1 | docs/audio/episode_060_2026-07-27.mp3 | scripts/published/2026-07-27_ep060.json |
-| #2 | docs/audio/episode_061_2026-07-27.mp3 | scripts/published/2026-07-27_ep061.json |
+| #1 | docs/audio/episode_060_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep060.json |
+| #2 | docs/audio/episode_061_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep061.json |
 | #3 | docs/audio/episode_062_2026-07-27.mp3 | scripts/published/2026-07-27_ep062.json |
 | #4 | docs/audio/episode_063_2026-07-27.mp3 | scripts/published/2026-07-27_ep063.json |
 | #5 | docs/audio/episode_064_2026-07-27.mp3 | scripts/published/2026-07-27_ep064.json |
@@ -99,23 +99,23 @@
 ### 配信済みファイル対応(第4弾)
 | 話 | 音声 | アーカイブ台本 |
 |----|------|--------------|
-| #1 | docs/audio/episode_043_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep043.json |
+| #1 | docs/audio/episode_043_2026-07-27_v3.mp3 | scripts/published/2026-07-27_ep043.json |
 | #2 | docs/audio/episode_044_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep044.json |
 | #3 | docs/audio/episode_045_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep045.json |
 | #4 | docs/audio/episode_046_2026-07-27_v3.mp3 | scripts/published/2026-07-27_ep046.json |
 | #5 | docs/audio/episode_047_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep047.json |
 | #6 | docs/audio/episode_048_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep048.json |
 | #7 | docs/audio/episode_049_2026-07-27_v3.mp3 | scripts/published/2026-07-27_ep049.json |
-| #8 | docs/audio/episode_050_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep050.json |
+| #8 | docs/audio/episode_050_2026-07-27_v3.mp3 | scripts/published/2026-07-27_ep050.json |
 | #9 | docs/audio/episode_051_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep051.json |
 | #10 | docs/audio/episode_052_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep052.json |
 | #11 | docs/audio/episode_053_2026-07-27.mp3 | scripts/published/2026-07-27_ep053.json |
 | #12 | docs/audio/episode_054_2026-07-27.mp3 | scripts/published/2026-07-27_ep054.json |
-| #13 | docs/audio/episode_055_2026-07-27.mp3 | scripts/published/2026-07-27_ep055.json |
+| #13 | docs/audio/episode_055_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep055.json |
 | #14 | docs/audio/episode_056_2026-07-27.mp3 | scripts/published/2026-07-27_ep056.json |
 | #15 | docs/audio/episode_057_2026-07-27.mp3 | scripts/published/2026-07-27_ep057.json |
 | #16 | docs/audio/episode_058_2026-07-27.mp3 | scripts/published/2026-07-27_ep058.json |
-| #17 | docs/audio/episode_059_2026-07-27_v2.mp3 | scripts/published/2026-07-27_ep059.json |
+| #17 | docs/audio/episode_059_2026-07-27_v3.mp3 | scripts/published/2026-07-27_ep059.json |
 
 ---
 
@@ -141,7 +141,7 @@
 ### 配信済みファイル対応(第3弾)
 | 話 | 音声 | アーカイブ台本 |
 |----|------|--------------|
-| #1 | docs/audio/episode_031_2026-07-26_v2.mp3 | scripts/published/2026-07-26_ep031.json |
+| #1 | docs/audio/episode_031_2026-07-26_v3.mp3 | scripts/published/2026-07-26_ep031.json |
 | #2 | docs/audio/episode_032_2026-07-26.mp3 | scripts/published/2026-07-26_ep032.json |
 | #3 | docs/audio/episode_033_2026-07-26.mp3 | scripts/published/2026-07-26_ep033.json |
 | #4 | docs/audio/episode_034_2026-07-26.mp3 | scripts/published/2026-07-26_ep034.json |
@@ -150,9 +150,9 @@
 | #7 | docs/audio/episode_037_2026-07-26_v2.mp3 | scripts/published/2026-07-26_ep037.json |
 | #8 | docs/audio/episode_038_2026-07-26_v2.mp3 | scripts/published/2026-07-26_ep038.json |
 | #9 | docs/audio/episode_039_2026-07-26_v2.mp3 | scripts/published/2026-07-26_ep039.json |
-| #10 | docs/audio/episode_040_2026-07-26_v2.mp3 | scripts/published/2026-07-26_ep040.json |
+| #10 | docs/audio/episode_040_2026-07-26_v3.mp3 | scripts/published/2026-07-26_ep040.json |
 | #11 | docs/audio/episode_041_2026-07-26_v2.mp3 | scripts/published/2026-07-26_ep041.json |
-| #12 | docs/audio/episode_042_2026-07-26_v2.mp3 | scripts/published/2026-07-26_ep042.json |
+| #12 | docs/audio/episode_042_2026-07-26_v3.mp3 | scripts/published/2026-07-26_ep042.json |
 
 ---
 
@@ -180,12 +180,12 @@
 ### 配信済みファイル対応(第2弾)
 | 話 | 音声 | アーカイブ台本 |
 |----|------|--------------|
-| #1 | docs/audio/episode_019_2026-07-25.mp3 | scripts/published/2026-07-25_ep019.json |
+| #1 | docs/audio/episode_019_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep019.json |
 | #2 | docs/audio/episode_020_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep020.json |
 | #3 | docs/audio/episode_021_2026-07-25.mp3 | scripts/published/2026-07-25_ep021.json |
 | #4 | docs/audio/episode_022_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep022.json |
 | #5 | docs/audio/episode_023_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep023.json |
-| #6 | docs/audio/episode_024_2026-07-26_v2.mp3 | scripts/published/2026-07-26_ep024.json |
+| #6 | docs/audio/episode_024_2026-07-26_v3.mp3 | scripts/published/2026-07-26_ep024.json |
 | #7 | docs/audio/episode_025_2026-07-26.mp3 | scripts/published/2026-07-26_ep025.json |
 | #8 | docs/audio/episode_026_2026-07-26_v2.mp3 | scripts/published/2026-07-26_ep026.json |
 | #9 | docs/audio/episode_027_2026-07-26_v2.mp3 | scripts/published/2026-07-26_ep027.json |
@@ -240,18 +240,18 @@
 ## 配信済みファイル対応
 | 話 | 音声ファイル | アーカイブ台本 |
 |----|------------|--------------|
-| #1 | docs/audio/episode_001_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep001.json |
-| #2 | docs/audio/episode_002_2026-07-25.mp3 | scripts/published/2026-07-25_ep002.json |
+| #1 | docs/audio/episode_001_2026-07-25_v3.mp3 | scripts/published/2026-07-25_ep001.json |
+| #2 | docs/audio/episode_002_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep002.json |
 | #3 | docs/audio/episode_003_2026-07-25.mp3 | scripts/published/2026-07-25_ep003.json |
 | #4 | docs/audio/episode_004_2026-07-25.mp3 | scripts/published/2026-07-25_ep004.json |
 | #5 | docs/audio/episode_005_2026-07-25.mp3 | scripts/published/2026-07-25_ep005.json |
-| #6 | docs/audio/episode_006_2026-07-25.mp3 | scripts/published/2026-07-25_ep006.json |
+| #6 | docs/audio/episode_006_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep006.json |
 | #7 | docs/audio/episode_007_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep007.json |
 | #8 | docs/audio/episode_008_2026-07-25.mp3 | scripts/published/2026-07-25_ep008.json |
 | #9 | docs/audio/episode_009_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep009.json |
 | #10 | docs/audio/episode_010_2026-07-25.mp3 | scripts/published/2026-07-25_ep010.json |
 | #11 | docs/audio/episode_011_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep011.json |
-| #12 | docs/audio/episode_012_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep012.json |
+| #12 | docs/audio/episode_012_2026-07-25_v3.mp3 | scripts/published/2026-07-25_ep012.json |
 | #13 | docs/audio/episode_013_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep013.json |
 | #14 | docs/audio/episode_014_2026-07-25_v2.mp3 | scripts/published/2026-07-25_ep014.json |
 | #15 | docs/audio/episode_015_2026-07-25.mp3 | scripts/published/2026-07-25_ep015.json |
