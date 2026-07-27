@@ -9,7 +9,7 @@
 - **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
-- **第5弾(次回)**: Radiohead『OK Computer』(1997) — #17ラストで予告済み
+- **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … 🔄 **進行中**
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -26,6 +26,7 @@
 | 第2弾 GKMC | `docs/art/gkmc.jpg` | 夜のコンプトン。#19〜#30 に付与 |
 | 第3弾 Lemonade | `docs/art/lemonade.jpg` | 黄金の水面(オシュンと南部の夜)。#31〜#42 に付与 |
 | 第4弾 DtMF | `docs/art/dtmf.jpg` | カリブの夕景をポラロイドが収める。#43〜#59 に付与 |
+| 第5弾 OK Computer | `docs/art/okc.jpg` | 夜の高速道路と走査線。他4枚が有機的な情景なのに対し幾何学・無機質。#60〜 に付与 |
 
 > ✅ **音声化の前に読みチェックが自動で走る**(`main.py` に組み込み済み)。未登録の固有名詞や
 > 読みの割れる助数詞が残っていると音声化せずに中止するので、指摘された語を
@@ -39,6 +40,35 @@
 新シリーズを始めるときは、`docs/art/<album>.jpg`(3000px四方・RGB)を追加し、台本 `scripts/pending.json` に `"image": "art/<album>.jpg"` を書けば、そのエピソードに反映される。いずれも実在のジャケットは複製せず、テーマから起こしたオリジナル図案。生成スクリプトは `tools/make_art.py`(`python3 tools/make_art.py` で3枚とも作り直せる)。
 
 ---
+
+# 第5弾: Radiohead『OK Computer』(進行中)
+
+アルバム: 1997年5月21日 / Parlophone(英)・Capitol(米) / 全12曲・53分21秒。プロデュースは Nigel Godrich とバンドの共同。録音は Canned Applause(Didcot)、St Catherine's Court(Bath)、Church Studios(London)、弦は Abbey Road。消費社会・疎外・technological anxiety・政治の腐敗を描くが、バンド自身は「曲を物語でつなぐ意図はなかった」と述べている。1998年グラミー最優秀オルタナティヴ・ミュージック・アルバム(年間最優秀アルバムにもノミネート)。2014年に米議会図書館の National Recording Registry 入り。ブリットポップ以降の英国ロックの流れを変えた一枚。トラックリストは英語版Wikipediaで検証済み(2026-07-27時点)。
+
+| # | 曲名 | ステータス | メモ |
+|---|------|-----------|------|
+| 1 | Airbag | ✅ | 2026-07-27 / #1。 DJ Shadow『Endtroducing』に触発された切り貼りドラム。事故から生還する=復活 |
+| 2 | Paranoid Android | ✅ | 2026-07-27 / #2。 6:23の4部構成。『Bohemian Rhapsody』『Happiness Is a Warm Gun』が下敷き。題はDouglas Adamsのマーヴィン |
+| 3 | Subterranean Homesick Alien | ✅ | 2026-07-27 / #3。 題はBob Dylanのもじり。宇宙人に連れ去られたい=故郷での疎外 |
+| 4 | Exit Music (For a Film) | ✅ | 2026-07-27 / #4。 Baz Luhrmann『ロミオ+ジュリエット』のために書かれた。石段で録った自然残響 |
+| 5 | Let Down | ✅ | 2026-07-27 / #5。 移動中の閉塞。Jonny Greenwoodだけ別拍子(Steve Reich的位相)。2025年にTikTokで再燃 |
+| 6 | Karma Police | ⬜ | 次回制作予定。The Bendsツアーの内輪ネタが題名の由来 |
+| 7 | Fitter Happier | ⬜ | Macintosh SimpleTextの合成音声。「90年代のスローガン一覧」 |
+| 8 | Electioneering | ⬜ | 政治とグローバリズム |
+| 9 | Climbing Up the Walls | ⬜ | |
+| 10 | No Surprises | ⬜ | 一発録り。『What a Wonderful World』の空気を狙った |
+| 11 | Lucky | ⬜ | |
+| 12 | The Tourist | ⬜ | 最終曲 |
+
+### 配信済みファイル対応(第5弾)
+| 話 | 音声 | アーカイブ台本 |
+|----|------|--------------|
+| #1 | docs/audio/episode_060_2026-07-27.mp3 | scripts/published/2026-07-27_ep060.json |
+| #2 | docs/audio/episode_061_2026-07-27.mp3 | scripts/published/2026-07-27_ep061.json |
+| #3 | docs/audio/episode_062_2026-07-27.mp3 | scripts/published/2026-07-27_ep062.json |
+| #4 | docs/audio/episode_063_2026-07-27.mp3 | scripts/published/2026-07-27_ep063.json |
+| #5 | docs/audio/episode_064_2026-07-27.mp3 | scripts/published/2026-07-27_ep064.json |
+
 
 # 第4弾: Bad Bunny『Debí Tirar Más Fotos』(完結)
 

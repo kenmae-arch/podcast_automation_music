@@ -449,6 +449,81 @@ def make_dtmf():
     return grain(img, 0.058)
 
 
+# =====================================================================
+# 6. 第5弾 Radiohead『OK Computer』 ── 高速道路と、無機質な信号
+# =====================================================================
+
+def make_okc():
+    """他4枚が自然物(光・街・水・夕景)なのに対し、この一枚だけは幾何学と機械。
+    夜の高速道路を上から見た図と、淡々と流れる走査線で構成する。"""
+    img = vgradient([
+        (0.0, (14, 18, 24)), (0.42, (26, 34, 44)), (0.72, (40, 52, 62)),
+        (1.0, (12, 15, 20)),
+    ])
+
+    d = ImageDraw.Draw(img)
+    cx = S * 0.5
+    vanish_y = S * 0.395           # 消失点
+    road_y = S * 0.618             # 手前側
+    half = S * 0.255               # 手前側の道幅(片側)
+
+    # ヘッドライトの滲み(消失点の光)。線を描く前に置く
+    glow(img, cx, vanish_y, S * 0.19, (104, 134, 166), falloff=2.8)
+    glow(img, cx, vanish_y, S * 0.032, (224, 240, 255), falloff=1.9)
+
+    # 道路は塗らず、収束する2本の路肩線と中央の破線だけで示す
+    road = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    rd = ImageDraw.Draw(road)
+    for sign in (-1, 1):
+        rd.line([cx + sign * S * 0.004, vanish_y, cx + sign * half, road_y],
+                fill=(176, 198, 214, 190), width=5)
+    n = 22
+    for i in range(n):
+        t0 = i / n
+        t1 = t0 + 0.030
+        y0 = vanish_y + (road_y - vanish_y) * (t0 ** 1.8)
+        y1 = vanish_y + (road_y - vanish_y) * (t1 ** 1.8)
+        w0 = S * (0.0012 + 0.0072 * t0)
+        w1 = S * (0.0012 + 0.0072 * t1)
+        a = int(38 + 180 * t0)
+        rd.polygon([(cx - w0, y0), (cx + w0, y0), (cx + w1, y1), (cx - w1, y1)],
+                   fill=(228, 218, 184, a))
+    img = Image.alpha_composite(img.convert("RGBA"), road).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 走査線(ブラウン管/端末の質感)
+    scan = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(scan)
+    y = 0
+    while y < S:
+        sd.line([0, y, S, y], fill=(0, 0, 0, 34), width=2)
+        y += 6
+    img = Image.alpha_composite(img.convert("RGBA"), scan).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 幾何学的な枠(端末の窓)
+    m = S * 0.070
+    d.rectangle([m, m, S - m, S - m], outline=(150, 168, 186), width=4)
+    for corner in ((m, m), (S - m, m), (m, S - m), (S - m, S - m)):
+        d.rectangle([corner[0] - 16, corner[1] - 16, corner[0] + 16, corner[1] + 16],
+                    fill=(196, 214, 230))
+
+    cream, cyan, muted = (232, 240, 246), (150, 200, 214), (140, 158, 172)
+
+    Stack(d, S * 0.108).text("SERIES 05", font(F_FUTURA, 58, 0), muted, tracking=40)
+
+    s = Stack(d, S * 0.665)
+    s.text("RADIOHEAD", font(F_FUTURA, 100, 0), cyan, tracking=54)
+    s.gap(62).text("OK", font(F_DIDOT, 300, 2), cream, tracking=30)
+    s.gap(24).text("COMPUTER", font(F_DIDOT, 232, 2), cream, tracking=20)
+    s.gap(64).rule(S * 0.076, (120, 140, 156), 3).gap(52)
+    s.text("全曲解説", font(F_JP, 74, 0), muted, tracking=26)
+    print("  okc type bottom:", int(s.y))
+
+    vignette(img, 0.56, 0.86)
+    return grain(img, 0.062)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -461,3 +536,4 @@ if __name__ == "__main__":
     save(make_gkmc(), OUT / "art" / "gkmc.jpg")
     save(make_lemonade(), OUT / "art" / "lemonade.jpg")
     save(make_dtmf(), OUT / "art" / "dtmf.jpg")
+    save(make_okc(), OUT / "art" / "okc.jpg")
