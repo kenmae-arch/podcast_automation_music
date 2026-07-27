@@ -8,12 +8,12 @@
 - **第1弾**: Rosalía『LUX』(2025) — 全18曲・4楽章 … ✅ **完結**(番組内 #1〜#18)
 - **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
-- **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … 🔄 **進行中**
-- **第5弾(予定)**: Kendrick Lamar『To Pimp a Butterfly』(2015)
+- **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
+- **第5弾(次回)**: Kendrick Lamar『To Pimp a Butterfly』(2015) — #17ラストで予告済み
 
 > 以降の並びは「女性の物語 → 言語と土地 → 黒人音楽史の総括」という射程の広げ方で決定(2026-07-26)。
 
-> 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
+> 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜030、第3弾 031〜042、第4弾 043〜059)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
 
 ### アートワーク
 | 用途 | ファイル | 備考 |
@@ -22,7 +22,7 @@
 | 第1弾 LUX | `docs/art/lux.jpg` | 光背(ひかり)。#1〜#18 に付与 |
 | 第2弾 GKMC | `docs/art/gkmc.jpg` | 夜のコンプトン。#19〜#30 に付与 |
 | 第3弾 Lemonade | `docs/art/lemonade.jpg` | 黄金の水面(オシュンと南部の夜)。#31〜#42 に付与 |
-| 第4弾 DtMF | `docs/art/dtmf.jpg` | カリブの夕景をポラロイドが収める。#43〜 に付与 |
+| 第4弾 DtMF | `docs/art/dtmf.jpg` | カリブの夕景をポラロイドが収める。#43〜#59 に付与 |
 
 > ✅ **音声化の前に読みチェックが自動で走る**(`main.py` に組み込み済み)。未登録の固有名詞や
 > 読みの割れる助数詞が残っていると音声化せずに中止するので、指摘された語を
@@ -37,7 +37,9 @@
 
 ---
 
-# 第4弾: Bad Bunny『Debí Tirar Más Fotos』(進行中)
+# 第4弾: Bad Bunny『Debí Tirar Más Fotos』(完結)
+
+> 🎉 **2026-07-27、全17曲の解説を配信完了。第4弾シリーズ完結。**
 
 アルバム: 2025年1月5日 / Rimas Entertainment / 全17曲(米盤LPのみボーナス1曲)。タイトルは「もっと写真を撮っておけばよかった」。レゲトンに、プエルトリコの伝統音楽(プレーナ／ボンバ／ヒバロ／サルサ)を大きく取り込み、ジェントリフィケーションと文化の喪失、島への愛を歌う。1月3日に短編映画(Bad Bunny共同監督・Jacobo Morales主演)を先行公開。各曲のビジュアライザーにはプエルトリコ史の解説が付され、歴史家Jorell Meléndez Badilloが監修。**2026年グラミーで、スペイン語アルバムとして史上初の年間最優秀アルバム賞を受賞**(ラテン・グラミーでも年間最優秀アルバム)。Metacritic 95。トラックリストは英語版Wikipediaで検証済み(2026-07-26時点)。
 
@@ -58,8 +60,8 @@
 | 13 | Pitorro de Coco | ✅ | 2026-07-27 / #13。ヒバロのリズム。賑やかなクリスマスにひとりで飲む酒 |
 | 14 | Lo Que Le Pasó a Hawaii | ✅ | 2026-07-27 / #14。1898年に同じくアメリカ領へ。川と浜、そして「レロライ」を守れ。夢で丸ごと浮かんだ曲 |
 | 15 | Eoo | ✅ | 2026-07-27 / #15。Héctor & Tito＋自作『X 100pre』への二重の原点回帰。グラミー最優秀グローバル音楽パフォーマンス |
-| 16 | DtMF | ⬜ | 次回制作予定。表題曲 |
-| 17 | La Mudanza | ⬜ | 最終曲。引っ越し＝去ること／留まること |
+| 16 | DtMF | ✅ | 2026-07-27 / #16。表題曲。撮り損ねた写真＝変わる前の島。TikTokで世界的現象に |
+| 17 | La Mudanza | ✅ | 2026-07-27 / #17【最終回】。父ティトと母リシーが出会った引っ越しの日＝彼の出発点。Eugenio María de Hostos に触れ独立へ言及 |
 
 ### 配信済みファイル対応(第4弾)
 | 話 | 音声 | アーカイブ台本 |
@@ -79,10 +81,12 @@
 | #13 | docs/audio/episode_055_2026-07-27.mp3 | scripts/published/2026-07-27_ep055.json |
 | #14 | docs/audio/episode_056_2026-07-27.mp3 | scripts/published/2026-07-27_ep056.json |
 | #15 | docs/audio/episode_057_2026-07-27.mp3 | scripts/published/2026-07-27_ep057.json |
+| #16 | docs/audio/episode_058_2026-07-27.mp3 | scripts/published/2026-07-27_ep058.json |
+| #17 | docs/audio/episode_059_2026-07-27.mp3 | scripts/published/2026-07-27_ep059.json |
 
 ---
 
-# 第3弾: Beyoncé『Lemonade』(進行中)
+# 第3弾: Beyoncé『Lemonade』(完結)
 
 アルバム: 2016年4月23日 / Parkwood・Columbia / 全12曲。ヴィジュアル・アルバム。夫の裏切りをめぐる私的な物語を、アメリカにおける黒人女性の歴史的経験へと接続したコンセプト作。映像版はキューブラー・ロスの受容過程になぞらえた11章(Intuition / Denial / Anger / Apathy / Emptiness / Accountability / Reformation / Forgiveness / Resurrection / Hope / Redemption)で構成。詩人 Warsan Shire の詩篇が全編に配される。トラックリスト・章構成は英語版Wikipediaで検証済み(2026-07-26時点)。
 
@@ -119,7 +123,7 @@
 
 ---
 
-# 第2弾: Kendrick Lamar『good kid, m.A.A.d city』(進行中)
+# 第2弾: Kendrick Lamar『good kid, m.A.A.d city』(完結)
 
 > 🎉 **2026-07-26、全12曲の解説を配信完了。第2弾『good kid, m.A.A.d city』シリーズ完結。**
 
