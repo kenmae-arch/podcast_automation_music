@@ -52,12 +52,12 @@
 | 3 | Subterranean Homesick Alien | ✅ | 2026-07-27 / #3。 題はBob Dylanのもじり。宇宙人に連れ去られたい=故郷での疎外 |
 | 4 | Exit Music (For a Film) | ✅ | 2026-07-27 / #4。 Baz Luhrmann『ロミオ+ジュリエット』のために書かれた。石段で録った自然残響 |
 | 5 | Let Down | ✅ | 2026-07-27 / #5。 移動中の閉塞。Jonny Greenwoodだけ別拍子(Steve Reich的位相)。2025年にTikTokで再燃 |
-| 6 | Karma Police | ⬜ | 次回制作予定。The Bendsツアーの内輪ネタが題名の由来 |
-| 7 | Fitter Happier | ⬜ | Macintosh SimpleTextの合成音声。「90年代のスローガン一覧」 |
-| 8 | Electioneering | ⬜ | 政治とグローバリズム |
-| 9 | Climbing Up the Walls | ⬜ | |
-| 10 | No Surprises | ⬜ | 一発録り。『What a Wonderful World』の空気を狙った |
-| 11 | Lucky | ⬜ | |
+| 6 | Karma Police | ✅ | 2026-07-28 / #6。ツアー中の内輪ネタが由来。裁く側が壊れていく。Beatles「Sexy Sadie」を思わせるピアノ |
+| 7 | Fitter Happier | ✅ | 2026-07-28 / #7。Macintosh SimpleTextの合成音声。10分で書かれた「90年代のスローガン一覧」 |
+| 8 | Electioneering | ✅ | 2026-07-28 / #8。Noam Chomskyに着想。票を集める行為＝自分たちへの自嘲でもある |
+| 9 | Climbing Up the Walls | ✅ | 2026-07-28 / #9。精神科施設での経験＋連続殺人犯の記事。16の弦が四分音ずつずれる(Penderecki参照) |
+| 10 | No Surprises | ✅ | 2026-07-28 / #10。一発録り。幸福の形をした絶望。MVはヘルメットに水が満ちる一発撮り |
+| 11 | Lucky | ⬜ | 次回制作予定 |
 | 12 | The Tourist | ⬜ | 最終曲 |
 
 ### 配信済みファイル対応(第5弾)
@@ -68,7 +68,11 @@
 | #3 | docs/audio/episode_062_2026-07-27.mp3 | scripts/published/2026-07-27_ep062.json |
 | #4 | docs/audio/episode_063_2026-07-27.mp3 | scripts/published/2026-07-27_ep063.json |
 | #5 | docs/audio/episode_064_2026-07-27.mp3 | scripts/published/2026-07-27_ep064.json |
-
+| #6 | docs/audio/episode_065_2026-07-28.mp3 | scripts/published/2026-07-28_ep065.json |
+| #7 | docs/audio/episode_066_2026-07-28.mp3 | scripts/published/2026-07-28_ep066.json |
+| #8 | docs/audio/episode_067_2026-07-28.mp3 | scripts/published/2026-07-28_ep067.json |
+| #9 | docs/audio/episode_068_2026-07-28.mp3 | scripts/published/2026-07-28_ep068.json |
+| #10 | docs/audio/episode_069_2026-07-28.mp3 | scripts/published/2026-07-28_ep069.json |
 
 # 第4弾: Bad Bunny『Debí Tirar Más Fotos』(完結)
 

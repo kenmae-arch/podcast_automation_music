@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_music</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Jul 2026 13:47:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 07:54:47 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/cover-v2.jpg"/>
@@ -22,6 +22,46 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Radiohead『OK Computer』全曲解説 #10 何も起こらない人生を『No Surprises』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第10回は10曲目『No Surprises』を取り上げます。グロッケンシュピールが鳴る、子守唄のように優しい曲。ところが歌われているのは、何も起こらない静かな人生への願いと、そこに滲む深い絶望です。バンドはLouis Armstrongの1968年版『What a Wonderful World』やMarvin Gayeのソウルの空気を狙い、そして一発録りで完成させました。Grant Gee監督のミュージックビデオでは、Thom Yorkeの頭を覆うヘルメットに水が満ちていきます。優しい音で残酷なことを歌うという、このアルバムの到達点を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_069_2026-07-28.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_069_2026-07-28.mp3" length="4198815" type="audio/mpeg"/>
+      <pubDate>Tue, 28 Jul 2026 07:54:47 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+    </item>
+    <item>
+      <title>Radiohead『OK Computer』全曲解説 #9 壁を這い上がるもの『Climbing Up the Walls』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第9回は9曲目『Climbing Up the Walls』を取り上げます。アルバムで最も暗く、最も恐ろしい一曲。Thom Yorkeがかつて精神科の施設で働いた経験と、連続殺人犯についての新聞記事が下敷きになっています。そしてJonny Greenwoodによる弦のアレンジが異様——16の弦楽器が四分音ずつずれた音を出し、和音として成立しません。彼が参照したのは、ポーランドの作曲家Krzysztof Pendereckiの『広島の犠牲者に捧げる哀歌』でした。「エリナー・リグビーみたいにはしたくなかった」という発言の意味を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_068_2026-07-28.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_068_2026-07-28.mp3" length="4308739" type="audio/mpeg"/>
+      <pubDate>Tue, 28 Jul 2026 07:53:15 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+    </item>
+    <item>
+      <title>Radiohead『OK Computer』全曲解説 #8 票を集めるという仕事『Electioneering』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第8回は8曲目『Electioneering』を取り上げます。タイトルは「選挙運動」。当選するためなら誰にでも都合のいいことを言う候補者を描いた、アルバムで最も直接的な政治批判の一曲です。Thom Yorkeは着想源としてメディア批評家Noam Chomskyの著作を挙げています。そして音は、この静謐なアルバムの中で異例なほど荒々しいギター・ロック——前曲『Fitter Happier』の無機質な合成音声の直後に置かれた意味も含めて解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_067_2026-07-28.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_067_2026-07-28.mp3" length="4432036" type="audio/mpeg"/>
+      <pubDate>Tue, 28 Jul 2026 07:51:47 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+    </item>
+    <item>
+      <title>Radiohead『OK Computer』全曲解説 #7 コンピューターが読み上げる幸福『Fitter Happier』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第7回は7曲目『Fitter Happier』を取り上げます。歌ではありません。Macintoshの読み上げ機能の合成音声が、望ましい生き方の箇条書きを淡々と読み上げるだけの2分弱。Thom Yorkeはこれを「90年代のスローガンの一覧」と呼び、「自分が書いたなかで最も気が滅入るもの」と語りました。書くのに要した時間はわずか10分。バンドはこれをアルバムの1曲目に置くことさえ検討しています。合成音声が語ることの意味を、2026年の視点から解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_066_2026-07-28.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_066_2026-07-28.mp3" length="4079697" type="audio/mpeg"/>
+      <pubDate>Tue, 28 Jul 2026 07:50:19 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+    </item>
+    <item>
+      <title>Radiohead『OK Computer』全曲解説 #6 業のおまわりさん『Karma Police』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第6回は6曲目『Karma Police』を取り上げます。タイトルはツアー中の内輪の冗談から——ひどい振る舞いをする人を見かけると「そのうちカルマ警察に捕まるぞ」と言い合っていた、あの言い回しです。ところが曲は、そのおどけた出発点から、狂気と、いつのまにか自分が裁く側に立ってしまうことへの不安へと滑り落ちていきます。The Beatles『Sexy Sadie』を思わせるピアノ、そしてOasisのNoel Gallagherがこの引用を絶賛した逸話にも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_065_2026-07-28.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_065_2026-07-28.mp3" length="4336324" type="audio/mpeg"/>
+      <pubDate>Tue, 28 Jul 2026 07:48:54 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+    </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #5 移動し続けて、どこにもいない『Let Down』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第5回は5曲目『Let Down』を取り上げます。Thom Yorkeが語る主題は「閉じ込められることへの恐怖」——何千という場所と人のそばを通り過ぎながら、そのどれとも関われない、移動中の完全な断絶。Jonny Greenwoodのギターだけが別の拍子で鳴り、Steve Reich的な位相のずれを生む構造、ZX Spectrumで作られたアルペジオ、St Catherine's Courtの舞踏室で深夜3時に録音された経緯を解説します。2025年にTikTokで再燃し、17年ぶりのHot 100入りを果たした一曲でもあります。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
