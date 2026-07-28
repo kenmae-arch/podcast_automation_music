@@ -9,14 +9,18 @@
 - **第2弾**: Kendrick Lamar『good kid, m.A.A.d city』(2012) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
-- **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … 🔄 **進行中**
+- **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
+- **第6弾(次回)**: Daddy Yankee『Barrio Fino』(2004) — 第5弾#12ラストで予告済み
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
 > 現状の偏り: 年代が2012〜2025に集中、ジャンルがヒップホップ/R&B/ラテン/アートポップ、テーマが全てアイデンティティ。
 > → ロック・90年代・英国・非アイデンティティ主題を埋める『OK Computer』を第5弾に。
+> 第6弾は再びラテンへ。ただしLUX/DtMFが共に2025年作なので、年代の穴を埋めるため2004年の
+> 『Barrio Fino』を選定(2026-07-28)。レゲトンを世界化した一枚で、第4弾DtMFの直接の源流にあたる。
+> Daddy YankeeはDtMF #10で、Andy MontañezはDtMF #1で既出。既存カタログと直接つながる。
 
-> 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜030、第3弾 031〜042、第4弾 043〜059)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
+> 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜030、第3弾 031〜042、第4弾 043〜059、第5弾 060〜071)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
 
 ### アートワーク
 | 用途 | ファイル | 備考 |
@@ -41,7 +45,9 @@
 
 ---
 
-# 第5弾: Radiohead『OK Computer』(進行中)
+# 第5弾: Radiohead『OK Computer』(完結)
+
+> 🎉 **2026-07-28、全12曲の解説を配信完了。第5弾シリーズ完結。**
 
 アルバム: 1997年5月21日 / Parlophone(英)・Capitol(米) / 全12曲・53分21秒。プロデュースは Nigel Godrich とバンドの共同。録音は Canned Applause(Didcot)、St Catherine's Court(Bath)、Church Studios(London)、弦は Abbey Road。消費社会・疎外・technological anxiety・政治の腐敗を描くが、バンド自身は「曲を物語でつなぐ意図はなかった」と述べている。1998年グラミー最優秀オルタナティヴ・ミュージック・アルバム(年間最優秀アルバムにもノミネート)。2014年に米議会図書館の National Recording Registry 入り。ブリットポップ以降の英国ロックの流れを変えた一枚。トラックリストは英語版Wikipediaで検証済み(2026-07-27時点)。
 
@@ -57,8 +63,8 @@
 | 8 | Electioneering | ✅ | 2026-07-28 / #8。Noam Chomskyに着想。票を集める行為＝自分たちへの自嘲でもある |
 | 9 | Climbing Up the Walls | ✅ | 2026-07-28 / #9。精神科施設での経験＋連続殺人犯の記事。16の弦が四分音ずつずれる(Penderecki参照) |
 | 10 | No Surprises | ✅ | 2026-07-28 / #10。一発録り。幸福の形をした絶望。MVはヘルメットに水が満ちる一発撮り |
-| 11 | Lucky | ⬜ | 次回制作予定 |
-| 12 | The Tourist | ⬜ | 最終曲 |
+| 11 | Lucky | ✅ | 2026-07-28 / #11。1995年War Child『Help』用に5時間で録音(Nigel Godrichとの本格協働の起点)。Ed O'Brienが日本公演のサウンドチェックで偶然出した音が発端。#1 Airbagと同じ「生還」主題の再来 |
+| 12 | The Tourist | ✅ | 2026-07-28 / #12【最終回】。Jonny Greenwood主導。フランスで見た駆け足の観光客が着想。意図的に遅い曲。最後は呼び鈴の一打で終わる。第6弾Barrio Finoを予告 |
 
 ### 配信済みファイル対応(第5弾)
 | 話 | 音声 | アーカイブ台本 |
@@ -73,6 +79,8 @@
 | #8 | docs/audio/episode_067_2026-07-28.mp3 | scripts/published/2026-07-28_ep067.json |
 | #9 | docs/audio/episode_068_2026-07-28.mp3 | scripts/published/2026-07-28_ep068.json |
 | #10 | docs/audio/episode_069_2026-07-28.mp3 | scripts/published/2026-07-28_ep069.json |
+| #11 | docs/audio/episode_070_2026-07-28.mp3 | scripts/published/2026-07-28_ep070.json |
+| #12 | docs/audio/episode_071_2026-07-28.mp3 | scripts/published/2026-07-28_ep071.json |
 
 # 第4弾: Bad Bunny『Debí Tirar Más Fotos』(完結)
 
