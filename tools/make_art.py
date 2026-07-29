@@ -524,6 +524,96 @@ def make_okc():
     return grain(img, 0.062)
 
 
+# =====================================================================
+# 7. 第6弾 Daddy Yankee『Barrio Fino』 ── 団地の窓と、低音の輪
+# =====================================================================
+
+def make_barrio():
+    """『上品な(fino)barrio』というタイトルの反転を、意匠で言う。
+    第2弾GKMCが「夕景・ヤシ・電線」の情景なのに対し、こちらは正面からの幾何学。
+    カセリオ(公営団地)の窓のグリッドを金で描き、そこからデンボウの低音が
+    同心円で広がっていく構図。安価な素材を金に置き換える=barrio fino。"""
+    img = vgradient([
+        (0.0, (14, 8, 24)), (0.38, (34, 16, 34)), (0.66, (58, 28, 26)),
+        (1.0, (12, 7, 14)),
+    ])
+
+    cx, cy = S / 2, S * 0.330
+
+    # ナトリウム灯の橙。団地の背後から
+    glow(img, cx, cy, S * 0.40, (198, 108, 40), falloff=2.6)
+    glow(img, cx, cy, S * 0.11, (255, 210, 132), falloff=1.9)
+
+    # 低音の同心円(デンボウの拍)。窓より先に置いて奥行きを出す
+    rings = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    rd = ImageDraw.Draw(rings)
+    r = S * 0.08
+    i = 0
+    while r < S * 0.52:
+        fade = 1 - (r / (S * 0.52)) ** 1.4
+        a = int(30 + 108 * fade)
+        col = (244, 192, 100, min(255, a + 54)) if i % 4 == 0 else (226, 206, 188, a)
+        rd.ellipse([cx - r, cy - r, cx + r, cy + r], outline=col, width=8 if i % 4 == 0 else 4)
+        r += S * 0.0215
+        i += 1
+    img = Image.alpha_composite(img.convert("RGBA"), rings).convert("RGB")
+
+    # カセリオ(公営団地)を正面から。窓のグリッドだけで建物を示す
+    d = ImageDraw.Draw(img)
+    dark = (13, 8, 15)
+    rnd = random.Random(2004)          # 発売年で固定。再生成しても同じ絵になる
+    blocks = ((0.030, 0.215, 0.300), (0.265, 0.235, 0.212),
+              (0.520, 0.225, 0.255), (0.775, 0.195, 0.180))
+    base_y = S * 0.610
+    for bx, bw, bh in blocks:
+        x0, x1 = S * bx, S * (bx + bw)
+        y0 = base_y - S * bh
+        d.rectangle([x0, y0, x1, base_y], fill=dark)
+        cols = max(3, int(bw / 0.052))
+        rows = max(3, int(bh / 0.062))
+        mw, mh = (x1 - x0) / cols, (base_y - y0) / rows
+        for c in range(cols):
+            for rr in range(rows):
+                wx = x0 + mw * (c + 0.30)
+                wy = y0 + mh * (rr + 0.34)
+                ww, wh = mw * 0.40, mh * 0.34
+                lit = rnd.random()
+                if lit < 0.44:
+                    col = (252, 208, 124) if lit < 0.30 else (238, 158, 84)
+                else:
+                    col = (32, 24, 30)
+                d.rectangle([wx, wy, wx + ww, wy + wh], fill=col)
+
+    # 手前の路面。金の一本線で締める
+    d.rectangle([0, base_y, S, S], fill=(11, 7, 13))
+    d.line([0, base_y, S, base_y], fill=(198, 152, 76), width=5)
+
+    # 文字を置く下半分を沈める(窓の明滅と競合させない)
+    scrim = Image.new("L", (1, SMALL), 0)
+    sp = scrim.load()
+    for y in range(SMALL):
+        tt = y / (SMALL - 1)
+        sp[0, y] = 0 if tt < 0.50 else int(225 * min(1.0, (tt - 0.50) / 0.16) ** 1.4)
+    img.paste(Image.new("RGB", img.size, (8, 5, 10)), (0, 0),
+              scrim.resize((S, S), Image.LANCZOS))
+    d = ImageDraw.Draw(img)
+
+    cream, gold, muted = (244, 234, 214), (232, 176, 74), (168, 146, 138)
+
+    Stack(d, S * 0.075).text("SERIES 06", font(F_FUTURA, 58, 0), muted, tracking=40)
+
+    s = Stack(d, S * 0.705)
+    s.text("DADDY YANKEE", font(F_FUTURA, 86, 0), gold, tracking=44)
+    s.gap(56).text("BARRIO", font(F_DIDOT, 232, 2), cream, tracking=24)
+    s.gap(26).text("FINO", font(F_DIDOT, 232, 2), cream, tracking=24)
+    s.gap(56).rule(S * 0.078, (146, 110, 62), 3).gap(50)
+    s.text("全曲解説", font(F_JP, 74, 0), muted, tracking=26)
+    print("  barrio type bottom:", int(s.y))
+
+    vignette(img, 0.58, 0.84)
+    return grain(img, 0.062)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -537,3 +627,4 @@ if __name__ == "__main__":
     save(make_lemonade(), OUT / "art" / "lemonade.jpg")
     save(make_dtmf(), OUT / "art" / "dtmf.jpg")
     save(make_okc(), OUT / "art" / "okc.jpg")
+    save(make_barrio(), OUT / "art" / "barrio.jpg")

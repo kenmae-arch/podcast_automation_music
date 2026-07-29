@@ -10,7 +10,7 @@
 - **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
 - **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
-- **第6弾(次回)**: Daddy Yankee『Barrio Fino』(2004) — 第5弾#12ラストで予告済み
+- **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … 🔄 **進行中**(#1〜#5 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -20,7 +20,7 @@
 > 『Barrio Fino』を選定(2026-07-28)。レゲトンを世界化した一枚で、第4弾DtMFの直接の源流にあたる。
 > Daddy YankeeはDtMF #10で、Andy MontañezはDtMF #1で既出。既存カタログと直接つながる。
 
-> 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜030、第3弾 031〜042、第4弾 043〜059、第5弾 060〜071)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
+> 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜030、第3弾 031〜042、第4弾 043〜059、第5弾 060〜071、第6弾 072〜)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
 
 ### アートワーク
 | 用途 | ファイル | 備考 |
@@ -31,6 +31,7 @@
 | 第3弾 Lemonade | `docs/art/lemonade.jpg` | 黄金の水面(オシュンと南部の夜)。#31〜#42 に付与 |
 | 第4弾 DtMF | `docs/art/dtmf.jpg` | カリブの夕景をポラロイドが収める。#43〜#59 に付与 |
 | 第5弾 OK Computer | `docs/art/okc.jpg` | 夜の高速道路と走査線。他4枚が有機的な情景なのに対し幾何学・無機質。#60〜 に付与 |
+| 第6弾 Barrio Fino | `docs/art/barrio.jpg` | 団地(カセリオ)の窓のグリッドと、そこから広がる低音の同心円。金＋深い紫。#72〜 に付与 |
 
 > ✅ **音声化の前に読みチェックが自動で走る**(`main.py` に組み込み済み)。未登録の固有名詞や
 > 読みの割れる助数詞が残っていると音声化せずに中止するので、指摘された語を
@@ -44,6 +45,47 @@
 新シリーズを始めるときは、`docs/art/<album>.jpg`(3000px四方・RGB)を追加し、台本 `scripts/pending.json` に `"image": "art/<album>.jpg"` を書けば、そのエピソードに反映される。いずれも実在のジャケットは複製せず、テーマから起こしたオリジナル図案。生成スクリプトは `tools/make_art.py`(`python3 tools/make_art.py` で3枚とも作り直せる)。
 
 ---
+
+---
+
+# 第6弾: Daddy Yankee『Barrio Fino』(進行中)
+
+アルバム: 2004年7月13日 / VI Music・El Cartel Records(米) / 全21曲。録音は El Cartel Studios(San Juan)と Mas Flow Studios(Carolina)、2003〜2004年。プロデュースの中心は Luny Tunes(Francisco Saldaña / Víctor Cabrera)、ほかに Monserrate & DJ Urba、Fido、Eliel、DJ Nelson、Ramsis ら。**レゲトンのアルバムとして初めて Top Latin Albums に初登場1位**。ラテン・グラミー最優秀アーバン・ミュージック・アルバム受賞、「Gasolina」はレゲトンとして初めて年間最優秀レコードにノミネート。全世界800万枚以上と伝えられる。2025年 Rolling Stone「21世紀の最も偉大なアルバム250」で45位。トラックリストは英語版Wikipediaで検証済み(2026-07-29時点)。
+
+> タイトルは「上品なバリオ」。1995年2月にサンフアンのレコード店が家宅捜索を受けカセットが押収された検閲の歴史への反論として読む、というのがこのシリーズの通し軸。第4弾 Bad Bunny の直接の源流でもある。
+
+| # | 曲名 | ステータス | メモ |
+|---|------|-----------|------|
+| 1 | Intro | ✅ | 2026-07-29 / #1。Ramsis制作。タイトルの意味、Villa Kennedy育ち、流れ弾の事件、marquesinaのカセット文化、1995年の摘発 |
+| 2 | King Daddy | ✅ | 2026-07-29 / #2。Luny Tunes。王がまだ存在しないジャンルでの名乗り。デンボウ(Dem Bow / Poco Man Jam / Pounder)の共有リズム論 |
+| 3 | Dale Caliente | ✅ | 2026-07-29 / #3。Glory・Blacka-Nice客演。Gloryの紹介、女性の声とクレジット、2002年 Velda González のperreo公聴会 |
+| 4 | No Me Dejes Solo | ✅ | 2026-07-29 / #4。Wisin & Yandel(作者にも名を連ねる)。『12 Discípulos』(2004-01)と“仲間ごと勝ち上がる”構造。Hot Latin Songs 32位 |
+| 5 | Gasolina | ✅ | 2026-07-29 / #5。Eddie Dee共作／Luny Tunes。Gloryは無クレジット。本人談「最も無邪気な曲」。Hot 100 32位、2023年 National Recording Registry 入り |
+| 6 | Like You | ⬜ | 次回制作予定。英題の意味を軸に |
+| 7 | El Muro | ⬜ | |
+| 8 | Lo Que Pasó, Pasó | ⬜ | Luny Tunes・Eliel。Hot Latin Songs 2位 |
+| 9 | Tu Príncipe | ⬜ | Zion & Lennox客演 |
+| 10 | Cuéntame | ⬜ | |
+| 11 | Santifica Tus Escapularios | ⬜ | |
+| 12 | Sabor a Melao | ⬜ | Andy Montañez客演。DtMF #1で既出のサルサの重鎮 |
+| 13 | El Empuje | ⬜ | |
+| 14 | ¿Qué Vas A Hacer? | ⬜ | May-Be客演 |
+| 15 | Salud y Vida | ⬜ | Notch客演 |
+| 16 | Intermedio – Gavilán | ⬜ | Ramsis。中盤の幕間 |
+| 17 | Corazones | ⬜ | Echo・Diesel制作 |
+| 18 | Golpe de Estado | ⬜ | Tommy Viera客演 |
+| 19 | 2 Mujeres | ⬜ | |
+| 20 | Saber Su Nombre | ⬜ | |
+| 21 | Outro | ⬜ | 最終回 |
+
+### 配信済みファイル対応(第6弾)
+| 話 | 音声 | アーカイブ台本 |
+|----|------|--------------|
+| #1 | docs/audio/episode_072_2026-07-29.mp3 | scripts/published/2026-07-29_ep072.json |
+| #2 | docs/audio/episode_073_2026-07-29.mp3 | scripts/published/2026-07-29_ep073.json |
+| #3 | docs/audio/episode_074_2026-07-29.mp3 | scripts/published/2026-07-29_ep074.json |
+| #4 | docs/audio/episode_075_2026-07-29.mp3 | scripts/published/2026-07-29_ep075.json |
+| #5 | docs/audio/episode_076_2026-07-29.mp3 | scripts/published/2026-07-29_ep076.json |
 
 # 第5弾: Radiohead『OK Computer』(完結)
 
