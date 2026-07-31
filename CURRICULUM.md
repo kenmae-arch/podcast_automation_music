@@ -10,7 +10,7 @@
 - **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
 - **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
-- **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … 🔄 **進行中**(#1〜#5 配信済み)
+- **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … 🔄 **進行中**(#1〜#10 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -61,12 +61,12 @@
 | 3 | Dale Caliente | ✅ | 2026-07-29 / #3。Glory・Blacka-Nice客演。Gloryの紹介、女性の声とクレジット、2002年 Velda González のperreo公聴会 |
 | 4 | No Me Dejes Solo | ✅ | 2026-07-29 / #4。Wisin & Yandel(作者にも名を連ねる)。『12 Discípulos』(2004-01)と“仲間ごと勝ち上がる”構造。Hot Latin Songs 32位 |
 | 5 | Gasolina | ✅ | 2026-07-29 / #5。Eddie Dee共作／Luny Tunes。Gloryは無クレジット。本人談「最も無邪気な曲」。Hot 100 32位、2023年 National Recording Registry 入り |
-| 6 | Like You | ⬜ | 次回制作予定。英題の意味を軸に |
-| 7 | El Muro | ⬜ | |
-| 8 | Lo Que Pasó, Pasó | ⬜ | Luny Tunes・Eliel。Hot Latin Songs 2位 |
-| 9 | Tu Príncipe | ⬜ | Zion & Lennox客演 |
-| 10 | Cuéntame | ⬜ | |
-| 11 | Santifica Tus Escapularios | ⬜ | |
+| 6 | Like You | ✅ | 2026-07-31 / #6。全21曲で唯一の全編英語。Luny Tunes。2005年シングルでHot 100 78位／Bubbling Under 1位、英語ゆえラテン系チャートには載れず。Gasolina(32位)との対比＝“翻訳しない道”の分岐点 |
+| 7 | El Muro | ✅ | 2026-07-31 / #7。Monserrate & DJ Urba。アルバム最硬でNYラップ的と評される。プエルトリコとヒップホップ(Crazy Legs / Charlie Chase)、レゲトンの四つの源流 |
+| 8 | Lo Que Pasó, Pasó | ✅ | 2026-07-31 / #8。Luny Tunes・Eliel／作詞Joan Ortiz。2004-09シングル、Hot Latin Songs 2位・Tropical Songs 1位、Lo Nuestro賞受賞。バチャータ・ミックス。“歌えるレゲトン”への分岐 |
+| 9 | Tu Príncipe | ✅ | 2026-07-31 / #9。Zion & Lennox(本名も作詞クレジット)。Luny Tunes。#2の“王”との対比で読む。二人は同年『Motivando a la Yal』の「Yo Voy」でDYを迎えている |
+| 10 | Cuéntame | ✅ | 2026-07-31 / #10。Luny Tunes・Eliel・Naldo。折り返し地点。当時のDJコンピ文化に対し、Intro/Intermedio/Outroを備えた個人名義21曲という“構造の発明”を論じる回 |
+| 11 | Santifica Tus Escapularios | ⬜ | 次回制作予定。信仰(スカプラリオ)を軸に |
 | 12 | Sabor a Melao | ⬜ | Andy Montañez客演。DtMF #1で既出のサルサの重鎮 |
 | 13 | El Empuje | ⬜ | |
 | 14 | ¿Qué Vas A Hacer? | ⬜ | May-Be客演 |
@@ -86,6 +86,11 @@
 | #3 | docs/audio/episode_074_2026-07-29.mp3 | scripts/published/2026-07-29_ep074.json |
 | #4 | docs/audio/episode_075_2026-07-29.mp3 | scripts/published/2026-07-29_ep075.json |
 | #5 | docs/audio/episode_076_2026-07-29.mp3 | scripts/published/2026-07-29_ep076.json |
+| #6 | docs/audio/episode_077_2026-07-31.mp3 | scripts/published/2026-07-31_ep077.json |
+| #7 | docs/audio/episode_078_2026-07-31.mp3 | scripts/published/2026-07-31_ep078.json |
+| #8 | docs/audio/episode_079_2026-07-31.mp3 | scripts/published/2026-07-31_ep079.json |
+| #9 | docs/audio/episode_080_2026-07-31.mp3 | scripts/published/2026-07-31_ep080.json |
+| #10 | docs/audio/episode_081_2026-07-31.mp3 | scripts/published/2026-07-31_ep081.json |
 
 # 第5弾: Radiohead『OK Computer』(完結)
 
