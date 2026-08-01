@@ -10,7 +10,7 @@
 - **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
 - **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
-- **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … 🔄 **進行中**(#1〜#10 配信済み)
+- **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … 🔄 **進行中**(#1〜#15 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -66,12 +66,12 @@
 | 8 | Lo Que Pasó, Pasó | ✅ | 2026-07-31 / #8。Luny Tunes・Eliel／作詞Joan Ortiz。2004-09シングル、Hot Latin Songs 2位・Tropical Songs 1位、Lo Nuestro賞受賞。バチャータ・ミックス。“歌えるレゲトン”への分岐 |
 | 9 | Tu Príncipe | ✅ | 2026-07-31 / #9。Zion & Lennox(本名も作詞クレジット)。Luny Tunes。#2の“王”との対比で読む。二人は同年『Motivando a la Yal』の「Yo Voy」でDYを迎えている |
 | 10 | Cuéntame | ✅ | 2026-07-31 / #10。Luny Tunes・Eliel・Naldo。折り返し地点。当時のDJコンピ文化に対し、Intro/Intermedio/Outroを備えた個人名義21曲という“構造の発明”を論じる回 |
-| 11 | Santifica Tus Escapularios | ⬜ | 次回制作予定。信仰(スカプラリオ)を軸に |
-| 12 | Sabor a Melao | ⬜ | Andy Montañez客演。DtMF #1で既出のサルサの重鎮 |
-| 13 | El Empuje | ⬜ | |
-| 14 | ¿Qué Vas A Hacer? | ⬜ | May-Be客演 |
-| 15 | Salud y Vida | ⬜ | Notch客演 |
-| 16 | Intermedio – Gavilán | ⬜ | Ramsis。中盤の幕間 |
+| 11 | Santifica Tus Escapularios | ✅ | 2026-08-01 / #11。Luny Tunes。アルバム唯一の純ヒップホップ、2小節ループで来歴を語る。エスカプラリオ＝服の下の守り札。第1弾LUXの聖女たちと対比 |
+| 12 | Sabor a Melao | ✅ | 2026-08-01 / #12。DJ Nelson制作、Andy Montañez客演。サルサ側からの“承認の儀式”。El Gran Combo〜Dimensión Latina、2018年ラテン・グラミー生涯功労賞。のちのsalsatónへ |
+| 13 | El Empuje | ✅ | 2026-08-01 / #13。Monserrate & DJ Urba、Glory再登場。Luny Tunes＝外へ出る曲／Monserrate & Urba＝地元の床、という二層構造を論じる回 |
+| 14 | ¿Qué Vas A Hacer? | ✅ | 2026-08-01 / #14。Fido(＝Alexis & FidoのJoel Martínez)制作、May-Be客演。赦しを乞う最も弱気な曲。制作陣の人材密度の話 |
+| 15 | Salud y Vida | ✅ | 2026-08-01 / #15。Crooked Stilo(東LAのエルサルバドル系兄弟)制作、Notch(元Born Jamericans)客演。聖ペトロと敵の祝福。汎ラテン系へ広がる瞬間 |
+| 16 | Intermedio – Gavilán | ⬜ | 次回制作予定。Ramsis。中盤の幕間 |
 | 17 | Corazones | ⬜ | Echo・Diesel制作 |
 | 18 | Golpe de Estado | ⬜ | Tommy Viera客演 |
 | 19 | 2 Mujeres | ⬜ | |
@@ -91,6 +91,11 @@
 | #8 | docs/audio/episode_079_2026-07-31.mp3 | scripts/published/2026-07-31_ep079.json |
 | #9 | docs/audio/episode_080_2026-07-31.mp3 | scripts/published/2026-07-31_ep080.json |
 | #10 | docs/audio/episode_081_2026-07-31.mp3 | scripts/published/2026-07-31_ep081.json |
+| #11 | docs/audio/episode_082_2026-08-01.mp3 | scripts/published/2026-08-01_ep082.json |
+| #12 | docs/audio/episode_083_2026-08-01.mp3 | scripts/published/2026-08-01_ep083.json |
+| #13 | docs/audio/episode_084_2026-08-01.mp3 | scripts/published/2026-08-01_ep084.json |
+| #14 | docs/audio/episode_085_2026-08-01.mp3 | scripts/published/2026-08-01_ep085.json |
+| #15 | docs/audio/episode_086_2026-08-01.mp3 | scripts/published/2026-08-01_ep086.json |
 
 # 第5弾: Radiohead『OK Computer』(完結)
 
