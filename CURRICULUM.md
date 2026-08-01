@@ -10,7 +10,7 @@
 - **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
 - **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
-- **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … 🔄 **進行中**(#1〜#15 配信済み)
+- **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … 🔄 **進行中**(#1〜#20 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -71,12 +71,12 @@
 | 13 | El Empuje | ✅ | 2026-08-01 / #13。Monserrate & DJ Urba、Glory再登場。Luny Tunes＝外へ出る曲／Monserrate & Urba＝地元の床、という二層構造を論じる回 |
 | 14 | ¿Qué Vas A Hacer? | ✅ | 2026-08-01 / #14。Fido(＝Alexis & FidoのJoel Martínez)制作、May-Be客演。赦しを乞う最も弱気な曲。制作陣の人材密度の話 |
 | 15 | Salud y Vida | ✅ | 2026-08-01 / #15。Crooked Stilo(東LAのエルサルバドル系兄弟)制作、Notch(元Born Jamericans)客演。聖ペトロと敵の祝福。汎ラテン系へ広がる瞬間 |
-| 16 | Intermedio – Gavilán | ⬜ | 次回制作予定。Ramsis。中盤の幕間 |
-| 17 | Corazones | ⬜ | Echo・Diesel制作 |
-| 18 | Golpe de Estado | ⬜ | Tommy Viera客演 |
-| 19 | 2 Mujeres | ⬜ | |
-| 20 | Saber Su Nombre | ⬜ | |
-| 21 | Outro | ⬜ | 最終回 |
+| 16 | Intermedio – Gavilán | ✅ | 2026-08-02 / #16。Gavilánが再登場し、バリオの荒さを語る1分12秒の詩。Ramsis制作。Intro・Intermedio・Outroがアルバムの三つの柱になる構造 |
+| 17 | Corazones | ✅ | 2026-08-02 / #17。Echo・Diesel制作。すべての心は異なるという発想から、政治、犯罪、希望、キリスト教的精神性を見つめる社会派ラップ |
+| 18 | Golpe de Estado | ✅ | 2026-08-02 / #18。Tommy Viera客演。Nely制作、Luny Tunes共同制作。『Barrio Fino』によるレゲトンの主導権奪取を宣言。発売時17歳のNelyにも着目 |
+| 19 | 2 Mujeres | ✅ | 2026-08-02 / #19。Luny Tunes制作。妻と恋人との二重生活をユーモラスに描く。のちの『La Nueva y La Ex』の着想源 |
+| 20 | Saber Su Nombre | ✅ | 2026-08-02 / #20。Edgardo Matta制作。本人が「自分の楽しみのため」と語ったスペイン語のダンスホール。通常盤最後の本編曲 |
+| 21 | Outro | ⬜ | 次回制作予定。最終回 |
 
 ### 配信済みファイル対応(第6弾)
 | 話 | 音声 | アーカイブ台本 |
@@ -96,6 +96,11 @@
 | #13 | docs/audio/episode_084_2026-08-01.mp3 | scripts/published/2026-08-01_ep084.json |
 | #14 | docs/audio/episode_085_2026-08-01.mp3 | scripts/published/2026-08-01_ep085.json |
 | #15 | docs/audio/episode_086_2026-08-01.mp3 | scripts/published/2026-08-01_ep086.json |
+| #16 | docs/audio/episode_087_2026-08-02.mp3 | scripts/published/2026-08-02_ep087.json |
+| #17 | docs/audio/episode_088_2026-08-02.mp3 | scripts/published/2026-08-02_ep088.json |
+| #18 | docs/audio/episode_089_2026-08-02.mp3 | scripts/published/2026-08-02_ep089.json |
+| #19 | docs/audio/episode_090_2026-08-02.mp3 | scripts/published/2026-08-02_ep090.json |
+| #20 | docs/audio/episode_091_2026-08-02.mp3 | scripts/published/2026-08-02_ep091.json |
 
 # 第5弾: Radiohead『OK Computer』(完結)
 
