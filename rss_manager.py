@@ -73,6 +73,8 @@ class RSSManager:
         fg.podcast.itunes_category(config.PODCAST_CATEGORY)
         fg.podcast.itunes_explicit("no")
         fg.podcast.itunes_owner(config.PODCAST_AUTHOR, config.PODCAST_EMAIL)
+        if config.PODCAST_NEW_FEED_URL:
+            fg.podcast.itunes_new_feed_url(config.PODCAST_NEW_FEED_URL)
 
         # feedgenは追加した逆順で出力するため、古い順に追加する
         for ep in episodes:

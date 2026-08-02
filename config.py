@@ -66,6 +66,8 @@ PODCAST_COVER_FILE = os.getenv("PODCAST_COVER_FILE", "cover-v2.jpg")
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://example.github.io/podcast").rstrip("/")
 FEED_BASE_URL = os.getenv("FEED_BASE_URL", SITE_BASE_URL).rstrip("/")
 MEDIA_BASE_URL = os.getenv("MEDIA_BASE_URL", SITE_BASE_URL).rstrip("/")
+# 旧フィードを購読中のアプリに移行先を通知する。
+PODCAST_NEW_FEED_URL = os.getenv("PODCAST_NEW_FEED_URL", "").strip()
 
 # --- リトライ設定 ---
 MAX_RETRIES = int(os.getenv("MAX_RETRIES", "5"))
