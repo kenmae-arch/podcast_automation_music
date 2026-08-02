@@ -125,9 +125,9 @@ src/
 
 ## 4. 未実装 / 既知の制約
 
-- HOME、ALBUMS、ALBUM DETAIL、EPISODE DETAIL、共通404は実装済みです。
+- HOME、ALBUMS、ALBUM DETAIL、EPISODE DETAIL、REQUEST、共通404は実装済みです。
   『LUX』と『Barrio Fino』はアルバム／エピソード詳細まで公開済みです。
-  ABOUT、REQUEST、CONTACT、PRIVACY はコンテンツ未実装のため共通404になります
+  ABOUT、CONTACT、PRIVACY はコンテンツ未実装のため共通404になります
 - 画面内遷移は React Router でSPA遷移します。Vite ビルド後に
   `scripts/generate-routes.mjs` が GitHub Pages の直リンク用HTMLも生成します。
   片方だけを削除すると直リンクか画面内遷移のどちらかが壊れるため、両方を維持してください
