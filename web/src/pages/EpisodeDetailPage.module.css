@@ -138,6 +138,10 @@
   line-height: var(--leading-lead);
 }
 
+.preview {
+  margin-bottom: var(--space-6);
+}
+
 .section,
 .roleSection,
 .episodeNav {

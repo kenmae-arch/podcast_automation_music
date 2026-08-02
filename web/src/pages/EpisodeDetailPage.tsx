@@ -12,6 +12,7 @@ import {
   sitePath,
 } from '../data';
 import { ExternalIcon } from '../components/icons';
+import { AppleMusicPreview } from '../components/AppleMusicPreview';
 import { ListenPlatformSheet } from '../components/ListenPlatformSheet';
 import { SeriesArtwork } from '../components/SeriesArtwork';
 import { SiteFooter } from '../components/SiteFooter';
@@ -63,6 +64,9 @@ export function EpisodeDetailPage({ episodeId }: Props) {
   const previous = episodeIndex > 0 ? albumEpisodes[episodeIndex - 1] : undefined;
   const next = episodeIndex >= 0 ? albumEpisodes[episodeIndex + 1] : undefined;
   const heading = episode.title ?? episode.track_title;
+  const openEpisodeListen = (event: { currentTarget: EventTarget | null }) => {
+    listen.openDialog(event);
+  };
 
   return (
     <div className={styles.page} style={themeStyle}>
@@ -100,7 +104,11 @@ export function EpisodeDetailPage({ episodeId }: Props) {
 
                 {episode.web_summary && <p className={styles.lead}>{episode.web_summary}</p>}
 
-                <button type="button" className="btn btn-primary" onClick={listen.openDialog}>
+                <div className={styles.preview}>
+                  <AppleMusicPreview episode={episode} />
+                </div>
+
+                <button type="button" className="btn btn-primary" onClick={openEpisodeListen}>
                   配信アプリで聴く
                   <ExternalIcon size={15} />
                 </button>
@@ -171,7 +179,13 @@ export function EpisodeDetailPage({ episodeId }: Props) {
       </main>
 
       <SiteFooter />
-      <ListenPlatformSheet open={listen.open} onClose={listen.closeDialog} panelRef={listen.panelRef} />
+      <ListenPlatformSheet
+        open={listen.open}
+        onClose={listen.closeDialog}
+        panelRef={listen.panelRef}
+        directUrls={episode.podcast_urls}
+        episodeTitle={episode.track_title}
+      />
 
       <script
         type="application/ld+json"

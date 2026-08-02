@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import type { Episode } from '../data/types';
 import { getAlbum, getEpisodes, getRelatedAlbums, isPublished, safeAccent, site, sitePath } from '../data';
 import { getLastTrack } from '../data/progress';
 import { useCurrentTrack } from '../hooks/useCurrentTrack';
@@ -24,6 +25,7 @@ export function AlbumDetailPage({ albumId }: Props) {
   const episodes = useMemo(() => getEpisodes(albumId), [albumId]);
 
   const listen = useDialog();
+  const [listenEpisode, setListenEpisode] = useState<Episode | null>(null);
   const heroRef = useRef<HTMLDivElement>(null);
   const scrolledPastHero = useScrolledPast(heroRef);
   const { current, inJourney } = useCurrentTrack(episodes.length);
@@ -62,6 +64,17 @@ export function AlbumDetailPage({ albumId }: Props) {
   const firstPublished = episodes.find(isPublished);
   const related = getRelatedAlbums(album);
   const resumeTrack = getLastTrack(album.id);
+  const openGeneralListen = (event: { currentTarget: EventTarget | null }) => {
+    setListenEpisode(null);
+    listen.openDialog(event);
+  };
+  const openEpisodeListen = (
+    episode: Episode,
+    event: { currentTarget: EventTarget | null },
+  ) => {
+    setListenEpisode(episode);
+    listen.openDialog(event);
+  };
 
   // Album accent is scoped to the page root — DESIGN.md §30.
   const themeStyle = accent ? ({ '--album-accent': accent } as React.CSSProperties) : undefined;
@@ -75,7 +88,7 @@ export function AlbumDetailPage({ albumId }: Props) {
         本文へスキップ
       </a>
 
-      <SiteHeader current="ALBUMS" onOpenListen={listen.openDialog} />
+      <SiteHeader current="ALBUMS" onOpenListen={openGeneralListen} />
       <StickyAlbumBar
         album={album}
         current={current}
@@ -90,7 +103,7 @@ export function AlbumDetailPage({ albumId }: Props) {
             album={album}
             firstEpisode={firstPublished}
             resumeTrack={resumeTrack}
-            onOpenListen={listen.openDialog}
+            onOpenListen={openGeneralListen}
           />
         </div>
 
@@ -100,7 +113,7 @@ export function AlbumDetailPage({ albumId }: Props) {
           album={album}
           episodes={episodes}
           current={current}
-          onOpenListen={listen.openDialog}
+          onOpenListen={openEpisodeListen}
         />
 
         <AlbumCompletionCta album={album} firstEpisode={firstPublished} />
@@ -113,6 +126,8 @@ export function AlbumDetailPage({ albumId }: Props) {
         open={listen.open}
         onClose={listen.closeDialog}
         panelRef={listen.panelRef}
+        directUrls={listenEpisode?.podcast_urls}
+        episodeTitle={listenEpisode?.track_title}
       />
 
       {/* CONTENTS.md §39 — CollectionPage + ItemList, no invented ratings. */}

@@ -1,10 +1,21 @@
 import albumsJson from './albums.json';
+import episodeMediaJson from './episode-media.json';
 import episodesJson from './episodes.json';
 import siteJson from './site.json';
-import type { Album, Episode, PlatformLink, SiteSettings } from './types';
+import type { Album, Episode, PlatformKey, PlatformLink, SiteSettings } from './types';
 
 const albums = albumsJson as Album[];
-const episodes = episodesJson as Episode[];
+const episodeMedia = episodeMediaJson as Record<
+  string,
+  { apple_music_track_id?: string; podcast_urls?: Partial<Record<PlatformKey, string>> }
+>;
+const episodes = (episodesJson as Omit<Episode, 'apple_music_track_id' | 'podcast_urls'>[]).map(
+  (episode): Episode => ({
+    ...episode,
+    apple_music_track_id: episodeMedia[episode.id]?.apple_music_track_id ?? null,
+    podcast_urls: episodeMedia[episode.id]?.podcast_urls ?? {},
+  }),
+);
 export const site = siteJson as SiteSettings;
 
 /** Resolve an internal URL against the GitHub Pages project base path. */
@@ -43,8 +54,24 @@ export function getRelatedAlbums(album: Album): Album[] {
 }
 
 /** CONTENTS.md §2: services without a URL are hidden, not disabled. */
-export function availablePlatforms(): PlatformLink[] {
-  return site.platforms.filter((p) => Boolean(p.url));
+export function availablePlatforms(
+  directUrls?: Partial<Record<PlatformKey, string>>,
+): PlatformLink[] {
+  return site.platforms
+    .map((platform) => ({
+      ...platform,
+      url: directUrls === undefined ? platform.url : directUrls[platform.key] ?? null,
+    }))
+    .filter((platform) => Boolean(platform.url));
+}
+
+const APPLE_MUSIC_ALBUM_ID = '1785999696';
+const APPLE_MUSIC_ALBUM_SLUG = 'barrio-fino-deluxe-version';
+
+export function appleMusicUrl(episode: Episode, embed = false): string | null {
+  if (!episode.apple_music_track_id) return null;
+  const host = embed ? 'https://embed.music.apple.com' : 'https://music.apple.com';
+  return `${host}/jp/album/${APPLE_MUSIC_ALBUM_SLUG}/${APPLE_MUSIC_ALBUM_ID}?i=${episode.apple_music_track_id}`;
 }
 
 /**

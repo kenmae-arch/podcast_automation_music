@@ -1,5 +1,6 @@
 import type { RefObject } from 'react';
 import { availablePlatforms, sitePath } from '../data';
+import type { PlatformKey } from '../data/types';
 import { CloseIcon, ExternalIcon } from './icons';
 import styles from './ListenPlatformSheet.module.css';
 
@@ -7,6 +8,8 @@ interface Props {
   open: boolean;
   onClose: () => void;
   panelRef: RefObject<HTMLDivElement | null>;
+  directUrls?: Partial<Record<PlatformKey, string>>;
+  episodeTitle?: string;
 }
 
 /**
@@ -14,10 +17,10 @@ interface Props {
  * Centred modal on desktop, bottom sheet on mobile. Focus handling lives in
  * useDialog. Services without a configured URL are hidden, never disabled.
  */
-export function ListenPlatformSheet({ open, onClose, panelRef }: Props) {
+export function ListenPlatformSheet({ open, onClose, panelRef, directUrls, episodeTitle }: Props) {
   if (!open) return null;
 
-  const platforms = availablePlatforms();
+  const platforms = availablePlatforms(directUrls);
 
   return (
     <div className={styles.scrim} onClick={onClose}>
@@ -31,9 +34,13 @@ export function ListenPlatformSheet({ open, onClose, panelRef }: Props) {
         onClick={(e) => e.stopPropagation()}
       >
         <h2 className={styles.title} id="listen-title">
-          いつものアプリで聴く
+          {episodeTitle ? 'この回を配信アプリで聴く' : 'いつものアプリで聴く'}
         </h2>
-        <p className={styles.lead}>使っている配信サービスを選んでください。</p>
+        <p className={styles.lead}>
+          {episodeTitle
+            ? `「${episodeTitle}」のポッドキャスト回を開きます。`
+            : '使っている配信サービスを選んでください。'}
+        </p>
 
         {platforms.length > 0 ? (
           <ul className={styles.list}>

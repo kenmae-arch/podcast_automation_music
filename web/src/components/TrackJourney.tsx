@@ -1,6 +1,7 @@
 import type { Album, Episode } from '../data/types';
 import { isPublished, latestPublishedTrack, pad2 } from '../data';
 import { TrackRow } from './TrackRow';
+import { AppleMusicPreview } from './AppleMusicPreview';
 import styles from './TrackJourney.module.css';
 
 interface Props {
@@ -8,7 +9,7 @@ interface Props {
   episodes: Episode[];
   /** Owned by the page so the sticky album bar can read the same value. */
   current: number;
-  onOpenListen: (event: { currentTarget: EventTarget | null }) => void;
+  onOpenListen: (episode: Episode, event: { currentTarget: EventTarget | null }) => void;
 }
 
 export function TrackJourney({ album, episodes, current, onOpenListen }: Props) {
@@ -54,6 +55,7 @@ export function TrackJourney({ album, episodes, current, onOpenListen }: Props) 
             <p className={styles.indicatorNote}>
               全{total}曲中、第{current}曲を表示中
             </p>
+            {currentEpisode && <AppleMusicPreview episode={currentEpisode} compact />}
           </div>
         </div>
 
@@ -64,7 +66,7 @@ export function TrackJourney({ album, episodes, current, onOpenListen }: Props) 
               episode={episode}
               isCurrent={episode.track_number === current}
               isLatest={isPublished(episode) && episode.track_number === latest}
-              onOpenListen={onOpenListen}
+              onOpenListen={(event) => onOpenListen(episode, event)}
             />
           ))}
         </ol>

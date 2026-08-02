@@ -78,11 +78,17 @@ export interface Episode {
   /** ISO date. Rendered as YYYY.MM.DD. */
   published: string | null;
   status: EpisodeStatus;
+  /** Apple Music catalog ID for the original song preview. */
+  apple_music_track_id: string | null;
+  /** Direct links to this specific podcast episode. Missing services stay hidden. */
+  podcast_urls: Partial<Record<PlatformKey, string>>;
 }
+
+export type PlatformKey = 'spotify' | 'apple_podcasts' | 'amazon_music';
 
 /** Platform links live in site settings; unset services are hidden (CONTENTS.md §2). */
 export interface PlatformLink {
-  key: 'spotify' | 'apple_podcasts' | 'amazon_music';
+  key: PlatformKey;
   /** Label already carries the action verb — CONTENTS.md §2「LISTEN選択UI」*/
   label: string;
   url: string | null;

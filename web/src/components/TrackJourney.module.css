@@ -86,7 +86,7 @@
 
 @media (min-width: 1024px) {
   .indicatorColumn {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 4;
   }
 
   .indicator {

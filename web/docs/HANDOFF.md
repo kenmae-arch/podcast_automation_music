@@ -23,22 +23,25 @@ CONTENTS.md  →  DESIGN.md  →  参考モックアップ
 
 ## 1. 触ってはいけない設計判断
 
-### 1.1 サイト内に音声プレーヤーを作らない
+### 1.1 ポッドキャスト音声はサイト内で再生しない
 
-このサイトは**音声を再生しません**。実際の聴取は Spotify / Apple Podcasts /
-Amazon Music で行います。したがって次は**意図的に存在しません**。
+ポッドキャスト本編の聴取は Spotify / Apple Podcasts / Amazon Music で行います。
+したがって、ポッドキャスト用として次は**意図的に存在しません**。
 
 - プレーヤー、再生／停止ボタン、三角形の再生アイコン
 - シークバー、音量、前後送り
 - NOW PLAYING 表示、画面下部の固定プレーヤー
 
-「再生ボタンがない」のは実装漏れではありません。追加しないでください。
+「ポッドキャストの再生ボタンがない」のは実装漏れではありません。追加しないでください。
+一方、2026-08-02 の仕様変更により、**原曲試聴専用**の Apple Music iframe は
+例外として実装済みです。アルバムページでは現在トラックと同期して切り替わり、
+エピソード詳細ではその曲に固定されます。スクロールだけで自動再生はしません。
 トラックごとの導線は次の2つだけです。
 
 | CTA | 遷移先 |
 | --- | --- |
 | 解説を見る → | サイト内の EPISODE DETAIL |
-| 配信アプリで聴く ↗ | 配信プラットフォーム選択シート |
+| 配信アプリで聴く ↗ | その曲のポッドキャスト回への配信プラットフォーム選択シート |
 
 主要 CTA には再生アイコンを使わず、右向き矢印か外部リンクアイコンを使います。
 
@@ -95,15 +98,15 @@ UI は CONTENTS.md §38 に従い、欠損項目を**非表示**にします。
 
 ```
 src/
-  data/        albums.json / episodes.json / site.json
+  data/        albums.json / episodes.json / site.json / episode-media.json
                types.ts  … CONTENTS.md §38 のフィールド名をそのまま使用
                index.ts  … アクセサ。欠損時の扱いはここに集約
                progress.ts … 端末内の聴取位置（localStorage のみ、§14）
   styles/      tokens.css  … DESIGN.md §30 の値を転記。ここが唯一の真実
                base.css / system.css
-  components/  各セクション + CSS Modules
+  components/  各セクション + CSS Modules（AppleMusicPreview を含む）
   hooks/       useCurrentTrack / useScrolledPast / useDialog
-  pages/       AlbumDetailPage
+  pages/       AlbumDetailPage / EpisodeDetailPage ほか
 ```
 
 ルートの `tools/sync_website_data.py` が、ポッドキャストの配信データを
@@ -121,10 +124,11 @@ src/
 
 ## 4. 未実装 / 既知の制約
 
-- **EPISODE DETAIL、HOME、ALBUMS など他ページ**は未実装。
-  CTA のリンク先（`/episodes/{id}` 等）は仕様どおりの URL を張ってあります
-- **ルーティングは簡易実装**。`main.tsx` がパスから album id を読むだけ。
-  ページを増やすならルータ導入を推奨
+- HOME、ALBUMS、ABOUT、REQUEST、CONTACT、PRIVACY、EPISODE DETAIL は実装済み。
+  Vite ビルド後に `scripts/generate-routes.mjs` が静的ルートを生成します
+- 曲単位の配信リンクは `episode-media.json` で管理します。Spotify と Apple Podcasts は
+  公開済み20回すべて個別回へ直リンク済みです。Amazon Music は匿名Web版から安定した
+  個別回URLを取得できないため、曲単位シートでは非表示です（一般LISTENでは番組URLを表示）
 - **JS 無効時に全文を出すには SSR / SSG が必要**（現状 CSR のみ）。
   `has-js` の仕組みは入れてあるので、SSG 化すれば要件を満たせます
 - **アプリ本体の書体は Google Fonts 参照**。自己ホストにすると DESIGN.md §27 に
@@ -148,7 +152,7 @@ npm install && npm run build && npm run lint
 - すべての操作要素が 44×44px 以上
 - `h1` は1つ。見出しは h1 → h2 → h3 → h4 の階層
 - モーダル：フォーカス移動・トラップ・Escape・フォーカス復帰・背景スクロール停止
-- 再生系アイコンが DOM に存在しない
+- ポッドキャスト用の再生系アイコンが DOM に存在しない
 - 日本語見出しが単語の途中で改行されていない
 - `aria-hidden` の内側にフォーカス可能要素がない
 - `prefers-reduced-motion` で移動・stagger・smooth scroll が止まる
