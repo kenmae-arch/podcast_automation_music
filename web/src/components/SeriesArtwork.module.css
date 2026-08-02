@@ -11,6 +11,14 @@
   object-fit: cover;
 }
 
+/* Real artwork keeps its intrinsic dimensions. Padding belongs only to the fallback art. */
+img.frame {
+  aspect-ratio: auto;
+  height: auto;
+  padding: 0;
+  object-fit: contain;
+}
+
 .hero {
   padding: var(--space-6);
 }

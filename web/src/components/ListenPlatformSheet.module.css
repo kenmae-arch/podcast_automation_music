@@ -19,7 +19,7 @@
 
 .panel {
   width: 100%;
-  max-width: 520px;
+  max-width: 720px;
   background: var(--color-paper-bright);
   border-radius: var(--radius-md) var(--radius-md) 0 0;
   box-shadow: var(--shadow-modal);
@@ -49,7 +49,14 @@
 }
 
 .list {
-  border-bottom: 1px solid var(--color-line);
+  display: grid;
+  gap: var(--space-3);
+}
+
+@media (min-width: 640px) {
+  .list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .row {
@@ -58,27 +65,35 @@
   justify-content: space-between;
   gap: var(--space-4);
   min-height: 56px;
-  border-top: 1px solid var(--color-line);
+  padding-inline: var(--space-4);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  background: var(--color-paper);
   text-decoration: none;
   font-size: 1rem;
-  transition: color var(--duration-fast) var(--ease-out);
+  transition:
+    border-color var(--duration-fast) var(--ease-out),
+    background-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
 }
 
 .row:hover {
+  border-color: var(--color-line-strong);
+  background: var(--color-paper-bright);
   color: var(--color-signal-dark);
 }
 
 .badgeRow {
   justify-content: center;
-  min-height: 64px;
-  padding-block: var(--space-3);
+  min-height: 76px;
+  padding-block: var(--space-4);
 }
 
 .badge {
   display: block;
   width: auto;
   height: 40px;
-  max-width: 100%;
+  max-width: min(100%, 165px);
   object-fit: contain;
 }
 

@@ -82,7 +82,7 @@ export interface Episode {
 
 /** Platform links live in site settings; unset services are hidden (CONTENTS.md §2). */
 export interface PlatformLink {
-  key: 'spotify' | 'apple_podcasts' | 'amazon_music' | 'rss';
+  key: 'spotify' | 'apple_podcasts' | 'amazon_music';
   /** Label already carries the action verb — CONTENTS.md §2「LISTEN選択UI」*/
   label: string;
   url: string | null;

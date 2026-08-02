@@ -30,11 +30,6 @@
         "src": "/badges/amazon-music.png",
         "dark_src": "/badges/amazon-music-white.png"
       }
-    },
-    {
-      "key": "rss",
-      "label": "RSSで購読する",
-      "url": "https://kenmae-arch.github.io/podcast_automation_music/feed.xml"
     }
   ]
 }
