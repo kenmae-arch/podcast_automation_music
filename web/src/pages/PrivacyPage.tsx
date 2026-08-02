@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { ListenPlatformSheet } from '../components/ListenPlatformSheet';
 import { SiteFooter } from '../components/SiteFooter';
 import { SiteHeader } from '../components/SiteHeader';
@@ -76,6 +77,9 @@ export function PrivacyPage() {
                 アルバムリクエストフォームでは、アーティスト名、アルバム名、選んだ理由、同意状況を取得します。お名前またはハンドルネーム、メールアドレスは任意です。
               </p>
               <p>
+                お問い合わせフォームでは、お問い合わせ種別、お名前またはハンドルネーム、メールアドレス、件名、お問い合わせ内容、同意状況を取得します。
+              </p>
+              <p>
                 また、本サイトの配信や外部コンテンツの表示に伴い、各サービス提供者がIPアドレス、ブラウザ・端末情報、参照元、アクセス日時などの技術情報を処理する場合があります。本サイトにアカウント登録、決済機能はありません。
               </p>
             </section>
@@ -100,7 +104,7 @@ export function PrivacyPage() {
                 <div>
                   <dt>Web3Forms</dt>
                   <dd>
-                    リクエストフォームの送信と通知に利用します。フォームに入力した情報はWeb3Formsへ送信され、同社の方針に従って処理されます。{' '}
+                    リクエストフォームおよびお問い合わせフォームの送信と通知に利用します。フォームに入力した情報はWeb3Formsへ送信され、同社の方針に従って処理されます。{' '}
                     <a href="https://web3forms.com/privacy" {...EXTERNAL_LINK_PROPS}>Web3Forms Privacy Policy ↗</a>
                   </dd>
                 </div>
@@ -168,7 +172,7 @@ export function PrivacyPage() {
               <p className={`${styles.number} mono`}>08</p>
               <h2>開示・訂正・削除の請求</h2>
               <p>
-                本サイトへ送信したご自身の情報について、開示、訂正または削除を希望する場合は、CONTACTページに設置予定のお問い合わせ窓口からご連絡ください。本人確認に必要な情報をお願いする場合があります。
+                本サイトへ送信したご自身の情報について、開示、訂正または削除を希望する場合は、<Link to="/contact">お問い合わせフォーム</Link>からご連絡ください。本人確認に必要な情報をお願いする場合があります。
               </p>
             </section>
 
@@ -184,10 +188,7 @@ export function PrivacyPage() {
               <p className={`${styles.number} mono`}>10</p>
               <h2>お問い合わせ窓口</h2>
               <p>
-                個人情報の取り扱いに関するお問い合わせ窓口は、現在準備中です。CONTACTページの公開時に、本項へ連絡方法を追記します。
-              </p>
-              <p className={styles.notice}>
-                窓口公開までの間、返信や個人情報に関する対応が必要な内容はリクエストフォームへ送信しないでください。
+                個人情報の取り扱いに関するお問い合わせは、<Link to="/contact">お問い合わせフォーム</Link>からお送りください。
               </p>
             </section>
 

@@ -209,12 +209,6 @@
   color: var(--color-signal-dark);
 }
 
-.notice {
-  padding: var(--space-4);
-  border-left: 2px solid var(--color-signal);
-  background: var(--color-paper-bright);
-}
-
 .policyFooter {
   display: flex;
   flex-direction: column;

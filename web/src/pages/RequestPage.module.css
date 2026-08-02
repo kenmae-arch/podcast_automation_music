@@ -148,6 +148,7 @@
 }
 
 .field input,
+.field select,
 .field textarea {
   width: 100%;
   border: 1px solid var(--color-line);
@@ -164,6 +165,20 @@
   padding-inline: var(--space-4);
 }
 
+.field select {
+  min-height: 52px;
+  padding-inline: var(--space-4);
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--color-ink) 50%),
+    linear-gradient(135deg, var(--color-ink) 50%, transparent 50%);
+  background-position:
+    calc(100% - var(--space-5)) 50%,
+    calc(100% - var(--space-4)) 50%;
+  background-size: var(--space-2) var(--space-2), var(--space-2) var(--space-2);
+  background-repeat: no-repeat;
+}
+
 .field textarea {
   min-height: 180px;
   padding: var(--space-4);
@@ -178,11 +193,13 @@
 }
 
 .field input:hover,
+.field select:hover,
 .field textarea:hover {
   border-color: var(--color-line-strong);
 }
 
 .field input:focus-visible,
+.field select:focus-visible,
 .field textarea:focus-visible,
 .consentField input:focus-visible {
   outline: 2px solid var(--color-ink);
@@ -190,6 +207,7 @@
 }
 
 .field input[aria-invalid='true'],
+.field select[aria-invalid='true'],
 .field textarea[aria-invalid='true'] {
   border-color: var(--color-signal);
 }
