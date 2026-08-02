@@ -1,0 +1,50 @@
+.page {
+  min-height: 100vh;
+  background: var(--color-paper);
+}
+
+.main {
+  position: relative;
+  min-height: 62vh;
+  padding-block: var(--space-9) var(--space-10);
+  overflow: hidden;
+}
+
+.code {
+  position: absolute;
+  top: var(--space-7);
+  right: var(--gutter);
+  color: var(--color-paper-shade);
+  font-size: clamp(7rem, 24vw, 20rem);
+  line-height: 0.8;
+  letter-spacing: -0.08em;
+  pointer-events: none;
+}
+
+.main > :global(.label),
+.main h1,
+.body,
+.main > :global(.btn) {
+  position: relative;
+  z-index: 1;
+}
+
+.main > :global(.label) {
+  color: var(--color-signal-dark);
+}
+
+.main h1 {
+  max-width: 11em;
+  margin-top: var(--space-5);
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: var(--text-h1);
+  line-height: var(--leading-h1);
+  letter-spacing: -0.04em;
+}
+
+.body {
+  max-width: 34em;
+  margin-block: var(--space-6);
+  color: var(--color-ink-soft);
+}

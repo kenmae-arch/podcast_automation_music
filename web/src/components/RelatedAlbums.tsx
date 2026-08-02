@@ -1,5 +1,5 @@
 import type { Album } from '../data/types';
-import { sitePath } from '../data';
+import { Link } from 'react-router-dom';
 import { Reveal } from './Reveal';
 import { SeriesArtwork } from './SeriesArtwork';
 import styles from './RelatedAlbums.module.css';
@@ -32,7 +32,7 @@ export function RelatedAlbums({ albums }: Props) {
               <p className={styles.artist}>{album.artist_name}</p>
               <h3 className={styles.albumTitle}>{album.album_title}</h3>
 
-              <a className={`textlink ${styles.cardLink}`} href={sitePath(`/albums/${album.id}`)}>
+              <Link className={`textlink ${styles.cardLink}`} to={`/albums/${album.id}`}>
                 全曲解説を見る
                 <span className="btn-glyph" aria-hidden="true">
                   →
@@ -41,7 +41,7 @@ export function RelatedAlbums({ albums }: Props) {
                 <span className="visually-hidden">
                   （{album.artist_name}『{album.album_title}』）
                 </span>
-              </a>
+              </Link>
             </article>
           </Reveal>
         ))}

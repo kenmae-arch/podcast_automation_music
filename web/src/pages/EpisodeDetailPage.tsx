@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import type { CSSProperties } from 'react';
+import { Link } from 'react-router-dom';
 import {
   formatPublished,
   getAlbum,
@@ -48,10 +49,10 @@ export function EpisodeDetailPage({ episodeId }: Props) {
       <main className={`${styles.notFound} container`}>
         <h1>このエピソードは見つかりませんでした。</h1>
         <p>URLが変更されたか、まだ公開されていない可能性があります。</p>
-        <a className="btn btn-primary" href={sitePath('/albums/barrio-fino')}>
+        <Link className="btn btn-primary" to="/albums/barrio-fino">
           アルバムへ戻る
           <span className="btn-glyph" aria-hidden="true">→</span>
-        </a>
+        </Link>
       </main>
     );
   }
@@ -78,10 +79,10 @@ export function EpisodeDetailPage({ episodeId }: Props) {
       <main id="main" className={styles.main}>
         <article>
           <header className={`${styles.hero} container`}>
-            <a className={`textlink ${styles.back}`} href={sitePath(`/albums/${album.id}`)}>
+            <Link className={`textlink ${styles.back}`} to={`/albums/${album.id}`}>
               <span className="btn-glyph" aria-hidden="true">←</span>
               {album.album_title} 全曲解説へ
-            </a>
+            </Link>
 
             <div className={`${styles.heroGrid} grid`}>
               <div className={styles.copy}>
@@ -160,18 +161,18 @@ export function EpisodeDetailPage({ episodeId }: Props) {
             <p className="label">Keep following the sequence</p>
             <div className={styles.episodeNavGrid}>
               {previous && (
-                <a className={styles.episodeLink} href={sitePath(`/episodes/${previous.id}`)}>
+                <Link className={styles.episodeLink} to={`/episodes/${previous.id}`}>
                   <span className="label">← Previous · Track {pad2(previous.track_number)}</span>
                   <strong>{previous.track_title}</strong>
                   {previous.title && <span>{previous.title}</span>}
-                </a>
+                </Link>
               )}
               {next && (
-                <a className={`${styles.episodeLink} ${styles.next}`} href={sitePath(`/episodes/${next.id}`)}>
+                <Link className={`${styles.episodeLink} ${styles.next}`} to={`/episodes/${next.id}`}>
                   <span className="label">Next · Track {pad2(next.track_number)} →</span>
                   <strong>{next.track_title}</strong>
                   {next.title && <span>{next.title}</span>}
-                </a>
+                </Link>
               )}
             </div>
           </nav>

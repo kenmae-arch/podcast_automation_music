@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import { useDialog } from '../hooks/useDialog';
-import { sitePath } from '../data';
 import { ExternalIcon, CloseIcon } from './icons';
 import styles from './SiteHeader.module.css';
 
@@ -39,27 +39,27 @@ export function SiteHeader({ current, onOpenListen }: Props) {
           Narrow screens use the short logotype so it never wraps to two lines,
           while the accessible name stays the full service name — DESIGN.md §10.
         */}
-        <a className={styles.logo} href={sitePath('/')} aria-label="アルバム全曲解説">
+        <Link className={styles.logo} to="/" aria-label="アルバム全曲解説">
           <span className={styles.logoFull} aria-hidden="true">
             アルバム全曲解説
           </span>
           <span className={styles.logoShort} aria-hidden="true">
             全曲解説
           </span>
-        </a>
+        </Link>
 
         <nav className={styles.nav} aria-label="グローバルナビゲーション">
           {NAV.map((item) => {
             const isCurrent = item.label === current;
             return (
-              <a
+              <NavLink
                 key={item.label}
                 className={`${styles.navLink} ${isCurrent ? styles.navCurrent : ''}`}
-                href={sitePath(item.href)}
+                to={item.href}
                 aria-current={isCurrent ? 'page' : undefined}
               >
                 {item.label}
-              </a>
+              </NavLink>
             );
           })}
         </nav>
@@ -103,14 +103,14 @@ export function SiteHeader({ current, onOpenListen }: Props) {
               {NAV_MOBILE.map((item) => {
                 const isCurrent = item.label === current;
                 return (
-                  <a
+                  <NavLink
                     key={item.label}
                     className={styles.menuLink}
-                    href={sitePath(item.href)}
+                    to={item.href}
                     aria-current={isCurrent ? 'page' : undefined}
                   >
                     {item.label}
-                  </a>
+                  </NavLink>
                 );
               })}
             </nav>

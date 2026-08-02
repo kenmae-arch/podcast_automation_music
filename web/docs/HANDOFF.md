@@ -98,6 +98,7 @@ UI は CONTENTS.md §38 に従い、欠損項目を**非表示**にします。
 
 ```
 src/
+  AppRouter.tsx … React Router のルート定義を集約。basename は Vite の BASE_URL
   data/        albums.json / episodes.json / site.json / episode-media.json
                types.ts  … CONTENTS.md §38 のフィールド名をそのまま使用
                index.ts  … アクセサ。欠損時の扱いはここに集約
@@ -124,8 +125,12 @@ src/
 
 ## 4. 未実装 / 既知の制約
 
-- HOME、ALBUMS、ABOUT、REQUEST、CONTACT、PRIVACY、EPISODE DETAIL は実装済み。
-  Vite ビルド後に `scripts/generate-routes.mjs` が静的ルートを生成します
+- ALBUM DETAIL と EPISODE DETAIL、共通404は実装済み。HOME と ALBUMS は現在の
+  Barrio Fino ページへリダイレクトします。ABOUT、REQUEST、CONTACT、PRIVACY は
+  コンテンツ未実装のため共通404になります
+- 画面内遷移は React Router でSPA遷移します。Vite ビルド後に
+  `scripts/generate-routes.mjs` が GitHub Pages の直リンク用HTMLも生成します。
+  片方だけを削除すると直リンクか画面内遷移のどちらかが壊れるため、両方を維持してください
 - 曲単位の配信リンクは `episode-media.json` で管理します。Spotify と Apple Podcasts は
   公開済み20回すべて個別回へ直リンク済みです。Amazon Music は匿名Web版から安定した
   個別回URLを取得できないため、曲単位シートでは非表示です（一般LISTENでは番組URLを表示）

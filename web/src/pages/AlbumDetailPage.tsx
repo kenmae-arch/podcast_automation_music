@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import type { Episode } from '../data/types';
-import { getAlbum, getEpisodes, getRelatedAlbums, isPublished, safeAccent, site, sitePath } from '../data';
+import { getAlbum, getEpisodes, getRelatedAlbums, isPublished, safeAccent, site } from '../data';
 import { getLastTrack } from '../data/progress';
 import { useCurrentTrack } from '../hooks/useCurrentTrack';
 import { useDialog } from '../hooks/useDialog';
@@ -50,12 +51,12 @@ export function AlbumDetailPage({ albumId }: Props) {
       <main className={`${styles.notFound} container`}>
         <h1>このページは見つかりませんでした。</h1>
         <p>URLが変更されたか、ページが公開されていない可能性があります。</p>
-        <a className="btn btn-primary" href={sitePath('/')}>
+        <Link className="btn btn-primary" to="/albums/barrio-fino">
           アルバムを探す
           <span className="btn-glyph" aria-hidden="true">
             →
           </span>
-        </a>
+        </Link>
       </main>
     );
   }

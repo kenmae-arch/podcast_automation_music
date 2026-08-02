@@ -1,6 +1,7 @@
 import { useId, useState } from 'react';
+import { Link } from 'react-router-dom';
 import type { Episode } from '../data/types';
-import { formatPublished, isPublished, pad2, sitePath } from '../data';
+import { formatPublished, isPublished, pad2 } from '../data';
 import { setLastTrack } from '../data/progress';
 import { ExternalIcon } from './icons';
 import styles from './TrackJourney.module.css';
@@ -96,9 +97,9 @@ export function TrackRow({ episode, isCurrent, isLatest, onOpenListen }: Props) 
         {published ? (
           <>
             {/* Internal: goes to EPISODE DETAIL. */}
-            <a
+            <Link
               className="textlink"
-              href={sitePath(`/episodes/${episode.id}`)}
+              to={`/episodes/${episode.id}`}
               onClick={() => {
                 setLastTrack(episode.album_id, episode.track_number);
               }}
@@ -108,7 +109,7 @@ export function TrackRow({ episode, isCurrent, isLatest, onOpenListen }: Props) 
                 →
               </span>
               <span className="visually-hidden">（{episode.track_title}）</span>
-            </a>
+            </Link>
 
             {/* External: opens the platform picker. Wording *and* icon both say so. */}
             <button type="button" className="textlink textlink-quiet" onClick={onOpenListen}>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { availablePlatforms, site, sitePath } from '../data';
 import { ExternalIcon } from './icons';
 import styles from './SiteFooter.module.css';
@@ -29,9 +30,9 @@ export function SiteFooter() {
           <nav className={styles.nav} aria-label="サイトリンク">
             <p className={`${styles.colLabel} label`}>Site</p>
             {SITE_LINKS.map((link) => (
-              <a key={link.label} className={styles.link} href={sitePath(link.href)}>
+              <Link key={link.label} className={styles.link} to={link.href}>
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
 
