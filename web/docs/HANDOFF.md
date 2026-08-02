@@ -125,10 +125,9 @@ src/
 
 ## 4. 未実装 / 既知の制約
 
-- HOME、ALBUMS、ALBUM DETAIL、EPISODE DETAIL、REQUEST、CONTACT、PRIVACY、共通404は実装済みです。
+- HOME、ALBUMS、ALBUM DETAIL、EPISODE DETAIL、ABOUT、REQUEST、CONTACT、PRIVACY、共通404は実装済みです。
   『LUX』と『Barrio Fino』はアルバム／エピソード詳細まで公開済みです。
-  ABOUTはコンテンツ未実装のため共通404になります。PRIVACYは2026-08-02時点の
-  実装（Web3Forms、Apple Music埋め込み、Google Fonts、GitHub Pages、localStorage）に
+  PRIVACYは2026-08-02時点の実装（Web3Forms、Apple Music埋め込み、Google Fonts、GitHub Pages、localStorage）に
   合わせて作成済みです。外部サービスや解析機能を変更した場合は同時に更新してください
 - 画面内遷移は React Router でSPA遷移します。Vite ビルド後に
   `scripts/generate-routes.mjs` が GitHub Pages の直リンク用HTMLも生成します。

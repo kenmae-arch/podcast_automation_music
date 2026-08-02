@@ -13,6 +13,7 @@ import { NotFoundPage } from './pages/NotFoundPage';
 import { RequestPage } from './pages/RequestPage';
 import { PrivacyPage } from './pages/PrivacyPage';
 import { ContactPage } from './pages/ContactPage';
+import { AboutPage } from './pages/AboutPage';
 import { getAlbum, getEpisode, isPublished } from './data';
 
 function RouteRoot() {
@@ -55,6 +56,7 @@ const router = createBrowserRouter(
         { path: 'request', element: <RequestPage /> },
         { path: 'privacy', element: <PrivacyPage /> },
         { path: 'contact', element: <ContactPage /> },
+        { path: 'about', element: <AboutPage /> },
         { path: '*', element: <NotFoundPage /> },
       ],
     },
