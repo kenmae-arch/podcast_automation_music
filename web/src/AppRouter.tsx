@@ -1,5 +1,4 @@
 import {
-  Navigate,
   Outlet,
   RouterProvider,
   ScrollRestoration,
@@ -9,6 +8,7 @@ import {
 import { AlbumDetailPage } from './pages/AlbumDetailPage';
 import { EpisodeDetailPage } from './pages/EpisodeDetailPage';
 import { HomePage } from './pages/HomePage';
+import { AlbumsPage } from './pages/AlbumsPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { getAlbum, getEpisode, isPublished } from './data';
 
@@ -46,7 +46,7 @@ const router = createBrowserRouter(
       errorElement: <NotFoundPage />,
       children: [
         { index: true, element: <HomePage /> },
-        { path: 'albums', element: <Navigate to="/albums/barrio-fino" replace /> },
+        { path: 'albums', element: <AlbumsPage /> },
         { path: 'albums/:albumId', element: <AlbumRoute /> },
         { path: 'episodes/:episodeId', element: <EpisodeRoute /> },
         { path: '*', element: <NotFoundPage /> },

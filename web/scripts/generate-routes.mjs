@@ -52,7 +52,17 @@ const episodeRoutes = episodes
     };
   });
 
-const routes = [{ route: 'albums', html: template }, ...albumRoutes, ...episodeRoutes];
+const routes = [
+  {
+    route: 'albums',
+    html: withMetadata(
+      'アルバム一覧｜アルバム全曲解説',
+      '一曲ずつたどりながら、作品がどこから始まり、どこへ向かうのかを読み解きます。',
+    ),
+  },
+  ...albumRoutes,
+  ...episodeRoutes,
+];
 
 // These folders contain generated entry documents only; assets live elsewhere.
 await Promise.all([

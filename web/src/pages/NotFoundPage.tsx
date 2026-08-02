@@ -31,8 +31,8 @@ export function NotFoundPage() {
         <p className={styles.body}>
           URLが変更されたか、ページがまだ公開されていない可能性があります。
         </p>
-        <Link className="btn btn-primary" to="/albums/barrio-fino">
-          Barrio Fino 全曲解説へ
+        <Link className="btn btn-primary" to="/albums">
+          アルバムを探す
           <span className="btn-glyph" aria-hidden="true">→</span>
         </Link>
       </main>
