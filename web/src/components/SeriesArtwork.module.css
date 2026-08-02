@@ -1,0 +1,71 @@
+/* 1:1, square corners, thin rule — DESIGN.md §7.1 / §8 */
+.frame {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  background: var(--color-paper-bright);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-none);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  object-fit: cover;
+}
+
+.hero {
+  padding: var(--space-6);
+}
+
+.card {
+  padding: var(--space-5);
+}
+
+.slot {
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  align-self: flex-end;
+  color: var(--color-paper-shade);
+  line-height: var(--leading-track);
+  letter-spacing: -0.02em;
+}
+
+.hero .number {
+  font-size: clamp(5rem, 3rem + 8vw, 9.375rem);
+}
+
+.card .number {
+  font-size: clamp(3.5rem, 2rem + 5vw, 5.5rem);
+}
+
+.accentRule {
+  width: 56px;
+  height: 1px;
+  background: var(--album-accent);
+  margin-bottom: var(--space-4);
+}
+
+.hero .accentRule {
+  width: 88px;
+}
+
+.artist {
+  font-size: var(--text-small);
+  color: var(--color-ink-soft);
+  letter-spacing: 0.02em;
+}
+
+.title {
+  font-family: var(--font-serif);
+  line-height: 1.2;
+  margin-top: var(--space-1);
+}
+
+.hero .title {
+  font-size: 1.875rem;
+}
+
+.card .title {
+  font-size: 1.25rem;
+}

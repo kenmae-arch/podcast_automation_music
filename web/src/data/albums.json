@@ -1,0 +1,172 @@
+[
+  {
+    "id": "barrio-fino",
+    "series_number": 6,
+    "artist_name": "Daddy Yankee",
+    "album_title": "Barrio Fino",
+    "release_year": 2004,
+    "genre": "レゲトン",
+    "language": "スペイン語",
+    "country": "プエルトリコ",
+    "episode_count": 21,
+    "published_count": 20,
+    "status": "in_progress",
+    "introduction": "2004年7月13日にEl Cartel Records / VI Musicから発表された、Daddy Yankeeのスタジオアルバム。全21曲。プエルトリコのアンダーグラウンドで育ったレゲトンを、シングルの集まりではなく一枚のアルバムとして構成した作品です。",
+    "cultural_context": "本作はBillboardのTop Latin Albumsチャートで初登場1位を記録し、レゲトン作品として初めて同チャートの首位に立ちました。2005年には年間で最も売れたラテンアルバムとなり、ラテン・グラミー賞の最優秀アーバン・ミュージック・アルバムを受賞しています。",
+    "selection_reason": "「Gasolina」の一曲だけで語られることの多い作品ですが、本作にはLuny Tunes、Echo、Eliel、Nely、DJ Nelsonをはじめ複数のプロデューサーが参加し、曲ごとにトラックの手触りが変わります。曲順でたどると、シングルとアルバム曲の関係が見えてきます。",
+    "editorial_theme": "アンダーグラウンドの音楽は、どうやって一枚の作品になったのか。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "複数のプロデューサーが並ぶ",
+        "body": "Luny Tunes、Echo、Eliel、Nely、DJ Nelson、Monserrate & DJ Urba、Naldoほか、多くの制作者が関わっています。曲ごとの質感の違いが、通して聴くときの手がかりになります。"
+      },
+      {
+        "kind": "fact",
+        "heading": "「Gasolina」は5曲目に置かれている",
+        "body": "先行して世界的に知られた「Gasolina」は、アルバムでは冒頭ではなく5曲目にあります。単体で聴くときと、曲順の中で聴くときでは、担う役割が変わります。"
+      },
+      {
+        "kind": "reading",
+        "heading": "IntroとOutroが枠をつくる",
+        "body": "本作はIntroで始まり、Outroで閉じます。このシリーズでは、この2曲を導入と締めくくりとしてだけでなく、21曲を一つのまとまりとして示すための枠として捉えます。"
+      }
+    ],
+    "original_artwork": {
+      "src": "art/barrio.jpg",
+      "alt": "Daddy Yankee『Barrio Fino』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [
+      "debi-tirar-mas-fotos",
+      "lux",
+      "good-kid-maad-city"
+    ],
+    "related_reason": null,
+    "accent": "#5A50D6"
+  },
+  {
+    "id": "lux",
+    "series_number": 1,
+    "artist_name": "Rosalía",
+    "album_title": "LUX",
+    "release_year": 2025,
+    "genre": null,
+    "language": "スペイン語",
+    "country": null,
+    "episode_count": 18,
+    "published_count": 18,
+    "status": "complete",
+    "introduction": null,
+    "cultural_context": null,
+    "selection_reason": null,
+    "editorial_theme": null,
+    "listening_points": [],
+    "original_artwork": {
+      "src": "art/lux.jpg",
+      "alt": "Rosalía『LUX』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [],
+    "related_reason": "同じ言語から",
+    "accent": null
+  },
+  {
+    "id": "good-kid-maad-city",
+    "series_number": 2,
+    "artist_name": "Kendrick Lamar",
+    "album_title": "good kid, m.A.A.d city",
+    "release_year": 2012,
+    "genre": null,
+    "language": null,
+    "country": null,
+    "episode_count": 12,
+    "published_count": 12,
+    "status": "complete",
+    "introduction": null,
+    "cultural_context": null,
+    "selection_reason": null,
+    "editorial_theme": null,
+    "listening_points": [],
+    "original_artwork": {
+      "src": "art/gkmc.jpg",
+      "alt": "Kendrick Lamar『good kid, m.A.A.d city』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [],
+    "related_reason": "作品テーマのつながりから",
+    "accent": null
+  },
+  {
+    "id": "lemonade",
+    "series_number": 3,
+    "artist_name": "Beyoncé",
+    "album_title": "Lemonade",
+    "release_year": 2016,
+    "genre": null,
+    "language": null,
+    "country": null,
+    "episode_count": 12,
+    "published_count": 12,
+    "status": "complete",
+    "introduction": null,
+    "cultural_context": null,
+    "selection_reason": null,
+    "editorial_theme": null,
+    "listening_points": [],
+    "original_artwork": {
+      "src": "art/lemonade.jpg",
+      "alt": "Beyoncé『Lemonade』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [],
+    "related_reason": null,
+    "accent": null
+  },
+  {
+    "id": "debi-tirar-mas-fotos",
+    "series_number": 4,
+    "artist_name": "Bad Bunny",
+    "album_title": "DeBÍ TiRAR MáS FOToS",
+    "release_year": 2025,
+    "genre": null,
+    "language": "スペイン語",
+    "country": null,
+    "episode_count": 17,
+    "published_count": 17,
+    "status": "complete",
+    "introduction": null,
+    "cultural_context": null,
+    "selection_reason": null,
+    "editorial_theme": null,
+    "listening_points": [],
+    "original_artwork": {
+      "src": "art/dtmf.jpg",
+      "alt": "Bad Bunny『DeBÍ TiRAR MáS FOToS』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [],
+    "related_reason": "同じ言語から",
+    "accent": null
+  },
+  {
+    "id": "ok-computer",
+    "series_number": 5,
+    "artist_name": "Radiohead",
+    "album_title": "OK Computer",
+    "release_year": 1997,
+    "genre": null,
+    "language": null,
+    "country": null,
+    "episode_count": 12,
+    "published_count": 12,
+    "status": "complete",
+    "introduction": null,
+    "cultural_context": null,
+    "selection_reason": null,
+    "editorial_theme": null,
+    "listening_points": [],
+    "original_artwork": {
+      "src": "art/okc.jpg",
+      "alt": "Radiohead『OK Computer』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [],
+    "related_reason": null,
+    "accent": null
+  }
+]

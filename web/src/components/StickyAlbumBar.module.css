@@ -1,0 +1,71 @@
+/* DESIGN.md §15 — sits under the header, never over it. */
+
+.bar {
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  right: 0;
+  z-index: 35;
+  background: rgba(242, 239, 232, 0.94);
+  border-bottom: 1px solid var(--color-line);
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+  transition:
+    opacity var(--duration-base) var(--ease-out),
+    transform var(--duration-base) var(--ease-out);
+}
+
+@supports (backdrop-filter: blur(12px)) {
+  .bar {
+    backdrop-filter: blur(12px);
+  }
+}
+
+.visible {
+  opacity: 1;
+  transform: none;
+}
+
+.inner {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-5);
+  padding-block: var(--space-3);
+}
+
+.album {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artist {
+  font-size: var(--text-label);
+  letter-spacing: 0.1em;
+  color: var(--color-ink-soft);
+  white-space: nowrap;
+}
+
+.track {
+  margin-left: auto;
+  font-size: var(--text-label);
+  letter-spacing: 0.1em;
+  color: var(--album-accent);
+  white-space: nowrap;
+}
+
+/* Mobile keeps the album name and position only — DESIGN.md §15. */
+@media (max-width: 639px) {
+  .artist {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bar {
+    transform: none;
+  }
+}

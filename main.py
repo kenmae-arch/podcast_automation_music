@@ -15,6 +15,7 @@ from audio_generator import create_audio_generator
 from rss_manager import RSSManager
 from script_generator import create_script_generator
 from topic_fetcher import RSSTopicFetcher
+from tools.sync_website_data import sync_website_data
 
 logger = logging.getLogger(__name__)
 
@@ -78,6 +79,10 @@ def main() -> int:
         RSSManager().add_episode(
             episode.title, episode.description, audio_path, image=episode.image
         )
+
+        # Webサイトの公開話数・日付・要約も同じ一次データから更新する。
+        synced = sync_website_data()
+        logger.info("Webサイトデータを更新しました: Barrio Fino %d/21", synced)
 
         # manualモード: 使用済み台本をアーカイブして二重配信を防ぐ
         if is_manual and config.PENDING_SCRIPT_PATH.exists():

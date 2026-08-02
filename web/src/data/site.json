@@ -1,0 +1,16 @@
+{
+  "site_name": "アルバム全曲解説",
+  "tagline": "アルバムを、曲順で読み解く。",
+  "description": "海外アーティストの名盤を1話1曲でたどる、音楽解説ポッドキャスト。",
+  "editor": "Produced and edited by kenmae",
+  "platforms": [
+    { "key": "spotify", "label": "Spotifyで聴く", "url": null },
+    { "key": "apple_podcasts", "label": "Apple Podcastsで聴く", "url": null },
+    { "key": "amazon_music", "label": "Amazon Musicで聴く", "url": null },
+    {
+      "key": "rss",
+      "label": "RSSで購読する",
+      "url": "https://kenmae-arch.github.io/podcast_automation_music/feed.xml"
+    }
+  ]
+}

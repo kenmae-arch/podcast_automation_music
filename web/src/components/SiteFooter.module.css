@@ -1,0 +1,129 @@
+/* DESIGN.md §22 — ink ground, paper text, quiet underline on hover. */
+
+.footer {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+.inner {
+  padding-block: var(--space-9) var(--space-7);
+}
+
+.statement {
+  margin-bottom: var(--space-8);
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: var(--text-h2);
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+@media (min-width: 1024px) {
+  .statement {
+    margin-bottom: var(--space-10);
+  }
+}
+
+.columns {
+  border-top: 1px solid var(--color-dark-line);
+  padding-top: var(--space-7);
+}
+
+.brand,
+.nav,
+.platforms {
+  grid-column: 1 / -1;
+}
+
+.nav,
+.platforms {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--space-7);
+}
+
+@media (min-width: 640px) {
+  .brand {
+    grid-column: 1 / span 8;
+  }
+
+  .nav {
+    grid-column: 1 / span 4;
+  }
+
+  .platforms {
+    grid-column: 5 / span 4;
+  }
+}
+
+@media (min-width: 1024px) {
+  .brand {
+    grid-column: 1 / span 6;
+  }
+
+  .nav {
+    grid-column: 7 / span 3;
+    margin-top: 0;
+  }
+
+  .platforms {
+    grid-column: 10 / span 3;
+    margin-top: 0;
+  }
+}
+
+.brand {
+  max-width: 30em;
+}
+
+.brandName {
+  margin-bottom: var(--space-4);
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.0625rem;
+}
+
+.brandBody {
+  font-size: var(--text-small);
+  line-height: var(--leading-body);
+  color: var(--color-dark-muted);
+}
+
+.colLabel {
+  margin-bottom: var(--space-3);
+  color: var(--color-ink-faint);
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  align-self: flex-start;
+  min-height: 44px;
+  color: var(--color-paper);
+  text-decoration: none;
+  font-size: var(--text-small);
+  border-bottom: 1px solid transparent;
+}
+
+/* Quiet paper underline rather than the signal colour — DESIGN.md §22. */
+.link:hover {
+  color: var(--color-paper);
+  border-bottom-color: var(--color-paper);
+}
+
+.baseline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-top: var(--space-8);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--color-dark-line);
+}
+
+.fine {
+  font-size: var(--text-label);
+  letter-spacing: 0.08em;
+  color: var(--color-dark-muted);
+}

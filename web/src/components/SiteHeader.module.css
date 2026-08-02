@@ -1,0 +1,205 @@
+/* DESIGN.md §10 — 68px mobile / 88px desktop, transparent until scrolled. */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition:
+    background-color var(--duration-base) var(--ease-out),
+    border-color var(--duration-base) var(--ease-out);
+}
+
+.scrolled {
+  background: rgba(242, 239, 232, 0.94);
+  border-bottom-color: var(--color-line);
+}
+
+/* Blur is an enhancement only — the 94% ground already carries legibility. */
+@supports (backdrop-filter: blur(12px)) {
+  .scrolled {
+    backdrop-filter: blur(12px);
+  }
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px; /* tap target — DESIGN.md §9 */
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.1875rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  white-space: nowrap; /* never wraps to two lines — DESIGN.md §10 */
+}
+
+.logoFull {
+  display: none;
+}
+
+.logoShort {
+  display: inline;
+}
+
+/* Room for the full logotype once the menu button is gone. */
+@media (min-width: 480px) {
+  .logoFull {
+    display: inline;
+  }
+
+  .logoShort {
+    display: none;
+  }
+}
+
+.nav {
+  display: none;
+  align-items: center;
+  gap: var(--space-6);
+  margin-left: auto;
+}
+
+.navLink {
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  color: var(--color-ink-soft);
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  border-bottom: 1px solid transparent;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.navLink:hover {
+  color: var(--color-ink);
+}
+
+.navCurrent {
+  color: var(--color-ink);
+  border-bottom-color: var(--color-ink);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.listen {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  padding-inline: var(--space-5);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-ink);
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  letter-spacing: 0.12em;
+  cursor: pointer;
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.listen:hover {
+  background: var(--color-ink);
+  color: var(--color-paper-bright);
+}
+
+.menuButton {
+  min-height: 44px;
+  min-width: 44px;
+  padding-inline: var(--space-3);
+  background: transparent;
+  border: 0;
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .nav {
+    display: flex;
+  }
+
+  .menuButton {
+    display: none;
+  }
+}
+
+/* ---- Mobile menu sheet — DESIGN.md §10「Mobile」---------------------- */
+
+.menuScrim {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: var(--scrim);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuSheet {
+  width: min(90%, 400px);
+  height: 100%;
+  background: var(--color-paper-bright);
+  border-left: 1px solid var(--color-line);
+  padding: var(--space-5) var(--space-6) var(--space-8);
+  overflow-y: auto;
+}
+
+.menuHead {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: var(--space-6);
+}
+
+.menuClose {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  padding-inline: var(--space-2);
+  background: transparent;
+  border: 0;
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+.menuLink {
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+  border-top: 1px solid var(--color-line);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.menuLink[aria-current='page'] {
+  color: var(--album-accent);
+}
+
+.menuLink:last-child {
+  border-bottom: 1px solid var(--color-line);
+}

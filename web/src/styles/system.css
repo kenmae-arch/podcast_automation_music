@@ -1,0 +1,250 @@
+/*
+ * Design-system primitives — the logical components named in DESIGN.md §29.
+ * Section layout lives in CSS modules; these are the shared pieces.
+ */
+
+/* ---- Layout ---------------------------------------------------------- */
+
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding-inline: var(--gutter);
+}
+
+/* Column grid — DESIGN.md §6.2 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+  gap: var(--grid-gap);
+}
+
+/* Rules start and end on the grid, not the full viewport — DESIGN.md §7.2 */
+.rule {
+  border: 0;
+  border-top: 1px solid var(--color-line);
+}
+
+/* ---- Type roles ------------------------------------------------------ */
+
+/* English label — DESIGN.md §4.3 */
+.label {
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  line-height: var(--leading-label);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-ink-soft);
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.reading {
+  max-width: var(--reading-max);
+}
+
+/* ---- Buttons — DESIGN.md §9 ------------------------------------------ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  min-height: 52px;
+  padding-inline: var(--space-6);
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out);
+}
+
+@media (min-width: 1024px) {
+  .btn {
+    min-height: 56px;
+    padding-inline: var(--space-7);
+  }
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn[aria-disabled='true'],
+.btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* The trailing glyph advances on hover — DESIGN.md §9 */
+.btn .btn-glyph {
+  font-family: var(--font-mono);
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.btn:hover .btn-glyph {
+  transform: translateX(4px);
+}
+
+.btn-primary {
+  background: var(--color-ink);
+  color: var(--color-paper-bright);
+}
+
+.btn-primary:hover {
+  background: var(--color-signal-dark);
+  color: var(--color-paper-bright);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-ink);
+  border-color: var(--color-ink);
+}
+
+.btn-secondary:hover {
+  background: var(--color-ink);
+  color: var(--color-paper-bright);
+}
+
+/* On the dark completion panel. */
+.btn-inverse {
+  background: var(--color-dark-text);
+  color: var(--color-dark-bg);
+}
+
+.btn-inverse:hover {
+  background: var(--color-white);
+  color: var(--color-dark-bg);
+}
+
+/* ---- Links — DESIGN.md §9「Text Link」-------------------------------- */
+
+.textlink {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  /* Padding carries the 44px target for a bare text link — DESIGN.md §9 */
+  min-height: 44px;
+  color: var(--color-ink);
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 0.9375rem;
+  letter-spacing: 0.01em;
+}
+
+/* Underline grows left → right on hover. */
+.textlink::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(50% - 0.9em);
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.textlink:hover::after,
+.textlink:focus-visible::after {
+  transform: scaleX(1);
+}
+
+.textlink-quiet {
+  color: var(--color-ink-soft);
+}
+
+.textlink-quiet:hover {
+  color: var(--color-signal-dark);
+}
+
+.textlink .btn-glyph {
+  font-family: var(--font-mono);
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.textlink:hover .btn-glyph {
+  transform: translateX(4px);
+}
+
+/* ---- Status labels — DESIGN.md §21 ----------------------------------- */
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  height: 26px;
+  padding-inline: 10px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.status-in-progress {
+  border-color: var(--album-accent);
+  color: var(--album-accent);
+}
+
+.status-complete {
+  border-color: var(--color-success);
+  color: var(--color-success);
+}
+
+.status-latest {
+  background: var(--color-signal);
+  color: var(--color-white);
+}
+
+.status-upcoming {
+  border-color: var(--color-line-strong);
+  color: var(--color-ink-soft);
+}
+
+/* ---- Scroll reveal — DESIGN.md §23 ----------------------------------- */
+
+/*
+ * The hidden state is applied only once JS has booted (`has-js` on <html>), so
+ * without JS every block renders plainly visible — DESIGN.md §31-9.
+ */
+.has-js .reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity var(--duration-slow) var(--ease-out),
+    transform var(--duration-slow) var(--ease-out);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.has-js .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Reduced motion keeps the opacity swap but drops the offset and stagger. */
+@media (prefers-reduced-motion: reduce) {
+  .has-js .reveal {
+    transform: none;
+    transition-delay: 0ms;
+  }
+}

@@ -1,0 +1,352 @@
+/*
+ * TRACK JOURNEY — DESIGN.md §16, the page's primary component.
+ * Sits on the brighter paper so the section reads as its own surface.
+ */
+
+.section {
+  background: var(--color-paper-bright);
+  border-block: 1px solid var(--color-line);
+  padding-block: var(--space-9) var(--space-10);
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding-block: var(--space-10) var(--space-11);
+  }
+}
+
+.head {
+  align-items: end;
+  margin-bottom: var(--space-8);
+}
+
+.headText {
+  grid-column: 1 / -1;
+}
+
+.title {
+  margin-top: var(--space-6);
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: var(--text-h1);
+  line-height: var(--leading-h1);
+  letter-spacing: -0.04em;
+}
+
+.intro {
+  grid-column: 1 / -1;
+  margin-top: var(--space-5);
+  max-width: 32em;
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  color: var(--color-ink-soft);
+  text-wrap: pretty;
+}
+
+@media (min-width: 640px) {
+  .headText {
+    grid-column: 1 / span 8;
+  }
+
+  .intro {
+    grid-column: 1 / span 7;
+  }
+}
+
+@media (min-width: 1024px) {
+  .head {
+    margin-bottom: var(--space-9);
+  }
+
+  /*
+   * Six columns, not five: at 1024 the h1 is ~62px and「曲順にたどる。」needs
+   * ~433px, which a five-column measure cannot hold — it broke as「曲順にたど /
+   * る。」, splitting a word. Japanese headings must not wrap mid-word.
+   */
+  .headText {
+    grid-column: 1 / span 6;
+  }
+
+  .intro {
+    grid-column: 7 / span 5;
+    margin-top: 0;
+    padding-bottom: var(--space-2);
+  }
+}
+
+/* ---- Position indicator ---------------------------------------------- */
+
+.indicatorColumn {
+  grid-column: 1 / -1;
+}
+
+.indicator {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .indicatorColumn {
+    grid-column: 1 / span 3;
+  }
+
+  .indicator {
+    display: block;
+    position: sticky;
+    /* Clears the global header plus the sticky album bar. */
+    top: calc(var(--header-height) + 76px);
+  }
+}
+
+.nowReading {
+  color: var(--color-ink-faint);
+}
+
+.bigNumber {
+  margin-top: var(--space-2);
+  font-size: var(--text-track);
+  line-height: var(--leading-track);
+  letter-spacing: -0.04em;
+  color: var(--album-accent);
+  transition: color var(--duration-base) var(--ease-out);
+}
+
+.trackCount {
+  margin-top: var(--space-5);
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+}
+
+.currentTitle {
+  margin-top: var(--space-1);
+  font-family: var(--font-serif);
+  font-size: 1.625rem;
+  line-height: 1.3;
+}
+
+.indicatorTrack {
+  position: relative;
+  height: 1px;
+  max-width: 220px;
+  margin-top: var(--space-5);
+  background: var(--color-line);
+}
+
+.indicatorFill {
+  position: absolute;
+  inset-block: 0;
+  left: 0;
+  background: var(--album-accent);
+  transform-origin: left;
+  transition: width var(--duration-base) var(--ease-out);
+}
+
+.indicatorNote {
+  margin-top: var(--space-4);
+  font-size: 0.8125rem;
+  line-height: 1.7;
+  color: var(--color-ink-faint);
+}
+
+/* ---- Track rows ------------------------------------------------------- */
+
+.list {
+  grid-column: 1 / -1;
+  border-bottom: 1px solid var(--color-line);
+}
+
+@media (min-width: 1024px) {
+  /* Offset one column from the indicator — asymmetry is deliberate (§6.3). */
+  .list {
+    grid-column: 5 / span 8;
+  }
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  grid-template-areas:
+    'number main'
+    '.      actions';
+  gap: var(--space-3) var(--space-4);
+  padding-block: var(--space-6);
+  min-height: 144px;
+  border-top: 1px solid var(--color-line);
+  scroll-margin-top: calc(var(--header-height) + 96px);
+}
+
+@media (min-width: 1024px) {
+  .row {
+    grid-template-columns: 112px 1fr 200px;
+    grid-template-areas: 'number main actions';
+    gap: var(--space-6);
+    padding-block: var(--space-7);
+    min-height: 220px;
+  }
+}
+
+.number {
+  grid-area: number;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--color-ink);
+  transition: color var(--duration-base) var(--ease-out);
+}
+
+@media (min-width: 1024px) {
+  .number {
+    font-size: 2.75rem;
+  }
+}
+
+/* Only the current row's numeral takes the accent — DESIGN.md §16. */
+.rowCurrent .number {
+  color: var(--album-accent);
+}
+
+/*
+ * Unpublished rows recede. DESIGN.md §16 suggests opacity 0.55 but also demands
+ * 4.5:1; opacity on this paper lands right at the edge, so explicit muted tokens
+ * are used instead — same visual intent, contrast guaranteed.
+ */
+.rowUpcoming .number {
+  color: var(--color-line-strong);
+}
+
+.rowUpcoming .trackTitle {
+  color: var(--color-ink-soft);
+}
+
+.main {
+  grid-area: main;
+  min-width: 0;
+}
+
+.titleLine {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.trackTitle {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+@media (min-width: 1024px) {
+  .trackTitle {
+    font-size: 2.125rem;
+  }
+}
+
+.episodeTitle {
+  margin-top: var(--space-4);
+  max-width: 32em;
+  font-size: var(--text-body);
+  line-height: 1.7;
+  color: var(--color-ink-soft);
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 44px;
+  margin-top: var(--space-3);
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: var(--color-ink-soft);
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.toggle:hover {
+  color: var(--color-ink);
+}
+
+.toggleGlyph {
+  font-size: 0.875rem;
+}
+
+/*
+ * Height animation without measuring — 0fr → 1fr keeps it under the 320ms cap
+ * in DESIGN.md §16 and needs no JS layout reads.
+ */
+.summaryWrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--duration-base) var(--ease-out);
+}
+
+.summaryWrap[data-expanded='true'] {
+  grid-template-rows: 1fr;
+}
+
+.summaryInner {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.summary {
+  max-width: 32em;
+  margin-top: var(--space-4);
+  padding-top: var(--space-5);
+  padding-left: var(--space-4);
+  border-top: 1px solid var(--color-line);
+  border-left: 2px solid var(--album-accent);
+  font-size: var(--text-small);
+  line-height: 1.9;
+  color: var(--color-ink-soft);
+  text-wrap: pretty;
+}
+
+.episodeMeta {
+  margin-top: var(--space-4);
+  font-size: var(--text-label);
+  letter-spacing: 0.1em;
+  color: var(--color-ink-faint);
+}
+
+.metaSep {
+  margin-inline: var(--space-2);
+}
+
+.upcomingNote {
+  margin-top: var(--space-4);
+  max-width: 30em;
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  color: var(--color-ink-soft);
+}
+
+.actions {
+  grid-area: actions;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-1);
+}
+
+@media (min-width: 1024px) {
+  .actions {
+    padding-top: var(--space-1);
+  }
+}
+
+.notPublished {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: var(--text-label);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+}

@@ -1,0 +1,61 @@
+/* The page's only dark surface — kept well under the 25% cap in DESIGN.md §3.3. */
+
+.section {
+  background: var(--color-dark-bg);
+  color: var(--color-dark-text);
+  padding-block: var(--space-9);
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding-block: var(--space-10);
+  }
+}
+
+.inner {
+  align-items: center;
+}
+
+.heading {
+  grid-column: 1 / -1;
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: clamp(1.875rem, 1.2rem + 2.6vw, 2.75rem);
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+}
+
+.side {
+  grid-column: 1 / -1;
+  margin-top: var(--space-6);
+}
+
+@media (min-width: 640px) {
+  .heading {
+    grid-column: 1 / span 6;
+  }
+
+  .side {
+    grid-column: 1 / span 7;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading {
+    grid-column: 1 / span 6;
+  }
+
+  .side {
+    grid-column: 8 / span 5;
+    margin-top: 0;
+  }
+}
+
+.body {
+  max-width: 26em;
+  margin-bottom: var(--space-6);
+  font-size: 1.0625rem;
+  line-height: var(--leading-body);
+  color: var(--color-dark-muted);
+  text-wrap: pretty;
+}

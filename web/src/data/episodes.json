@@ -1,0 +1,403 @@
+[
+  {
+    "id": "barrio-fino-01",
+    "episode_number": 72,
+    "series_number": 6,
+    "track_number": 1,
+    "album_id": "barrio-fino",
+    "track_title": "Intro",
+    "title": "上品な、バリオ",
+    "web_summary": "レゲトンを地下から世界へ押し上げた一枚を、全21曲、順番に解説していきます。第1回は1曲目『Intro』。タイトルの「バリオ・フィーノ」＝「上品な下町」という、本来なら並ばない二語をわざと並べた宣言の意味。プロ野球選手を目指していた少年が流れ弾に当たって音楽に転向するまで。",
+    "key_points": [
+      {
+        "heading": "冒頭に置かれるということ",
+        "body": "Introはアルバムの1曲目です。単体で再生されることは多くない一方で、通して聴く人が最初に触れる音でもあります。この位置に何を置くかは、作品の入口の設計にあたります。"
+      },
+      {
+        "heading": "次の曲へ渡すもの",
+        "body": "直後には「King Daddy」が続きます。1曲目から2曲目へ何が引き継がれるのかを意識すると、アルバム前半の組み立てが見えやすくなります。"
+      },
+      {
+        "heading": "枠として聴く",
+        "body": "このシリーズでは、IntroとOutroを対になる枠として捉えます。最後まで聴いたあとに1曲目へ戻ると、同じ音でも聴こえ方が変わることがあります。"
+      }
+    ],
+    "album_role": "21曲の入口にあたります。ここから中盤の「Gasolina」へ向けて、アルバムは少しずつ密度を上げていきます。このシリーズでは、Introを単独で評価する曲ではなく、続く20曲を聴くための構えをつくる場所として扱います。",
+    "audio_file": "audio/episode_072_2026-07-29.mp3",
+    "duration": null,
+    "published": "2026-07-29",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-02",
+    "episode_number": 73,
+    "series_number": 6,
+    "track_number": 2,
+    "album_id": "barrio-fino",
+    "track_title": "King Daddy",
+    "title": "まだ誰も王ではなかった",
+    "web_summary": "第2回は2曲目『King Daddy』。世界的スターがまだ一人もいなかったジャンルで、自分から「王」を名乗った一曲です。あわせて、この曲とアルバムの音を作ったプロデューサー、Luny Tunes(ドミニカ系のFrancisco SaldañaとVíctor Cabrera)の来歴と、",
+    "key_points": [
+      {
+        "heading": "通り名をタイトルに置く",
+        "body": "「King Daddy」はDaddy Yankeeが自身を指して使ってきた呼び名です。2曲目にこの言葉が置かれることで、これが誰の作品なのかが早い段階で示されます。"
+      },
+      {
+        "heading": "Introからの接続",
+        "body": "短いIntroのあと、最初にまとまった形で現れる曲です。ここでアルバムの基調となるテンポと質感が提示されます。"
+      },
+      {
+        "heading": "前半を名刺として聴く",
+        "body": "このシリーズでは、冒頭の数曲を作品の名刺として捉えます。誰が、どんな音で、何を語るのか。その輪郭を聴き手に手渡す区間です。"
+      }
+    ],
+    "album_role": "導入部を締める位置にあります。Introが枠を示し、この曲が具体的な音像を提示することで、3曲目以降の展開へ入る準備が整います。",
+    "audio_file": "audio/episode_073_2026-07-29.mp3",
+    "duration": null,
+    "published": "2026-07-29",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-03",
+    "episode_number": 74,
+    "series_number": 6,
+    "track_number": 3,
+    "album_id": "barrio-fino",
+    "track_title": "Dale Caliente",
+    "title": "名前のない声",
+    "web_summary": "第3回は3曲目『Dale Caliente』。GloryとBlacka-Niceを迎え、Monserrate & DJ UrbaとFidoが手がけたフロア向けの一曲です。",
+    "key_points": [
+      {
+        "heading": "導入から本編へ",
+        "body": "IntroとKing Daddyで枠と名乗りが示されたあと、3曲目はフロア向けの熱量を担います。アルバム前半がどう組み立てられているかが見えてくる位置です。"
+      },
+      {
+        "heading": "タイトルが示す方向",
+        "body": "「Dale Caliente」は熱を促すようなスペイン語の言い回しです。歌詞の内容には踏み込まず、タイトルが示す方向性として押さえておきます。"
+      },
+      {
+        "heading": "山場は突然来ない",
+        "body": "このシリーズでは、3曲目から5曲目までを一続きの区間として捉えます。「Gasolina」が唐突に現れるのではなく、手前で温度が上がっていることを確認します。"
+      }
+    ],
+    "album_role": "前半でテンポと熱量を引き上げる位置にあります。次の「No Me Dejes Solo」、そして「Gasolina」へ続く流れの中で、アルバムが最初の山場に入る入口にあたります。",
+    "audio_file": "audio/episode_074_2026-07-29.mp3",
+    "duration": null,
+    "published": "2026-07-29",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-04",
+    "episode_number": 75,
+    "series_number": 6,
+    "track_number": 4,
+    "album_id": "barrio-fino",
+    "track_title": "No Me Dejes Solo",
+    "title": "ひとりにしないでくれ",
+    "web_summary": "第4回は4曲目『No Me Dejes Solo』。Wisin & Yandelを迎え、彼ら自身も作者に名を連ねたシングルです。Daddy Yankeeはのちに、この曲がWisin & Yandelを国際的に押し上げたと語っています。",
+    "key_points": [
+      {
+        "heading": "Wisin & Yandelの参加",
+        "body": "この曲にはWisin & Yandelが参加しています。当時のプエルトリコのシーンで活動していた二人組で、本作の中でも客演がはっきりと前に出る曲のひとつです。"
+      },
+      {
+        "heading": "シングルとしての側面",
+        "body": "「No Me Dejes Solo」は本作からシングルとして発表されました。アルバムの一曲であると同時に、単体でも流通した曲です。"
+      },
+      {
+        "heading": "5曲目の直前という位置",
+        "body": "このシリーズでは、次に「Gasolina」が控えていることに注目します。ソロと客演を行き来しながら、アルバムは最初の山場へ向かいます。"
+      }
+    ],
+    "album_role": "前半で客演がはっきりと入る曲です。直後に「Gasolina」が控えているため、単独で聴くときよりも、5曲目への助走として働いている面が見えやすくなります。",
+    "audio_file": "audio/episode_075_2026-07-29.mp3",
+    "duration": null,
+    "published": "2026-07-29",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-05",
+    "episode_number": 76,
+    "series_number": 6,
+    "track_number": 5,
+    "album_id": "barrio-fino",
+    "track_title": "Gasolina",
+    "title": "世界の扉をこじ開けた一曲",
+    "web_summary": "第5回は5曲目『Gasolina』。2003年にEddie Deeと共作し、Luny Tunesが仕上げたこの曲が、レゲトンを世界の音楽に変えました。サビの女性の声はGlory——ただしクレジットに名前はありません。",
+    "key_points": [
+      {
+        "heading": "Luny Tunesによる制作",
+        "body": "「Gasolina」はLuny Tunesが手がけました。本作には複数のプロデューサーが参加していますが、この曲は最も広く知られたトラックのひとつです。"
+      },
+      {
+        "heading": "記録に残った評価",
+        "body": "レゲトン曲として初めてラテン・グラミー賞の最優秀レコード部門にノミネートされ、のちにアメリカ議会図書館のNational Recording Registryにも登録されました。2022年にはRolling Stone誌のレゲトン楽曲ランキングで1位に選ばれています。"
+      },
+      {
+        "heading": "5曲目として聴く",
+        "body": "このシリーズでは、この曲を単独のヒットとしてではなく、5曲目という位置から捉えます。前後の曲を知ったうえで聴くと、収まり方が変わります。"
+      }
+    ],
+    "album_role": "アルバムで最も広く知られた曲でありながら、置かれているのは5曲目です。冒頭でも最後でもない位置にあることで、この曲のあとにも16曲が続くという構成そのものが、作品の作りを示しています。",
+    "audio_file": "audio/episode_076_2026-07-29.mp3",
+    "duration": null,
+    "published": "2026-07-29",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-06",
+    "episode_number": 77,
+    "series_number": 6,
+    "track_number": 6,
+    "album_id": "barrio-fino",
+    "track_title": "Like You",
+    "title": "英語で行くか、そのまま行くか",
+    "web_summary": "第6回は6曲目『Like You』。全21曲でただ1曲、全編英語で書かれた曲です。Luny Tunes制作。2005年にシングルとして切られ、Billboard Hot 100で78位、Bubbling Under Hot 100では1位に。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_077_2026-07-31.mp3",
+    "duration": null,
+    "published": "2026-07-31",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-07",
+    "episode_number": 78,
+    "series_number": 6,
+    "track_number": 7,
+    "album_id": "barrio-fino",
+    "track_title": "El Muro",
+    "title": "壁の向こうのブロンクス",
+    "web_summary": "第7回は7曲目『El Muro』(＝壁)。Monserrate & DJ Urbaが手がけた、アルバムでもっとも硬い、ニューヨークのラップに近い手触りの一曲です。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_078_2026-07-31.mp3",
+    "duration": null,
+    "published": "2026-07-31",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-08",
+    "episode_number": 79,
+    "series_number": 6,
+    "track_number": 8,
+    "album_id": "barrio-fino",
+    "track_title": "Lo Que Pasó, Pasó",
+    "title": "起きたことは、起きたこと",
+    "web_summary": "第8回は8曲目『Lo Que Pasó, Pasó』(＝起きたことは、起きたこと)。Luny TunesとElielの共同制作、作詞にJoan Ortiz。2004年9月のシングルで、US Hot Latin Songsで2位、Tropical Songsでは1位。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_079_2026-07-31.mp3",
+    "duration": null,
+    "published": "2026-07-31",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-09",
+    "episode_number": 80,
+    "series_number": 6,
+    "track_number": 9,
+    "album_id": "barrio-fino",
+    "track_title": "Tu Príncipe",
+    "title": "王が、王子になるとき",
+    "web_summary": "第9回は9曲目『Tu Príncipe』(＝君の王子)。Zion & Lennoxを迎え、Luny Tunesが手がけたロマンティコの本命曲です。作詞にはZionとLennox本人の本名も並びます。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_080_2026-07-31.mp3",
+    "duration": null,
+    "published": "2026-07-31",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-10",
+    "episode_number": 81,
+    "series_number": 6,
+    "track_number": 10,
+    "album_id": "barrio-fino",
+    "track_title": "Cuéntame",
+    "title": "なぜ「アルバム」だったのか",
+    "web_summary": "第10回は10曲目『Cuéntame』(＝聞かせてくれ)。Luny Tunes、Eliel、Naldoの三者が関わったトラックです。ここでいったん立ち止まって、この作品の本当の発明について考えます。当時のレゲトンはDJが編むコンピレーション文化で、作品の主語はDJ、アーティストはその客でした。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_081_2026-07-31.mp3",
+    "duration": null,
+    "published": "2026-07-31",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-11",
+    "episode_number": 82,
+    "series_number": 6,
+    "track_number": 11,
+    "album_id": "barrio-fino",
+    "track_title": "Santifica Tus Escapularios",
+    "title": "首から下げた守り札",
+    "web_summary": "第11回は11曲目『Santifica Tus Escapularios』。Luny Tunes制作。アルバムで初めて、レゲトンではなく純粋なヒップホップとして作られた曲で、たった2小節のループの上で、自分の来歴と作品歴を並べていきます。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_082_2026-08-01.mp3",
+    "duration": null,
+    "published": "2026-08-01",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-12",
+    "episode_number": 83,
+    "series_number": 6,
+    "track_number": 12,
+    "album_id": "barrio-fino",
+    "track_title": "Sabor a Melao",
+    "title": "サルサからの承認",
+    "web_summary": "第12回は12曲目『Sabor a Melao』。DJ Nelson制作、そして客演はサルサの重鎮Andy Montañez——El Gran Comboの黄金期を支え、「サルサのゴッドファーザー」と呼ばれる人物です。当時、サルサの世代の多くはレゲトンを音楽とすら認めていませんでした。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_083_2026-08-01.mp3",
+    "duration": null,
+    "published": "2026-08-01",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-13",
+    "episode_number": 84,
+    "series_number": 6,
+    "track_number": 13,
+    "album_id": "barrio-fino",
+    "track_title": "El Empuje",
+    "title": "シングルにならなかった曲",
+    "web_summary": "第13回は13曲目『El Empuje』(＝押し、勢い)。Monserrate & DJ Urbaが手がけ、Gloryが再び登場する一曲です。この二人組は3曲目『Dale Caliente』、4曲目『No Me Dejes Solo』、7曲目『El Muro』、そしてこの13曲目を担当しており、",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_084_2026-08-01.mp3",
+    "duration": null,
+    "published": "2026-08-01",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-14",
+    "episode_number": 85,
+    "series_number": 6,
+    "track_number": 14,
+    "album_id": "barrio-fino",
+    "track_title": "¿Qué Vas a Hacer?",
+    "title": "王が、謝る",
+    "web_summary": "第14回は14曲目『¿Qué Vas A Hacer?』(＝君はどうするつもり?)。相手に赦しを乞う、アルバムでもっとも弱気な一曲で、May-Beの声がそこに対置されます。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_085_2026-08-01.mp3",
+    "duration": null,
+    "published": "2026-08-01",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-15",
+    "episode_number": 86,
+    "series_number": 6,
+    "track_number": 15,
+    "album_id": "barrio-fino",
+    "track_title": "Salud y Vida",
+    "title": "島の外のラテンへ",
+    "web_summary": "第15回は15曲目『Salud y Vida』(＝健康と人生、乾杯の言葉)。制作は東ロサンゼルス育ちのエルサルバドル系兄弟デュオCrooked Stilo、客演はコネチカット出身でBorn Jamericansの片割れだったNotch。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_086_2026-08-01.mp3",
+    "duration": null,
+    "published": "2026-08-01",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-16",
+    "episode_number": 87,
+    "series_number": 6,
+    "track_number": 16,
+    "album_id": "barrio-fino",
+    "track_title": "Intermedio “Gavilán”",
+    "title": "詩が、後半の扉を開く",
+    "web_summary": "第16回は16曲目、約1分12秒の幕間『Intermedio – Gavilán』。声を担うのは元受刑者の詩人Gavilán、制作はアルバムのIntroとOutroも手がけたRamsisです。バリオの荒さを語る短い詩が、なぜ次の社会派ラップ『Corazones』の直前に置かれたのか。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_087_2026-08-02.mp3",
+    "duration": null,
+    "published": "2026-08-01",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-17",
+    "episode_number": 88,
+    "series_number": 6,
+    "track_number": 17,
+    "album_id": "barrio-fino",
+    "track_title": "Corazones",
+    "title": "心は、ひとつではない",
+    "web_summary": "第17回は社会派ラップ『Corazones』。EchoとDieselの制作で、政治、犯罪、希望、キリスト教的な精神性を見つめます。すべての心は異なるという発想から、ニュースが悪い出来事に偏ること、バリオの人々が一枚岩ではないことへ。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_088_2026-08-02.mp3",
+    "duration": null,
+    "published": "2026-08-01",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-18",
+    "episode_number": 89,
+    "series_number": 6,
+    "track_number": 18,
+    "album_id": "barrio-fino",
+    "track_title": "Golpe de Estado",
+    "title": "アルバムによる政権奪取",
+    "web_summary": "第18回はTommy Vieraを迎えた『Golpe de Estado』。題は「クーデター」ですが、語られるのは国家政治ではなく、『Barrio Fino』によってレゲトンの主導権を握るという宣言です。制作は若きNely、共同制作はLuny Tunes。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_089_2026-08-02.mp3",
+    "duration": null,
+    "published": "2026-08-01",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-19",
+    "episode_number": 90,
+    "series_number": 6,
+    "track_number": 19,
+    "album_id": "barrio-fino",
+    "track_title": "2 Mujeres",
+    "title": "笑い話にした二重生活",
+    "web_summary": "第19回はLuny Tunes制作の『2 Mujeres』。妻と恋人、ふたりとの関係を秘密に続ける男を、場面の違いとユーモアで描きます。軽快な語りの裏にある危うさ、アルバムが見せてきた男性像の振れ幅、そして2013年『La Nueva y La Ex』へ受け継がれた着想を解説します。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_090_2026-08-02.mp3",
+    "duration": null,
+    "published": "2026-08-01",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-20",
+    "episode_number": 91,
+    "series_number": 6,
+    "track_number": 20,
+    "album_id": "barrio-fino",
+    "track_title": "Saber Su Nombre",
+    "title": "好きだから作る、スペイン語のダンスホール",
+    "web_summary": "第20回は『Saber Su Nombre』。クラブで出会った相手の名前を知りたいという小さな場面を、スペイン語のダンスホールとして描きます。制作はのちにCalle 13作品でも高く評価されるEdgardo Matta。",
+    "key_points": [],
+    "album_role": null,
+    "audio_file": "audio/episode_091_2026-08-02.mp3",
+    "duration": null,
+    "published": "2026-08-01",
+    "status": "published"
+  },
+  {
+    "id": "barrio-fino-21",
+    "episode_number": null,
+    "series_number": 6,
+    "track_number": 21,
+    "album_id": "barrio-fino",
+    "track_title": "Outro",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
+  }
+]

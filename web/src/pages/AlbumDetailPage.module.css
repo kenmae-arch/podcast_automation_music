@@ -1,0 +1,52 @@
+.page {
+  position: relative;
+  min-height: 100vh;
+  background: var(--color-paper);
+}
+
+/*
+ * Paper grain — DESIGN.md §7.4. A single inline SVG (well under 200KB), fixed
+ * and non-interactive, at 3.5% so it never competes with text. No blend mode,
+ * so it degrades to simply not being there.
+ */
+.grain {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/></filter><rect width='160' height='160' filter='url(%23n)'/></svg>");
+}
+
+.main {
+  position: relative;
+  z-index: 2;
+}
+
+/* Skip link — DESIGN.md §26. Off-screen until focused. */
+.skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 70;
+  padding: var(--space-3) var(--space-5);
+  background: var(--color-ink);
+  color: var(--color-paper-bright);
+  font-size: var(--text-small);
+  text-decoration: none;
+}
+
+.skip:focus {
+  left: var(--space-4);
+  top: var(--space-4);
+}
+
+.notFound {
+  position: relative;
+  z-index: 2;
+  padding-block: var(--space-10);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-5);
+}

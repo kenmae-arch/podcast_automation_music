@@ -1,0 +1,168 @@
+/* CONTENTS.md §15 / DESIGN.md §6.3 — heading left, prose offset right. */
+
+.section {
+  border-top: 1px solid var(--color-line);
+  padding-block: var(--space-9);
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding-block: var(--space-10);
+  }
+}
+
+.head {
+  align-items: start;
+}
+
+.headText {
+  grid-column: 1 / -1;
+  margin-bottom: var(--space-7);
+}
+
+.title {
+  margin-top: var(--space-6);
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: var(--text-h2);
+  line-height: var(--leading-h2);
+  letter-spacing: -0.04em;
+}
+
+.body {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-7);
+}
+
+@media (min-width: 640px) {
+  .headText {
+    grid-column: 1 / span 8;
+  }
+
+  .body {
+    grid-column: 1 / span 8;
+  }
+}
+
+@media (min-width: 1024px) {
+  .headText {
+    grid-column: 1 / span 4;
+    margin-bottom: 0;
+  }
+
+  /* Starts at column 6, not 5 — the offset is what keeps it from feeling boxed. */
+  .body {
+    grid-column: 6 / span 6;
+    padding-top: var(--space-3);
+  }
+}
+
+.paragraph {
+  max-width: 34em; /* 28–42 Japanese characters — DESIGN.md §4.3 */
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  color: var(--color-ink-soft);
+  text-wrap: pretty;
+}
+
+/* ---- Before listening ------------------------------------------------- */
+
+.listening {
+  margin-top: var(--space-9);
+  padding-top: var(--space-7);
+  border-top: 1px solid var(--color-line);
+  align-items: start;
+}
+
+@media (min-width: 1024px) {
+  .listening {
+    margin-top: var(--space-10);
+  }
+}
+
+.listeningHead {
+  grid-column: 1 / -1;
+  margin-bottom: var(--space-6);
+}
+
+.listeningTitle {
+  margin-top: var(--space-3);
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: var(--text-h3);
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+
+.points {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 1024px) {
+  .listeningHead {
+    grid-column: 1 / span 3;
+    margin-bottom: 0;
+    position: sticky;
+    top: calc(var(--header-height) + var(--space-6));
+  }
+
+  .points {
+    grid-column: 5 / span 7;
+  }
+}
+
+.point {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: var(--space-4);
+  padding-block: var(--space-6);
+  border-top: 1px solid var(--color-line);
+}
+
+.point:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.point:last-child {
+  padding-bottom: 0;
+}
+
+.pointNumber {
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  color: var(--album-accent);
+  padding-top: 0.35em;
+}
+
+.pointBody {
+  min-width: 0;
+}
+
+.pointHeading {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+}
+
+.pointKind {
+  display: inline-block;
+  margin-top: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  letter-spacing: 0.08em;
+  color: var(--album-accent);
+}
+
+.pointText {
+  margin-top: var(--space-3);
+  max-width: 34em;
+  font-size: var(--text-small);
+  line-height: 1.9;
+  color: var(--color-ink-soft);
+  text-wrap: pretty;
+}

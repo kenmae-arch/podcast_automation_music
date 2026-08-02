@@ -1,0 +1,180 @@
+/* DESIGN.md §15「ALBUM DETAIL HERO」*/
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding-block: var(--space-8) var(--space-9);
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding-block: var(--space-9) var(--space-10);
+  }
+}
+
+/*
+ * Series number as ground. Bleeds off the right edge so the composition is not
+ * mirror-symmetrical — DESIGN.md §6.3.
+ */
+.ghost {
+  position: absolute;
+  top: -0.16em;
+  right: -0.08em;
+  z-index: 0;
+  font-size: clamp(11rem, 4rem + 30vw, 30rem);
+  line-height: 0.72;
+  letter-spacing: -0.05em;
+  color: color-mix(in srgb, var(--album-accent) 7%, transparent);
+  pointer-events: none;
+  user-select: none;
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+  align-items: start;
+}
+
+.text {
+  grid-column: 1 / -1;
+  /* Text sits half a grid step below the artwork — DESIGN.md §15. */
+  order: 2;
+}
+
+.art {
+  grid-column: 1 / -1;
+  order: 1;
+  max-width: 420px;
+}
+
+@media (min-width: 640px) {
+  .text {
+    grid-column: 1 / span 8;
+    order: 1;
+  }
+
+  .art {
+    grid-column: 1 / span 5;
+    order: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text {
+    grid-column: 1 / span 7;
+    margin-top: var(--space-8);
+  }
+
+  .art {
+    grid-column: 9 / span 4;
+    max-width: none;
+  }
+}
+
+.seriesLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-7);
+}
+
+.seriesLabel .label {
+  color: var(--album-accent);
+}
+
+.seriesRule {
+  display: block;
+  width: 64px;
+  height: 1px;
+  background: var(--album-accent);
+}
+
+.artist {
+  font-size: 1.25rem;
+  letter-spacing: 0.02em;
+  color: var(--color-ink-soft);
+  margin-bottom: var(--space-3);
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: var(--text-display);
+  line-height: var(--leading-display);
+  letter-spacing: -0.03em;
+  /* Long titles wrap to 2–3 lines rather than truncating — DESIGN.md §4.3 */
+  text-wrap: balance;
+}
+
+.meta {
+  margin-top: var(--space-6);
+  font-size: 0.8125rem;
+  letter-spacing: 0.1em;
+  color: var(--color-ink-soft);
+}
+
+.metaSep {
+  margin-inline: var(--space-3);
+  color: var(--color-line-strong);
+}
+
+.concept {
+  margin-top: var(--space-7);
+  max-width: 34ch; /* short Japanese measure — DESIGN.md §4.3 */
+  font-family: var(--font-serif);
+  font-size: var(--text-lead);
+  line-height: 1.55;
+  letter-spacing: 0.01em;
+  border-left: 2px solid var(--album-accent);
+  padding-left: var(--space-4);
+}
+
+.progressBlock {
+  margin-top: var(--space-7);
+  max-width: 520px;
+}
+
+.progressHead {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.progressCount {
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+}
+
+.progressTrack {
+  position: relative;
+  height: 1px;
+  background: var(--color-line);
+}
+
+.progressFill {
+  position: absolute;
+  inset-block: 0;
+  left: 0;
+  background: var(--album-accent);
+  transition: width var(--duration-slow) var(--ease-out);
+}
+
+.progressDot {
+  position: absolute;
+  top: -3px;
+  width: 7px;
+  height: 7px;
+  margin-left: -3px;
+  border-radius: var(--radius-pill);
+  background: var(--album-accent);
+  transition: left var(--duration-slow) var(--ease-out);
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-top: var(--space-7);
+}

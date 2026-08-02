@@ -1,0 +1,126 @@
+/*
+ * Design tokens — transcribed from DESIGN.md §30「CSS変数の基準実装」.
+ * Components must reference these rather than hardcoding values (DESIGN.md §31-3).
+ */
+
+:root {
+  /* Core colors — DESIGN.md §3.1 */
+  --color-paper: #f2efe8;
+  --color-paper-bright: #faf8f3;
+  --color-ink: #151515;
+  --color-ink-soft: #4e4b46;
+  --color-ink-faint: #79756e;
+  --color-line: #cbc6bc;
+  --color-line-strong: #8e8981;
+  --color-signal: #d84b32;
+  --color-signal-dark: #a93422;
+  --color-success: #226a4a;
+  --color-white: #ffffff;
+
+  /* Dark section — DESIGN.md §3.3. Kept under 25% of the page. */
+  --color-dark-bg: #171716;
+  --color-dark-text: #f4f1ea;
+  --color-dark-muted: #aaa69e;
+  --color-dark-line: #3d3b37;
+
+  /* Album accent — DESIGN.md §3.2. Overridden per album on the page root. */
+  --album-accent: #5a50d6;
+  --album-accent-contrast: #ffffff;
+
+  /* Surface derived from the paper tone, used for artwork fallbacks and rules. */
+  --color-paper-shade: #e4e0d7;
+
+  /* Typography — DESIGN.md §4.1 */
+  --font-sans: "Inter", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+  --font-serif: "Instrument Serif", "Noto Serif JP", "Hiragino Mincho ProN", serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+  /* Type scale — DESIGN.md §4.2. clamp() so sizes move continuously. */
+  --text-display-xl: clamp(3.25rem, 1.5rem + 7.5vw, 8.25rem);
+  --text-display: clamp(2.75rem, 1.4rem + 5.8vw, 6rem);
+  --text-h1: clamp(2.25rem, 1.3rem + 4vw, 4.5rem);
+  --text-h2: clamp(1.875rem, 1.35rem + 2.2vw, 3.25rem);
+  --text-h3: clamp(1.4375rem, 1.28rem + 0.7vw, 2rem);
+  --text-lead: clamp(1.1875rem, 1.1rem + 0.32vw, 1.5rem);
+  --text-body: clamp(1rem, 0.97rem + 0.13vw, 1.125rem);
+  --text-small: 0.875rem;
+  --text-label: clamp(0.6875rem, 0.67rem + 0.07vw, 0.75rem);
+  --text-track: clamp(4rem, 0.5rem + 15vw, 10.5rem);
+
+  --leading-display-xl: 0.88;
+  --leading-display: 0.92;
+  --leading-h1: 1;
+  --leading-h2: 1.08;
+  --leading-h3: 1.2;
+  --leading-lead: 1.65;
+  --leading-body: 1.85;
+  --leading-small: 1.65;
+  --leading-label: 1.2;
+  --leading-track: 0.82;
+
+  /* Spacing — DESIGN.md §5, 4px base */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+  --space-11: 10rem;
+
+  /* Radius — DESIGN.md §7.1. Cards stay square; radius is for controls only. */
+  --radius-none: 0;
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-pill: 999px;
+
+  /* Shadow — DESIGN.md §7.3. Cards carry none. */
+  --shadow-modal: 0 24px 80px rgba(21, 21, 21, 0.22);
+  --scrim: rgba(21, 21, 21, 0.52);
+
+  /* Motion — DESIGN.md §23 */
+  --duration-fast: 140ms;
+  --duration-base: 240ms;
+  --duration-slow: 520ms;
+  --duration-ambient: 1200ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* Layout — DESIGN.md §6.1 */
+  --container-max: 90rem; /* 1440px */
+  --content-max: 47.5rem; /* 760px */
+  --reading-max: 42.5rem; /* 680px */
+  --gutter: 20px;
+  --grid-gap: 12px;
+  --grid-columns: 4;
+
+  --header-height: 68px;
+}
+
+/* Column grid + gutters step up by viewport — DESIGN.md §6.2 */
+@media (min-width: 640px) {
+  :root {
+    --gutter: 40px;
+    --grid-gap: 20px;
+    --grid-columns: 8;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --gutter: 48px;
+    --grid-gap: 24px;
+    --grid-columns: 12;
+    --header-height: 88px;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --gutter: 64px;
+    --grid-gap: 32px;
+  }
+}
