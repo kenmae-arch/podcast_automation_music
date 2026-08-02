@@ -33,7 +33,7 @@
       }
     ],
     "original_artwork": {
-      "src": "art/discovery.jpg",
+      "src": "art/discovery.webp",
       "alt": "Daft Punk『Discovery』全曲解説シリーズのアートワーク"
     },
     "related_album_ids": [
@@ -78,7 +78,7 @@
       }
     ],
     "original_artwork": {
-      "src": "art/barrio.jpg",
+      "src": "art/barrio.webp",
       "alt": "Daddy Yankee『Barrio Fino』全曲解説シリーズのアートワーク"
     },
     "related_album_ids": [
@@ -123,7 +123,7 @@
       }
     ],
     "original_artwork": {
-      "src": "art/lux.jpg",
+      "src": "art/lux.webp",
       "alt": "Rosalía『LUX』全曲解説シリーズのアートワーク"
     },
     "related_album_ids": [
@@ -167,7 +167,7 @@
       }
     ],
     "original_artwork": {
-      "src": "art/gkmc.jpg",
+      "src": "art/gkmc.webp",
       "alt": "Kendrick Lamar『good kid, m.A.A.d city』全曲解説シリーズのアートワーク"
     },
     "related_album_ids": [],
@@ -192,7 +192,7 @@
     "editorial_theme": null,
     "listening_points": [],
     "original_artwork": {
-      "src": "art/lemonade.jpg",
+      "src": "art/lemonade.webp",
       "alt": "Beyoncé『Lemonade』全曲解説シリーズのアートワーク"
     },
     "related_album_ids": [],
@@ -217,7 +217,7 @@
     "editorial_theme": null,
     "listening_points": [],
     "original_artwork": {
-      "src": "art/dtmf.jpg",
+      "src": "art/dtmf.webp",
       "alt": "Bad Bunny『DeBÍ TiRAR MáS FOToS』全曲解説シリーズのアートワーク"
     },
     "related_album_ids": [],
@@ -242,7 +242,7 @@
     "editorial_theme": null,
     "listening_points": [],
     "original_artwork": {
-      "src": "art/okc.jpg",
+      "src": "art/okc.webp",
       "alt": "Radiohead『OK Computer』全曲解説シリーズのアートワーク"
     },
     "related_album_ids": [],

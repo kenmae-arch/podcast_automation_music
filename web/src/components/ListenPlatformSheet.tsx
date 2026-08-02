@@ -58,6 +58,10 @@ export function ListenPlatformSheet({ open, onClose, panelRef, directUrls, episo
                       className={styles.badge}
                       src={sitePath(platform.badge.src)}
                       alt={platform.label}
+                      width={180}
+                      height={54}
+                      loading="lazy"
+                      decoding="async"
                     />
                   ) : (
                     <>

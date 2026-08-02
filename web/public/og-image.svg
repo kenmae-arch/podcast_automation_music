@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F2EFE8"/>
+  <path d="M80 88H1120" stroke="#C45135" stroke-width="8"/>
+  <text x="80" y="190" fill="#24211D" font-family="Georgia, 'Noto Serif JP', serif" font-size="72" font-weight="600">アルバム全曲解説</text>
+  <text x="80" y="315" fill="#24211D" font-family="Georgia, 'Noto Serif JP', serif" font-size="54">アルバムを、曲順で読み解く。</text>
+  <text x="80" y="515" fill="#676159" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="30" letter-spacing="4">ALBUMATLAS.JP</text>
+  <circle cx="1050" cy="465" r="70" fill="none" stroke="#C45135" stroke-width="3"/>
+  <circle cx="1050" cy="465" r="8" fill="#C45135"/>
+</svg>

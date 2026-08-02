@@ -123,10 +123,10 @@ export function PrivacyPage() {
                   </dd>
                 </div>
                 <div>
-                  <dt>GitHub Pages</dt>
+                  <dt>Cloudflare</dt>
                   <dd>
-                    本サイトの配信基盤として利用しています。GitHubは、サービス提供やセキュリティのためにアクセス時の技術情報を処理する場合があります。{' '}
-                    <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" {...EXTERNAL_LINK_PROPS}>GitHub General Privacy Statement ↗</a>
+                    本サイト、音声ファイルおよびアクセス解析の配信基盤としてCloudflare Workers、R2、Web Analyticsを利用しています。Cloudflareは、配信、セキュリティおよび匿名の利用状況集計のためにアクセス時の技術情報を処理します。Cloudflare Web AnalyticsはCookieやローカルストレージを使用せず、個人をまたいだ追跡を目的としません。{' '}
+                    <a href="https://www.cloudflare.com/privacypolicy/" {...EXTERNAL_LINK_PROPS}>Cloudflare Privacy Policy ↗</a>
                   </dd>
                 </div>
               </dl>
@@ -139,7 +139,7 @@ export function PrivacyPage() {
               <p className={`${styles.number} mono`}>04</p>
               <h2>アクセス解析</h2>
               <p>
-                現時点で、本サイト独自のGoogle Analytics 4（GA4）その他のアクセス解析ツールは導入していません。導入する場合は本ポリシーを更新し、必要な告知や同意取得を行います。なお、配信基盤や外部サービスが、それぞれのサービス運営のためにログを記録する場合があります。
+                本サイトでは、サイトの改善と障害把握のためCloudflare Web Analyticsを利用します。同サービスはCookieやローカルストレージを使用せず、個人を特定するための利用者プロファイルを作成しません。Google Analytics 4（GA4）は導入していません。配信基盤や外部サービスが、それぞれのサービス運営のためにログを記録する場合があります。
               </p>
             </section>
 

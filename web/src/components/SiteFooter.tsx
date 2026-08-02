@@ -54,6 +54,10 @@ export function SiteFooter() {
                       className={styles.platformBadge}
                       src={sitePath(platform.badge.dark_src ?? platform.badge.src)}
                       alt={platform.label}
+                      width={160}
+                      height={48}
+                      loading="lazy"
+                      decoding="async"
                     />
                   ) : (
                     <>

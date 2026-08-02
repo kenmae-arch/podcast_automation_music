@@ -357,7 +357,14 @@ export function HomePage() {
                     aria-label={`${platform.label}（新しいタブで開きます）`}
                   >
                     {platform.badge ? (
-                      <img src={sitePath(platform.badge.src)} alt={platform.label} />
+                      <img
+                        src={sitePath(platform.badge.src)}
+                        alt={platform.label}
+                        width={180}
+                        height={54}
+                        loading="lazy"
+                        decoding="async"
+                      />
                     ) : platform.label}
                   </a>
                 ))}
