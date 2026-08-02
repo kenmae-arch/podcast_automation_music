@@ -1,4 +1,5 @@
 import { useEffect, useState, type FormEvent } from 'react';
+import { Link } from 'react-router-dom';
 import { ListenPlatformSheet } from '../components/ListenPlatformSheet';
 import { SiteFooter } from '../components/SiteFooter';
 import { SiteHeader } from '../components/SiteHeader';
@@ -292,6 +293,14 @@ export function RequestPage() {
                       />
                       <span>プライバシーポリシーに同意する <RequiredMark /></span>
                     </label>
+                    <Link
+                      className={styles.privacyLink}
+                      to="/privacy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      プライバシーポリシーを確認する ↗
+                    </Link>
                     {errors.consent && <p className={styles.fieldError} id="consent-error"><span aria-hidden="true">!</span> {errors.consent}</p>}
                   </div>
 

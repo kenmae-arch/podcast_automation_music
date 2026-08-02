@@ -11,6 +11,7 @@ import { HomePage } from './pages/HomePage';
 import { AlbumsPage } from './pages/AlbumsPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { RequestPage } from './pages/RequestPage';
+import { PrivacyPage } from './pages/PrivacyPage';
 import { getAlbum, getEpisode, isPublished } from './data';
 
 function RouteRoot() {
@@ -51,6 +52,7 @@ const router = createBrowserRouter(
         { path: 'albums/:albumId', element: <AlbumRoute /> },
         { path: 'episodes/:episodeId', element: <EpisodeRoute /> },
         { path: 'request', element: <RequestPage /> },
+        { path: 'privacy', element: <PrivacyPage /> },
         { path: '*', element: <NotFoundPage /> },
       ],
     },

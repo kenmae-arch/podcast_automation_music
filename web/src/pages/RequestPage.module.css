@@ -245,6 +245,20 @@
   gap: var(--space-2);
 }
 
+.privacyLink {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: var(--space-2);
+  color: var(--color-ink);
+  font-size: var(--text-small);
+  text-underline-offset: 0.2em;
+}
+
+.privacyLink:hover {
+  color: var(--color-signal-dark);
+}
+
 .errorSummary,
 .submitError {
   padding: var(--space-4);
