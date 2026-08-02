@@ -27,8 +27,31 @@ SERIES = {
     "barrio-fino": {"image": "art/barrio.jpg", "tracks": 21, "year": 2004},
 }
 
+TRACK_TITLES = {
+    "lux": [
+        "Sexo, Violencia y Llantas",
+        "Reliquia",
+        "Divinize",
+        "Porcelana",
+        "Mio Cristo Piange Diamanti",
+        "Berghain",
+        "La Perla",
+        "Mundo Nuevo",
+        "De Madrugá",
+        "Dios Es un Stalker",
+        "La Yugular",
+        "Focu ’Ranni",
+        "Sauvignon Blanc",
+        "Jeanne",
+        "Novia Robot",
+        "La Rumba del Perdón",
+        "Memória",
+        "Magnolias",
+    ],
+}
+
 TITLE_PATTERN = re.compile(
-    r"#(?P<track>\d+)\s+(?P<headline>.+)『(?P<track_title>[^『』]+)』$"
+    r"#(?P<track>\d+)\s*(?P<headline>.+)『(?P<track_title>[^『』]+)』$"
 )
 COPYRIGHT_NOTE = re.compile(r"※歌詞の朗読.*$")
 
@@ -44,7 +67,7 @@ def _write_json(path: Path, value: Any) -> None:
     )
 
 
-def _summary(description: str, limit: int = 150) -> str:
+def _summary(description: str, limit: int = 150, min_sentence_boundary: int = 80) -> str:
     """Create display copy from the published show note without adding facts."""
 
     text = description.strip()
@@ -54,12 +77,7 @@ def _summary(description: str, limit: int = 150) -> str:
         text,
         count=1,
     )
-    text = re.sub(
-        r"^第6弾はDaddy Yankeeの『Barrio Fino』\(2004\)。",
-        "",
-        text,
-        count=1,
-    )
+    text = re.sub(r"^第\d+弾は[^。]+。", "", text, count=1)
     text = COPYRIGHT_NOTE.sub("", text).strip()
     if len(text) <= limit:
         return text
@@ -67,7 +85,7 @@ def _summary(description: str, limit: int = 150) -> str:
     clipped = text[: limit - 1]
     for punctuation in ("。", "、"):
         boundary = clipped.rfind(punctuation)
-        if boundary >= 80:
+        if boundary >= min_sentence_boundary:
             return clipped[: boundary + 1]
     return clipped.rstrip() + "…"
 
@@ -76,6 +94,7 @@ def sync_website_data() -> int:
     podcast = _read_json(PODCAST_EPISODES)
     web_episodes = _read_json(WEB_EPISODES)
     albums = _read_json(WEB_ALBUMS)
+    albums_by_id = {album["id"]: album for album in albums}
 
     published_by_image: dict[str, list[tuple[int, dict[str, Any]]]] = {}
     for episode_number, episode in enumerate(podcast, start=1):
@@ -83,17 +102,53 @@ def sync_website_data() -> int:
         if image:
             published_by_image.setdefault(image, []).append((episode_number, episode))
 
-    barrio_sources: dict[int, tuple[int, dict[str, Any], re.Match[str]]] = {}
-    barrio_image = SERIES["barrio-fino"]["image"]
-    for episode_number, source in published_by_image.get(barrio_image, []):
-        match = TITLE_PATTERN.search(source.get("title", ""))
-        if match:
-            barrio_sources[int(match.group("track"))] = (episode_number, source, match)
+    existing_ids = {episode["id"] for episode in web_episodes}
+    for album_id, track_titles in TRACK_TITLES.items():
+        album = albums_by_id[album_id]
+        for track_number, track_title in enumerate(track_titles, start=1):
+            episode_id = f"{album_id}-{track_number:02d}"
+            if episode_id in existing_ids:
+                continue
+            web_episodes.append(
+                {
+                    "id": episode_id,
+                    "episode_number": None,
+                    "series_number": album["series_number"],
+                    "track_number": track_number,
+                    "album_id": album_id,
+                    "track_title": track_title,
+                    "title": None,
+                    "web_summary": None,
+                    "key_points": [],
+                    "album_role": None,
+                    "audio_file": None,
+                    "duration": None,
+                    "published": None,
+                    "status": "upcoming",
+                }
+            )
+
+    sources_by_album: dict[
+        str, dict[int, tuple[int, dict[str, Any], re.Match[str]]]
+    ] = {}
+    for album_id in {*TRACK_TITLES, "barrio-fino"}:
+        album_sources: dict[int, tuple[int, dict[str, Any], re.Match[str]]] = {}
+        image = SERIES[album_id]["image"]
+        for episode_number, source in published_by_image.get(image, []):
+            match = TITLE_PATTERN.search(source.get("title", ""))
+            if match:
+                album_sources[int(match.group("track"))] = (
+                    episode_number,
+                    source,
+                    match,
+                )
+        sources_by_album[album_id] = album_sources
 
     for target in web_episodes:
-        if target.get("album_id") != "barrio-fino":
+        album_sources = sources_by_album.get(target.get("album_id"))
+        if album_sources is None:
             continue
-        found = barrio_sources.get(target["track_number"])
+        found = album_sources.get(target["track_number"])
         if not found:
             target.update(
                 {
@@ -113,7 +168,10 @@ def sync_website_data() -> int:
             {
                 "episode_number": episode_number,
                 "title": match.group("headline").strip(),
-                "web_summary": _summary(source["description"]),
+                "web_summary": _summary(
+                    source["description"],
+                    min_sentence_boundary=50 if target["album_id"] == "lux" else 80,
+                ),
                 "audio_file": f"audio/{source['audio_file']}",
                 "published": source["published"].split("T", 1)[0],
                 "status": "published",
@@ -140,9 +198,9 @@ def sync_website_data() -> int:
 
     _write_json(WEB_EPISODES, web_episodes)
     _write_json(WEB_ALBUMS, albums)
-    return len(barrio_sources)
+    return sum(len(sources) for sources in sources_by_album.values())
 
 
 if __name__ == "__main__":
     count = sync_website_data()
-    print(f"website data synced: Barrio Fino {count}/21 episodes")
+    print(f"website data synced: {count} published episodes")

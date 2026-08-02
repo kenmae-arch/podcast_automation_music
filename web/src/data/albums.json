@@ -50,24 +50,43 @@
     "artist_name": "Rosalía",
     "album_title": "LUX",
     "release_year": 2025,
-    "genre": null,
-    "language": "スペイン語",
-    "country": null,
+    "genre": "アートポップ／オーケストラル",
+    "language": "14言語",
+    "country": "スペイン",
     "episode_count": 18,
     "published_count": 18,
     "status": "complete",
-    "introduction": null,
-    "cultural_context": null,
-    "selection_reason": null,
-    "editorial_theme": null,
-    "listening_points": [],
+    "introduction": "2025年11月に発表されたRosalíaの4作目。ロンドン交響楽団を迎え、全18曲を4つの楽章として組み上げた作品です。14の言語を行き来しながら、世俗と神聖、身体と精神、愛と喪失のあいだをたどります。",
+    "cultural_context": "各地の女性聖人や神秘家の物語を手がかりに、カトリックだけに閉じない複数の信仰と文化を横断します。クラシック、オペラ、フラメンコ、電子音楽、ファドなどが、ひとつの物語の中で接続されています。",
+    "selection_reason": "一曲ごとに言語も様式も大きく変わる一方、4楽章の流れを追うと、欲望から超越へ向かう道筋が見えてきます。単曲ではつかみにくい設計を、曲順に沿って聴く価値がある一枚です。",
+    "editorial_theme": "世俗と神聖のあいだで、人はどう変容するのか。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "18曲を4つの楽章で聴く",
+        "body": "曲は4つの楽章に分けて構成されています。音色の変化だけでなく、それぞれの区切りと次の楽章の始まりに注目すると、作品全体の動きが見えます。"
+      },
+      {
+        "kind": "fact",
+        "heading": "14の言語を行き来する",
+        "body": "スペイン語に加え、カタルーニャ語、イタリア語、ドイツ語、アラビア語、ポルトガル語など複数の言語が使われます。意味だけでなく、声の響きが変わる瞬間も聴きどころです。"
+      },
+      {
+        "kind": "reading",
+        "heading": "光へ向かう物語として聴く",
+        "body": "このシリーズでは、冒頭の世俗と神聖の対比から、最終曲の死と祝祭までを、自己を手放しながら光へ近づく一続きの変容として捉えます。"
+      }
+    ],
     "original_artwork": {
       "src": "art/lux.jpg",
       "alt": "Rosalía『LUX』全曲解説シリーズのアートワーク"
     },
-    "related_album_ids": [],
+    "related_album_ids": [
+      "debi-tirar-mas-fotos",
+      "good-kid-maad-city"
+    ],
     "related_reason": "同じ言語から",
-    "accent": null
+    "accent": "#A88B50"
   },
   {
     "id": "good-kid-maad-city",

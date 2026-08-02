@@ -7,12 +7,22 @@ import type { Album, Episode, PlatformKey, PlatformLink, SiteSettings } from './
 const albums = albumsJson as Album[];
 const episodeMedia = episodeMediaJson as Record<
   string,
-  { apple_music_track_id?: string; podcast_urls?: Partial<Record<PlatformKey, string>> }
+  {
+    apple_music_track_id?: string;
+    apple_music_url?: string;
+    podcast_urls?: Partial<Record<PlatformKey, string>>;
+  }
 >;
-const episodes = (episodesJson as Omit<Episode, 'apple_music_track_id' | 'podcast_urls'>[]).map(
+const episodes = (
+  episodesJson as Omit<
+    Episode,
+    'apple_music_track_id' | 'apple_music_url' | 'podcast_urls'
+  >[]
+).map(
   (episode): Episode => ({
     ...episode,
     apple_music_track_id: episodeMedia[episode.id]?.apple_music_track_id ?? null,
+    apple_music_url: episodeMedia[episode.id]?.apple_music_url ?? null,
     podcast_urls: episodeMedia[episode.id]?.podcast_urls ?? {},
   }),
 );
@@ -84,13 +94,22 @@ export function availablePlatforms(
     .filter((platform) => Boolean(platform.url));
 }
 
-const APPLE_MUSIC_ALBUM_ID = '1785999696';
-const APPLE_MUSIC_ALBUM_SLUG = 'barrio-fino-deluxe-version';
+const APPLE_MUSIC_ALBUMS: Record<string, { id: string; slug: string }> = {
+  'barrio-fino': { id: '1785999696', slug: 'barrio-fino-deluxe-version' },
+  lux: { id: '1893474283', slug: 'lux-complete-works' },
+};
 
 export function appleMusicUrl(episode: Episode, embed = false): string | null {
+  if (episode.apple_music_url) {
+    return embed
+      ? episode.apple_music_url.replace('https://music.apple.com', 'https://embed.music.apple.com')
+      : episode.apple_music_url;
+  }
   if (!episode.apple_music_track_id) return null;
+  const album = APPLE_MUSIC_ALBUMS[episode.album_id];
+  if (!album) return null;
   const host = embed ? 'https://embed.music.apple.com' : 'https://music.apple.com';
-  return `${host}/jp/album/${APPLE_MUSIC_ALBUM_SLUG}/${APPLE_MUSIC_ALBUM_ID}?i=${episode.apple_music_track_id}`;
+  return `${host}/jp/album/${album.slug}/${album.id}?i=${episode.apple_music_track_id}`;
 }
 
 /**

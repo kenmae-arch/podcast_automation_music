@@ -80,6 +80,8 @@ export interface Episode {
   status: EpisodeStatus;
   /** Apple Music catalog ID for the original song preview. */
   apple_music_track_id: string | null;
+  /** Full Apple Music URL when an album needs its own catalog/slug. */
+  apple_music_url: string | null;
   /** Direct links to this specific podcast episode. Missing services stay hidden. */
   podcast_urls: Partial<Record<PlatformKey, string>>;
 }
