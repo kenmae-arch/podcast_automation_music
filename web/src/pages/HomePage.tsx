@@ -229,7 +229,6 @@ export function HomePage() {
               )}
               {latestCurrent && (
                 <div className={styles.latestCurrent}>
-                  <span className="status status-latest">LATEST</span>
                   <span className={`${styles.latestNumber} mono`}>{pad2(latestCurrent.track_number)}</span>
                   <span>
                     <span className={styles.latestTrack}>{latestCurrent.track_title}</span>
@@ -296,7 +295,7 @@ export function HomePage() {
 
         <section className={`${styles.latest} container`} aria-labelledby="latest-title">
           <Reveal>
-            <div className={styles.sectionRule}><p className="label">LATEST EPISODES</p></div>
+            <div className={styles.sectionRule}><p className="label">RECENT EPISODES</p></div>
             <h2 id="latest-title">新しく公開した解説</h2>
           </Reveal>
           {latestEpisodes.length > 0 ? (

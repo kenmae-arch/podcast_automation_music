@@ -9,11 +9,10 @@ import styles from './TrackJourney.module.css';
 interface Props {
   episode: Episode;
   isCurrent: boolean;
-  isLatest: boolean;
   onOpenListen: (event: { currentTarget: EventTarget | null }) => void;
 }
 
-export function TrackRow({ episode, isCurrent, isLatest, onOpenListen }: Props) {
+export function TrackRow({ episode, isCurrent, onOpenListen }: Props) {
   const [expanded, setExpanded] = useState(false);
   const summaryId = useId();
   const published = isPublished(episode);
@@ -43,7 +42,6 @@ export function TrackRow({ episode, isCurrent, isLatest, onOpenListen }: Props) 
             {episode.track_title}
           </h3>
 
-          {isLatest && published && <span className="status status-latest">Latest</span>}
           {!published && <span className="status status-upcoming">Upcoming</span>}
         </div>
 

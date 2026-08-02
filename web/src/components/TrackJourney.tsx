@@ -1,5 +1,5 @@
 import type { Album, Episode } from '../data/types';
-import { isPublished, latestPublishedTrack, pad2 } from '../data';
+import { pad2 } from '../data';
 import { TrackRow } from './TrackRow';
 import { AppleMusicPreview } from './AppleMusicPreview';
 import styles from './TrackJourney.module.css';
@@ -13,7 +13,6 @@ interface Props {
 }
 
 export function TrackJourney({ album, episodes, current, onOpenListen }: Props) {
-  const latest = latestPublishedTrack(episodes);
   const currentEpisode = episodes.find((e) => e.track_number === current);
   const total = album.episode_count;
 
@@ -65,7 +64,6 @@ export function TrackJourney({ album, episodes, current, onOpenListen }: Props) 
               key={episode.id}
               episode={episode}
               isCurrent={episode.track_number === current}
-              isLatest={isPublished(episode) && episode.track_number === latest}
               onOpenListen={(event) => onOpenListen(episode, event)}
             />
           ))}

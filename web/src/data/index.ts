@@ -121,12 +121,6 @@ export function isPublished(episode: Episode): boolean {
   return episode.status === 'published' && Boolean(episode.web_summary);
 }
 
-/** Latest published track number, or null when nothing is published yet. */
-export function latestPublishedTrack(episodes: Episode[]): number | null {
-  const published = episodes.filter(isPublished);
-  return published.length ? published[published.length - 1].track_number : null;
-}
-
 /** CONTENTS.md §0: dates render as YYYY.MM.DD, and only when present. */
 export function formatPublished(iso: string | null): string | null {
   if (!iso) return null;

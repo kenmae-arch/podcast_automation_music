@@ -211,11 +211,6 @@
   color: var(--color-success);
 }
 
-.status-latest {
-  background: var(--color-signal);
-  color: var(--color-white);
-}
-
 .status-upcoming {
   border-color: var(--color-line-strong);
   color: var(--color-ink-soft);
