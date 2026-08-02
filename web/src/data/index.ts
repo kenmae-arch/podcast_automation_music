@@ -36,6 +36,14 @@ export function getAlbum(id: string): Album | undefined {
   return albums.find((a) => a.id === id);
 }
 
+/** All albums in editorial display order: current series, then the archive. */
+export function getAlbums(): Album[] {
+  return [...albums].sort((a, b) => {
+    if (a.status !== b.status) return a.status === 'in_progress' ? -1 : 1;
+    return a.series_number - b.series_number;
+  });
+}
+
 /** Episodes for an album, always in track order — the sequence is the point. */
 export function getEpisodes(albumId: string): Episode[] {
   return episodes
@@ -45,6 +53,17 @@ export function getEpisodes(albumId: string): Episode[] {
 
 export function getEpisode(id: string): Episode | undefined {
   return episodes.find((episode) => episode.id === id);
+}
+
+/** Published episodes for HOME, newest first with track order as the tie-breaker. */
+export function getLatestEpisodes(limit = 5): Episode[] {
+  return episodes
+    .filter(isPublished)
+    .sort((a, b) => {
+      const dateOrder = (b.published ?? '').localeCompare(a.published ?? '');
+      return dateOrder || b.track_number - a.track_number;
+    })
+    .slice(0, limit);
 }
 
 export function getRelatedAlbums(album: Album): Album[] {

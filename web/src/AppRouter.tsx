@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 import { AlbumDetailPage } from './pages/AlbumDetailPage';
 import { EpisodeDetailPage } from './pages/EpisodeDetailPage';
+import { HomePage } from './pages/HomePage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { getAlbum, getEpisode, isPublished } from './data';
 
@@ -44,7 +45,7 @@ const router = createBrowserRouter(
       element: <RouteRoot />,
       errorElement: <NotFoundPage />,
       children: [
-        { index: true, element: <Navigate to="/albums/barrio-fino" replace /> },
+        { index: true, element: <HomePage /> },
         { path: 'albums', element: <Navigate to="/albums/barrio-fino" replace /> },
         { path: 'albums/:albumId', element: <AlbumRoute /> },
         { path: 'episodes/:episodeId', element: <EpisodeRoute /> },
