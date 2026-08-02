@@ -9,7 +9,8 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  /* Route restoration must switch at the top without showing a scroll trip. */
+  scroll-behavior: auto;
   /* Anchored tracks must clear the sticky header + album bar. */
   scroll-padding-top: calc(var(--header-height) + 92px);
 }

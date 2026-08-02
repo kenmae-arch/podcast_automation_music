@@ -92,6 +92,8 @@ UI は CONTENTS.md §38 に従い、欠損項目を**非表示**にします。
 | 6 | ロゴのタップ領域が 35px（44px 未満） | `min-height: 44px` | `SiteHeader.module.css` |
 | 7 | 1024px で見出しが「曲順にたど／る。」と**単語の途中で改行**（日本語の不自然な改行は禁止事項） | 見出し列を 5→6 カラムに拡張 | `TrackJourney.module.css` |
 | 8 | 配信先が UTF-8 を宣言しないと日本語が文字化け | プレビュー生成物を ASCII のみで構成 | `scripts/build-preview.mjs` |
+| 9 | SPA遷移の先頭復元に `scroll-behavior: smooth` が適用され、ページを上へ巻き戻す動きが見えた | 先頭復元は瞬時に切り替わるよう、文書全体のスクロール動作を `auto` に統一 | `base.css` |
+| 10 | スクロール後だけモバイルメニューの中身が欠ける場合があった。ヘッダーの `backdrop-filter` 配下に全画面固定要素を置いていたため | メニューを `document.body` 直下へポータルし、独立したビューポート固定レイヤーに変更 | `SiteHeader.tsx` / `SiteHeader.module.css` |
 
 ---
 

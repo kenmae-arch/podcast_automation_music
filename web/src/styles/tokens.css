@@ -47,11 +47,12 @@
   --text-label: clamp(0.6875rem, 0.67rem + 0.07vw, 0.75rem);
   --text-track: clamp(4rem, 0.5rem + 15vw, 10.5rem);
 
-  --leading-display-xl: 0.88;
-  --leading-display: 0.92;
-  --leading-h1: 1;
-  --leading-h2: 1.08;
-  --leading-h3: 1.2;
+  /* Multi-line headings need breathing room, especially on narrow screens. */
+  --leading-display-xl: 1.06;
+  --leading-display: 1.08;
+  --leading-h1: 1.16;
+  --leading-h2: 1.22;
+  --leading-h3: 1.32;
   --leading-lead: 1.65;
   --leading-body: 1.85;
   --leading-small: 1.65;
@@ -115,6 +116,11 @@
     --grid-gap: 24px;
     --grid-columns: 12;
     --header-height: 88px;
+    --leading-display-xl: 1;
+    --leading-display: 1.04;
+    --leading-h1: 1.12;
+    --leading-h2: 1.18;
+    --leading-h3: 1.28;
   }
 }
 

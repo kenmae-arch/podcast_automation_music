@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { Link, NavLink } from 'react-router-dom';
 import { useDialog } from '../hooks/useDialog';
 import { ExternalIcon, CloseIcon } from './icons';
@@ -76,47 +77,63 @@ export function SiteHeader({ current, onOpenListen }: Props) {
             onClick={menu.openDialog}
             aria-expanded={menu.open}
             aria-haspopup="dialog"
+            aria-label="メニューを開く"
           >
-            メニューを開く
+            <span className={styles.menuGlyph} aria-hidden="true">
+              <span className={styles.menuStroke} />
+              <span className={styles.menuStroke} />
+              <span className={styles.menuStroke} />
+            </span>
           </button>
         </div>
       </div>
 
-      {menu.open && (
-        <div className={styles.menuScrim} onClick={menu.closeDialog}>
-          <div
-            className={styles.menuSheet}
-            ref={menu.panelRef}
-            role="dialog"
-            aria-modal="true"
-            aria-label="メニュー"
-            tabIndex={-1}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className={styles.menuHead}>
-              <button type="button" className={styles.menuClose} onClick={menu.closeDialog}>
-                <CloseIcon />
-                メニューを閉じる
-              </button>
+      {menu.open &&
+        createPortal(
+          <div className={styles.menuScrim} onClick={menu.closeDialog}>
+            <div
+              className={styles.menuSheet}
+              ref={menu.panelRef}
+              role="dialog"
+              aria-modal="true"
+              aria-label="メニュー"
+              tabIndex={-1}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className={styles.menuHead}>
+                <div className={styles.menuIdentity} aria-hidden="true">
+                  <span>MENU</span>
+                  <span>INDEX</span>
+                </div>
+                <button type="button" className={styles.menuClose} onClick={menu.closeDialog}>
+                  <CloseIcon />
+                  <span className="visually-hidden">メニューを閉じる</span>
+                </button>
+              </div>
+              <nav className={styles.menuNav} aria-label="メニュー">
+                {NAV_MOBILE.map((item, index) => {
+                  const isCurrent = item.label === current;
+                  return (
+                    <NavLink
+                      key={item.label}
+                      className={styles.menuLink}
+                      to={item.href}
+                      aria-current={isCurrent ? 'page' : undefined}
+                      onClick={menu.closeDialog}
+                    >
+                      <span className={styles.menuIndex} aria-hidden="true">
+                        {String(index + 1).padStart(2, '0')}
+                      </span>
+                      <span>{item.label}</span>
+                      <span className={styles.menuArrow} aria-hidden="true">→</span>
+                    </NavLink>
+                  );
+                })}
+              </nav>
             </div>
-            <nav aria-label="メニュー">
-              {NAV_MOBILE.map((item) => {
-                const isCurrent = item.label === current;
-                return (
-                  <NavLink
-                    key={item.label}
-                    className={styles.menuLink}
-                    to={item.href}
-                    aria-current={isCurrent ? 'page' : undefined}
-                  >
-                    {item.label}
-                  </NavLink>
-                );
-              })}
-            </nav>
-          </div>
-        </div>
-      )}
+          </div>,
+          document.body,
+        )}
     </header>
   );
 }

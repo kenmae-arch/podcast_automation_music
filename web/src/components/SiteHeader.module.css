@@ -124,15 +124,67 @@
 }
 
 .menuButton {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
   min-height: 44px;
-  min-width: 44px;
-  padding-inline: var(--space-3);
+  width: 48px;
+  padding: 0;
   background: transparent;
-  border: 0;
-  font-family: var(--font-mono);
-  font-size: var(--text-label);
-  letter-spacing: 0.08em;
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-pill);
   cursor: pointer;
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.menuButton:hover {
+  background: var(--color-ink);
+  color: var(--color-paper-bright);
+}
+
+.menuGlyph {
+  position: relative;
+  display: block;
+  width: 25px;
+  height: 18px;
+}
+
+.menuStroke {
+  position: absolute;
+  right: 0;
+  height: 1px;
+  background: currentColor;
+  transition: width var(--duration-base) var(--ease-out);
+}
+
+.menuStroke:nth-child(1) {
+  top: 2px;
+  width: 25px;
+}
+
+.menuStroke:nth-child(2) {
+  top: 8px;
+  width: 15px;
+  background: var(--album-accent);
+}
+
+.menuStroke:nth-child(3) {
+  top: 14px;
+  width: 21px;
+}
+
+.menuButton:hover .menuStroke:nth-child(1) {
+  width: 18px;
+}
+
+.menuButton:hover .menuStroke:nth-child(2) {
+  width: 25px;
+}
+
+.menuButton:hover .menuStroke:nth-child(3) {
+  width: 14px;
 }
 
 @media (min-width: 1024px) {
@@ -150,7 +202,7 @@
 .menuScrim {
   position: fixed;
   inset: 0;
-  z-index: 60;
+  z-index: 100;
   background: var(--scrim);
   display: flex;
   justify-content: flex-end;
@@ -158,48 +210,101 @@
 
 .menuSheet {
   width: min(90%, 400px);
-  height: 100%;
+  min-height: 100%;
+  min-height: 100dvh;
   background: var(--color-paper-bright);
   border-left: 1px solid var(--color-line);
-  padding: var(--space-5) var(--space-6) var(--space-8);
+  padding: var(--space-5) var(--space-5) var(--space-8);
   overflow-y: auto;
+  overscroll-behavior: contain;
+  box-shadow: var(--shadow-modal);
 }
 
 .menuHead {
   display: flex;
-  justify-content: flex-end;
-  margin-bottom: var(--space-6);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: var(--space-7);
+}
+
+.menuIdentity {
+  display: grid;
+  gap: var(--space-1);
+  padding-top: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  line-height: var(--leading-label);
+  letter-spacing: 0.14em;
+  color: var(--color-ink-soft);
+}
+
+.menuIdentity::before {
+  content: '';
+  width: 28px;
+  height: 2px;
+  margin-bottom: var(--space-2);
+  background: var(--album-accent);
 }
 
 .menuClose {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
+  display: inline-grid;
+  place-items: center;
   min-height: 44px;
-  padding-inline: var(--space-2);
+  width: 44px;
+  padding: 0;
   background: transparent;
-  border: 0;
-  font-family: var(--font-mono);
-  font-size: var(--text-label);
-  letter-spacing: 0.08em;
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-pill);
   cursor: pointer;
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.menuClose:hover {
+  background: var(--color-ink);
+  color: var(--color-paper-bright);
+}
+
+.menuNav {
+  border-bottom: 1px solid var(--color-line);
 }
 
 .menuLink {
-  display: flex;
+  display: grid;
+  grid-template-columns: 32px 1fr auto;
   align-items: center;
-  min-height: 56px;
+  gap: var(--space-3);
+  min-height: 64px;
   border-top: 1px solid var(--color-line);
   font-family: var(--font-mono);
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   letter-spacing: 0.1em;
   text-decoration: none;
+  transition:
+    color var(--duration-fast) var(--ease-out),
+    padding-left var(--duration-base) var(--ease-out);
 }
 
 .menuLink[aria-current='page'] {
   color: var(--album-accent);
 }
 
-.menuLink:last-child {
-  border-bottom: 1px solid var(--color-line);
+.menuLink:hover {
+  padding-left: var(--space-2);
+}
+
+.menuIndex {
+  font-size: var(--text-label);
+  letter-spacing: 0.04em;
+  color: var(--color-ink-faint);
+}
+
+.menuArrow {
+  font-size: 1rem;
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.menuLink:hover .menuArrow {
+  transform: translateX(4px);
 }
