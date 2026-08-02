@@ -1,6 +1,6 @@
 import { useId, useState } from 'react';
 import type { Episode } from '../data/types';
-import { formatPublished, isPublished, pad2 } from '../data';
+import { formatPublished, isPublished, pad2, sitePath } from '../data';
 import { setLastTrack } from '../data/progress';
 import { ExternalIcon } from './icons';
 import styles from './TrackJourney.module.css';
@@ -98,9 +98,8 @@ export function TrackRow({ episode, isCurrent, isLatest, onOpenListen }: Props) 
             {/* Internal: goes to EPISODE DETAIL. */}
             <a
               className="textlink"
-              href={`#track-${pad2(episode.track_number)}`}
+              href={sitePath(`/episodes/${episode.id}`)}
               onClick={() => {
-                setExpanded(true);
                 setLastTrack(episode.album_id, episode.track_number);
               }}
             >

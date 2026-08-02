@@ -32,6 +32,10 @@ export function getEpisodes(albumId: string): Episode[] {
     .sort((a, b) => a.track_number - b.track_number);
 }
 
+export function getEpisode(id: string): Episode | undefined {
+  return episodes.find((episode) => episode.id === id);
+}
+
 export function getRelatedAlbums(album: Album): Album[] {
   return album.related_album_ids
     .map((id) => getAlbum(id))
