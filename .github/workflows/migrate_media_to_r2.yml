@@ -1,0 +1,46 @@
+name: Migrate existing media to R2
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Upload podcast media
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET_NAME: ${{ vars.R2_BUCKET_NAME || 'album-atlas-media' }}
+        run: |
+          set -euo pipefail
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "CLOUDFLARE_API_TOKEN secret and CLOUDFLARE_ACCOUNT_ID variable are required."
+            exit 1
+          fi
+
+          npm install --global wrangler@4
+          { find docs/audio docs/art -type f; find docs -maxdepth 1 -type f -name 'cover*'; } | sort | while IFS= read -r media_file; do
+            object_name="${media_file#docs/}"
+            case "$media_file" in
+              *.mp3) content_type="audio/mpeg" ;;
+              *.jpg|*.jpeg) content_type="image/jpeg" ;;
+              *.png) content_type="image/png" ;;
+              *.webp) content_type="image/webp" ;;
+              *.svg) content_type="image/svg+xml" ;;
+              *) content_type="application/octet-stream" ;;
+            esac
+            wrangler r2 object put "$R2_BUCKET_NAME/$object_name" \
+              --file "$media_file" --content-type "$content_type" --remote
+          done

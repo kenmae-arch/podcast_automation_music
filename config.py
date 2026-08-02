@@ -61,8 +61,11 @@ PODCAST_CATEGORY = os.getenv("PODCAST_CATEGORY", "News")
 # Spotify等の配信先はアートワークをURL単位でキャッシュするため、同名のまま
 # 差し替えても反映されない。cover-v2 → cover-v3 のように番号を上げる運用。
 PODCAST_COVER_FILE = os.getenv("PODCAST_COVER_FILE", "cover-v2.jpg")
-# GitHub Pagesの公開URL(例: https://<user>.github.io/<repo>)
+# Webサイト、RSS、メディアは別ホストへ移行できるように分離する。
+# 未設定時は従来どおり SITE_BASE_URL 配下ですべて配信する。
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://example.github.io/podcast").rstrip("/")
+FEED_BASE_URL = os.getenv("FEED_BASE_URL", SITE_BASE_URL).rstrip("/")
+MEDIA_BASE_URL = os.getenv("MEDIA_BASE_URL", SITE_BASE_URL).rstrip("/")
 
 # --- リトライ設定 ---
 MAX_RETRIES = int(os.getenv("MAX_RETRIES", "5"))

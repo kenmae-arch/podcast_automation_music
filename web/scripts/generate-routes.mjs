@@ -1,10 +1,13 @@
-import { copyFile, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { cp, copyFile, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
 const webDir = resolve(scriptDir, '..');
-const docsDir = resolve(webDir, '..', 'docs');
+const repositoryDocsDir = resolve(webDir, '..', 'docs');
+const docsDir = process.env.VITE_OUT_DIR
+  ? resolve(webDir, process.env.VITE_OUT_DIR)
+  : repositoryDocsDir;
 const sourceHtml = resolve(docsDir, 'index.html');
 
 const [albums, episodes] = await Promise.all([
@@ -13,6 +16,22 @@ const [albums, episodes] = await Promise.all([
 ]);
 
 const template = await readFile(sourceHtml, 'utf8');
+
+// Cloudflare Pages用の独立出力に、RSSと画像だけを同梱する。
+// MP3はPagesに複製せずR2から配信する。
+if (docsDir !== repositoryDocsDir) {
+  const coverFiles = (await readdir(repositoryDocsDir)).filter((name) =>
+    /^cover.*\.(?:jpe?g|png|webp)$/i.test(name),
+  );
+  await Promise.all([
+    copyFile(resolve(repositoryDocsDir, 'feed.xml'), resolve(docsDir, 'feed.xml')),
+    copyFile(resolve(repositoryDocsDir, 'episodes.json'), resolve(docsDir, 'episodes.json')),
+    ...coverFiles.map((name) =>
+      copyFile(resolve(repositoryDocsDir, name), resolve(docsDir, name)),
+    ),
+    cp(resolve(repositoryDocsDir, 'art'), resolve(docsDir, 'art'), { recursive: true }),
+  ]);
+}
 
 function escapeHtml(value) {
   return value
