@@ -51,7 +51,7 @@ export function AlbumDetailPage({ albumId }: Props) {
       <main className={`${styles.notFound} container`}>
         <h1>このページは見つかりませんでした。</h1>
         <p>URLが変更されたか、ページが公開されていない可能性があります。</p>
-        <Link className="btn btn-primary" to="/albums/barrio-fino">
+        <Link className="btn btn-primary" to="/albums">
           アルバムを探す
           <span className="btn-glyph" aria-hidden="true">
             →

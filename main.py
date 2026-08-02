@@ -82,7 +82,7 @@ def main() -> int:
 
         # Webサイトの公開話数・日付・要約も同じ一次データから更新する。
         synced = sync_website_data()
-        logger.info("Webサイトデータを更新しました: Barrio Fino %d/21", synced)
+        logger.info("Webサイトデータを更新しました: 同期対象の公開エピソード %d件", synced)
 
         # manualモード: 使用済み台本をアーカイブして二重配信を防ぐ
         if is_manual and config.PENDING_SCRIPT_PATH.exists():

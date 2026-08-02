@@ -25,6 +25,7 @@ SERIES = {
     "debi-tirar-mas-fotos": {"image": "art/dtmf.jpg", "tracks": 17, "year": 2025},
     "ok-computer": {"image": "art/okc.jpg", "tracks": 12, "year": 1997},
     "barrio-fino": {"image": "art/barrio.jpg", "tracks": 21, "year": 2004},
+    "discovery": {"image": "art/discovery.jpg", "tracks": 14, "year": 2001},
 }
 
 TRACK_TITLES = {
@@ -61,6 +62,22 @@ TRACK_TITLES = {
         "Sing About Me, I'm Dying of Thirst",
         "Real (feat. Anna Wise)",
         "Compton (feat. Dr. Dre)",
+    ],
+    "discovery": [
+        "One More Time",
+        "Aerodynamic",
+        "Digital Love",
+        "Harder, Better, Faster, Stronger",
+        "Crescendolls",
+        "Nightvision",
+        "Superheroes",
+        "High Life",
+        "Something About Us",
+        "Voyager",
+        "Veridis Quo",
+        "Short Circuit",
+        "Face to Face",
+        "Too Long",
     ],
 }
 

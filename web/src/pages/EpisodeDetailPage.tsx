@@ -49,7 +49,7 @@ export function EpisodeDetailPage({ episodeId }: Props) {
       <main className={`${styles.notFound} container`}>
         <h1>このエピソードは見つかりませんでした。</h1>
         <p>URLが変更されたか、まだ公開されていない可能性があります。</p>
-        <Link className="btn btn-primary" to="/albums/barrio-fino">
+        <Link className="btn btn-primary" to="/albums">
           アルバムへ戻る
           <span className="btn-glyph" aria-hidden="true">→</span>
         </Link>

@@ -1,5 +1,50 @@
 [
   {
+    "id": "discovery",
+    "series_number": 7,
+    "artist_name": "Daft Punk",
+    "album_title": "Discovery",
+    "release_year": 2001,
+    "genre": "フレンチ・ハウス／エレクトロニック・ポップ",
+    "language": "英語／インストゥルメンタル",
+    "country": "フランス",
+    "episode_count": 14,
+    "published_count": 3,
+    "status": "in_progress",
+    "introduction": "2001年3月12日にVirgin Recordsから発表された、Daft Punkの2作目。全14曲。ハウスの反復を中心に置きながら、ディスコ、ファンク、ロック、シンセポップの記憶を、鮮やかなポップ・アルバムへ組み替えた作品です。",
+    "cultural_context": "Thomas BangalterとGuy-Manuel de Homem-Christoは、幼い頃に親しんだ音楽や映像への感覚を制作の出発点にしました。アルバム全編は松本零士が監修したアニメーション映画『Interstella 5555』へ発展し、14曲が台詞のない一続きの物語を担います。",
+    "selection_reason": "有名曲の並びとして聴いても強い一枚ですが、曲順で追うと、祝祭、加速、恋、夜、宇宙旅行へと景色が連続して変わります。サンプルが元の曲からどう切り離され、別の感情へ生まれ変わるのかも、一曲ずつ聴く価値があります。",
+    "editorial_theme": "過去の音は、どうすれば未来の歓びになるのか。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "14曲でひとつの航海を描く",
+        "body": "踊りの始まりから長い余韻まで、速度と明るさを変えながら全14曲が連なります。単曲の完成度だけでなく、前の曲が次の曲へ渡す温度にも注目します。"
+      },
+      {
+        "kind": "fact",
+        "heading": "サンプルを記憶として使う",
+        "body": "既存音源の短い断片を、そのまま引用して見せるのではなく、切り分け、反復し、加工して新しい曲の中心へ据えます。元の響きと新しい感情の距離が聴きどころです。"
+      },
+      {
+        "kind": "reading",
+        "heading": "子どもの耳で未来を作る",
+        "body": "このシリーズでは、技術の新しさだけでなく、幼い頃の驚きや憧れを大人の制作技術で再発見するアルバムとして読み解きます。"
+      }
+    ],
+    "original_artwork": {
+      "src": "art/discovery.jpg",
+      "alt": "Daft Punk『Discovery』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [
+      "ok-computer",
+      "lux",
+      "good-kid-maad-city"
+    ],
+    "related_reason": "音と物語の設計から",
+    "accent": "#7C8EFF"
+  },
+  {
     "id": "barrio-fino",
     "series_number": 6,
     "artist_name": "Daddy Yankee",
@@ -9,8 +54,8 @@
     "language": "スペイン語",
     "country": "プエルトリコ",
     "episode_count": 21,
-    "published_count": 20,
-    "status": "in_progress",
+    "published_count": 21,
+    "status": "complete",
     "introduction": "2004年7月13日にEl Cartel Records / VI Musicから発表された、Daddy Yankeeのスタジオアルバム。全21曲。プエルトリコのアンダーグラウンドで育ったレゲトンを、シングルの集まりではなく一枚のアルバムとして構成した作品です。",
     "cultural_context": "本作はBillboardのTop Latin Albumsチャートで初登場1位を記録し、レゲトン作品として初めて同チャートの首位に立ちました。2005年には年間で最も売れたラテンアルバムとなり、ラテン・グラミー賞の最優秀アーバン・ミュージック・アルバムを受賞しています。",
     "selection_reason": "「Gasolina」の一曲だけで語られることの多い作品ですが、本作にはLuny Tunes、Echo、Eliel、Nely、DJ Nelsonをはじめ複数のプロデューサーが参加し、曲ごとにトラックの手触りが変わります。曲順でたどると、シングルとアルバム曲の関係が見えてきます。",

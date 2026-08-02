@@ -386,19 +386,19 @@
   },
   {
     "id": "barrio-fino-21",
-    "episode_number": null,
+    "episode_number": 92,
     "series_number": 6,
     "track_number": 21,
     "album_id": "barrio-fino",
     "track_title": "Outro",
-    "title": null,
-    "web_summary": null,
+    "title": "バリオに顔と名前を返す",
+    "web_summary": "最終回は『Outro』、別名『Historia』。プエルトリコの街や地区の名前に人物の顔を重ねた物語は、21曲を通して描かれた「上品なバリオ」を、抽象的な理念ではなく暮らす人々の姿へ戻します。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
-    "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "audio_file": "audio/episode_092_2026-08-02.mp3",
+    "duration": "04:31",
+    "published": "2026-08-02",
+    "status": "published"
   },
   {
     "id": "lux-01",
@@ -879,5 +879,268 @@
     "duration": null,
     "published": "2026-07-25",
     "status": "published"
+  },
+  {
+    "id": "discovery-01",
+    "episode_number": 93,
+    "series_number": 7,
+    "track_number": 1,
+    "album_id": "discovery",
+    "track_title": "One More Time",
+    "title": "もう一度、始めるための祝祭",
+    "web_summary": "第1回は『One More Time』。Romanthonyの声、Eddie Johnsの楽曲から許諾を得て使われたサンプル、そして声を隠さず変形させるAuto-Tune。過去の音を未来の喜びへ組み替え、アルバムの扉を一斉に開く一曲を解説します。",
+    "key_points": [
+      {
+        "heading": "声の加工を隠さない",
+        "body": "Romanthonyの歌声はAuto-Tuneで明確に変形されています。補正を目立たなくするのではなく、人と機械の境界を曲の表情として聴かせます。"
+      },
+      {
+        "heading": "過去の断片から祝祭をつくる",
+        "body": "Eddie Johnsの「More Spell on You」から許諾を得て使われた素材を、反復と加工によって新しい曲の中心へ置いています。"
+      },
+      {
+        "heading": "「初めて」ではなく「もう一度」",
+        "body": "タイトルが示すのは再開です。喜びを一度きりの出来事ではなく、何度でも作り直せるものとして捉えます。"
+      }
+    ],
+    "album_role": "14曲の入口です。アルバム全体に通う、人と機械、過去と未来、記憶と新しさという組み合わせを、最も開かれた祝祭の形で最初に提示します。",
+    "audio_file": "audio/episode_093_2026-08-02.mp3",
+    "duration": "04:11",
+    "published": "2026-08-02",
+    "status": "published"
+  },
+  {
+    "id": "discovery-02",
+    "episode_number": 94,
+    "series_number": 7,
+    "track_number": 2,
+    "album_id": "discovery",
+    "track_title": "Aerodynamic",
+    "title": "ディスコのあとにギターが落ちてくる",
+    "web_summary": "第2回は『Aerodynamic』。Sister Sledgeの音源から得たファンクの推進力を、鐘、ギターソロ、電子音の余韻へ大胆に切り替える構成。ジャンルを滑らかに混ぜるのではなく、衝突そのものを快感に変えたインストゥルメンタルを解説します。",
+    "key_points": [
+      {
+        "heading": "鐘が場面を切り替える",
+        "body": "前曲の祝祭から、重い鐘を合図に別の速度へ入ります。アルバムが一つの気分に留まらないことを早い段階で示します。"
+      },
+      {
+        "heading": "ジャンルの継ぎ目を残す",
+        "body": "ファンクの反復から派手なギターソロへ、滑らかにつなぐのではなく大胆に切り替えます。衝突そのものが曲の快感になります。"
+      },
+      {
+        "heading": "ソロが電子回路へ変わる",
+        "body": "後半では人間的な手さばきを思わせるソロが、幾層もの電子的なアルペジオへ翻訳されていきます。"
+      }
+    ],
+    "album_role": "1曲目で共有した喜びをいったん解体し、個人の想像力が走り出す場所です。以後の曲がジャンルや時代を自由に横断できるよう、アルバムの可動域を広げます。",
+    "audio_file": "audio/episode_094_2026-08-02.mp3",
+    "duration": "04:12",
+    "published": "2026-08-02",
+    "status": "published"
+  },
+  {
+    "id": "discovery-03",
+    "episode_number": 95,
+    "series_number": 7,
+    "track_number": 3,
+    "album_id": "discovery",
+    "track_title": "Digital Love",
+    "title": "夢の中でしか言えない恋",
+    "web_summary": "第3回は『Digital Love』。George Dukeの『I Love You More』から生まれた柔らかなループ、DJ Sneakが書いた恋の言葉、Daft Punk自身の加工された歌声、そしてWurlitzerが運ぶ懐かしさ。夢のなかの恋を、記憶と機械の境界で鳴らす一曲を解説します。",
+    "key_points": [
+      {
+        "heading": "ループが記憶になる",
+        "body": "George Dukeの「I Love You More」から得た柔らかな断片が、前進するための反復ではなく、何度も戻る夢の景色として響きます。"
+      },
+      {
+        "heading": "機械の声が弱さを運ぶ",
+        "body": "Daft Punk自身の加工された歌声は、感情を消すのではなく、生身では言いにくい恋心を安全に差し出す仮面として機能します。"
+      },
+      {
+        "heading": "言葉のあとをソロが話す",
+        "body": "後半の長いソロは、告白できない主人公に代わり、言葉に収まらない感情があふれ出す場面として聴けます。"
+      }
+    ],
+    "album_role": "大勢の祝祭と速度の冒険を経て、初めて一人の内面へ入る3曲目です。まぶしいアルバムに、ためらいと切なさという影を加えます。",
+    "audio_file": "audio/episode_095_2026-08-02.mp3",
+    "duration": "04:20",
+    "published": "2026-08-02",
+    "status": "published"
+  },
+  {
+    "id": "discovery-04",
+    "episode_number": null,
+    "series_number": 7,
+    "track_number": 4,
+    "album_id": "discovery",
+    "track_title": "Harder, Better, Faster, Stronger",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "discovery-05",
+    "episode_number": null,
+    "series_number": 7,
+    "track_number": 5,
+    "album_id": "discovery",
+    "track_title": "Crescendolls",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "discovery-06",
+    "episode_number": null,
+    "series_number": 7,
+    "track_number": 6,
+    "album_id": "discovery",
+    "track_title": "Nightvision",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "discovery-07",
+    "episode_number": null,
+    "series_number": 7,
+    "track_number": 7,
+    "album_id": "discovery",
+    "track_title": "Superheroes",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "discovery-08",
+    "episode_number": null,
+    "series_number": 7,
+    "track_number": 8,
+    "album_id": "discovery",
+    "track_title": "High Life",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "discovery-09",
+    "episode_number": null,
+    "series_number": 7,
+    "track_number": 9,
+    "album_id": "discovery",
+    "track_title": "Something About Us",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "discovery-10",
+    "episode_number": null,
+    "series_number": 7,
+    "track_number": 10,
+    "album_id": "discovery",
+    "track_title": "Voyager",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "discovery-11",
+    "episode_number": null,
+    "series_number": 7,
+    "track_number": 11,
+    "album_id": "discovery",
+    "track_title": "Veridis Quo",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "discovery-12",
+    "episode_number": null,
+    "series_number": 7,
+    "track_number": 12,
+    "album_id": "discovery",
+    "track_title": "Short Circuit",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "discovery-13",
+    "episode_number": null,
+    "series_number": 7,
+    "track_number": 13,
+    "album_id": "discovery",
+    "track_title": "Face to Face",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "discovery-14",
+    "episode_number": null,
+    "series_number": 7,
+    "track_number": 14,
+    "album_id": "discovery",
+    "track_title": "Too Long",
+    "title": null,
+    "web_summary": null,
+    "key_points": [],
+    "album_role": null,
+    "audio_file": null,
+    "duration": null,
+    "published": null,
+    "status": "upcoming"
   }
 ]

@@ -10,7 +10,8 @@
 - **第3弾**: Beyoncé『Lemonade』(2016) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
 - **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
-- **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … 🔄 **進行中**(#1〜#20 配信済み)
+- **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … ✅ **完結**(番組内 #1〜#21)
+- **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … 🔄 **進行中**(#1〜#3 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -19,8 +20,11 @@
 > 第6弾は再びラテンへ。ただしLUX/DtMFが共に2025年作なので、年代の穴を埋めるため2004年の
 > 『Barrio Fino』を選定(2026-07-28)。レゲトンを世界化した一枚で、第4弾DtMFの直接の源流にあたる。
 > Daddy YankeeはDtMF #10で、Andy MontañezはDtMF #1で既出。既存カタログと直接つながる。
+> 第7弾は路線を変え、フランスの電子音楽へ。過去のサンプル、幼少期の記憶、ポップな曲構造を
+> 未来の喜びへ再構成した『Discovery』を選定(2026-08-02)。ラテン作品が続いた番組の色を変えつつ、
+> サンプリングとアルバム全体の物語という、これまでのシリーズとの接点も残す。
 
-> 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜030、第3弾 031〜042、第4弾 043〜059、第5弾 060〜071、第6弾 072〜)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
+> 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜030、第3弾 031〜042、第4弾 043〜059、第5弾 060〜071、第6弾 072〜092、第7弾 093〜)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
 
 ### アートワーク
 | 用途 | ファイル | 備考 |
@@ -32,6 +36,7 @@
 | 第4弾 DtMF | `docs/art/dtmf.jpg` | カリブの夕景をポラロイドが収める。#43〜#59 に付与 |
 | 第5弾 OK Computer | `docs/art/okc.jpg` | 夜の高速道路と走査線。他4枚が有機的な情景なのに対し幾何学・無機質。#60〜 に付与 |
 | 第6弾 Barrio Fino | `docs/art/barrio.jpg` | 団地(カセリオ)の窓のグリッドと、そこから広がる低音の同心円。金＋深い紫。#72〜 に付与 |
+| 第7弾 Discovery | `docs/art/discovery.jpg` | 古い音の断片が、光のポータルを通って未来のグリッドへ再構成されるオリジナル図案。藍＋シアン＋琥珀。#93〜 に付与 |
 
 > ✅ **音声化の前に読みチェックが自動で走る**(`main.py` に組み込み済み)。未登録の固有名詞や
 > 読みの割れる助数詞が残っていると音声化せずに中止するので、指摘された語を
@@ -48,7 +53,37 @@
 
 ---
 
-# 第6弾: Daddy Yankee『Barrio Fino』(進行中)
+# 第7弾: Daft Punk『Discovery』(進行中)
+
+アルバム: 2001年3月12日 / Virgin Records / 全14曲。Daft Punkの2作目。『Homework』の生々しいハウスから、ディスコ、ファンク、ロック、シンセポップへ音楽的な射程を広げた。幼少期の音楽・映像体験を大人の制作技術で再発見することが通し軸。アルバム全編は、松本零士監修の台詞のないアニメーション映画『Interstella 5555』へ展開した。トラックリストとApple Music曲IDはDaft Punk公式サイト、Apple公式カタログで検証済み(2026-08-02時点)。
+
+| # | 曲名 | ステータス | メモ |
+|---|------|-----------|------|
+| 1 | One More Time | ✅ | 2026-08-02 / #1。Romanthonyの加工された声。Eddie Johns『More Spell on You』の許諾済みサンプル。再開する祝祭 |
+| 2 | Aerodynamic | ✅ | 2026-08-02 / #2。Sister Sledge『Il Macquillage Lady』をサンプル。鐘、ファンク、ギターソロ、電子的アルペジオの衝突 |
+| 3 | Digital Love | ✅ | 2026-08-02 / #3。George Duke『I Love You More』をサンプル。DJ Sneak作詞、Daft Punk自身の歌、Wurlitzer。夢の中の恋 |
+| 4 | Harder, Better, Faster, Stronger | ⬜ | 次回制作予定 |
+| 5 | Crescendolls | ⬜ |  |
+| 6 | Nightvision | ⬜ |  |
+| 7 | Superheroes | ⬜ |  |
+| 8 | High Life | ⬜ |  |
+| 9 | Something About Us | ⬜ |  |
+| 10 | Voyager | ⬜ |  |
+| 11 | Veridis Quo | ⬜ |  |
+| 12 | Short Circuit | ⬜ |  |
+| 13 | Face to Face | ⬜ |  |
+| 14 | Too Long | ⬜ |  |
+
+### 配信済みファイル対応(第7弾)
+| 話 | 音声 | アーカイブ台本 |
+|----|------|--------------|
+| #1 | docs/audio/episode_093_2026-08-02.mp3 | scripts/published/2026-08-02_ep093.json |
+| #2 | docs/audio/episode_094_2026-08-02.mp3 | scripts/published/2026-08-02_ep094.json |
+| #3 | docs/audio/episode_095_2026-08-02.mp3 | scripts/published/2026-08-02_ep095.json |
+
+# 第6弾: Daddy Yankee『Barrio Fino』(完結)
+
+> 🎉 **2026-08-02、全21曲の解説を配信完了。第6弾シリーズ完結。**
 
 アルバム: 2004年7月13日 / VI Music・El Cartel Records(米) / 全21曲。録音は El Cartel Studios(San Juan)と Mas Flow Studios(Carolina)、2003〜2004年。プロデュースの中心は Luny Tunes(Francisco Saldaña / Víctor Cabrera)、ほかに Monserrate & DJ Urba、Fido、Eliel、DJ Nelson、Ramsis ら。**レゲトンのアルバムとして初めて Top Latin Albums に初登場1位**。ラテン・グラミー最優秀アーバン・ミュージック・アルバム受賞、「Gasolina」はレゲトンとして初めて年間最優秀レコードにノミネート。全世界800万枚以上と伝えられる。2025年 Rolling Stone「21世紀の最も偉大なアルバム250」で45位。トラックリストは英語版Wikipediaで検証済み(2026-07-29時点)。
 
@@ -76,7 +111,7 @@
 | 18 | Golpe de Estado | ✅ | 2026-08-02 / #18。Tommy Viera客演。Nely制作、Luny Tunes共同制作。『Barrio Fino』によるレゲトンの主導権奪取を宣言。発売時17歳のNelyにも着目 |
 | 19 | 2 Mujeres | ✅ | 2026-08-02 / #19。Luny Tunes制作。妻と恋人との二重生活をユーモラスに描く。のちの『La Nueva y La Ex』の着想源 |
 | 20 | Saber Su Nombre | ✅ | 2026-08-02 / #20。Edgardo Matta制作。本人が「自分の楽しみのため」と語ったスペイン語のダンスホール。通常盤最後の本編曲 |
-| 21 | Outro | ⬜ | 次回制作予定。最終回 |
+| 21 | Outro | ✅ | 2026-08-02 / #21【最終回】。別名『Historia』。街や地区の名前に顔を与え、謙虚さと誇りを両立させる物語。第7弾Discoveryを予告 |
 
 ### 配信済みファイル対応(第6弾)
 | 話 | 音声 | アーカイブ台本 |
@@ -101,6 +136,7 @@
 | #18 | docs/audio/episode_089_2026-08-02.mp3 | scripts/published/2026-08-02_ep089.json |
 | #19 | docs/audio/episode_090_2026-08-02.mp3 | scripts/published/2026-08-02_ep090.json |
 | #20 | docs/audio/episode_091_2026-08-02.mp3 | scripts/published/2026-08-02_ep091.json |
+| #21 | docs/audio/episode_092_2026-08-02.mp3 | scripts/published/2026-08-02_ep092.json |
 
 # 第5弾: Radiohead『OK Computer』(完結)
 

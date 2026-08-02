@@ -65,13 +65,13 @@ export function getEpisode(id: string): Episode | undefined {
   return episodes.find((episode) => episode.id === id);
 }
 
-/** Published episodes for HOME, newest first with track order as the tie-breaker. */
+/** Published episodes for HOME, newest first with the global episode number as tie-breaker. */
 export function getLatestEpisodes(limit = 5): Episode[] {
   return episodes
     .filter(isPublished)
     .sort((a, b) => {
       const dateOrder = (b.published ?? '').localeCompare(a.published ?? '');
-      return dateOrder || b.track_number - a.track_number;
+      return dateOrder || (b.episode_number ?? 0) - (a.episode_number ?? 0);
     })
     .slice(0, limit);
 }
@@ -96,6 +96,7 @@ export function availablePlatforms(
 
 const APPLE_MUSIC_ALBUMS: Record<string, { id: string; slug: string }> = {
   'barrio-fino': { id: '1785999696', slug: 'barrio-fino-deluxe-version' },
+  discovery: { id: '697194953', slug: 'discovery' },
   'good-kid-maad-city': {
     id: '1440860389',
     slug: 'good-kid-m-a-a-d-city-deluxe-version',

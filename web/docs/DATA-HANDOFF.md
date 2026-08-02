@@ -12,7 +12,6 @@
 
 | 項目 | 現在の値 | 対応 |
 | --- | --- | --- |
-| RSS アートワーク | `albums.json` の `original_artwork: null` | 各シリーズで実際に使用している RSS のアートワークを `{ src, alt }` で設定。設定するまでは `DESIGN.md` §8「画像フォールバック」の共通ビジュアル（紙色・シリーズ番号・アーティスト名・アルバム名・アクセント線）が表示されます。新規に画像は生成していません。 |
 | 配信先 URL | `site.json` の `platforms[].url: null` | Spotify / Apple Podcasts / Amazon Music の実 URL を設定。未設定のサービスは §2 のとおり非表示（無効化ではない）。3件とも未設定の場合、LISTEN シートは空状態の文言を表示します。 |
 | 各話の再生時間 | `episodes.json` の `duration: null` | 実データを `"04:32"` 形式で設定。 |
 | 各話の公開日 | `episodes.json` の `published: null` | ISO 日付で設定。画面には `YYYY.MM.DD` で表示されます。 |
@@ -59,7 +58,8 @@
 ## 3. 公開済みエピソードの範囲
 
 『LUX』はトラック01〜18、『good kid, m.A.A.d city』はトラック01〜12を公開済みです。
-『Barrio Fino』はトラック01〜20が公開済み、21が公開予定です。
+『Barrio Fino』はトラック01〜21を公開済みです。
+『Discovery』はトラック01〜03が公開済み、04〜14が公開予定です。
 
 公開状態は手作業で二重管理せず、ルートの `tools/sync_website_data.py` が
 `docs/episodes.json` から次の項目を同期します。
@@ -92,9 +92,27 @@
 
 ---
 
-## 5. 関連アルバム
+## 5. 『Discovery』の確認情報
 
-`albums.json` には `CONTENTS.md` §6 の初期公開6作品を登録していますが、
-`LUX`、`good kid, m.A.A.d city`、`Barrio Fino` 以外は本ページの表示に必要な項目
+- 発売日と全14曲、Apple MusicのアルバムID・曲IDはDaft Punk公式サイトとApple公式カタログで確認
+- 「One More Time」のEddie Johns作品の利用と権利処理はLos Angeles Timesの取材で確認
+- 作品のジャンル横断的な設計はGRAMMY.comの20周年記事で確認
+- 公開話数、見出し、要約、音声ファイルは `docs/episodes.json` から同期
+- `key_points` と `album_role` は公開済み台本の範囲で編集
+- アートワークは公式ジャケットを複製せず、サンプルの断片が光として再構成される発想から制作した3000px四方のオリジナル図案
+
+参考：
+
+- https://daftpunk.com/discovery/
+- https://music.apple.com/jp/album/discovery/697194953
+- https://www.latimes.com/entertainment-arts/music/story/2021-05-06/daft-punk-one-more-time-eddie-johns-homeless
+- https://www.grammy.com/news/record-daft-punk-discovery-album-20-year-anniversary/
+
+---
+
+## 6. 関連アルバム
+
+`albums.json` には初期公開6作品と第7弾『Discovery』を登録していますが、
+`LUX`、`good kid, m.A.A.d city`、`Barrio Fino`、`Discovery` 以外は本ページの表示に必要な項目
 （`artist_name` / `album_title` / `series_number` / `related_reason`）のみ設定し、
 残りは `null` にしてあります。各シリーズを制作する際に埋めてください。
