@@ -1,5 +1,5 @@
 import type { RefObject } from 'react';
-import { availablePlatforms } from '../data';
+import { availablePlatforms, sitePath } from '../data';
 import { CloseIcon, ExternalIcon } from './icons';
 import styles from './ListenPlatformSheet.module.css';
 
@@ -40,16 +40,26 @@ export function ListenPlatformSheet({ open, onClose, panelRef }: Props) {
             {platforms.map((platform) => (
               <li key={platform.key}>
                 <a
-                  className={styles.row}
+                  className={`${styles.row} ${platform.badge ? styles.badgeRow : ''}`}
                   href={platform.url ?? undefined}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`${platform.label}（新しいタブで開きます）`}
                 >
-                  {platform.label}
-                  <span className={styles.rowIcon}>
-                    <ExternalIcon size={16} />
-                    <span className="visually-hidden">新しいタブで開きます</span>
-                  </span>
+                  {platform.badge ? (
+                    <img
+                      className={styles.badge}
+                      src={sitePath(platform.badge.src)}
+                      alt={platform.label}
+                    />
+                  ) : (
+                    <>
+                      {platform.label}
+                      <span className={styles.rowIcon} aria-hidden="true">
+                        <ExternalIcon size={16} />
+                      </span>
+                    </>
+                  )}
                 </a>
               </li>
             ))}

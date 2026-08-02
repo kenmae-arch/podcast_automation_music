@@ -68,6 +68,24 @@
   color: var(--color-signal-dark);
 }
 
+.badgeRow {
+  justify-content: center;
+  min-height: 64px;
+  padding-block: var(--space-3);
+}
+
+.badge {
+  display: block;
+  width: auto;
+  height: 40px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.badgeRow:hover .badge {
+  opacity: 0.82;
+}
+
 .rowIcon {
   display: inline-flex;
   color: var(--color-ink-soft);

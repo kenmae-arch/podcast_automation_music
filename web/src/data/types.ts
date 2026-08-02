@@ -86,6 +86,11 @@ export interface PlatformLink {
   /** Label already carries the action verb — CONTENTS.md §2「LISTEN選択UI」*/
   label: string;
   url: string | null;
+  /** Official service badge for light surfaces, plus an optional dark-surface variant. */
+  badge?: {
+    src: string;
+    dark_src: string | null;
+  };
 }
 
 export interface SiteSettings {

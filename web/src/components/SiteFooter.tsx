@@ -42,13 +42,24 @@ export function SiteFooter() {
               {platforms.map((platform) => (
                 <a
                   key={platform.key}
-                  className={styles.link}
+                  className={`${styles.link} ${platform.badge ? styles.badgeLink : ''}`}
                   href={platform.url ?? undefined}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`${platform.label}（新しいタブで開きます）`}
                 >
-                  {platform.label.replace('で聴く', '')}
-                  <ExternalIcon size={12} />
+                  {platform.badge ? (
+                    <img
+                      className={styles.platformBadge}
+                      src={sitePath(platform.badge.dark_src ?? platform.badge.src)}
+                      alt={platform.label}
+                    />
+                  ) : (
+                    <>
+                      {platform.label.replace('で聴く', '')}
+                      <ExternalIcon size={12} />
+                    </>
+                  )}
                 </a>
               ))}
             </div>

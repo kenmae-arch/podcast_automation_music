@@ -4,9 +4,33 @@
   "description": "海外アーティストの名盤を1話1曲でたどる、音楽解説ポッドキャスト。",
   "editor": "Produced and edited by kenmae",
   "platforms": [
-    { "key": "spotify", "label": "Spotifyで聴く", "url": null },
-    { "key": "apple_podcasts", "label": "Apple Podcastsで聴く", "url": null },
-    { "key": "amazon_music", "label": "Amazon Musicで聴く", "url": null },
+    {
+      "key": "spotify",
+      "label": "Spotifyで聴く",
+      "url": "https://open.spotify.com/show/033Vrbb9ay3YJ8YrAFuYD1",
+      "badge": {
+        "src": "/badges/spotify.svg",
+        "dark_src": "/badges/spotify-white.svg"
+      }
+    },
+    {
+      "key": "apple_podcasts",
+      "label": "Apple Podcastsで聴く",
+      "url": "https://podcasts.apple.com/us/podcast/%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E5%85%A8%E6%9B%B2%E8%A7%A3%E8%AA%AC/id6794883065",
+      "badge": {
+        "src": "/badges/apple-podcasts.svg",
+        "dark_src": "/badges/apple-podcasts-white.svg"
+      }
+    },
+    {
+      "key": "amazon_music",
+      "label": "Amazon Musicで聴く",
+      "url": "https://music.amazon.co.jp/podcasts/103adfaf-8bc5-40d0-baf7-6eca0e18fbdc/%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E5%85%A8%E6%9B%B2%E8%A7%A3%E8%AA%AC",
+      "badge": {
+        "src": "/badges/amazon-music.png",
+        "dark_src": "/badges/amazon-music-white.png"
+      }
+    },
     {
       "key": "rss",
       "label": "RSSで購読する",
