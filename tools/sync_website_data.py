@@ -48,6 +48,20 @@ TRACK_TITLES = {
         "Memória",
         "Magnolias",
     ],
+    "good-kid-maad-city": [
+        "Sherane a.k.a Master Splinter's Daughter",
+        "Bitch, Don't Kill My Vibe",
+        "Backseat Freestyle",
+        "The Art of Peer Pressure",
+        "Money Trees (feat. Jay Rock)",
+        "Poetic Justice (feat. Drake)",
+        "good kid",
+        "m.A.A.d city (feat. MC Eiht)",
+        "Swimming Pools (Drank)",
+        "Sing About Me, I'm Dying of Thirst",
+        "Real (feat. Anna Wise)",
+        "Compton (feat. Dr. Dre)",
+    ],
 }
 
 TITLE_PATTERN = re.compile(
@@ -170,7 +184,11 @@ def sync_website_data() -> int:
                 "title": match.group("headline").strip(),
                 "web_summary": _summary(
                     source["description"],
-                    min_sentence_boundary=50 if target["album_id"] == "lux" else 80,
+                    min_sentence_boundary=(
+                        50
+                        if target["album_id"] in {"lux", "good-kid-maad-city"}
+                        else 80
+                    ),
                 ),
                 "audio_file": f"audio/{source['audio_file']}",
                 "published": source["published"].split("T", 1)[0],

@@ -58,7 +58,8 @@
 
 ## 3. 公開済みエピソードの範囲
 
-現在はトラック01〜20が公開済み、21が公開予定です。
+『LUX』はトラック01〜18、『good kid, m.A.A.d city』はトラック01〜12を公開済みです。
+『Barrio Fino』はトラック01〜20が公開済み、21が公開予定です。
 
 公開状態は手作業で二重管理せず、ルートの `tools/sync_website_data.py` が
 `docs/episodes.json` から次の項目を同期します。
@@ -75,9 +76,25 @@
 
 ---
 
-## 4. 関連アルバム
+## 4. 『good kid, m.A.A.d city』の確認情報
+
+- 発売日と12曲の本編トラック、Apple Musicの曲IDはApple公式カタログで確認
+- 作品の物語構造と「A Short Film by Kendrick Lamar」の位置づけは
+  Apple Musicの編集ノートおよびGRAMMY.comの10周年記事で確認
+- 公開話数、見出し、要約、音声ファイルは `docs/episodes.json` から同期
+- Apple Podcastsの個別回IDはApple公式のiTunes Search APIで確認
+- `key_points` と `album_role` は推測で作らず、現時点では未設定
+
+参考：
+
+- https://music.apple.com/us/album/good-kid-m-a-a-d-city/1471263898
+- https://www.grammy.com/news/for-the-record-kendrick-lamar-good-kid-maad-city-ushered-in-new-era-for-west-coast-rap-storytelling-10-year-anniversary/
+
+---
+
+## 5. 関連アルバム
 
 `albums.json` には `CONTENTS.md` §6 の初期公開6作品を登録していますが、
-`Barrio Fino` 以外は本ページの表示に必要な項目
+`LUX`、`good kid, m.A.A.d city`、`Barrio Fino` 以外は本ページの表示に必要な項目
 （`artist_name` / `album_title` / `series_number` / `related_reason`）のみ設定し、
 残りは `null` にしてあります。各シリーズを制作する際に埋めてください。

@@ -94,24 +94,40 @@
     "artist_name": "Kendrick Lamar",
     "album_title": "good kid, m.A.A.d city",
     "release_year": 2012,
-    "genre": null,
-    "language": null,
-    "country": null,
+    "genre": "ヒップホップ／ウェストコースト",
+    "language": "英語",
+    "country": "アメリカ",
     "episode_count": 12,
     "published_count": 12,
     "status": "complete",
-    "introduction": null,
-    "cultural_context": null,
-    "selection_reason": null,
-    "editorial_theme": null,
-    "listening_points": [],
+    "introduction": "2012年10月22日にTop Dawg Entertainment、Aftermath Entertainment、Interscope Recordsから発表された、Kendrick Lamarのメジャーレーベル・デビュー作。全12曲を通して、コンプトンで過ごす17歳の主人公の一日を描きます。",
+    "cultural_context": "「A Short Film by Kendrick Lamar」を掲げ、曲と曲のあいだに祈り、会話、両親からの留守電を配置した物語作品です。犯罪や暴力を武勇伝としてではなく、その前で迷い、傷つき、選択する少年の視点から描きました。",
+    "selection_reason": "単曲として知られる楽曲が多い一方、曲順に沿うと、恋、仲間からの同調圧力、金と酒の誘惑、暴力、祈り、家族の声が一続きの物語になります。12曲を通して初めて、主人公が体験を語る理由まで見えてくる一枚です。",
+    "editorial_theme": "良い子は、狂った街をどう生き延び、語り手になったのか。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "12曲で、ある一日を描く",
+        "body": "17歳の主人公が少女に会いに行く場面から、仲間との行動、暴力との遭遇、祈りを経て街を見つめ直すまでを、曲順に沿った物語として構成しています。"
+      },
+      {
+        "kind": "fact",
+        "heading": "声とスキットが時間をつなぐ",
+        "body": "仲間との会話、祈り、両親からの留守電が曲間を横断します。楽曲だけでなく、繰り返し現れる声を追うことで、場面の前後関係が見えてきます。"
+      },
+      {
+        "kind": "reading",
+        "heading": "good kidとm.A.A.d cityの境界",
+        "body": "このシリーズでは、7曲目「good kid」と8曲目「m.A.A.d city」を、少年の内面と街の圧力が正面からぶつかる物語の中心として捉えます。"
+      }
+    ],
     "original_artwork": {
       "src": "art/gkmc.jpg",
       "alt": "Kendrick Lamar『good kid, m.A.A.d city』全曲解説シリーズのアートワーク"
     },
     "related_album_ids": [],
     "related_reason": "作品テーマのつながりから",
-    "accent": null
+    "accent": "#C58A4A"
   },
   {
     "id": "lemonade",

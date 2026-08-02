@@ -48,8 +48,9 @@ CONTENTS.md  →  DESIGN.md  →  参考モックアップ
 ### 1.2 公開状態は `docs/episodes.json` と同期する
 
 初期納品時は5話公開でしたが、統合時に `tools/sync_website_data.py` を追加しました。
-現在は『LUX』の18話をすべて公開済み、『Barrio Fino』はトラック01〜20を公開済み、
-21を公開予定として表示します。公開話数、日付、音声パス、見出し、要約はすべて
+現在は『LUX』の18話と『good kid, m.A.A.d city』の12話をすべて公開済み、
+『Barrio Fino』はトラック01〜20を公開済み、21を公開予定として表示します。
+公開話数、日付、音声パス、見出し、要約はすべて
 `docs/episodes.json` から生成し、Web側で事実を追加しません。
 
 > ⚠️ **`key_points` や `album_role` を推測で埋めないでください。**
@@ -126,16 +127,18 @@ src/
 ## 4. 未実装 / 既知の制約
 
 - HOME、ALBUMS、ALBUM DETAIL、EPISODE DETAIL、ABOUT、REQUEST、CONTACT、PRIVACY、共通404は実装済みです。
-  『LUX』と『Barrio Fino』はアルバム／エピソード詳細まで公開済みです。
+  『LUX』『good kid, m.A.A.d city』『Barrio Fino』はアルバム／エピソード詳細まで公開済みです。
   PRIVACYは2026-08-02時点の実装（Web3Forms、Apple Music埋め込み、Google Fonts、GitHub Pages、localStorage）に
   合わせて作成済みです。外部サービスや解析機能を変更した場合は同時に更新してください
 - 画面内遷移は React Router でSPA遷移します。Vite ビルド後に
   `scripts/generate-routes.mjs` が GitHub Pages の直リンク用HTMLも生成します。
   片方だけを削除すると直リンクか画面内遷移のどちらかが壊れるため、両方を維持してください
 - 曲単位の配信リンクは `episode-media.json` で管理します。Spotify と Apple Podcasts は
-  『LUX』18回と『Barrio Fino』公開済み20回のすべてで個別回へ直リンク済みです。
-  Amazon Music は匿名Web版から安定した
-  個別回URLを取得できないため、曲単位シートでは非表示です（一般LISTENでは番組URLを表示）
+  『LUX』18回と『Barrio Fino』公開済み20回、Apple Podcastsは
+  『good kid, m.A.A.d city』12回のすべてで個別回へ直リンク済みです。
+  『good kid, m.A.A.d city』のSpotify個別回URLと、各作品のAmazon Music個別回URLは
+  匿名Web版から安定して取得できないため、曲単位シートでは非表示です
+  （一般LISTENでは番組URLを表示）
 - **JS 無効時に全文を出すには SSR / SSG が必要**（現状 CSR のみ）。
   `has-js` の仕組みは入れてあるので、SSG 化すれば要件を満たせます
 - **アプリ本体の書体は Google Fonts 参照**。自己ホストにすると DESIGN.md §27 に

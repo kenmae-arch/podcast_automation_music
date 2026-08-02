@@ -96,6 +96,10 @@ export function availablePlatforms(
 
 const APPLE_MUSIC_ALBUMS: Record<string, { id: string; slug: string }> = {
   'barrio-fino': { id: '1785999696', slug: 'barrio-fino-deluxe-version' },
+  'good-kid-maad-city': {
+    id: '1440860389',
+    slug: 'good-kid-m-a-a-d-city-deluxe-version',
+  },
   lux: { id: '1893474283', slug: 'lux-complete-works' },
 };
 
