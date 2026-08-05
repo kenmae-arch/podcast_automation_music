@@ -969,19 +969,19 @@
   },
   {
     "id": "discovery-04",
-    "episode_number": null,
+    "episode_number": 96,
     "series_number": 7,
     "track_number": 4,
     "album_id": "discovery",
     "track_title": "Harder, Better, Faster, Stronger",
-    "title": null,
-    "web_summary": null,
+    "title": "人間と機械の反復",
+    "web_summary": "第4回は『Harder, Better, Faster, Stronger』。Edwin Birdsongが1979年に残したファンク『Cola Bottle Baby』の輝きを解剖し、ボコーダーに包まれた声が緻密に組み上がっていく快楽。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_096_2026-08-06.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-05",
+    "status": "published"
   },
   {
     "id": "discovery-05",
