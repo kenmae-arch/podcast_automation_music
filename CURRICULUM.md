@@ -11,7 +11,7 @@
 - **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
 - **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … ✅ **完結**(番組内 #1〜#21)
-- **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … 🔄 **進行中**(#1〜#3 配信済み)
+- **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … 🔄 **進行中**(#1〜#6 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -62,10 +62,10 @@
 | 1 | One More Time | ✅ | 2026-08-02 / #1。Romanthonyの加工された声。Eddie Johns『More Spell on You』の許諾済みサンプル。再開する祝祭 |
 | 2 | Aerodynamic | ✅ | 2026-08-02 / #2。Sister Sledge『Il Macquillage Lady』をサンプル。鐘、ファンク、ギターソロ、電子的アルペジオの衝突 |
 | 3 | Digital Love | ✅ | 2026-08-02 / #3。George Duke『I Love You More』をサンプル。DJ Sneak作詞、Daft Punk自身の歌、Wurlitzer。夢の中の恋 |
-| 4 | Harder, Better, Faster, Stronger | ⬜ | 次回制作予定 |
-| 5 | Crescendolls | ⬜ |  |
-| 6 | Nightvision | ⬜ |  |
-| 7 | Superheroes | ⬜ |  |
+| 4 | Harder, Better, Faster, Stronger | ✅ | 2026-08-06 / #4。Edwin Birdsong『Cola Bottle Baby』をサンプル。ボコーダーと人間性、Kanye Westへの継承 |
+| 5 | Crescendolls | ✅ | 2026-08-06 / #5。Little Anthony & The Imperials『Can You Imagine』をサンプル。熱狂のクレッシェンドと『Interstella 5555』 |
+| 6 | Nightvision | ✅ | 2026-08-06 / #6。10cc『I'm Not in Love』的なアンビエント空間と深呼吸の幕間劇 |
+| 7 | Superheroes | ⬜ | 次回制作予定 |
 | 8 | High Life | ⬜ |  |
 | 9 | Something About Us | ⬜ |  |
 | 10 | Voyager | ⬜ |  |
@@ -80,6 +80,9 @@
 | #1 | docs/audio/episode_093_2026-08-02.mp3 | scripts/published/2026-08-02_ep093.json |
 | #2 | docs/audio/episode_094_2026-08-02.mp3 | scripts/published/2026-08-02_ep094.json |
 | #3 | docs/audio/episode_095_2026-08-02.mp3 | scripts/published/2026-08-02_ep095.json |
+| #4 | docs/audio/episode_096_2026-08-06.mp3 | scripts/published/2026-08-06_ep096.json |
+| #5 | docs/audio/episode_097_2026-08-05.mp3 | scripts/published/2026-08-05_ep097.json |
+| #6 | docs/audio/episode_098_2026-08-05.mp3 | scripts/published/2026-08-05_ep098.json |
 
 # 第6弾: Daddy Yankee『Barrio Fino』(完結)
 
