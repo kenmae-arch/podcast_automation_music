@@ -2,793 +2,802 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>アルバム全曲解説</title>
-    <link>https://kenmae-arch.github.io/podcast_automation_music/feed.xml</link>
+    <link>https://feed.albumatlas.jp/feed.xml</link>
     <description>海外アーティストの名盤を1曲ずつ深掘りする音楽解説ポッドキャスト。制作背景・歌詞のテーマ・音楽的な仕掛けを、1曲まるごと語り尽くします。</description>
-    <atom:link href="https://kenmae-arch.github.io/podcast_automation_music/feed.xml" rel="self"/>
+    <atom:link href="https://feed.albumatlas.jp/feed.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
-      <url>https://kenmae-arch.github.io/podcast_automation_music/cover-v2.jpg</url>
+      <url>https://media.albumatlas.jp/cover-v2.jpg</url>
       <title>アルバム全曲解説</title>
-      <link>https://kenmae-arch.github.io/podcast_automation_music</link>
+      <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 05 Aug 2026 16:44:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 16:49:33 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
-    <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/cover-v2.jpg"/>
+    <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
     <itunes:explicit>no</itunes:explicit>
+    <itunes:new-feed-url>https://feed.albumatlas.jp/feed.xml</itunes:new-feed-url>
     <itunes:owner>
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
     <item>
+      <title>Daft Punk『Discovery』全曲解説 #5 狂乱のパーティーと熱狂のクレッシェンド『Crescendolls』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第7弾はDaft Punkの『Discovery』(2001)。第5回は『Crescendolls』。Little Anthony &amp; The Imperialsの1978年の名曲『Can You Imagine』をサンプル元とし、熱気と歓声が右肩上がりに高まり続ける狂騒の一曲を解剖。「クレッシェンド」の名の通り、リスナーの精神をダンスフロアの最高到達点へと引き上げる構成と、アニメ作品『Interstella 5555』における作中バンドとしての位置づけを解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_097_2026-08-05.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_097_2026-08-05.mp3" length="3881631" type="audio/mpeg"/>
+      <pubDate>Wed, 05 Aug 2026 16:49:33 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/discovery.jpg"/>
+    </item>
+    <item>
       <title>Daft Punk『Discovery』全曲解説 #4 人間と機械の反復『Harder, Better, Faster, Stronger』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第7弾はDaft Punkの『Discovery』(2001)。第4回は『Harder, Better, Faster, Stronger』。Edwin Birdsongが1979年に残したファンク『Cola Bottle Baby』の輝きを解剖し、ボコーダーに包まれた声が緻密に組み上がっていく快楽。効率化という産業社会の言語が、いかにして最高のダンスグルーヴへ変貌するのか。肉体とアルゴリズムの境界を溶かす名盤の核心を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_096_2026-08-06.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_096_2026-08-06.mp3" length="4414064" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_096_2026-08-06.mp3" length="4414064" type="audio/mpeg"/>
       <pubDate>Wed, 05 Aug 2026 16:44:51 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/discovery.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/discovery.jpg"/>
     </item>
     <item>
       <title>Daft Punk『Discovery』全曲解説 #3 夢の中でしか言えない恋『Digital Love』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第7弾はDaft Punkの『Discovery』(2001)。第3回は『Digital Love』。George Dukeの『I Love You More』から生まれた柔らかなループ、DJ Sneakが書いた恋の言葉、Daft Punk自身の加工された歌声、そしてWurlitzerが運ぶ懐かしさ。夢のなかの恋を、記憶と機械の境界で鳴らす一曲を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_095_2026-08-02.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_095_2026-08-02.mp3" length="4166214" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_095_2026-08-02.mp3" length="4166214" type="audio/mpeg"/>
       <pubDate>Sun, 02 Aug 2026 13:38:36 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/discovery.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/discovery.jpg"/>
     </item>
     <item>
       <title>Daft Punk『Discovery』全曲解説 #2 ディスコのあとにギターが落ちてくる『Aerodynamic』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第7弾はDaft Punkの『Discovery』(2001)。第2回は『Aerodynamic』。Sister Sledgeの音源から得たファンクの推進力を、鐘、ギターソロ、電子音の余韻へ大胆に切り替える構成。ジャンルを滑らかに混ぜるのではなく、衝突そのものを快感に変えたインストゥルメンタルを解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_094_2026-08-02.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_094_2026-08-02.mp3" length="4031632" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_094_2026-08-02.mp3" length="4031632" type="audio/mpeg"/>
       <pubDate>Sun, 02 Aug 2026 13:36:17 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/discovery.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/discovery.jpg"/>
     </item>
     <item>
       <title>Daft Punk『Discovery』全曲解説 #1 もう一度、始めるための祝祭『One More Time』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第7弾はDaft Punkの『Discovery』(2001)。第1回は『One More Time』。Romanthonyの声、Eddie Johnsの楽曲から許諾を得て使われたサンプル、そして声を隠さず変形させるAuto-Tune。過去の音を未来の喜びへ組み替え、アルバムの扉を一斉に開く一曲を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_093_2026-08-02.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_093_2026-08-02.mp3" length="4021600" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_093_2026-08-02.mp3" length="4021600" type="audio/mpeg"/>
       <pubDate>Sun, 02 Aug 2026 13:34:01 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/discovery.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/discovery.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #21 バリオに顔と名前を返す『Outro』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。最終回は『Outro』、別名『Historia』。プエルトリコの街や地区の名前に人物の顔を重ねた物語は、21曲を通して描かれた「上品なバリオ」を、抽象的な理念ではなく暮らす人々の姿へ戻します。Ramsisが担ったIntro、Intermedio、Outroの枠組みも振り返り、世界へ広がったアルバムの終着点を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_092_2026-08-02.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_092_2026-08-02.mp3" length="4347608" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_092_2026-08-02.mp3" length="4347608" type="audio/mpeg"/>
       <pubDate>Sun, 02 Aug 2026 13:31:35 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #20 好きだから作る、スペイン語のダンスホール『Saber Su Nombre』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第20回は『Saber Su Nombre』。クラブで出会った相手の名前を知りたいという小さな場面を、スペイン語のダンスホールとして描きます。制作はのちにCalle 13作品でも高く評価されるEdgardo Matta。10代からダンスホール好きだったDaddy Yankeeが「自分の楽しみのため」に作った曲から、ヒット戦略だけでは説明できないアルバムの豊かさを解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_091_2026-08-02.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_091_2026-08-02.mp3" length="4901822" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_091_2026-08-02.mp3" length="4901822" type="audio/mpeg"/>
       <pubDate>Sat, 01 Aug 2026 18:53:43 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #19 笑い話にした二重生活『2 Mujeres』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第19回はLuny Tunes制作の『2 Mujeres』。妻と恋人、ふたりとの関係を秘密に続ける男を、場面の違いとユーモアで描きます。軽快な語りの裏にある危うさ、アルバムが見せてきた男性像の振れ幅、そして2013年『La Nueva y La Ex』へ受け継がれた着想を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_090_2026-08-02.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_090_2026-08-02.mp3" length="4544049" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_090_2026-08-02.mp3" length="4544049" type="audio/mpeg"/>
       <pubDate>Sat, 01 Aug 2026 18:51:04 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #18 アルバムによる政権奪取『Golpe de Estado』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第18回はTommy Vieraを迎えた『Golpe de Estado』。題は「クーデター」ですが、語られるのは国家政治ではなく、『Barrio Fino』によってレゲトンの主導権を握るという宣言です。制作は若きNely、共同制作はLuny Tunes。発売時17歳だったプロデューサーと新人ラッパーを同じ曲に置く、人材育成の構造も解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_089_2026-08-02.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_089_2026-08-02.mp3" length="4539452" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_089_2026-08-02.mp3" length="4539452" type="audio/mpeg"/>
       <pubDate>Sat, 01 Aug 2026 18:48:24 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #17 心は、ひとつではない『Corazones』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第17回は社会派ラップ『Corazones』。EchoとDieselの制作で、政治、犯罪、希望、キリスト教的な精神性を見つめます。すべての心は異なるという発想から、ニュースが悪い出来事に偏ること、バリオの人々が一枚岩ではないことへ。直前のGavilánによる幕間が、この曲の入口としてどう機能するのかも解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_088_2026-08-02.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_088_2026-08-02.mp3" length="4441232" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_088_2026-08-02.mp3" length="4441232" type="audio/mpeg"/>
       <pubDate>Sat, 01 Aug 2026 18:45:53 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #16 詩が、後半の扉を開く『Intermedio – Gavilán』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第16回は16曲目、約1分12秒の幕間『Intermedio – Gavilán』。声を担うのは元受刑者の詩人Gavilán、制作はアルバムのIntroとOutroも手がけたRamsisです。バリオの荒さを語る短い詩が、なぜ次の社会派ラップ『Corazones』の直前に置かれたのか。21曲の長いアルバムに一本の背骨を通す、三つの語りの役割を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_087_2026-08-02.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_087_2026-08-02.mp3" length="4534019" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_087_2026-08-02.mp3" length="4534019" type="audio/mpeg"/>
       <pubDate>Sat, 01 Aug 2026 18:42:54 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #15 島の外のラテンへ『Salud y Vida』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第15回は15曲目『Salud y Vida』(＝健康と人生、乾杯の言葉)。制作は東ロサンゼルス育ちのエルサルバドル系兄弟デュオCrooked Stilo、客演はコネチカット出身でBorn Jamericansの片割れだったNotch。聖ペトロに触れ、敵を祝福するという宗教的な主題を、Cypress Hillを思わせる西海岸の音に乗せた異色作です。プエルトリコの島の音楽だったレゲトンが、アメリカ大陸のラテン系全体へ手を伸ばした瞬間として解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_086_2026-08-01.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_086_2026-08-01.mp3" length="4385642" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_086_2026-08-01.mp3" length="4385642" type="audio/mpeg"/>
       <pubDate>Sat, 01 Aug 2026 12:18:09 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #14 王が、謝る『¿Qué Vas A Hacer?』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第14回は14曲目『¿Qué Vas A Hacer?』(＝君はどうするつもり?)。相手に赦しを乞う、アルバムでもっとも弱気な一曲で、May-Beの声がそこに対置されます。制作は当時まだプロデューサーとして頭角を現しつつあったFido——のちに「ペレオの王」と呼ばれるデュオAlexis &amp; Fidoの片割れです。強さを売りにするジャンルで、頭を下げる曲をアルバムに入れるということ。そして、この一枚の制作陣がのちのスターだらけである、という当時のプエルトリコの人材密度について解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_085_2026-08-01.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_085_2026-08-01.mp3" length="4028288" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_085_2026-08-01.mp3" length="4028288" type="audio/mpeg"/>
       <pubDate>Sat, 01 Aug 2026 12:16:39 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #13 シングルにならなかった曲『El Empuje』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第13回は13曲目『El Empuje』(＝押し、勢い)。Monserrate &amp; DJ Urbaが手がけ、Gloryが再び登場する一曲です。この二人組は3曲目『Dale Caliente』、4曲目『No Me Dejes Solo』、7曲目『El Muro』、そしてこの13曲目を担当しており、Luny Tunesが世界へ出ていく曲を作ったのに対して、彼らはこのアルバムの「地元の床」を作りました。シングルにならなかった曲にこそ現れる、当時のプエルトリコのフロアの手触りについて解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_084_2026-08-01.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_084_2026-08-01.mp3" length="3748673" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_084_2026-08-01.mp3" length="3748673" type="audio/mpeg"/>
       <pubDate>Sat, 01 Aug 2026 12:15:15 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #12 サルサからの承認『Sabor a Melao』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第12回は12曲目『Sabor a Melao』。DJ Nelson制作、そして客演はサルサの重鎮Andy Montañez——El Gran Comboの黄金期を支え、「サルサのゴッドファーザー」と呼ばれる人物です。当時、サルサの世代の多くはレゲトンを音楽とすら認めていませんでした。その本流の側からいちばん重い人が声を貸したこの一曲は、アルバム中もっとも重い意味を持つ客演です。のちにMontañez自身が「サルサトン」を推し進めることになる、その入り口を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_083_2026-08-01.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_083_2026-08-01.mp3" length="4289095" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_083_2026-08-01.mp3" length="4289095" type="audio/mpeg"/>
       <pubDate>Sat, 01 Aug 2026 12:13:58 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #11 首から下げた守り札『Santifica Tus Escapularios』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第11回は11曲目『Santifica Tus Escapularios』。Luny Tunes制作。アルバムで初めて、レゲトンではなく純粋なヒップホップとして作られた曲で、たった2小節のループの上で、自分の来歴と作品歴を並べていきます。タイトルにあるエスカプラリオとは、服の下に着ける布製のカトリックの信心具＝守り札のこと。街の音楽と信仰がなぜこれほど近いのか、そして第1弾Rosalía『LUX』の聖女たちとの意外な響き合いについて解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_082_2026-08-01.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_082_2026-08-01.mp3" length="4004465" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_082_2026-08-01.mp3" length="4004465" type="audio/mpeg"/>
       <pubDate>Sat, 01 Aug 2026 12:12:31 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #10 なぜ「アルバム」だったのか『Cuéntame』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第10回は10曲目『Cuéntame』(＝聞かせてくれ)。Luny Tunes、Eliel、Naldoの三者が関わったトラックです。ここでいったん立ち止まって、この作品の本当の発明について考えます。当時のレゲトンはDJが編むコンピレーション文化で、作品の主語はDJ、アーティストはその客でした。そこにIntro・Intermedio・Outroを備えた全21曲の個人名義アルバムを差し出したこと——『Gasolina』の成功と同じくらい、この構造の変更が後の世代を決めた、という話をします。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_081_2026-07-31.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_081_2026-07-31.mp3" length="4222638" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_081_2026-07-31.mp3" length="4222638" type="audio/mpeg"/>
       <pubDate>Fri, 31 Jul 2026 00:57:58 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #9 王が、王子になるとき『Tu Príncipe』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第9回は9曲目『Tu Príncipe』(＝君の王子)。Zion &amp; Lennoxを迎え、Luny Tunesが手がけたロマンティコの本命曲です。作詞にはZionとLennox本人の本名も並びます。同じ2004年に『Yo Voy』でDaddy Yankeeを迎えて跳ねた、カロリーナ出身のこのデュオの話。そして2曲目で「王(King Daddy)」を名乗った男が、9曲目では「君の王子」と名乗ることの意味——レゲトンが持っている硬さと甘さの二面性について解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_080_2026-07-31.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_080_2026-07-31.mp3" length="3994851" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_080_2026-07-31.mp3" length="3994851" type="audio/mpeg"/>
       <pubDate>Fri, 31 Jul 2026 00:56:31 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #8 起きたことは、起きたこと『Lo Que Pasó, Pasó』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第8回は8曲目『Lo Que Pasó, Pasó』(＝起きたことは、起きたこと)。Luny TunesとElielの共同制作、作詞にJoan Ortiz。2004年9月のシングルで、US Hot Latin Songsで2位、Tropical Songsでは1位。Lo Nuestro賞のアーバン・ソング・オブ・ザ・イヤーを受賞しました。実はラテン圏では『Gasolina』を上回る愛され方をした一曲で、ドミニカ由来のバチャータと混ぜたバージョンも作られています。レゲトンが硬派な音楽から「歌える音楽」へ移っていく分岐点として解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_079_2026-07-31.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_079_2026-07-31.mp3" length="3991089" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_079_2026-07-31.mp3" length="3991089" type="audio/mpeg"/>
       <pubDate>Fri, 31 Jul 2026 00:55:10 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #7 壁の向こうのブロンクス『El Muro』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第7回は7曲目『El Muro』(＝壁)。Monserrate &amp; DJ Urbaが手がけた、アルバムでもっとも硬い、ニューヨークのラップに近い手触りの一曲です。ここを入り口に、あまり語られてこないプエルトリコとヒップホップの関係——ブロンクスでヒップホップが生まれた現場に最初からプエルトリコ系がいたこと(Rock Steady CrewのCrazy Legs、Cold Crush BrothersのCharlie Chase)、そしてレゲトンがジャマイカ・パナマ・ニューヨーク・プエルトリコという4つの流れの合流点であることを解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_078_2026-07-31.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_078_2026-07-31.mp3" length="4091400" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_078_2026-07-31.mp3" length="4091400" type="audio/mpeg"/>
       <pubDate>Fri, 31 Jul 2026 00:53:46 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #6 英語で行くか、そのまま行くか『Like You』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第6回は6曲目『Like You』。全21曲でただ1曲、全編英語で書かれた曲です。Luny Tunes制作。2005年にシングルとして切られ、Billboard Hot 100で78位、Bubbling Under Hot 100では1位に。ところが英語だったために、ラテン系のチャートには載れませんでした。同じアルバムの『Gasolina』はスペイン語のまま世界に届いている——この対比が、その後20年のラテン音楽の進み方を先に示していた、という話をします。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_077_2026-07-31.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_077_2026-07-31.mp3" length="3999448" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_077_2026-07-31.mp3" length="3999448" type="audio/mpeg"/>
       <pubDate>Fri, 31 Jul 2026 00:52:15 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #5 世界の扉をこじ開けた一曲『Gasolina』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第5回は5曲目『Gasolina』。2003年にEddie Deeと共作し、Luny Tunesが仕上げたこの曲が、レゲトンを世界の音楽に変えました。サビの女性の声はGlory——ただしクレジットに名前はありません。「隠された意味があるはずだ」と探された曲について、Daddy Yankee自身は「完全に文字どおりで、自分が書いた中でいちばん無邪気な曲だ」という趣旨を語っています。ミュージックビデオはSanto Domingoで撮影。2023年には米議会図書館のNational Recording Registryにレゲトンとして初めて登録されました。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_076_2026-07-29.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_076_2026-07-29.mp3" length="5043093" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_076_2026-07-29.mp3" length="5043093" type="audio/mpeg"/>
       <pubDate>Wed, 29 Jul 2026 05:37:27 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #4 ひとりにしないでくれ『No Me Dejes Solo』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第4回は4曲目『No Me Dejes Solo』。Wisin &amp; Yandelを迎え、彼ら自身も作者に名を連ねたシングルです。Daddy Yankeeはのちに、この曲がWisin &amp; Yandelを国際的に押し上げたと語っています。同じ2004年1月にはEddie Deeが12人のレゲトン勢を集めた『12 Discípulos』を発表しており、当時のこのジャンルが「一人で勝つ」のではなく「仲間ごと勝ち上がる」構造で動いていたことがよく分かります。タイトルの「ひとりにしないでくれ」を、その文脈で読み解きます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_075_2026-07-29.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_075_2026-07-29.mp3" length="3821816" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_075_2026-07-29.mp3" length="3821816" type="audio/mpeg"/>
       <pubDate>Wed, 29 Jul 2026 05:35:57 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #3 名前のない声『Dale Caliente』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第3回は3曲目『Dale Caliente』。GloryとBlacka-Niceを迎え、Monserrate &amp; DJ UrbaとFidoが手がけたフロア向けの一曲です。ここで初めて登場するGlory(本名Glorimar Montalvo Castro)は、のちに『Gasolina』であの印象的なフレーズを歌いながらクレジットに名前が載らなかった人物。レゲトンにおける女性の声の位置づけと、2002年にプエルトリコ議会でperreo(ペレオ)が公聴会にかけられた出来事を軸に解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_074_2026-07-29.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_074_2026-07-29.mp3" length="4181261" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_074_2026-07-29.mp3" length="4181261" type="audio/mpeg"/>
       <pubDate>Wed, 29 Jul 2026 05:34:48 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #2 まだ誰も王ではなかった『King Daddy』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。第2回は2曲目『King Daddy』。世界的スターがまだ一人もいなかったジャンルで、自分から「王」を名乗った一曲です。あわせて、この曲とアルバムの音を作ったプロデューサー、Luny Tunes(ドミニカ系のFrancisco SaldañaとVíctor Cabrera)の来歴と、レゲトンの土台にあるデンボウのリズムの成り立ち——ジャマイカのダンスホールから借りてきた一つのリズムを、ジャンル全体で共有するという文化——を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_073_2026-07-29.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_073_2026-07-29.mp3" length="4300797" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_073_2026-07-29.mp3" length="4300797" type="audio/mpeg"/>
       <pubDate>Wed, 29 Jul 2026 05:33:25 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Daddy Yankee『Barrio Fino』全曲解説 #1 上品な、バリオ『Intro』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第6弾はDaddy Yankeeの『Barrio Fino』(2004)。レゲトンを地下から世界へ押し上げた一枚を、全21曲、順番に解説していきます。第1回は1曲目『Intro』。タイトルの「バリオ・フィーノ」＝「上品な下町」という、本来なら並ばない二語をわざと並べた宣言の意味。プロ野球選手を目指していた少年が流れ弾に当たって音楽に転向するまで。カーポート(marquesina)で録られたカセットの地下文化と、1995年にサンフアンのレコード店が家宅捜索を受けた検閲の時代。そしてこのアルバムが到達した場所までを解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_072_2026-07-29.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_072_2026-07-29.mp3" length="4931916" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_072_2026-07-29.mp3" length="4931916" type="audio/mpeg"/>
       <pubDate>Wed, 29 Jul 2026 05:32:03 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/barrio.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/barrio.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #12【最終回】ゆっくりでいい『The Tourist』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。ついに最終回。第12回はアルバムを締めくくる『The Tourist』を取り上げます。この曲を主導したのはJonny Greenwood。フランスを訪れた際、名所から名所へと駆け回り、何も見ないまま消耗していく観光客たちを目にしたことが着想でした。だから曲は、意図的なまでに遅い。3秒ごとに何かが起きなくてもいい音楽として作られています。53分にわたって加速し続けた不安の記録が、最後に「ゆっくりでいい」という一言と、ひとつの鈴の音で閉じられる——その着地を解説し、全12曲を振り返ってシリーズを締めくくります。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_071_2026-07-28.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_071_2026-07-28.mp3" length="4741744" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_071_2026-07-28.mp3" length="4741744" type="audio/mpeg"/>
       <pubDate>Tue, 28 Jul 2026 14:35:37 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #11 墜落から生き延びて『Lucky』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第11回は11曲目『Lucky』を取り上げます。実はこの曲、アルバムより2年早い1995年に完成していました。ボスニア紛争の子どもたちを支援する慈善アルバム『Help』のために、Nigel Godrichと組んでわずか5時間で録音されたものです。歌われるのは飛行機事故から生還した男。Thom Yorkeはこの曲を「完全な解放の歌」と呼びました。1曲目『Airbag』と同じ「生き延びてしまった」主題が、アルバムの終盤でもう一度、しかし今度は勝利の響きとともに戻ってくる構造を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_070_2026-07-28.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_070_2026-07-28.mp3" length="4223475" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_070_2026-07-28.mp3" length="4223475" type="audio/mpeg"/>
       <pubDate>Tue, 28 Jul 2026 14:33:13 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #10 何も起こらない人生を『No Surprises』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第10回は10曲目『No Surprises』を取り上げます。グロッケンシュピールが鳴る、子守唄のように優しい曲。ところが歌われているのは、何も起こらない静かな人生への願いと、そこに滲む深い絶望です。バンドはLouis Armstrongの1968年版『What a Wonderful World』やMarvin Gayeのソウルの空気を狙い、そして一発録りで完成させました。Grant Gee監督のミュージックビデオでは、Thom Yorkeの頭を覆うヘルメットに水が満ちていきます。優しい音で残酷なことを歌うという、このアルバムの到達点を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_069_2026-07-28.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_069_2026-07-28.mp3" length="4198815" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_069_2026-07-28.mp3" length="4198815" type="audio/mpeg"/>
       <pubDate>Tue, 28 Jul 2026 07:54:47 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #9 壁を這い上がるもの『Climbing Up the Walls』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第9回は9曲目『Climbing Up the Walls』を取り上げます。アルバムで最も暗く、最も恐ろしい一曲。Thom Yorkeがかつて精神科の施設で働いた経験と、連続殺人犯についての新聞記事が下敷きになっています。そしてJonny Greenwoodによる弦のアレンジが異様——16の弦楽器が四分音ずつずれた音を出し、和音として成立しません。彼が参照したのは、ポーランドの作曲家Krzysztof Pendereckiの『広島の犠牲者に捧げる哀歌』でした。「エリナー・リグビーみたいにはしたくなかった」という発言の意味を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_068_2026-07-28.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_068_2026-07-28.mp3" length="4308739" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_068_2026-07-28.mp3" length="4308739" type="audio/mpeg"/>
       <pubDate>Tue, 28 Jul 2026 07:53:15 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #8 票を集めるという仕事『Electioneering』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第8回は8曲目『Electioneering』を取り上げます。タイトルは「選挙運動」。当選するためなら誰にでも都合のいいことを言う候補者を描いた、アルバムで最も直接的な政治批判の一曲です。Thom Yorkeは着想源としてメディア批評家Noam Chomskyの著作を挙げています。そして音は、この静謐なアルバムの中で異例なほど荒々しいギター・ロック——前曲『Fitter Happier』の無機質な合成音声の直後に置かれた意味も含めて解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_067_2026-07-28.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_067_2026-07-28.mp3" length="4432036" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_067_2026-07-28.mp3" length="4432036" type="audio/mpeg"/>
       <pubDate>Tue, 28 Jul 2026 07:51:47 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #7 コンピューターが読み上げる幸福『Fitter Happier』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第7回は7曲目『Fitter Happier』を取り上げます。歌ではありません。Macintoshの読み上げ機能の合成音声が、望ましい生き方の箇条書きを淡々と読み上げるだけの2分弱。Thom Yorkeはこれを「90年代のスローガンの一覧」と呼び、「自分が書いたなかで最も気が滅入るもの」と語りました。書くのに要した時間はわずか10分。バンドはこれをアルバムの1曲目に置くことさえ検討しています。合成音声が語ることの意味を、2026年の視点から解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_066_2026-07-28.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_066_2026-07-28.mp3" length="4079697" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_066_2026-07-28.mp3" length="4079697" type="audio/mpeg"/>
       <pubDate>Tue, 28 Jul 2026 07:50:19 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #6 業のおまわりさん『Karma Police』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第6回は6曲目『Karma Police』を取り上げます。タイトルはツアー中の内輪の冗談から——ひどい振る舞いをする人を見かけると「そのうちカルマ警察に捕まるぞ」と言い合っていた、あの言い回しです。ところが曲は、そのおどけた出発点から、狂気と、いつのまにか自分が裁く側に立ってしまうことへの不安へと滑り落ちていきます。The Beatles『Sexy Sadie』を思わせるピアノ、そしてOasisのNoel Gallagherがこの引用を絶賛した逸話にも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_065_2026-07-28.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_065_2026-07-28.mp3" length="4336324" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_065_2026-07-28.mp3" length="4336324" type="audio/mpeg"/>
       <pubDate>Tue, 28 Jul 2026 07:48:54 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #5 移動し続けて、どこにもいない『Let Down』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第5回は5曲目『Let Down』を取り上げます。Thom Yorkeが語る主題は「閉じ込められることへの恐怖」——何千という場所と人のそばを通り過ぎながら、そのどれとも関われない、移動中の完全な断絶。Jonny Greenwoodのギターだけが別の拍子で鳴り、Steve Reich的な位相のずれを生む構造、ZX Spectrumで作られたアルペジオ、St Catherine's Courtの舞踏室で深夜3時に録音された経緯を解説します。2025年にTikTokで再燃し、17年ぶりのHot 100入りを果たした一曲でもあります。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_064_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_064_2026-07-27.mp3" length="4628478" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_064_2026-07-27.mp3" length="4628478" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 12:58:47 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #4 映画のための退場曲『Exit Music (For a Film)』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第4回は4曲目『Exit Music (For a Film)』を取り上げます。この曲は、Baz Luhrmann監督の映画『ロミオ+ジュリエット』のために書かれ、エンドロールで流れました。Thom Yorkeは戯曲そのものと、1968年のZeffirelli版映画から着想を得たと語っています。歌唱は自然な残響を得るために石の階段で録音。ギター一本の静けさから始まり、最後には低音とノイズが世界を飲み込む——駆け落ちと心中を、たった4分で描ききる構成を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_063_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_063_2026-07-27.mp3" length="4216369" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_063_2026-07-27.mp3" length="4216369" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 12:57:28 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #3 宇宙人に連れ去られたい『Subterranean Homesick Alien』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第3回は3曲目『Subterranean Homesick Alien』を取り上げます。タイトルはBob Dylanの『Subterranean Homesick Blues』のもじり。宇宙人に連れ去られ、上空から地上を眺めてみたい——そして地上に戻っても、誰も信じてくれない。故郷にいながら自分だけが異物である、という疎外感を、UFOという入口から描く一曲です。人間を観察して記録する宇宙人、という視点の反転についても解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_062_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_062_2026-07-27.mp3" length="4262345" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_062_2026-07-27.mp3" length="4262345" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 12:56:15 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #2 4つの顔を持つ大曲『Paranoid Android』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾はRadioheadの『OK Computer』。第2回は6分23秒におよぶ2曲目『Paranoid Android』を取り上げます。まったく異なる4つの部分が接ぎ木のようにつながった構成で、下敷きにはQueen『Bohemian Rhapsody』とThe Beatles『Happiness Is a Warm Gun』があります。タイトルはDouglas Adamsの小説に登場する、鬱屈したロボット“マーヴィン”から。Thom Yorkeがロサンゼルスのバーで目撃した、ある暴力的な出来事が発端になったという制作背景も解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_061_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_061_2026-07-27_v2.mp3" length="4103938" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_061_2026-07-27_v2.mp3" length="4103938" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 12:55:02 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Radiohead『OK Computer』全曲解説 #1 事故から生還する『Airbag』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第5弾は、Radioheadが1997年5月に発表した『OK Computer』。消費社会、疎外、テクノロジーへの不安を描き、ブリットポップ以降の英国ロックの流れを変えた一枚です。初回は幕開けの1曲目『Airbag』。エアバッグに助けられて事故から生還する——その瞬間を「復活」として歌う一曲を解説します。DJ Shadow『Endtroducing』に触発され、Phil Selwayのドラムを数秒単位で切り刻んで組み直したという、ロックバンドらしからぬ制作手法にも触れます。プロデュースはNigel Godrich。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_060_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_060_2026-07-27_v2.mp3" length="4388986" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_060_2026-07-27_v2.mp3" length="4388986" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 12:53:48 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/okc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/okc.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #17【最終回】引っ越しから始まった『La Mudanza』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。ついに最終回。第17回はアルバムを締めくくる『La Mudanza』を取り上げます。タイトルは『引っ越し』。曲は語りで始まります——Vega Baja出身で6人きょうだいの長男、技師を夢見ながら祖父と父と同じくトラックを運転した父ティト。そして、友人の引っ越しを手伝いに行った日に出会った母リシー。つまりこの『引っ越し』こそ、彼という存在の出発点でした。個人の来歴を語り終えたあと、曲は思想家Eugenio María de Hostosに触れ、島の独立への思いへと開かれていきます。全17曲の旅の結びとして解説し、シリーズを締めくくります。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_059_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_059_2026-07-27_v3.mp3" length="5769924" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_059_2026-07-27_v3.mp3" length="5769924" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 01:07:15 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #16 もっと写真を撮っておけばよかった『DtMF』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第16回はついに表題曲『DtMF』を取り上げます。タイトルは『もっと写真を撮っておけばよかった』。失った恋人なのか、亡くなった誰かなのか——あえて特定されないまま、撮り損ねた写真への後悔が歌われます。酔いが回るにつれて感傷的になり、友人たちに愛していると伝え、今すぐ集まって一枚撮ろうと言い出す。その情けなさと切実さ。TikTokでは聴きながら泣く動画が溢れ、世界的な現象になりました。アルバム全体の主題がここに凝縮されます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_058_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_058_2026-07-27.mp3" length="4370596" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_058_2026-07-27.mp3" length="4370596" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 01:05:41 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #15 原点に還る『Eoo』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第15回は15曲目『Eoo』を取り上げます。前曲で島の未来を正面から見据えたあと、一転してレゲトンの原点へ立ち返る一曲。2000年代の伝説的デュオHéctor &amp; Titoの楽曲を引用し、さらに自身のデビュー作『X 100pre』収録曲にも目配せするという、二重の“来た道の確認”が仕込まれています。この曲は2026年のグラミー賞で最優秀グローバル音楽パフォーマンスを受賞しました。踊ることが文化の継承になる、というこのアルバムの一貫した論理を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_057_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_057_2026-07-27.mp3" length="4071338" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_057_2026-07-27.mp3" length="4071338" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 00:27:51 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #14 ハワイに起きたこと『Lo Que Le Pasó a Hawaii』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第14回は、このアルバムで最も政治的な14曲目『Lo Que Le Pasó a Hawaii』を取り上げます。プエルトリコとハワイは、ともに1898年にアメリカの手に渡りました。土地を買われ、言葉が痩せ、文化が観光の商品になっていったハワイの歴史に、島の未来を重ね、“同じことをここで起こさせない”と歌います。川も浜も取り上げられようとしている現実、そして山あいの農村音楽ヒバロの掛け声『レロライ』を忘れるなという呼びかけ。夢の中で丸ごと浮かび、起きて一気に書き上げたという制作の逸話にも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_056_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_056_2026-07-27.mp3" length="5345277" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_056_2026-07-27.mp3" length="5345277" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 00:26:44 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #13 ひとりのクリスマス『Pitorro de Coco』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第13回は13曲目『Pitorro de Coco』を取り上げます。ピトーロはプエルトリコの自家製ラム酒で、ココナッツ味はクリスマスの定番。島じゅうが賑わうその季節に、去っていった相手を想いながらひとりで飲む——祝祭と孤独が同居する一曲です。島の伝統的なクリスマス音楽の要素と、山あいの農村に根ざしたヒバロのリズムを取り込み、年の瀬の寂しさを描きます。前曲の“みんなで飲むラム”との対比としても読み解きます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_055_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_055_2026-07-27_v2.mp3" length="4045006" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_055_2026-07-27_v2.mp3" length="4045006" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 00:25:15 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #12 コーヒーとラム『Café con Ron』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第12回は12曲目、Los Pleneros de la Crestaを迎えた『Café con Ron』を取り上げます。コーヒー＝朝と日常、ラム＝夜と祝祭。二つの飲み物で、島の暮らしのリズムそのものを描く一曲です。共演のLos Pleneros de la Crestaは、プエルトリコの伝統音楽プレーナの担い手。この共演をきっかけに彼らの月間リスナー数が桁違いに増えたという事実は、このアルバムが掲げてきた“次の世代・地元の担い手に場所を用意する”という姿勢が、現実に効果を持った証拠でもあります。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_054_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_054_2026-07-27.mp3" length="4391912" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_054_2026-07-27.mp3" length="4391912" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 00:24:07 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #11 君は僕の人生の観光客だった『Turista』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第11回は11曲目『Turista』を取り上げます。タイトルは『観光客』。短く終わった恋の相手を、自分の人生を訪れただけの観光客になぞらえます——きれいな部分だけを見て、傷には触れないまま帰っていった人。しかしBad Bunny自身が語るとおり、この曲には二重の意味があります。プエルトリコを訪れて楽しいところだけを享受し、島の歴史や問題は置いて帰っていく、本物の観光客たちのことでもある。個人の失恋と、島の観光地化が、一語で重なる構造を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_053_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_053_2026-07-27.mp3" length="4216788" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_053_2026-07-27.mp3" length="4216788" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 00:22:48 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #10 限られた人にだけ見える『Kloufrens』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第10回は10曲目『Kloufrens』を取り上げます。タイトルは英語の“close friends”——SNSの、限られた相手にだけ公開する機能のこと——を、スペイン語話者の発音のまま綴ったもの。別れたあとも相手のアカウントを見てしまう、あの現代的な未練を歌います。自身の代表作『YHLQMDLG』収録『La Santa』への言及も含み、過去の自分の曲を参照することで“思い出を見返す”という行為そのものを二重化する構造を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_052_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_052_2026-07-27_v2.mp3" length="4199233" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_052_2026-07-27_v2.mp3" length="4199233" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 15:42:52 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #9 道路の穴、心の穴『Bokete』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第9回は9曲目『Bokete』を取り上げます。タイトルの『boquete』は、道路にあいた穴——つまり、誰も直さないまま放置された“ポットホール”のこと。冷えていった恋の顛末を語りながら、その比喩として、島の直されない道路の穴が置かれます。心にあいた穴と、行政に放置された穴。二つの『穴』が重なるとき、失恋の歌は、静かに島の現実の告発にもなる。この曲のダブルミーニングを解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_051_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_051_2026-07-27_v2.mp3" length="3938008" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_051_2026-07-27_v2.mp3" length="3938008" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 15:41:41 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #8 何様のつもり『Ketu Tecré』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第8回は8曲目『Ketu Tecré』を取り上げます。タイトルは『Qué tú te crees(何様のつもりだ)』を、プエルトリコの発音のまま綴ったもの。失恋の痛みを歌いながら、そこに島の日常が次々と流れ込んできます——たびたび起こる停電、1月6日の三賢者の日、路上のドミノ、そして自家製ラム酒ピトーロ。個人的な失恋の歌が、そのまま島の生活の記録になっているという、このアルバム特有の二重性を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_050_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_050_2026-07-27_v3.mp3" length="4107700" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_050_2026-07-27_v3.mp3" length="4107700" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 15:40:32 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #7 踊りながら独りでいる『El Clúb』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第7回は7曲目『El Clúb』を取り上げます。アルバムに先駆けて2024年に公開された先行シングル。人でいっぱいのクラブにいながら、頭の中は別れた相手のことでいっぱい——という、踊りながら独りでいる感覚を、ハウスのビートで描きます。ネオンのクラブから始まり、AI生成のイメージが混ざり込んでいくミュージックビデオ、そして映像の最後に現れた『DTmF 2025』の文字が、このアルバムの予告になっていた経緯も解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_049_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_049_2026-07-27_v3.mp3" length="4163289" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_049_2026-07-27_v3.mp3" length="4163289" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 15:39:20 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #6 “ホント”という綴り『Veldá』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第6回は6曲目、Omar CourtzとDei Vを迎えた『Veldá』を取り上げます。タイトルは『verdad(本当)』を、プエルトリコの人々が実際に発音するとおりに綴ったもの。正しい綴りではなく、自分たちの口の形で書くという、このアルバムを貫く言語の政治を解説します。土台にはレゲトンの伝説的デュオPlan Bの『No Voy a Esperar por Ti』のサンプル、そして曲の最後にはWisinの声が。若手2組とレゲトンの先達が、1曲の中で世代をつなぎます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_048_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_048_2026-07-27_v2.mp3" length="3756196" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_048_2026-07-27_v2.mp3" length="3756196" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 15:38:06 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #5 引き継がれる名旋律『Weltita』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第5回は5曲目、プエルトリコのバンドChuwiを迎えた『Weltita』を取り上げます。この曲が下敷きにしているのは、スペインのバンドJarabe de Paloが1996年に放った大ヒット曲『La Flaca』。スペイン語圏で世代を超えて愛されてきた旋律が、プエルトリコの若いバンドとともに現代へ引き継がれます。植民地支配の歴史を持つ島が、旧宗主国の名曲を自分たちの音として鳴らし直すという構図、そして地元バンドを起用し続けるこのアルバムの姿勢を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_047_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_047_2026-07-27_v2.mp3" length="3922544" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_047_2026-07-27_v2.mp3" length="3922544" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 15:18:03 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #4 新しい香り『Perfumito Nuevo』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第4回は4曲目、RaiNaoを迎えた『Perfumito Nuevo』を取り上げます。タイトルは「新しい香水」。新しい香りをまとうことが、そのまま新しい相手・新しい自分の始まりを意味する、誘惑と高揚の一曲です。共演のRaiNaoは、サントゥルセ出身でレゲトンとR&amp;Bとポップを横断する若手シンガーソングライター。この曲は彼女にとって初のBillboard Hot 100入りとなり、Latin Airplayチャートでキャリア初の1位をもたらしました。島の次世代を引き上げるという、このアルバムの姿勢が表れた一曲です。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_046_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_046_2026-07-27_v3.mp3" length="4028288" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_046_2026-07-27_v3.mp3" length="4028288" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 15:16:54 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #3 忘れられないダンス『Baile Inolvidable』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第3回は3曲目『Baile Inolvidable』を取り上げます。6分を超える、本格的なサルサ。忘れられない恋人を「忘れられないダンス」になぞらえ、“君が僕に踊りを教えてくれた”と歌う一曲です。特筆すべきは演奏陣——サンフアンの公立音楽学校、Escuela Libre de Música Ernesto Ramos Antoniniに通う20歳前後の若い奏者たちが管楽器とピアノソロを担当しています。世界的スターが自国の音楽教育の現場に手を伸ばした意味を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_045_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_045_2026-07-27_v2.mp3" length="4150750" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_045_2026-07-27_v2.mp3" length="4150750" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 15:15:47 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #2 島へ連れて行くよ『Voy a Llevarte Pa' PR』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾はBad Bunnyの『Debí Tirar Más Fotos』。第2回は2曲目『Voy a Llevarte Pa' PR』を取り上げます。タイトルは「君をプエルトリコに連れて行く」。前曲がニューヨークのプエルトリコ人街から始まったのに対し、この曲は逆方向——島そのものへ人を招く、明るいレゲトン讃歌です。観光パンフレットの島ではなく、地元の人が知っている本当のプエルトリコを見せたい、という誘い。2分半という短さの意味、そして“楽しむこと”がこのアルバムでは政治的な行為にもなる、という構造を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_044_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_044_2026-07-27_v2.mp3" length="4032885" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_044_2026-07-27_v2.mp3" length="4032885" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 15:14:34 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Bad Bunny『Debí Tirar Más Fotos』全曲解説 #1 ニューヨークのプエルトリコ『Nuevayol』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第4弾は、Bad Bunnyが2025年1月5日に発表した『Debí Tirar Más Fotos』。タイトルは「もっと写真を撮っておけばよかった」。レゲトンにプエルトリコの伝統音楽(プレーナ／ボンバ／ヒバロ／サルサ)を全面的に取り込み、島の文化とジェントリフィケーションを歌った一枚で、2026年グラミーではスペイン語アルバムとして史上初の年間最優秀アルバム賞を受賞しました。初回は幕開けの1曲目『Nuevayol』。サルサの大御所El Gran Combo de Puerto Ricoの名曲『Un Verano en Nueva York』を土台に、ニューヨークに渡ったプエルトリコ人の歴史を呼び戻す一曲を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_043_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_043_2026-07-27_v3.mp3" length="4524823" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_043_2026-07-27_v3.mp3" length="4524823" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 15:13:26 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/dtmf.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/dtmf.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #12【最終回】隊列を組め『Formation』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾はBeyoncéの『Lemonade』。ついに最終回。第12回は章立ての外側に置かれた12曲目『Formation』を取り上げます。2016年2月6日に突如公開され、その翌日スーパーボウルで披露された、宣言としての一曲。ヒューストンのトラップとニューオーリンズのバウンスが混ざり合い、Big Freediaと、2010年に殺害されたMessy Myaの声が引用されます。映像はハリケーン・カトリーナの記憶——沈んでいくパトカー、フードの少年と警官、「Stop shooting us」の落書き。私的な癒しの物語が、最後に公的な宣言へと反転する構造を解説し、シリーズを締めくくります。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_042_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_042_2026-07-26_v3.mp3" length="6229679" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_042_2026-07-26_v3.mp3" length="6229679" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 14:36:10 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #11 一晩じゅう、あなたと『All Night』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾はBeyoncéの『Lemonade』。第11回は第11章「贖い」にあたる11曲目『All Night』を取り上げます。裏切りのあとに、もう一度信頼を築き直す——赦しの実践としての愛を歌う、温かな一曲。土台にはOutKast『SpottieOttieDopaliscious』のブラスが敷かれ、南部のソウルの系譜へと接続されます。映像では、結婚式やBlue Ivyとの日常を収めたホームビデオに加え、Zendaya、Amandla Stenberg、Chloe x Halle、Quvenzhané Wallisら次世代の女性たちが映し出される——個人の回復が、受け継がれていく希望として描かれる構造を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_041_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_041_2026-07-26_v2.mp3" length="4337578" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_041_2026-07-26_v2.mp3" length="4337578" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 14:34:24 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #10 レモンをレモネードに『Freedom』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾はBeyoncéの『Lemonade』。第10回は第10章「希望」にあたる10曲目、Kendrick Lamarを迎えた『Freedom』を取り上げます。Alan Lomaxが記録した1947年のミシシッピ州パーチマン刑務所の囚人の歌、1959年の教会の賛美歌——奴隷制と収監の記憶を宿す音源を土台に据えた、抵抗の賛歌です。そして曲の最後、Jay-Zの祖母Hattie Whiteが90歳の誕生日に語った言葉「レモンを渡されたけれど、私はレモネードを作った」が流れ、アルバムの題名の由来が明かされます。2024年には米大統領選のキャンペーン曲としても新たな命を得ました。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_040_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_040_2026-07-26_v3.mp3" length="4904748" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_040_2026-07-26_v3.mp3" length="4904748" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 14:25:10 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #9 遺影を抱く母たち『Forward』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾はBeyoncéの『Lemonade』。第9回は第9章「復活」にあたる9曲目、James Blakeを迎えた『Forward』を取り上げます。わずか1分あまりの短い間奏曲。しかし映像では、警察や自警による暴力で息子を亡くした母たち——Trayvon Martinの母Sybrina Fulton、Michael Brownの母Lezley McSpadden、Eric Garnerの母Gwen Carr——が、息子の写真を抱いてカメラの前に座ります。個人の関係の物語だったアルバムが、ここで完全に、社会の記憶へと開かれる瞬間を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_039_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_039_2026-07-26_v2.mp3" length="4207592" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_039_2026-07-26_v2.mp3" length="4207592" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 14:23:45 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #8 砂の城が崩れたあとで『Sandcastles』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾はBeyoncéの『Lemonade』。第8回は第8章「赦し」にあたる8曲目『Sandcastles』を取り上げます。ピアノ一台とボーカルだけの、アルバムで最も無防備な一曲。約束は砂の城のように崩れる——それでも、崩れたあとにもう一度愛することを選べるか、という問いを歌います。完璧に整えられるはずの歌声を、あえて掠れたまま、割れたまま残した選択の意味を解説します。映像では二人が寄り添う姿が映され、アルバムの感情曲線がここで底を打って反転します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_038_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_038_2026-07-26_v2.mp3" length="4289094" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_038_2026-07-26_v2.mp3" length="4289094" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 14:22:32 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #7 水の中へ歩いていく『Love Drought』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾はBeyoncéの『Lemonade』。第7回は第7章「改革」にあたる7曲目『Love Drought』を取り上げます。タイトルは“愛の渇水”。関係を終わらせるのではなく、もう一度作り直そうとする、静かな和解への一歩です。そして映像がすさまじい——白い衣をまとった黒人女性たちの行列が、海へ歩いて入っていく。これは1803年のイボ・ランディング、鎖につながれることを拒んで水へ歩み入ったイボの人々の伝承を踏まえた場面であり、Julie Dashの映画『Daughters of the Dust』の影響下にあります。個人の関係修復が、集団の記憶と重なる瞬間を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_037_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_037_2026-07-26_v2.mp3" length="4187112" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_037_2026-07-26_v2.mp3" length="4187112" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 14:21:17 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #6 父から受け継いだもの『Daddy Lessons』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾はBeyoncéの『Lemonade』。第6回は第6章「責任」にあたる6曲目『Daddy Lessons』を取り上げます。ニューオーリンズのブラスで始まり、カントリーへと展開する異色の一曲。父が娘に授けた“男に気をつけろ”という教えが、そのまま今の自分の状況に跳ね返ってくる——痛みが世代を越えて反復するという、アルバムの核心に触れます。カントリーという音楽そのものが持つ黒人のルーツ(コンゴ・スクエア、ハーモニカの名手DeFord Bailey)、2016年CMAでのThe Chicksとの共演と、そこで起きた反発についても解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_036_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_036_2026-07-26_v2.mp3" length="4106864" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_036_2026-07-26_v2.mp3" length="4106864" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 14:20:05 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #5 働き続ける女と、その空洞『6 Inch』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾はBeyoncéの『Lemonade』。第5回は第5章「空虚」にあたる5曲目、The Weekndを迎えた『6 Inch』を取り上げます。タイトルは6インチのヒール。夜通し働き、金を稼ぎ続ける女性を描きながら、その足元に空いた穴を見つめる一曲です。Isaac Hayesが歌った『Walk On By』(Burt Bacharach作)のサンプル、Animal Collectiveへの目配せ、そしてDonna Summerの労働歌の系譜。女性の労働がどう商品化されてきたか、という批評として読み解きます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_035_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_035_2026-07-26.mp3" length="4588771" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_035_2026-07-26.mp3" length="4588771" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 18:23:27 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #4 謝らない、という強さ『Sorry』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾はBeyoncéの『Lemonade』。第4回は第4章「無関心」にあたる4曲目『Sorry』を取り上げます。傷ついた心が、怒りを通り越して冷たく突き放す段階へ——友人たちと出かけ、相手を視界から外す“無関心”の一曲。話題になった「Becky with the good hair」という一節が、単なる当てこすりではなく、黒人女性が長く置かれてきた美の序列への批評であることを解説します。あわせて、公開当時に起きた“犯人探し”が作品の本質を取り違えていた点にも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_034_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_034_2026-07-26.mp3" length="4518554" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_034_2026-07-26.mp3" length="4518554" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 18:22:29 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #3 最も守られない者たちへ『Don't Hurt Yourself』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾はBeyoncéの『Lemonade』。第3回は第3章「怒り」にあたる3曲目、Jack Whiteを迎えた『Don't Hurt Yourself』を取り上げます。Led Zeppelin『When the Levee Breaks』の重いドラムを引用したブルース・ロック——その原曲はMemphis Minnieらによる1929年のブルースで、黒人音楽の血脈を辿り直す引用でもあります。そして曲中に響くMalcolm Xの演説「アメリカで最も敬われず、最も守られない存在は黒人女性だ」。私的な怒りが、歴史的な告発へと接続される瞬間を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_033_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_033_2026-07-26.mp3" length="4633910" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_033_2026-07-26.mp3" length="4633910" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 18:21:30 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #2 黄金の女神が街を壊す『Hold Up』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾はBeyoncéの『Lemonade』。第2回は第2章「否認」にあたる2曲目『Hold Up』を取り上げます。映像で彼女がまとう黄金のドレスは、ヨルバの水の女神オシュンの象徴。愛と豊穣を司る一方、裏切られたときには苛烈な怒りを見せる女神です。微笑みながらバットで街を壊していくという、陽気なサウンドと破壊的な映像の落差、そしてそこに込められた女性性への問いを解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_032_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_032_2026-07-26.mp3" length="4459622" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_032_2026-07-26.mp3" length="4459622" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 18:20:25 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Beyoncé『Lemonade』全曲解説 #1 疑いという名の直感『Pray You Catch Me』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第3弾は、Beyoncéが2016年に発表した『Lemonade』。夫の裏切りをめぐる私的な物語を、アメリカにおける黒人女性の歴史的経験へと接続した、映像込みのコンセプト作です。映像版はキューブラー・ロスの受容過程になぞらえた11の章で構成され、詩人Warsan Shireの詩篇が全編に配されています。初回は第1章「直感」にあたる1曲目『Pray You Catch Me』。ピアノと囁くような歌声だけで、疑いが芽生える瞬間を描く一曲を解説します。制作はKevin Garrettとの共同、James Blakeも共作者に名を連ねます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_031_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_031_2026-07-26_v3.mp3" length="4527331" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_031_2026-07-26_v3.mp3" length="4527331" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 18:19:28 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lemonade.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lemonade.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #12【最終回】街への凱旋歌『Compton』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾はKendrick Lamarの『good kid, m.A.A.d city』。ついに最終回。第12回はアルバムを締めくくる12曲目、Dr. Dreを迎えた『Compton』を取り上げます。Just Blazeによる祝祭的なホーンに乗せて、重く暗い物語を抜けた先で、育った街そのものを讃える凱旋歌。実はこの曲は、ケンドリックとドレーが初めて一緒に録音した曲でもありました。N.W.A.からDr. Dre、そしてKendrickへ——コンプトンが生んだヒップホップの系譜が受け継がれる瞬間として、そして全12曲の物語の結びとして解説し、シリーズを締めくくります。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_030_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_030_2026-07-26_v2.mp3" length="5538792" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_030_2026-07-26_v2.mp3" length="5538792" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 17:58:29 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #11 “本物”とは何か『Real』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾はKendrick Lamarの『good kid, m.A.A.d city』。第11回は11曲目、Anna Wiseを迎えた約7分半の『Real』を取り上げます。金も、車も、女性も“愛している”と並べ立てた末に、自分自身を愛していないと気づく——自己愛と本物であることをめぐる一曲。そして曲の終盤、両親の留守番電話が物語に決着をつけます。父が語る“リアルとは責任だ”という定義、母が息子に託す“戻ってきて、あなたの物語を語りなさい”という願い。このアルバムそのものが、その願いへの返答だったと分かる瞬間を解説します。制作はTerrace Martin。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_029_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_029_2026-07-26_v3.mp3" length="4913108" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_029_2026-07-26_v3.mp3" length="4913108" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 17:57:16 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #10 死者に代わって歌う『Sing About Me, I'm Dying of Thirst』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾はKendrick Lamarの『good kid, m.A.A.d city』。第10回はアルバムの核心、12分04秒におよぶ10曲目『Sing About Me, I'm Dying of Thirst』を取り上げます。前半『Sing About Me』は、亡くなった友人の兄、ある女性の姉、そしてケンドリック本人という三つの視点から語られ、語り手の声が銃声に断ち切られ、あるいは消えていくという衝撃的な仕掛けを持ちます。後半『I'm Dying of Thirst』は、渇き=魂の飢えを描き、詩人Maya Angelouが参加する祈りのスキットへ。制作はLike、Skhye Hutch、Sounwave。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_028_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_028_2026-07-26_v2.mp3" length="5662926" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_028_2026-07-26_v2.mp3" length="5662926" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 17:34:16 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #9 プールに沈む『Swimming Pools (Drank)』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾はKendrick Lamarの『good kid, m.A.A.d city』。第9回は9曲目『Swimming Pools (Drank)』を取り上げます。クラブで鳴り響く大ヒット曲でありながら、中身は酒に溺れることへの警告という、強烈なねじれを持つ一曲。プール＝アルコールの比喩、家族に受け継がれた飲酒の影、そして自分の中の“良心”をもう一つの声として登場させる二重構造を解説します。T-Minusによる三連のフロウと跳ねるハイハット、そして曲の直後のスキットから物語が最も暗い場所へ転落していく流れにも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_027_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_027_2026-07-26_v2.mp3" length="5036823" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_027_2026-07-26_v2.mp3" length="5036823" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 17:32:56 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #8 狂った街『m.A.A.d city』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾はKendrick Lamarの『good kid, m.A.A.d city』。第8回は8曲目、コンプトンの伝説MC Eihtを迎えた『m.A.A.d city』を取り上げます。前曲『good kid』と対になり、アルバムタイトルを完成させる一曲。“my Angry Adolescence divided(引き裂かれた怒れる思春期)”と“my Angels on Angel dust(天使がドラッグに溺れて)”という二重の頭字語、幼くして暴力を目撃した記憶、そして曲が途中で一変する構成——前半はSounwave &amp; THCの切迫したビート、後半はTerrace MartinによるG-Funk——を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_026_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_026_2026-07-26_v2.mp3" length="4938185" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_026_2026-07-26_v2.mp3" length="4938185" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 17:31:51 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #7 板挟みの『good kid』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾はKendrick Lamarの『good kid, m.A.A.d city』。第7回は7曲目、アルバムタイトルの片割れである『good kid』を取り上げます。ギャングと警察、その両方から狙われる“良い子”の板挟みを描く一曲。人種プロファイリングの経験、暴力の連鎖の中での消耗、そして終盤に現れる洗礼＝魂の浄めのイメージを解説します。Pharrell Williamsがマイアミでゼロから組み上げたドラマティックなビート、Pharrellがケンドリックを“ブラック・ボブ・ディラン”と評した逸話にも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_025_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_025_2026-07-26.mp3" length="5035569" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_025_2026-07-26.mp3" length="5035569" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 17:30:45 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #6 暴力の合間の恋『Poetic Justice』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾はKendrick Lamarの『good kid, m.A.A.d city』。第6回は6曲目、Drakeを迎えた『Poetic Justice』を取り上げます。タイトルは、Janet JacksonとTupac Shakurが共演した1993年の映画『ポエティック・ジャスティス』から。Janet Jacksonの『Any Time, Any Place』をスローダウンしてサンプリングした、官能的で夢見心地なトラックです。暴力と隣り合わせの街で、それでも恋をする少年の姿、Scoop DeVilleがスタジオでラジオから偶然この曲を聴いて生まれたという制作秘話、そして物語がここから急転する仕掛けを解説します。あわせて、ここで共演しているKendrickとDrakeが、のちの2024年にヒップホップ史に残る大きな対立に至ったこと(『Not Like Us』の大ヒット、グラミー5部門受賞、2025年スーパーボウルでの披露)にも触れ、いま聴き返すことの意味を考えます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_024_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_024_2026-07-26_v3.mp3" length="6984931" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_024_2026-07-26_v3.mp3" length="6984931" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 17:29:40 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #5 誘惑としてのお金『Money Trees』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾はKendrick Lamarの『good kid, m.A.A.d city』。第5回は5曲目、Jay Rockを迎えた『Money Trees』を取り上げます。ケンドリックが“駆動力は誘惑(temptation)”と語る、現金が約束する誘惑と、荒れた10代の夢を描いた一曲。DJ DahiによるBeach House『Silver Soul』のスロー&amp;逆再生サンプルが生む夢見心地で不吉なサウンド、コンプトンの過酷な現実を飾らず描くJay Rockの客演、そしてローリング・ストーン誌がケンドリック史上最高の曲に選んだ理由を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_023_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_023_2026-07-25_v2.mp3" length="4954067" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_023_2026-07-25_v2.mp3" length="4954067" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 14:55:09 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #4 同調圧力という名の芸術『The Art of Peer Pressure』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾はKendrick Lamarの『good kid, m.A.A.d city』。第4回は4曲目『The Art of Peer Pressure』を取り上げます。ふだんは“しらふの魂”“仲裁役”である主人公が、仲間(the homies)といると別人になり、同調圧力とドラッグの影響から空き巣・強盗に加担してしまう——という、アルバムの物語が大きく動く一曲。“本当の自分”と“仲間といる時の自分”の二重性を描く一人称の語り、Tabuのプロダクション、そしてケンドリックが「父の存在」で危うさを乗り越えたと語る背景を解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_022_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_022_2026-07-25_v2.mp3" length="4938603" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_022_2026-07-25_v2.mp3" length="4938603" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 14:54:04 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #3 少年の空想と野望『Backseat Freestyle』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾はKendrick Lamarの『good kid, m.A.A.d city』。第3回は3曲目『Backseat Freestyle』を取り上げます。富・権力・女性を夢想する、誇大妄想的な自慢(ブラガドーシオ)の一曲。しかし物語上、それは母から借りたミニバンの中で膨らむ“願望”にすぎません。キング牧師の『I Have a Dream』を想起させる反復が個人の野望と集合的な夢を重ねる皮肉、Hit-Boyの強烈なビート、そして主人公の若さと、ラッパーとしての技巧を同時に示す仕掛けを解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_021_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_021_2026-07-25.mp3" length="4916451" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_021_2026-07-25.mp3" length="4916451" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 14:52:49 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #2 波長を乱すな『Bitch, Don't Kill My Vibe』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾はKendrick Lamarの『good kid, m.A.A.d city』。第2回は2曲目『Bitch, Don't Kill My Vibe』を取り上げます。“自分の波長(vibe)を乱すな”という自己防衛の宣言でありながら、モリー(MDMA)自慢に象徴されるヒップホップの流行への批判も込めた一曲。SounwaveのプロダクションとデンマークのグループBoom Clap Bachelorsのサンプル、当初予定されていたLady Gagaとの共作の経緯、そして物語の中での“混沌の中で芯を保つ瞬間”という位置づけを解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_020_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_020_2026-07-25_v2.mp3" length="4651465" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_020_2026-07-25_v2.mp3" length="4651465" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 14:51:42 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Kendrick Lamar『good kid, m.A.A.d city』全曲解説 #1 物語の幕開け『Sherane a.k.a Master Splinter's Daughter』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第2弾は、Kendrick Lamarが2012年に発表したメジャーデビュー作『good kid, m.A.A.d city』。“A Short Film by Kendrick Lamar”を掲げ、コンプトンで育つ10代の“ある一日”を描く映画的コンセプト作です。初回はアルバムの物語の幕を開ける1曲目『Sherane a.k.a Master Splinter's Daughter』を取り上げます。少女シェレーンに会うため車を走らせる17歳の主人公、その先に待つ不穏な影、そして両親からの留守電——物語の出発点となる仕掛けを、Tha Biznessのプロダクションとともに解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_019_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_019_2026-07-25_v2.mp3" length="4849160" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_019_2026-07-25_v2.mp3" length="4849160" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 14:50:36 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/gkmc.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/gkmc.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #18【最終回】死を祝祭に変えて『Magnolias』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。ついに最終回。第18回はアルバムを締めくくる18曲目『Magnolias(マグノリアス)』を取り上げます。死を、終わりではなく、生の輝かしい祝祭として描く一曲。自らの葬儀を、悲しみではなく賑やかなパーティーとして思い描き、“神が降り、自分は昇り、中間で出会う”という、地上と神聖が対等に交わる超越の瞬間を歌います。全18曲・4楽章・14言語の壮大な旅の到達点として、そしてシリーズ完結編として、アルバム全体を振り返ります。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_018_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_018_2026-07-25.mp3" length="5797927" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_018_2026-07-25.mp3" length="5797927" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 07:02:33 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #17 記憶が消えても『Memória』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第17回は第4楽章の3曲目、ポルトガルのファド歌手Carminhoを迎えた『Memória(メモリア)』を取り上げます。全編ポルトガル語で歌われる一曲。記憶を失っていく者が、愛する人に“私が誰なのか”を思い出させてほしいと請う——記憶とアイデンティティの儚さを描きます。Carminhoが約50年前の名曲『Fado Maria Rita』の旋律に新たな詞を綴った成り立ち、ポルトガルギターが奏でるサウダーデ(郷愁)に満ちたファドの伝統についても解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_017_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_017_2026-07-25.mp3" length="4756372" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_017_2026-07-25.mp3" length="4756372" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 07:00:34 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #16 赦しのルンバ『La Rumba del Perdón』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第16回は第4楽章の2曲目、フラメンコ界の名花Estrella MorenteとSílvia Pérez Cruzを迎えた『La Rumba del Perdón(ラ・ルンバ・デル・ペルドン)』を取り上げます。タイトルは『赦しのルンバ』。裏切り、喪失、そして赦しの力を、フラメンコの祝祭的なリズムに乗せて描きます。実は2ndアルバム『El Mal Querer』の頃に書かれ、約6年を経て日の目を見た経緯や、参加歌手の率直な感想といった制作の裏側にも、事実にもとづいて触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_016_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_016_2026-07-25_v2.mp3" length="4491387" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_016_2026-07-25_v2.mp3" length="4491387" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 06:59:01 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #15 ロボットの花嫁からの解放『Novia Robot』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第15回からは最終楽章・第4楽章へ。その幕開けは15曲目『Novia Robot(ノビア・ロボット)』です。タイトルは『ロボットの恋人』。男性の快楽のために作られる“ロボット女性”という設定の風刺から始まり、女性の物象化への批判と、そこからの解放を歌います。道教の女性道士・孫不二、ユダヤ教の指導者ミリアムという二人の反逆的な女性に着想を得た構成、中国語(マンダリン)とヘブライ語の歌唱、クラシックの弦とグリッチなエレクトロR&amp;Bが衝突するサウンドを解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_015_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_015_2026-07-25.mp3" length="5047273" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_015_2026-07-25.mp3" length="5047273" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 06:57:30 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #14 炎の聖女ジャンヌ『Jeanne』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第14回は第3楽章の締めくくり、フランス語で歌われる14曲目『Jeanne(ジャンヌ)』を取り上げます。フィジカル盤限定曲のひとつ。フランスの聖女ジャンヌ・ダルクに捧げられ、勇気・信仰・霊的な反逆を、現代的なまなざしで捉え直します。殉教を、光と内なる自由の瞑想へと変え、愛を自己の消滅と重ねる——というテーマを、スペイン語とフランス語が交差する構成とともに解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_014_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_014_2026-07-25_v2.mp3" length="4687827" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_014_2026-07-25_v2.mp3" length="4687827" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 06:44:12 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #13 豪華さを手放す『Sauvignon Blanc』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第13回は第3楽章の4曲目『Sauvignon Blanc(ソーヴィニヨン・ブラン)』を取り上げます。第3弾シングルにもなった一曲。高級車やブランドの靴、真珠やキャビアといった物質的な豊かさを手放し、愛と精神的なつながりこそを本当の“通貨”とする——という放棄と充足のテーマを解説します。地位を誇るためではなく、魂のために注がれる一杯としてのワイン、というタイトルの比喩、アコースティックで親密なサウンドにも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_013_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_013_2026-07-25_v2.mp3" length="4509777" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_013_2026-07-25_v2.mp3" length="4509777" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 06:42:44 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #12 名前に宿る炎『Focu ’Ranni』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第12回は第3楽章の3曲目、シチリア語で歌われる『Focu ’Ranni(フォク・ランニ)』を取り上げます。タイトルはシチリア語で『大きな火』。厄介で燃えさかる状況の比喩です。ペストからパレルモを救った守護聖人サンタ・ロサリア——アーティスト名の由来でもある聖女——を軸に、自己同一性・自由・自立(誰かの“半分”や所有物にはならない)というテーマを解説します。あやうく実現しかけた結婚とその破棄、より古い自分へと遡るためのシチリア語の選択にも、事実にもとづいて触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_012_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_012_2026-07-25_v3.mp3" length="4877998" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_012_2026-07-25_v3.mp3" length="4877998" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 06:41:17 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #11 頸の血管より近い愛『La Yugular』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第11回は第3楽章の2曲目『La Yugular(ラ・ジュグラール)』を取り上げます。タイトルは『頸静脈』。イスラム最初の女性聖人と呼ばれる神秘家ラービアに着想を得て、遠くにありながら自分の頸の血管よりも近い——という、物理も精神も超えたコスモポリタンな愛を歌います。クルアーンの一節への参照、スペイン語とアラビア語の往還、魂の重さ21グラムのイメージ、Sir Dylan・Noah Goldstein・Elliott Kozelによる映画的でそぎ落とされたサウンドを解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_011_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_011_2026-07-25_v2.mp3" length="4992519" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_011_2026-07-25_v2.mp3" length="4992519" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 06:39:39 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #10 神はストーカー?『Dios Es un Stalker』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第10回からは第3楽章へ。その幕開けは、挑発的なタイトルを持つ10曲目『Dios Es un Stalker(ディオス・エス・ウン・ストーカー)』です。タイトルは『神はストーカー』の意味。全知全能で遍在する神を、現代の監視・執着の言葉で捉え直し、“神の視点”から人間を見つめるというユーモラスかつ大胆な試みを解説します。崇拝が支配に転じる愛の暗い裏面、チェンバーポップやサルサ、電子ビートとフラメンコの囁きが混じるサウンド、Noah Goldstein・Sir Dylanらの制作にも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_010_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_010_2026-07-25.mp3" length="4541541" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_010_2026-07-25.mp3" length="4541541" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 06:38:07 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #9 夜明け前の宿命『De Madrugá』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第9回は第2楽章の締めくくり、9曲目『De Madrugá(デ・マドゥルガ)』を取り上げます。タイトルは『夜明け前・明け方』。内省と、過去の重荷、そして復讐の宿命を歌う、アルバム最短クラスの濃密な一曲です。ウクライナ語のヴァースが印象的で、十字架のイメージが守りと導きを象徴します。実はこの曲は2ndアルバム『El Mal Querer』の時代に書かれながら外され、数年を経て『LUX』で日の目を見た経緯があります。Pharrell WilliamsやEl Guinchoら制作陣、フラメンコとアーバンが溶け合うサウンドにも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_009_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_009_2026-07-25_v2.mp3" length="4447919" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_009_2026-07-25_v2.mp3" length="4447919" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 06:25:26 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #8 新しい世界への渇望『Mundo Nuevo』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第8回は第2楽章の3曲目『Mundo Nuevo(ムンド・ヌエボ)』を取り上げます。タイトルは『新しい世界』。今ある世界を棄て、真実がもっと見える場所へ行きたいという渇望を、放棄・再生・真実の探求というテーマで歌います。哀切なフラメンコの様式ペテネーラに根ざしつつ、不気味なシンセと唸るオルガンが作る異世界的なサウンド、ロサリアの超絶的なボーカルランについても解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_008_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_008_2026-07-25.mp3" length="4457114" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_008_2026-07-25.mp3" length="4457114" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 06:24:12 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #7 偽りの真珠への警告『La Perla』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第7回は第2楽章の2曲目、メキシコ系アメリカ人トリオYahritza y su Esenciaを迎えた『La Perla(ラ・ペルラ)』を取り上げます。タイトルは『真珠』。しかし本物ではなく“偽りの真珠”になぞらえて、あるトキシックな相手を痛烈に、そしてどこかユーモラスに突き放す一曲です。神聖なテーマが続くアルバムの中で、土の匂いのするレジオナル・メキシカーノの節回しが際立ちます。名指しを避けた歌詞の狙い、ファンの間で囁かれた噂についても、事実にもとづいて丁寧に解説します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_007_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_007_2026-07-25_v2.mp3" length="4409884" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_007_2026-07-25_v2.mp3" length="4409884" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 06:22:55 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #6 崇拝という名の愛『Berghain』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第6回からは第2楽章へ。その幕開けは、BjörkとYves Tumorを迎えた6曲目『Berghain(ベルグハイン)』です。タイトルはベルリンの伝説的テクノクラブの名前。失恋をオペラへと昇華させ、愛する人を神のように崇拝し、自分自身が相手に溶けていく——という『崇拝としての愛』を、ドイツ語・スペイン語・英語の3言語で描きます。ロンドン交響楽団を背景に、Björkの歌唱、Yves Tumorの反復が重なるドラマティックな構成、Noah Goldstein・Jake Miller・Sir Dylanのプロデュースにも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_006_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_006_2026-07-25_v2.mp3" length="4436634" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_006_2026-07-25_v2.mp3" length="4436634" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 06:21:40 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #5 苦しみをダイヤに変える『Mio Cristo Piange Diamanti』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第5回は第1楽章の締めくくり、5曲目『Mio Cristo Piange Diamanti(ミオ・クリスト・ピアンジェ・ディアマンティ)』を取り上げます。タイトルはイタリア語で『私のキリストはダイヤモンドの涙を流す』。ほぼ全編イタリア語で歌われるアリアで、アッシジのフランチェスコと聖キアラの霊的な友情に着想を得た『欠点や苦しみごと、愛する人を神聖化する』というテーマを解説します。完成まで1年を要した制作背景、ピアノと歌が織りなす親密で荘厳なサウンド、Noah Goldstein・Sir Dylanによるプロデュースにも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_005_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_005_2026-07-25.mp3" length="5133372" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_005_2026-07-25.mp3" length="5133372" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 05:58:00 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #4 割れた磁器から射す光『Porcelana』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第4回は第1楽章の4曲目、ゲストにDougie Fを迎えた『Porcelana(ポルセラーナ)』を取り上げます。タイトルは『磁器・陶磁器』の意味。江戸時代の日本の尼僧で歌人、了然元総(りょうねんげんそう)が美貌を捨てて出家した逸話に着想を得た『壊れ・癒し・超越』のテーマを解説します。スペイン語・英語・ラテン語・日本語の4言語で歌われる点、フラメンコの手拍子と日本語ラップのリズム、オーケストラが溶け合うサウンド、Noah Goldstein・Sir Dylan・Elliott Kozelらの制作についても触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_004_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_004_2026-07-25.mp3" length="5323544" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_004_2026-07-25.mp3" length="5323544" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 05:47:38 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #3 身体を神へと高める『Divinize』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaの4作目『LUX』。第3回は第1楽章の3曲目『Divinize(ディヴィナイズ)』を取り上げます。タイトルは『神化する=人間を神聖なものへと高める』の意味。神学の『テオーシス(神化)』の概念、禁断の果実になぞらえた誘惑と自制の緊張、そして身体そのものの聖性というテーマを解説します。Rosalíaの母語カタルーニャ語と英語で歌われる点、Caroline Shawやプロデューサー陣(Noah Goldstein、Sir Dylan)による、エレクトロニックとオーケストラを融合させたサウンドにも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_003_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_003_2026-07-25.mp3" length="4798169" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_003_2026-07-25.mp3" length="4798169" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 05:39:07 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #2 世界に置いてきた自分のかけら『Reliquia』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はRosalíaが2025年11月にリリースした4作目『LUX』。第2回は第1楽章の2曲目『Reliquia(レリキア)』を取り上げます。タイトルは『聖遺物』の意味。ペルーの聖女、リマの聖ローサに着想を得て、世界を旅しながら各地に自分のかけらを置いてきた——という『関係性を聖遺物として捉える』テーマを解説します。キャロライン・ショウによる弦のアレンジ、Daft PunkのGuy-Manuel de Homem-ChristoやOneRepublicのRyan Tedderら豪華な作家陣、そしてRosalía自身が歌詞を『ファクトチェック』した逸話にも触れます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_002_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_002_2026-07-25_v2.mp3" length="5107877" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_002_2026-07-25_v2.mp3" length="5107877" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 05:17:45 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
     <item>
       <title>Rosalía『LUX』全曲解説 #1 幕開けの1曲『Sexo, Violencia y Llantas』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第1弾はスペインのRosalíaが2025年11月にリリースした4作目『LUX』。初回はアルバムの幕を開ける1曲目『Sexo, Violencia y Llantas(セクソ・ビオレンシア・イ・ジャンタス)』を取り上げます。ロンドン交響楽団を迎えたオーケストラ作品としての全体像、14言語・4楽章という構成、女性の聖性というテーマ、そして「世俗」と「神聖」の対比で幕を開けるこのオープニング曲の狙いを解説します。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_001_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_001_2026-07-25_v3.mp3" length="5632415" type="audio/mpeg"/>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_001_2026-07-25_v3.mp3" length="5632415" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 05:04:50 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/lux.jpg"/>
+      <itunes:image href="https://media.albumatlas.jp/art/lux.jpg"/>
     </item>
   </channel>
 </rss>

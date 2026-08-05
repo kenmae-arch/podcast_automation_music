@@ -985,19 +985,19 @@
   },
   {
     "id": "discovery-05",
-    "episode_number": null,
+    "episode_number": 97,
     "series_number": 7,
     "track_number": 5,
     "album_id": "discovery",
     "track_title": "Crescendolls",
-    "title": null,
-    "web_summary": null,
+    "title": "狂乱のパーティーと熱狂のクレッシェンド",
+    "web_summary": "第5回は『Crescendolls』。Little Anthony & The Imperialsの1978年の名曲『Can You Imagine』をサンプル元とし、熱気と歓声が右肩上がりに高まり続ける狂騒の一曲を解剖。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_097_2026-08-05.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-05",
+    "status": "published"
   },
   {
     "id": "discovery-06",
