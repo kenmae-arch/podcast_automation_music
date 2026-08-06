@@ -1033,19 +1033,19 @@
   },
   {
     "id": "discovery-08",
-    "episode_number": null,
+    "episode_number": 100,
     "series_number": 7,
     "track_number": 8,
     "album_id": "discovery",
     "track_title": "High Life",
-    "title": null,
-    "web_summary": null,
+    "title": "誰も元ネタを言い当てられなかった",
+    "web_summary": "第8回は8曲目『High Life』。声のような、意味をなさない音の断片をひたすら回し続ける一曲です。Daft Punkはこのアルバムでサンプルの出典をほとんど公表しなかったため、この曲の素材が何なのかは長くインターネット上の議論の的になり、",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_100_2026-08-06.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-06",
+    "status": "published"
   },
   {
     "id": "discovery-09",
