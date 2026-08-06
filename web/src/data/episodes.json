@@ -1065,19 +1065,19 @@
   },
   {
     "id": "discovery-10",
-    "episode_number": null,
+    "episode_number": 102,
     "series_number": 7,
     "track_number": 10,
     "album_id": "discovery",
     "track_title": "Voyager",
-    "title": null,
-    "web_summary": null,
+    "title": "金のレコードを積んだ探査機",
+    "web_summary": "第10回は10曲目『Voyager』。歌のない、引用もない、うねるベースと80年代風のシンセだけで進む一曲です。『Interstella 5555』では、正体を取り戻したバンドが車で敵の館へ向かう移動の場面に置かれています。そしてこの題です。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_102_2026-08-06.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-06",
+    "status": "published"
   },
   {
     "id": "discovery-11",
