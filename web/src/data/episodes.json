@@ -1049,19 +1049,19 @@
   },
   {
     "id": "discovery-09",
-    "episode_number": null,
+    "episode_number": 101,
     "series_number": 7,
     "track_number": 9,
     "album_id": "discovery",
     "track_title": "Something About Us",
-    "title": null,
-    "web_summary": null,
+    "title": "機械の声で、いちばん人間らしいことを",
+    "web_summary": "第9回は9曲目『Something About Us』。サンプルを使わず、ゆったりしたリズムと加工されたボーカルだけで組み立てられた、このアルバムの心臓部です。2003年には映画『Interstella 5555』の宣伝としてシングルにもなり、「ラブ・テーマ」という副題が付きました。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_101_2026-08-06.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-06",
+    "status": "published"
   },
   {
     "id": "discovery-10",
