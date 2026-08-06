@@ -11,7 +11,7 @@
 - **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
 - **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … ✅ **完結**(番組内 #1〜#21)
-- **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … 🔄 **進行中**(#1〜#6 配信済み)
+- **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … 🔄 **進行中**(#1〜#10 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -65,11 +65,11 @@
 | 4 | Harder, Better, Faster, Stronger | ✅ | 2026-08-06 / #4。Edwin Birdsong『Cola Bottle Baby』をサンプル。ボコーダーと人間性、Kanye Westへの継承 |
 | 5 | Crescendolls | ✅ | 2026-08-06 / #5。Little Anthony & The Imperials『Can You Imagine』をサンプル。熱狂のクレッシェンドと『Interstella 5555』 |
 | 6 | Nightvision | ✅ | 2026-08-06 / #6。10cc『I'm Not in Love』的なアンビエント空間と深呼吸の幕間劇 |
-| 7 | Superheroes | ⬜ | 次回制作予定 |
-| 8 | High Life | ⬜ |  |
-| 9 | Something About Us | ⬜ |  |
-| 10 | Voyager | ⬜ |  |
-| 11 | Veridis Quo | ⬜ |  |
+| 7 | Superheroes | ✅ | 2026-08-06 / #7。Barry Manilow『Who's Been Sleeping in My Bed』(1978)をサンプル。後半の口火＝『Homework』のアシッド寄りの手つきに一度戻る。『Interstella 5555』では救出とShepの被弾 |
+| 8 | High Life | ✅ | 2026-08-06 / #8。Tavares『Break Down for Love』(1980)。出典非公表で長くネット上の議論の的だった。声から意味を剥がす回(#4の逆)。映画では受賞式＝空虚な成功 |
+| 9 | Something About Us | ✅ | 2026-08-06 / #9。サンプルなし。2003年に映画宣伝でシングル化、「ラブ・テーマ」の副題。Shepの死の場面。仮面をつけたほうが本当のことが言えるという逆説 |
+| 10 | Voyager | ✅ | 2026-08-06 / #10。歌なし・引用なし。映画では敵の館への移動場面。1977年のボイジャー探査機の金のレコード(贈り物)と、劇中の悪役が集める金のレコード(戦利品)の対比で構成 |
+| 11 | Veridis Quo | ⬜ | 次回制作予定 |
 | 12 | Short Circuit | ⬜ |  |
 | 13 | Face to Face | ⬜ |  |
 | 14 | Too Long | ⬜ |  |
@@ -83,6 +83,10 @@
 | #4 | docs/audio/episode_096_2026-08-06.mp3 | scripts/published/2026-08-06_ep096.json |
 | #5 | docs/audio/episode_097_2026-08-05.mp3 | scripts/published/2026-08-05_ep097.json |
 | #6 | docs/audio/episode_098_2026-08-05.mp3 | scripts/published/2026-08-05_ep098.json |
+| #7 | docs/audio/episode_099_2026-08-06.mp3 | scripts/published/2026-08-06_ep099.json |
+| #8 | docs/audio/episode_100_2026-08-06.mp3 | scripts/published/2026-08-06_ep100.json |
+| #9 | docs/audio/episode_101_2026-08-06.mp3 | scripts/published/2026-08-06_ep101.json |
+| #10 | docs/audio/episode_102_2026-08-06.mp3 | scripts/published/2026-08-06_ep102.json |
 
 # 第6弾: Daddy Yankee『Barrio Fino』(完結)
 
