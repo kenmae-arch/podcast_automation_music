@@ -94,16 +94,6 @@ export function availablePlatforms(
     .filter((platform) => Boolean(platform.url));
 }
 
-const APPLE_MUSIC_ALBUMS: Record<string, { id: string; slug: string }> = {
-  'barrio-fino': { id: '1785999696', slug: 'barrio-fino-deluxe-version' },
-  discovery: { id: '697194953', slug: 'discovery' },
-  'good-kid-maad-city': {
-    id: '1440860389',
-    slug: 'good-kid-m-a-a-d-city-deluxe-version',
-  },
-  lux: { id: '1893474283', slug: 'lux-complete-works' },
-};
-
 export function appleMusicUrl(episode: Episode, embed = false): string | null {
   if (episode.apple_music_url) {
     return embed
@@ -111,10 +101,11 @@ export function appleMusicUrl(episode: Episode, embed = false): string | null {
       : episode.apple_music_url;
   }
   if (!episode.apple_music_track_id) return null;
-  const album = APPLE_MUSIC_ALBUMS[episode.album_id];
+  // Catalogue coordinates live in albums.json so adding a series is a data edit.
+  const album = albums.find((candidate) => candidate.id === episode.album_id)?.apple_music;
   if (!album) return null;
   const host = embed ? 'https://embed.music.apple.com' : 'https://music.apple.com';
-  return `${host}/jp/album/${album.slug}/${album.id}?i=${episode.apple_music_track_id}`;
+  return `${host}/jp/album/${album.slug}/${album.album_id}?i=${episode.apple_music_track_id}`;
 }
 
 /**

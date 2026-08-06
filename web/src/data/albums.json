@@ -41,8 +41,12 @@
       "lux",
       "good-kid-maad-city"
     ],
-    "related_reason": "音と物語の設計から",
-    "accent": "#7C8EFF"
+    "related_reason": "過去を素材にした一枚として",
+    "accent": "#7C8EFF",
+    "apple_music": {
+      "album_id": "697194953",
+      "slug": "discovery"
+    }
   },
   {
     "id": "barrio-fino",
@@ -86,8 +90,12 @@
       "lux",
       "good-kid-maad-city"
     ],
-    "related_reason": null,
-    "accent": "#5A50D6"
+    "related_reason": "ラテンの源流として",
+    "accent": "#5A50D6",
+    "apple_music": {
+      "album_id": "1785999696",
+      "slug": "barrio-fino-deluxe-version"
+    }
   },
   {
     "id": "lux",
@@ -130,8 +138,12 @@
       "debi-tirar-mas-fotos",
       "good-kid-maad-city"
     ],
-    "related_reason": "同じ言語から",
-    "accent": "#A88B50"
+    "related_reason": "言語をまたぐ一枚として",
+    "accent": "#A88B50",
+    "apple_music": {
+      "album_id": "1893474283",
+      "slug": "lux-complete-works"
+    }
   },
   {
     "id": "good-kid-maad-city",
@@ -171,8 +183,12 @@
       "alt": "Kendrick Lamar『good kid, m.A.A.d city』全曲解説シリーズのアートワーク"
     },
     "related_album_ids": [],
-    "related_reason": "作品テーマのつながりから",
-    "accent": "#C58A4A"
+    "related_reason": "街を語る一枚として",
+    "accent": "#C58A4A",
+    "apple_music": {
+      "album_id": "1440860389",
+      "slug": "good-kid-m-a-a-d-city-deluxe-version"
+    }
   },
   {
     "id": "lemonade",
@@ -216,8 +232,12 @@
       "good-kid-maad-city",
       "debi-tirar-mas-fotos"
     ],
-    "related_reason": null,
-    "accent": "#C9A227"
+    "related_reason": "曲順が意味を持つ一枚として",
+    "accent": "#C9A227",
+    "apple_music": {
+      "album_id": "1460432013",
+      "slug": "lemonade"
+    }
   },
   {
     "id": "debi-tirar-mas-fotos",
@@ -262,7 +282,11 @@
       "lemonade"
     ],
     "related_reason": "同じ言語から",
-    "accent": "#3E8F7C"
+    "accent": "#3E8F7C",
+    "apple_music": {
+      "album_id": "1787022393",
+      "slug": "deb%C3%AD-tirar-m%C3%A1s-fotos"
+    }
   },
   {
     "id": "ok-computer",
@@ -306,7 +330,11 @@
       "good-kid-maad-city",
       "discovery"
     ],
-    "related_reason": null,
-    "accent": "#5B7C8F"
+    "related_reason": "時代を先に描いた一枚として",
+    "accent": "#5B7C8F",
+    "apple_music": {
+      "album_id": "1097861387",
+      "slug": "ok-computer"
+    }
   }
 ]

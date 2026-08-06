@@ -21,6 +21,7 @@ from __future__ import annotations
 import base64
 import json
 import os
+import re
 import sys
 import urllib.parse
 from pathlib import Path
@@ -31,12 +32,18 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 WEB_DATA = ROOT / "web" / "src" / "data"
 WEB_EPISODES = WEB_DATA / "episodes.json"
+WEB_ALBUMS = WEB_DATA / "albums.json"
 EPISODE_MEDIA = WEB_DATA / "episode-media.json"
 SITE = WEB_DATA / "site.json"
 PODCAST_EPISODES = ROOT / "docs" / "episodes.json"
 
 APPLE_STOREFRONT = "jp"
 USER_AGENT = "album-atlas-media-sync/1.0"
+# music.apple.com only server-renders the track list for a browser UA.
+BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+)
 
 
 def _get_json(url: str, headers: dict[str, str] | None = None) -> Any:
@@ -141,11 +148,52 @@ def spotify_episode_urls(show_id: str) -> dict[str, str]:
     return urls
 
 
+def apple_music_track_ids(album_id: str, slug: str) -> dict[int, str]:
+    """{track number: Apple Music track id} for one album.
+
+    The iTunes lookup API only knows purchasable tracks, so streaming-only
+    albums come back empty. The album's own Apple Music page carries the same
+    ids in its server-rendered payload, which is what this reads.
+    """
+    response = requests.get(
+        f"https://music.apple.com/{APPLE_STOREFRONT}/album/{slug}/{album_id}",
+        headers={"User-Agent": BROWSER_USER_AGENT},
+        timeout=30,
+    )
+    response.raise_for_status()
+    match = re.search(
+        r'<script[^>]*id="serialized-server-data"[^>]*>(.*?)</script>',
+        response.text,
+        re.S,
+    )
+    if not match:
+        return {}
+
+    found: dict[int, str] = {}
+
+    def walk(node: Any) -> None:
+        if isinstance(node, dict):
+            identifier = node.get("id")
+            track_number = node.get("trackNumber")
+            # "track-lockup - <album id> - <track id>"
+            if isinstance(identifier, str) and identifier.startswith("track-lockup") and track_number:
+                found[int(track_number)] = identifier.rsplit(" - ", 1)[-1]
+            for value in node.values():
+                walk(value)
+        elif isinstance(node, list):
+            for value in node:
+                walk(value)
+
+    walk(json.loads(match.group(1)))
+    return found
+
+
 def sync_episode_media(check_only: bool = False) -> int:
     site = _read(SITE)
     web_episodes = _read(WEB_EPISODES)
     podcast = _read(PODCAST_EPISODES)
     media = _read(EPISODE_MEDIA)
+    albums = {album["id"]: album for album in _read(WEB_ALBUMS)}
 
     # docs/episodes.json is ordered by 通し話数, so the index gives the title.
     titles_by_number = {number: episode.get("title", "") for number, episode in enumerate(podcast, start=1)}
@@ -161,8 +209,24 @@ def sync_episode_media(check_only: bool = False) -> int:
     else:
         print("Spotify: 認証情報(SPOTIFY_CLIENT_ID/SPOTIFY_CLIENT_SECRET)が無いため既存値を維持")
 
+    # Original-song previews: one page fetch per album, shared by its episodes.
+    track_ids: dict[str, dict[int, str]] = {}
+    for album_id in sorted({episode["album_id"] for episode in web_episodes}):
+        catalogue = (albums.get(album_id) or {}).get("apple_music")
+        if not catalogue:
+            print(f"Apple Music: {album_id} は albums.json に apple_music が未設定")
+            continue
+        try:
+            track_ids[album_id] = apple_music_track_ids(
+                catalogue["album_id"], catalogue["slug"]
+            )
+        except Exception as error:  # noqa: BLE001 - one album must not stop the rest
+            print(f"Apple Music: {album_id} の取得に失敗しました ({error})")
+            track_ids[album_id] = {}
+
     changed = 0
     missing: list[str] = []
+    no_preview: list[str] = []
     for episode in web_episodes:
         if episode.get("status") != "published":
             continue
@@ -178,6 +242,14 @@ def sync_episode_media(check_only: bool = False) -> int:
                     podcast_urls[key] = found
                 changed += 1
 
+        track_id = track_ids.get(episode["album_id"], {}).get(episode["track_number"])
+        if track_id and entry.get("apple_music_track_id") != track_id:
+            if not check_only:
+                entry["apple_music_track_id"] = track_id
+            changed += 1
+        if not entry.get("apple_music_track_id") and not entry.get("apple_music_url"):
+            no_preview.append(f"  {episode['id']} (第{number}回)")
+
         absent = [key for key in ("spotify", "apple_podcasts") if not podcast_urls.get(key)]
         if absent:
             missing.append(f"  {episode['id']} (第{number}回): {', '.join(absent)}")
@@ -187,11 +259,15 @@ def sync_episode_media(check_only: bool = False) -> int:
 
     verb = "不足" if check_only else "更新"
     print(f"配信URL: {changed}件を{verb}")
+    if no_preview:
+        print(f"\n⚠️ 試聴(Original preview)が出ないエピソード {len(no_preview)}件:")
+        print("\n".join(no_preview))
     if missing:
         print(f"\n⚠️ 配信URLが未設定のエピソード {len(missing)}件:")
         print("\n".join(missing))
+    if missing or no_preview:
         return 1
-    print("配信URL: すべての公開エピソードで設定済み")
+    print("配信URL・試聴: すべての公開エピソードで設定済み")
     return 0
 
 

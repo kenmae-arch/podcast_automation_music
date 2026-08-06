@@ -51,7 +51,23 @@
   padding-top: var(--space-5);
 }
 
+/*
+  Cards in a row must line up whether or not they carry a relation reason, so
+  the body is a column with a reserved slot for it and the link pinned to the
+  bottom. Without this the cards stagger — the artwork of a card with a reason
+  starts a line lower than the ones without.
+*/
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .reason {
+  /* One line is reserved even when the text is absent; the explicit
+     line-height keeps the filled and empty boxes exactly the same height. */
+  line-height: 1.4;
+  min-height: 1.4em;
   margin-bottom: var(--space-5);
   font-family: var(--font-mono);
   font-size: var(--text-label);
@@ -74,7 +90,10 @@
 }
 
 .cardLink {
-  margin-top: var(--space-4);
+  /* Pushes the link to the card's bottom edge so the row's links align too. */
+  margin-top: auto;
+  padding-top: var(--space-4);
+  align-self: flex-start;
 }
 
 /* Artwork lifts slightly on hover — DESIGN.md §14, scale only, no shadow. */

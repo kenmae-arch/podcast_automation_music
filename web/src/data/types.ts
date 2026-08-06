@@ -56,6 +56,12 @@ export interface Album {
   related_reason: string | null;
   /** Album accent, DESIGN.md §3.2. Validated as hex before use. */
   accent: string | null;
+  /**
+   * Apple Music catalogue coordinates for the original songs. Kept as data so a
+   * new series only has to be described in albums.json — see
+   * tools/fetch_episode_media.py, which fills the per-track ids from these.
+   */
+  apple_music: { album_id: string; slug: string } | null;
 }
 
 export interface Episode {

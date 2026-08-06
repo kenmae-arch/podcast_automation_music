@@ -24,8 +24,13 @@ export function RelatedAlbums({ albums }: Props) {
       <ul className={styles.grid}>
         {albums.slice(0, 3).map((album, i) => (
           <Reveal as="li" key={album.id} index={i} className={styles.card}>
-            <article>
-              {album.related_reason && <p className={styles.reason}>{album.related_reason}</p>}
+            <article className={styles.cardBody}>
+              {/*
+                Always rendered, even when empty: the reason is one line of
+                label text, and dropping the element on the cards that lack one
+                pushed their artwork up out of line with the rest of the row.
+              */}
+              <p className={styles.reason}>{album.related_reason}</p>
 
               <SeriesArtwork album={album} variant="card" />
 

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import type { Episode } from '../data/types';
 import { formatPublished, isPublished, pad2 } from '../data';
 import { setLastTrack } from '../data/progress';
+import { AppleMusicPreview } from './AppleMusicPreview';
 import { ExternalIcon } from './icons';
 import styles from './TrackJourney.module.css';
 
@@ -67,6 +68,17 @@ export function TrackRow({ episode, isCurrent, onOpenListen }: Props) {
                 <div className={styles.summaryWrap} id={summaryId} data-expanded={expanded}>
                   <div className={styles.summaryInner}>
                     <p className={styles.summary}>{episode.web_summary}</p>
+                    {/*
+                      The sticky rail that carries the preview on desktop is not
+                      rendered below 1024px, so the narrow layout gets its own
+                      copy here. Mounted only while open: 21 idle iframes on a
+                      phone is not worth the convenience.
+                    */}
+                    {expanded && (
+                      <div className={styles.previewNarrow}>
+                        <AppleMusicPreview episode={episode} compact />
+                      </div>
+                    )}
                     {(episode.duration || publishedDate) && (
                       <p className={`${styles.episodeMeta} mono`}>
                         {episode.duration}
