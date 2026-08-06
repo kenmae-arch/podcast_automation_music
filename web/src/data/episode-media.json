@@ -1,67 +1,627 @@
 {
-  "lux-01": { "apple_music_track_id": "6762232874", "podcast_urls": { "spotify": "https://open.spotify.com/episode/19D1axUuf0PeHqnOUReaEA", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424041" } },
-  "lux-02": { "apple_music_track_id": "6762232877", "podcast_urls": { "spotify": "https://open.spotify.com/episode/1Y4yKgtxZkNQ7Iodda7YEi", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424042" } },
-  "lux-03": { "apple_music_track_id": "6762232878", "podcast_urls": { "spotify": "https://open.spotify.com/episode/0Yx3KEZEd3OE2qHk8qzjGl", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424188" } },
-  "lux-04": { "apple_music_track_id": "6762232879", "podcast_urls": { "spotify": "https://open.spotify.com/episode/55r5c3NoyPdqBEHxOdjg6c", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424152" } },
-  "lux-05": { "apple_music_track_id": "6762232880", "podcast_urls": { "spotify": "https://open.spotify.com/episode/36WkVGsfSKUz301PZnDjEq", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423937" } },
-  "lux-06": { "apple_music_track_id": "6762232881", "podcast_urls": { "spotify": "https://open.spotify.com/episode/0jUHroQIirukUDqT0mUmjY", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424071" } },
-  "lux-07": { "apple_music_track_id": "6762232882", "podcast_urls": { "spotify": "https://open.spotify.com/episode/0ODxFhZ1ZF3ADLn5mhXp4o", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423989" } },
-  "lux-08": { "apple_music_track_id": "6762232883", "podcast_urls": { "spotify": "https://open.spotify.com/episode/4cKj4Hk7kPPwd4NLnxwyw2", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424124" } },
-  "lux-09": { "apple_music_track_id": "6762232884", "podcast_urls": { "spotify": "https://open.spotify.com/episode/73QRNybGvU57qQLU3FfjFi", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423988" } },
-  "lux-10": { "apple_music_track_id": "6762232885", "podcast_urls": { "spotify": "https://open.spotify.com/episode/43aaC1aobzmQm3BFJfv7vn", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424096" } },
-  "lux-11": { "apple_music_track_id": "6762232887", "podcast_urls": { "spotify": "https://open.spotify.com/episode/63Cm095MXlGeS64gnyrjIh", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424187" } },
-  "lux-12": { "apple_music_track_id": "6762232889", "podcast_urls": { "spotify": "https://open.spotify.com/episode/2a6j4m5pNLSZ9VnR5Bw99J", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423936" } },
-  "lux-13": { "apple_music_track_id": "6762232890", "podcast_urls": { "spotify": "https://open.spotify.com/episode/6YNLlCBKmcIZM7Y6EhE4I5", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424151" } },
-  "lux-14": { "apple_music_track_id": "6762233041", "podcast_urls": { "spotify": "https://open.spotify.com/episode/23rhvm267p7tqmJHOUC1E1", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424123" } },
-  "lux-15": { "apple_music_track_id": "6762233043", "podcast_urls": { "spotify": "https://open.spotify.com/episode/00MKKkYevfs7AlHbmVntpU", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423935" } },
-  "lux-16": { "apple_music_track_id": "6762233044", "podcast_urls": { "spotify": "https://open.spotify.com/episode/6hMZ466eVkehrnno7G3foe", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424186" } },
-  "lux-17": { "apple_music_track_id": "6762233045", "podcast_urls": { "spotify": "https://open.spotify.com/episode/1kYh5Y0QGIpemBYmGlKa8z", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424185" } },
-  "lux-18": { "apple_music_track_id": "6762233046", "podcast_urls": { "spotify": "https://open.spotify.com/episode/0YyazzEfWnL03kY1N7W4xW", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424011" } },
-  "good-kid-maad-city-01": { "apple_music_track_id": "1440860393", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424040" } },
-  "good-kid-maad-city-02": { "apple_music_track_id": "1440860396", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424095" } },
-  "good-kid-maad-city-03": { "apple_music_track_id": "1440860397", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424184" } },
-  "good-kid-maad-city-04": { "apple_music_track_id": "1440860399", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424183" } },
-  "good-kid-maad-city-05": { "apple_music_track_id": "1440860400", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424070" } },
-  "good-kid-maad-city-06": { "apple_music_track_id": "1440860402", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424182" } },
-  "good-kid-maad-city-07": { "apple_music_track_id": "1440860403", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423934" } },
-  "good-kid-maad-city-08": { "apple_music_track_id": "1440860404", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423987" } },
-  "good-kid-maad-city-09": { "apple_music_track_id": "1440860408", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424122" } },
-  "good-kid-maad-city-10": { "apple_music_track_id": "1440860410", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424069" } },
-  "good-kid-maad-city-11": { "apple_music_track_id": "1440860591", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423986" } },
-  "good-kid-maad-city-12": { "apple_music_track_id": "1440860592", "podcast_urls": { "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424181" } },
-  "barrio-fino-01": { "apple_music_track_id": "1786000099", "podcast_urls": { "spotify": "https://open.spotify.com/episode/7jHpSYJbQIk0PCqqqrhRX4", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778826703" } },
-  "barrio-fino-02": { "apple_music_track_id": "1786000107", "podcast_urls": { "spotify": "https://open.spotify.com/episode/2zvcc4blHZx5qRT4Uu4syt", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778826596" } },
-  "barrio-fino-03": { "apple_music_track_id": "1786000114", "podcast_urls": { "spotify": "https://open.spotify.com/episode/35Ol8ThaAg8rd6eQjj879X", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778826595" } },
-  "barrio-fino-04": { "apple_music_track_id": "1786000119", "podcast_urls": { "spotify": "https://open.spotify.com/episode/1yKEaoWYOc6U0KUEeKu06K", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778826487" } },
-  "barrio-fino-05": { "apple_music_track_id": "1786000124", "podcast_urls": { "spotify": "https://open.spotify.com/episode/0sMNTNmfvC64WdRzWSUsUS", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778826597" } },
-  "barrio-fino-06": { "apple_music_track_id": "1786000126", "podcast_urls": { "spotify": "https://open.spotify.com/episode/4hmd4gQjldg1egnN8hvge6", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779196049" } },
-  "barrio-fino-07": { "apple_music_track_id": "1786000128", "podcast_urls": { "spotify": "https://open.spotify.com/episode/1IKHbAOrx5BXMLzqZ2Y2ta", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779196050" } },
-  "barrio-fino-08": { "apple_music_track_id": "1786000220", "podcast_urls": { "spotify": "https://open.spotify.com/episode/4g7ZkSCba1QK7thkCNHlRY", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779196510" } },
-  "barrio-fino-09": { "apple_music_track_id": "1786000222", "podcast_urls": { "spotify": "https://open.spotify.com/episode/2rPOAWVZ1KwKpQf4nUow9A", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779196402" } },
-  "barrio-fino-10": { "apple_music_track_id": "1786000225", "podcast_urls": { "spotify": "https://open.spotify.com/episode/25RQLdsCfnOmtn6oeYBeJi", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779195953" } },
-  "barrio-fino-11": { "apple_music_track_id": "1786000226", "podcast_urls": { "spotify": "https://open.spotify.com/episode/6mUiQbX1XGgxPQcidvV5cx", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779417987" } },
-  "barrio-fino-12": { "apple_music_track_id": "1786000230", "podcast_urls": { "spotify": "https://open.spotify.com/episode/78MZGK8CiQKJLbxYQPAVEo", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779417890" } },
-  "barrio-fino-13": { "apple_music_track_id": "1786000234", "podcast_urls": { "spotify": "https://open.spotify.com/episode/672Q8OfNW7fVqXQiKG69Dx", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779417866" } },
-  "barrio-fino-14": { "apple_music_track_id": "1786000235", "podcast_urls": { "spotify": "https://open.spotify.com/episode/5XWgeFYiauo8lcfXzgtIiY", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779417822" } },
-  "barrio-fino-15": { "apple_music_track_id": "1786000238", "podcast_urls": { "spotify": "https://open.spotify.com/episode/4hx1UwqqoN3NjplJNtN77Q", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779417962" } },
-  "barrio-fino-16": { "apple_music_track_id": "1786000242", "podcast_urls": { "spotify": "https://open.spotify.com/episode/6Rtiu38dWb0ik7kF3RHNRZ", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779450871" } },
-  "barrio-fino-17": { "apple_music_track_id": "1786000243", "podcast_urls": { "spotify": "https://open.spotify.com/episode/4tG0DBewfftxZq7k7zoNez", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779451006" } },
-  "barrio-fino-18": { "apple_music_track_id": "1786000245", "podcast_urls": { "spotify": "https://open.spotify.com/episode/03BXy8iT1mLSUMznmuS5Uh", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779450882" } },
-  "barrio-fino-19": { "apple_music_track_id": "1786000431", "podcast_urls": { "spotify": "https://open.spotify.com/episode/2I0FjiWczsro4bhR7cDbe5", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779451033" } },
-  "barrio-fino-20": { "apple_music_track_id": "1786000436", "podcast_urls": { "spotify": "https://open.spotify.com/episode/53QPoJYRgP7bLfxsbQ19lc", "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779450975" } },
-  "barrio-fino-21": { "apple_music_track_id": "1786000442", "podcast_urls": {} },
-  "discovery-01": { "apple_music_track_id": "697195462", "podcast_urls": {} },
-  "discovery-02": { "apple_music_track_id": "697195570", "podcast_urls": {} },
-  "discovery-03": { "apple_music_track_id": "697195633", "podcast_urls": {} },
-  "discovery-04": { "apple_music_track_id": "697195787", "podcast_urls": {} },
-  "discovery-05": { "apple_music_track_id": "697195813", "podcast_urls": {} },
-  "discovery-06": { "apple_music_track_id": "697195819", "podcast_urls": {} },
-  "discovery-07": { "apple_music_track_id": "697195890", "podcast_urls": {} },
-  "discovery-08": { "apple_music_track_id": "697195929", "podcast_urls": {} },
-  "discovery-09": { "apple_music_track_id": "697195941", "podcast_urls": {} },
-  "discovery-10": { "apple_music_track_id": "697195991", "podcast_urls": {} },
-  "discovery-11": { "apple_music_track_id": "697196125", "podcast_urls": {} },
-  "discovery-12": { "apple_music_track_id": "697196212", "podcast_urls": {} },
-  "discovery-13": { "apple_music_track_id": "697196420", "podcast_urls": {} },
-  "discovery-14": { "apple_music_track_id": "697196490", "podcast_urls": {} }
+  "lux-01": {
+    "apple_music_track_id": "6762232874",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/19D1axUuf0PeHqnOUReaEA",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424041"
+    }
+  },
+  "lux-02": {
+    "apple_music_track_id": "6762232877",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/1Y4yKgtxZkNQ7Iodda7YEi",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424042"
+    }
+  },
+  "lux-03": {
+    "apple_music_track_id": "6762232878",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/0Yx3KEZEd3OE2qHk8qzjGl",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424188"
+    }
+  },
+  "lux-04": {
+    "apple_music_track_id": "6762232879",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/55r5c3NoyPdqBEHxOdjg6c",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424152"
+    }
+  },
+  "lux-05": {
+    "apple_music_track_id": "6762232880",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/36WkVGsfSKUz301PZnDjEq",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423937"
+    }
+  },
+  "lux-06": {
+    "apple_music_track_id": "6762232881",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/0jUHroQIirukUDqT0mUmjY",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424071"
+    }
+  },
+  "lux-07": {
+    "apple_music_track_id": "6762232882",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/0ODxFhZ1ZF3ADLn5mhXp4o",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423989"
+    }
+  },
+  "lux-08": {
+    "apple_music_track_id": "6762232883",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/4cKj4Hk7kPPwd4NLnxwyw2",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424124"
+    }
+  },
+  "lux-09": {
+    "apple_music_track_id": "6762232884",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/73QRNybGvU57qQLU3FfjFi",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423988"
+    }
+  },
+  "lux-10": {
+    "apple_music_track_id": "6762232885",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/43aaC1aobzmQm3BFJfv7vn",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424096"
+    }
+  },
+  "lux-11": {
+    "apple_music_track_id": "6762232887",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/63Cm095MXlGeS64gnyrjIh",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424187"
+    }
+  },
+  "lux-12": {
+    "apple_music_track_id": "6762232889",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/2a6j4m5pNLSZ9VnR5Bw99J",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423936"
+    }
+  },
+  "lux-13": {
+    "apple_music_track_id": "6762232890",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/6YNLlCBKmcIZM7Y6EhE4I5",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424151"
+    }
+  },
+  "lux-14": {
+    "apple_music_track_id": "6762233041",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/23rhvm267p7tqmJHOUC1E1",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424123"
+    }
+  },
+  "lux-15": {
+    "apple_music_track_id": "6762233043",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/00MKKkYevfs7AlHbmVntpU",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423935"
+    }
+  },
+  "lux-16": {
+    "apple_music_track_id": "6762233044",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/6hMZ466eVkehrnno7G3foe",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424186"
+    }
+  },
+  "lux-17": {
+    "apple_music_track_id": "6762233045",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/1kYh5Y0QGIpemBYmGlKa8z",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424185"
+    }
+  },
+  "lux-18": {
+    "apple_music_track_id": "6762233046",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/0YyazzEfWnL03kY1N7W4xW",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424011"
+    }
+  },
+  "good-kid-maad-city-01": {
+    "apple_music_track_id": "1440860393",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424040"
+    }
+  },
+  "good-kid-maad-city-02": {
+    "apple_music_track_id": "1440860396",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424095"
+    }
+  },
+  "good-kid-maad-city-03": {
+    "apple_music_track_id": "1440860397",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424184"
+    }
+  },
+  "good-kid-maad-city-04": {
+    "apple_music_track_id": "1440860399",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424183"
+    }
+  },
+  "good-kid-maad-city-05": {
+    "apple_music_track_id": "1440860400",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424070"
+    }
+  },
+  "good-kid-maad-city-06": {
+    "apple_music_track_id": "1440860402",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424182"
+    }
+  },
+  "good-kid-maad-city-07": {
+    "apple_music_track_id": "1440860403",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423934"
+    }
+  },
+  "good-kid-maad-city-08": {
+    "apple_music_track_id": "1440860404",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423987"
+    }
+  },
+  "good-kid-maad-city-09": {
+    "apple_music_track_id": "1440860408",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424122"
+    }
+  },
+  "good-kid-maad-city-10": {
+    "apple_music_track_id": "1440860410",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424069"
+    }
+  },
+  "good-kid-maad-city-11": {
+    "apple_music_track_id": "1440860591",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423986"
+    }
+  },
+  "good-kid-maad-city-12": {
+    "apple_music_track_id": "1440860592",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424181"
+    }
+  },
+  "barrio-fino-01": {
+    "apple_music_track_id": "1786000099",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/7jHpSYJbQIk0PCqqqrhRX4",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778826703"
+    }
+  },
+  "barrio-fino-02": {
+    "apple_music_track_id": "1786000107",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/2zvcc4blHZx5qRT4Uu4syt",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778826596"
+    }
+  },
+  "barrio-fino-03": {
+    "apple_music_track_id": "1786000114",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/35Ol8ThaAg8rd6eQjj879X",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778826595"
+    }
+  },
+  "barrio-fino-04": {
+    "apple_music_track_id": "1786000119",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/1yKEaoWYOc6U0KUEeKu06K",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778826487"
+    }
+  },
+  "barrio-fino-05": {
+    "apple_music_track_id": "1786000124",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/0sMNTNmfvC64WdRzWSUsUS",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778826597"
+    }
+  },
+  "barrio-fino-06": {
+    "apple_music_track_id": "1786000126",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/4hmd4gQjldg1egnN8hvge6",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779196049"
+    }
+  },
+  "barrio-fino-07": {
+    "apple_music_track_id": "1786000128",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/1IKHbAOrx5BXMLzqZ2Y2ta",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779196050"
+    }
+  },
+  "barrio-fino-08": {
+    "apple_music_track_id": "1786000220",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/4g7ZkSCba1QK7thkCNHlRY",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779196510"
+    }
+  },
+  "barrio-fino-09": {
+    "apple_music_track_id": "1786000222",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/2rPOAWVZ1KwKpQf4nUow9A",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779196402"
+    }
+  },
+  "barrio-fino-10": {
+    "apple_music_track_id": "1786000225",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/25RQLdsCfnOmtn6oeYBeJi",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779195953"
+    }
+  },
+  "barrio-fino-11": {
+    "apple_music_track_id": "1786000226",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/6mUiQbX1XGgxPQcidvV5cx",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779417987"
+    }
+  },
+  "barrio-fino-12": {
+    "apple_music_track_id": "1786000230",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/78MZGK8CiQKJLbxYQPAVEo",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779417890"
+    }
+  },
+  "barrio-fino-13": {
+    "apple_music_track_id": "1786000234",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/672Q8OfNW7fVqXQiKG69Dx",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779417866"
+    }
+  },
+  "barrio-fino-14": {
+    "apple_music_track_id": "1786000235",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/5XWgeFYiauo8lcfXzgtIiY",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779417822"
+    }
+  },
+  "barrio-fino-15": {
+    "apple_music_track_id": "1786000238",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/4hx1UwqqoN3NjplJNtN77Q",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779417962"
+    }
+  },
+  "barrio-fino-16": {
+    "apple_music_track_id": "1786000242",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/6Rtiu38dWb0ik7kF3RHNRZ",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779450871"
+    }
+  },
+  "barrio-fino-17": {
+    "apple_music_track_id": "1786000243",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/4tG0DBewfftxZq7k7zoNez",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779451006"
+    }
+  },
+  "barrio-fino-18": {
+    "apple_music_track_id": "1786000245",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/03BXy8iT1mLSUMznmuS5Uh",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779450882"
+    }
+  },
+  "barrio-fino-19": {
+    "apple_music_track_id": "1786000431",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/2I0FjiWczsro4bhR7cDbe5",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779451033"
+    }
+  },
+  "barrio-fino-20": {
+    "apple_music_track_id": "1786000436",
+    "podcast_urls": {
+      "spotify": "https://open.spotify.com/episode/53QPoJYRgP7bLfxsbQ19lc",
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779450975"
+    }
+  },
+  "barrio-fino-21": {
+    "apple_music_track_id": "1786000442",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779535877"
+    }
+  },
+  "discovery-01": {
+    "apple_music_track_id": "697195462",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779535942"
+    }
+  },
+  "discovery-02": {
+    "apple_music_track_id": "697195570",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779535690"
+    }
+  },
+  "discovery-03": {
+    "apple_music_track_id": "697195633",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000779535941"
+    }
+  },
+  "discovery-04": {
+    "apple_music_track_id": "697195787",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000780092469"
+    }
+  },
+  "discovery-05": {
+    "apple_music_track_id": "697195813",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000780093820"
+    }
+  },
+  "discovery-06": {
+    "apple_music_track_id": "697195819",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000780095318"
+    }
+  },
+  "discovery-07": {
+    "apple_music_track_id": "697195890",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000780238559"
+    }
+  },
+  "discovery-08": {
+    "apple_music_track_id": "697195929",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000780240002"
+    }
+  },
+  "discovery-09": {
+    "apple_music_track_id": "697195941",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000780240003"
+    }
+  },
+  "discovery-10": {
+    "apple_music_track_id": "697195991",
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000780243364"
+    }
+  },
+  "discovery-11": {
+    "apple_music_track_id": "697196125",
+    "podcast_urls": {}
+  },
+  "discovery-12": {
+    "apple_music_track_id": "697196212",
+    "podcast_urls": {}
+  },
+  "discovery-13": {
+    "apple_music_track_id": "697196420",
+    "podcast_urls": {}
+  },
+  "discovery-14": {
+    "apple_music_track_id": "697196490",
+    "podcast_urls": {}
+  },
+  "lemonade-01": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424121"
+    }
+  },
+  "lemonade-02": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424180"
+    }
+  },
+  "lemonade-03": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423985"
+    }
+  },
+  "lemonade-04": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424039"
+    }
+  },
+  "lemonade-05": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424150"
+    }
+  },
+  "lemonade-06": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423984"
+    }
+  },
+  "lemonade-07": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424038"
+    }
+  },
+  "lemonade-08": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424179"
+    }
+  },
+  "lemonade-09": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424120"
+    }
+  },
+  "lemonade-10": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424094"
+    }
+  },
+  "lemonade-11": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424149"
+    }
+  },
+  "lemonade-12": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423933"
+    }
+  },
+  "debi-tirar-mas-fotos-01": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424178"
+    }
+  },
+  "debi-tirar-mas-fotos-02": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424092"
+    }
+  },
+  "debi-tirar-mas-fotos-03": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424037"
+    }
+  },
+  "debi-tirar-mas-fotos-04": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424010"
+    }
+  },
+  "debi-tirar-mas-fotos-05": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423757"
+    }
+  },
+  "debi-tirar-mas-fotos-06": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423846"
+    }
+  },
+  "debi-tirar-mas-fotos-07": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424093"
+    }
+  },
+  "debi-tirar-mas-fotos-08": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423983"
+    }
+  },
+  "debi-tirar-mas-fotos-09": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778424009"
+    }
+  },
+  "debi-tirar-mas-fotos-10": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778423847"
+    }
+  },
+  "debi-tirar-mas-fotos-11": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778467178"
+    }
+  },
+  "debi-tirar-mas-fotos-12": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778467104"
+    }
+  },
+  "debi-tirar-mas-fotos-13": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778467152"
+    }
+  },
+  "debi-tirar-mas-fotos-14": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778467103"
+    }
+  },
+  "debi-tirar-mas-fotos-15": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778467179"
+    }
+  },
+  "debi-tirar-mas-fotos-16": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778470726"
+    }
+  },
+  "debi-tirar-mas-fotos-17": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778469628"
+    }
+  },
+  "ok-computer-01": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778544612"
+    }
+  },
+  "ok-computer-02": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778544534"
+    }
+  },
+  "ok-computer-03": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778544693"
+    }
+  },
+  "ok-computer-04": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778544643"
+    }
+  },
+  "ok-computer-05": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778544642"
+    }
+  },
+  "ok-computer-06": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778667098"
+    }
+  },
+  "ok-computer-07": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778667074"
+    }
+  },
+  "ok-computer-08": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778667073"
+    }
+  },
+  "ok-computer-09": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778667049"
+    }
+  },
+  "ok-computer-10": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778667072"
+    }
+  },
+  "ok-computer-11": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778717728"
+    }
+  },
+  "ok-computer-12": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778717727"
+    }
+  }
 }

@@ -1142,5 +1142,1194 @@
     "duration": null,
     "published": null,
     "status": "upcoming"
+  },
+  {
+    "id": "lemonade-01",
+    "episode_number": 31,
+    "series_number": 3,
+    "track_number": 1,
+    "album_id": "lemonade",
+    "track_title": "Pray You Catch Me",
+    "title": "疑いという名の直感",
+    "web_summary": "夫の裏切りをめぐる私的な物語を、アメリカにおける黒人女性の歴史的経験へと接続した、映像込みのコンセプト作です。映像版はキューブラー・ロスの受容過程になぞらえた11の章で構成され、詩人Warsan Shireの詩篇が全編に配されています。",
+    "key_points": [
+      {
+        "heading": "章立ての最初に置かれる",
+        "body": "映像版は11の章で構成され、この曲は「Intuition（直感）」にあたります。まだ何も起きていない段階の、言葉になる前の違和感が起点です。"
+      },
+      {
+        "heading": "制作はKevin Garrettとの共同",
+        "body": "静かなピアノと囁くような歌で始まります。アルバム全体でもっとも音数の少ない部類の入り口です。"
+      },
+      {
+        "heading": "疑いから始まる構成",
+        "body": "このシリーズでは、本作を疑いから赦しへ向かう段階として読みます。1曲目が確信ではなく直感であることが、その出発点になります。"
+      }
+    ],
+    "album_role": "12曲の入口です。ここから怒り、無関心、責任、赦しへと段階が進みます。結末を知ってから戻ると、この静けさの意味が変わります。",
+    "audio_file": "audio/episode_031_2026-07-26_v3.mp3",
+    "duration": null,
+    "published": "2026-07-25",
+    "status": "published"
+  },
+  {
+    "id": "lemonade-02",
+    "episode_number": 32,
+    "series_number": 3,
+    "track_number": 2,
+    "album_id": "lemonade",
+    "track_title": "Hold Up",
+    "title": "黄金の女神が街を壊す",
+    "web_summary": "第2回は第2章「否認」にあたる2曲目『Hold Up』を取り上げます。映像で彼女がまとう黄金のドレスは、ヨルバの水の女神オシュンの象徴。愛と豊穣を司る一方、裏切られたときには苛烈な怒りを見せる女神です。",
+    "key_points": [
+      {
+        "heading": "章は「Denial（否認）」",
+        "body": "気づいてしまったあとも、まだ認めまいとする段階にあたります。曲調の明るさと内容の緊張が食い違っています。"
+      },
+      {
+        "heading": "黄金のドレスとオシュン",
+        "body": "映像で身にまとう黄金は、ヨルバの信仰における川の女神オシュンを想起させるものとして広く語られてきました。"
+      },
+      {
+        "heading": "陽気さは隠れ蓑になる",
+        "body": "このシリーズでは、跳ねるリズムを救いではなく、否認の表れとして捉えます。"
+      }
+    ],
+    "album_role": "1曲目の直感が、認めたくない事実として輪郭を持ち始める位置です。次の3曲目で、抑えていたものが一気に外へ出ます。",
+    "audio_file": "audio/episode_032_2026-07-26.mp3",
+    "duration": null,
+    "published": "2026-07-25",
+    "status": "published"
+  },
+  {
+    "id": "lemonade-03",
+    "episode_number": 33,
+    "series_number": 3,
+    "track_number": 3,
+    "album_id": "lemonade",
+    "track_title": "Don't Hurt Yourself (feat. Jack White)",
+    "title": "最も守られない者たちへ",
+    "web_summary": "第3回は第3章「怒り」にあたる3曲目、Jack Whiteを迎えた『Don't Hurt Yourself』を取り上げます。Led Zeppelin『When the Levee Breaks』の重いドラムを引用したブルース・ロック——その原曲はMemphis Minnieらによる1929年のブル…",
+    "key_points": [
+      {
+        "heading": "章は「Anger（怒り）」",
+        "body": "Jack Whiteを迎えた、アルバムでもっとも荒いロックの一曲です。"
+      },
+      {
+        "heading": "二重の引用",
+        "body": "Led Zeppelin「When the Levee Breaks」を用いていますが、その原曲は1929年の黒人ブルースです。あわせてMalcolm Xの演説が引かれます。"
+      },
+      {
+        "heading": "借りたものを返す構図",
+        "body": "このシリーズでは、白人ロックが黒人音楽から受け取ったものを、さらに引き受け直す動きとして読みます。"
+      }
+    ],
+    "album_role": "個人的な怒りが、黒人女性がどう扱われてきたかという歴史の話に接続する最初の地点です。",
+    "audio_file": "audio/episode_033_2026-07-26.mp3",
+    "duration": null,
+    "published": "2026-07-25",
+    "status": "published"
+  },
+  {
+    "id": "lemonade-04",
+    "episode_number": 34,
+    "series_number": 3,
+    "track_number": 4,
+    "album_id": "lemonade",
+    "track_title": "Sorry",
+    "title": "謝らない、という強さ",
+    "web_summary": "第4回は第4章「無関心」にあたる4曲目『Sorry』を取り上げます。傷ついた心が、怒りを通り越して冷たく突き放す段階へ——友人たちと出かけ、相手を視界から外す“無関心”の一曲。",
+    "key_points": [
+      {
+        "heading": "章は「Apathy（無関心）」",
+        "body": "怒りのあと、もう構わない、という段階にあたります。"
+      },
+      {
+        "heading": "「good hair」という一語",
+        "body": "髪質によって美しさに序列がつけられてきたことへの批評が、短い言葉で差し込まれます。"
+      },
+      {
+        "heading": "犯人探しには乗らない",
+        "body": "このシリーズでは、実在の誰かを特定する読み方は採りません。作品が何を主題にしているかだけを扱います。"
+      }
+    ],
+    "album_role": "感情が下がりきる手前にあたります。ここから5曲目で、空虚さがはっきりと形を持ちます。",
+    "audio_file": "audio/episode_034_2026-07-26.mp3",
+    "duration": null,
+    "published": "2026-07-25",
+    "status": "published"
+  },
+  {
+    "id": "lemonade-05",
+    "episode_number": 35,
+    "series_number": 3,
+    "track_number": 5,
+    "album_id": "lemonade",
+    "track_title": "6 Inch (feat. The Weeknd)",
+    "title": "働き続ける女と、その空洞",
+    "web_summary": "第5回は第5章「空虚」にあたる5曲目、The Weekndを迎えた『6 Inch』を取り上げます。タイトルは6インチのヒール。夜通し働き、金を稼ぎ続ける女性を描きながら、その足元に空いた穴を見つめる一曲です。",
+    "key_points": [
+      {
+        "heading": "章は「Emptiness（空虚）」",
+        "body": "The Weekndを迎えた、アルバムでもっとも暗い質感の一曲です。"
+      },
+      {
+        "heading": "Isaac Hayesの引用",
+        "body": "「Walk On By」を用いています。ソウルの重い時間感覚が、そのまま曲の温度になっています。"
+      },
+      {
+        "heading": "働き続けることの裏側",
+        "body": "このシリーズでは、稼ぐ女性像を称賛としてだけでなく、労働が商品になることへの視線としても読みます。"
+      }
+    ],
+    "album_role": "アルバムの底にあたる位置です。次の6曲目から、原因を自分の外ではなく来歴に探す動きが始まります。",
+    "audio_file": "audio/episode_035_2026-07-26.mp3",
+    "duration": null,
+    "published": "2026-07-25",
+    "status": "published"
+  },
+  {
+    "id": "lemonade-06",
+    "episode_number": 36,
+    "series_number": 3,
+    "track_number": 6,
+    "album_id": "lemonade",
+    "track_title": "Daddy Lessons",
+    "title": "父から受け継いだもの",
+    "web_summary": "第6回は第6章「責任」にあたる6曲目『Daddy Lessons』を取り上げます。ニューオーリンズのブラスで始まり、カントリーへと展開する異色の一曲。父が娘に授けた“男に気をつけろ”という教えが、そのまま今の自分の状況に跳ね返ってくる——痛みが世代を越えて反復するという、アルバムの核心に触れます。",
+    "key_points": [
+      {
+        "heading": "章は「Accountability（責任）」",
+        "body": "父から受け取った教えと、その反復が主題です。"
+      },
+      {
+        "heading": "カントリーという選択",
+        "body": "カントリーには黒人の担い手がいた歴史があります。2016年のCMAでのThe Chicksとの共演には、強い反発も起きました。"
+      },
+      {
+        "heading": "痛みは受け継がれる",
+        "body": "このシリーズでは、この曲を家族の思い出話ではなく、繰り返される型としての解説にあたる場所と捉えます。"
+      }
+    ],
+    "album_role": "個人の物語が世代の話へ広がる転換点です。ここから作品は、修復に向けて動き始めます。",
+    "audio_file": "audio/episode_036_2026-07-26_v2.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "lemonade-07",
+    "episode_number": 37,
+    "series_number": 3,
+    "track_number": 7,
+    "album_id": "lemonade",
+    "track_title": "Love Drought",
+    "title": "水の中へ歩いていく",
+    "web_summary": "第7回は第7章「改革」にあたる7曲目『Love Drought』を取り上げます。タイトルは“愛の渇水”。関係を終わらせるのではなく、もう一度作り直そうとする、静かな和解への一歩です。そして映像がすさまじい——白い衣をまとった黒人女性たちの行列が、海へ歩いて入っていく。",
+    "key_points": [
+      {
+        "heading": "章は「Reformation（再構築）」",
+        "body": "壊れたものを組み直そうとする段階です。"
+      },
+      {
+        "heading": "イボ・ランディングの伝承",
+        "body": "1803年、鎖につながれた人々が海へ歩いていったとされる伝承が背景にあります。映像はJulie Dash『Daughters of the Dust』の影響を受けています。"
+      },
+      {
+        "heading": "水が繰り返し現れる",
+        "body": "このシリーズでは、本作に繰り返し出てくる水を、破壊と再生の両方を担うものとして読みます。"
+      }
+    ],
+    "album_role": "怒りと空虚を通り抜けたあと、もう一度関係を建て直そうとする位置にあたります。",
+    "audio_file": "audio/episode_037_2026-07-26_v2.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "lemonade-08",
+    "episode_number": 38,
+    "series_number": 3,
+    "track_number": 8,
+    "album_id": "lemonade",
+    "track_title": "Sandcastles",
+    "title": "砂の城が崩れたあとで",
+    "web_summary": "第8回は第8章「赦し」にあたる8曲目『Sandcastles』を取り上げます。ピアノ一台とボーカルだけの、アルバムで最も無防備な一曲。約束は砂の城のように崩れる——それでも、崩れたあとにもう一度愛することを選べるか、という問いを歌います。",
+    "key_points": [
+      {
+        "heading": "章は「Forgiveness（赦し）」",
+        "body": "ピアノ一台と歌だけで進みます。"
+      },
+      {
+        "heading": "あえて崩した歌声",
+        "body": "音程や息づかいを整えず、割れたまま歌われます。技巧を見せる場面ではありません。"
+      },
+      {
+        "heading": "感情曲線の底",
+        "body": "このシリーズでは、この曲を赦しの完了ではなく、赦さざるを得ない地点として捉えます。"
+      }
+    ],
+    "album_role": "12曲でもっとも装飾が少ない場所です。ここを通ったあと、作品は個人から外の世界へ視点を移します。",
+    "audio_file": "audio/episode_038_2026-07-26_v2.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "lemonade-09",
+    "episode_number": 39,
+    "series_number": 3,
+    "track_number": 9,
+    "album_id": "lemonade",
+    "track_title": "Forward (feat. James Blake)",
+    "title": "遺影を抱く母たち",
+    "web_summary": "第9回は第9章「復活」にあたる9曲目、James Blakeを迎えた『Forward』を取り上げます。わずか1分あまりの短い間奏曲。しかし映像では、警察や自警による暴力で息子を亡くした母たち——Trayvon Martinの母Sybrina Fulton、",
+    "key_points": [
+      {
+        "heading": "章は「Resurrection（復活）」",
+        "body": "約1分の短い曲です。歌よりも映像が主になります。"
+      },
+      {
+        "heading": "遺影を抱く母親たち",
+        "body": "映像には、警官の暴力などで息子を亡くした母親たちが登場し、それぞれの写真を抱いて座ります。"
+      },
+      {
+        "heading": "私的な物語が外へ出る",
+        "body": "このシリーズでは、ここを本作の主題が家庭の外へ拡張する地点として扱います。"
+      }
+    ],
+    "album_role": "アルバムの視点が、夫婦の話から社会の話へ切り替わる蝶番にあたります。",
+    "audio_file": "audio/episode_039_2026-07-26_v2.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "lemonade-10",
+    "episode_number": 40,
+    "series_number": 3,
+    "track_number": 10,
+    "album_id": "lemonade",
+    "track_title": "Freedom (feat. Kendrick Lamar)",
+    "title": "レモンをレモネードに",
+    "web_summary": "第10回は第10章「希望」にあたる10曲目、Kendrick Lamarを迎えた『Freedom』を取り上げます。Alan Lomaxが記録した1947年のミシシッピ州パーチマン刑務所の囚人の歌、1959年の教会の賛美歌——奴隷制と収監の記憶を宿す音源を土台に据えた、抵抗の賛歌です。",
+    "key_points": [
+      {
+        "heading": "章は「Hope（希望）」",
+        "body": "Kendrick Lamarを迎えた一曲です。"
+      },
+      {
+        "heading": "録音資料からの引用",
+        "body": "Alan Lomaxが記録した1947年のパーチマン刑務所の歌と、1959年の賛美歌が用いられています。"
+      },
+      {
+        "heading": "アルバム名の由来がここにある",
+        "body": "ジェイ・Zの祖母Hattie Whiteの言葉が引かれ、そこからレモネードという題が導かれます。"
+      }
+    ],
+    "album_role": "個人の痛みと歴史が完全に重なる位置です。2024年の大統領選では、この曲がキャンペーンで使われました。",
+    "audio_file": "audio/episode_040_2026-07-26_v3.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "lemonade-11",
+    "episode_number": 41,
+    "series_number": 3,
+    "track_number": 11,
+    "album_id": "lemonade",
+    "track_title": "All Night",
+    "title": "一晩じゅう、あなたと",
+    "web_summary": "第11回は第11章「贖い」にあたる11曲目『All Night』を取り上げます。裏切りのあとに、もう一度信頼を築き直す——赦しの実践としての愛を歌う、温かな一曲。土台にはOutKast『SpottieOttieDopaliscious』のブラスが敷かれ、南部のソウルの系譜へと接続されます。",
+    "key_points": [
+      {
+        "heading": "章は「Redemption（贖い）」",
+        "body": "ホームビデオの映像とともに、関係の再生が示されます。"
+      },
+      {
+        "heading": "OutKastの引用",
+        "body": "「SpottieOttieDopaliscious」を用いています。南部のヒップホップの祝祭的な質感が敷かれます。"
+      },
+      {
+        "heading": "次の世代が映る",
+        "body": "このシリーズでは、この曲に登場する若い女性たちを、物語の受け取り手として捉えます。"
+      }
+    ],
+    "album_role": "章立てとしての結末にあたります。12曲目はこの外側に置かれた、別種の曲です。",
+    "audio_file": "audio/episode_041_2026-07-26_v2.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "lemonade-12",
+    "episode_number": 42,
+    "series_number": 3,
+    "track_number": 12,
+    "album_id": "lemonade",
+    "track_title": "Formation",
+    "title": "【最終回】隊列を組め",
+    "web_summary": "ついに最終回。第12回は章立ての外側に置かれた12曲目『Formation』を取り上げます。2016年2月6日に突如公開され、その翌日スーパーボウルで披露された、宣言としての一曲。",
+    "key_points": [
+      {
+        "heading": "章立ての外側にある",
+        "body": "11章の物語が閉じたあとに置かれています。前日にシングルとして単独発表された曲でもあります。"
+      },
+      {
+        "heading": "ハリケーン・カトリーナの記憶",
+        "body": "映像では、水没した街とパトカーが沈んでいく場面が用いられています。Big FreediaとMessy Myaの声が入ります。"
+      },
+      {
+        "heading": "個人から集団へ",
+        "body": "このシリーズでは、私の物語だったものが、隊列を組めという呼びかけに変わる地点として読みます。"
+      }
+    ],
+    "album_role": "アルバムの結論ではなく、そのあとに続く行動として置かれています。発表翌日にはスーパーボウルで披露されました。",
+    "audio_file": "audio/episode_042_2026-07-26_v3.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-01",
+    "episode_number": 43,
+    "series_number": 4,
+    "track_number": 1,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Nuevayol",
+    "title": "ニューヨークのプエルトリコ",
+    "web_summary": "タイトルは「もっと写真を撮っておけばよかった」。レゲトンにプエルトリコの伝統音楽(プレーナ／ボンバ／ヒバロ／サルサ)を全面的に取り込み、島の文化とジェントリフィケーションを歌った一枚で、2026年グラミーではスペイン語アルバムとして史上初の年間最優秀アルバム賞を受賞しました。",
+    "key_points": [
+      {
+        "heading": "El Gran Comboの引用から始まる",
+        "body": "「Un Verano en Nueva York」が用いられています。プエルトリコのサルサの本流を、1曲目に置いています。"
+      },
+      {
+        "heading": "舞台はニューヨーク",
+        "body": "島ではなく、島から渡った人たちの街から始まります。"
+      },
+      {
+        "heading": "外から島を見る",
+        "body": "このシリーズでは、この配置を、離れた場所から故郷を思う視点として捉えます。"
+      }
+    ],
+    "album_role": "17曲の入口です。ここから島へ戻り、島の音楽を一つずつたどる構成になっています。",
+    "audio_file": "audio/episode_043_2026-07-27_v3.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-02",
+    "episode_number": 44,
+    "series_number": 4,
+    "track_number": 2,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Voy a Llevarte Pa' PR",
+    "title": "島へ連れて行くよ",
+    "web_summary": "第2回は2曲目『Voy a Llevarte Pa' PR』を取り上げます。タイトルは「君をプエルトリコに連れて行く」。前曲がニューヨークのプエルトリコ人街から始まったのに対し、この曲は逆方向——島そのものへ人を招く、明るいレゲトン讃歌です。",
+    "key_points": [
+      {
+        "heading": "島へ連れて行く、という宣言",
+        "body": "題は「プエルトリコへ連れて行く」の意です。1曲目のニューヨークから、舞台が島へ移ります。"
+      },
+      {
+        "heading": "観光ではない案内",
+        "body": "紹介されるのは名所ではなく、そこで暮らす時間のほうです。"
+      },
+      {
+        "heading": "楽しむことが主張になる",
+        "body": "このシリーズでは、踊るための曲を、政治的な主題の息抜きではなく、島に居続けることの表明として読みます。"
+      }
+    ],
+    "album_role": "アルバムの舞台を島に定める位置です。ここから伝統音楽の比重が上がっていきます。",
+    "audio_file": "audio/episode_044_2026-07-27_v2.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-03",
+    "episode_number": 45,
+    "series_number": 4,
+    "track_number": 3,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Baile Inolvidable",
+    "title": "忘れられないダンス",
+    "web_summary": "第3回は3曲目『Baile Inolvidable』を取り上げます。6分を超える、本格的なサルサ。忘れられない恋人を「忘れられないダンス」になぞらえ、“君が僕に踊りを教えてくれた”と歌う一曲です。",
+    "key_points": [
+      {
+        "heading": "6分を超えるサルサ",
+        "body": "レゲトンのアルバムでこの長さのサルサが中心に置かれるのは異例です。"
+      },
+      {
+        "heading": "若い奏者たちが演奏する",
+        "body": "サンフアンのEscuela Libre de Músicaの学生たちが参加しています。"
+      },
+      {
+        "heading": "継承が音として鳴る",
+        "body": "このシリーズでは、演奏者の選択そのものを、島の音楽を次へ渡す行為として捉えます。"
+      }
+    ],
+    "album_role": "本作が伝統音楽をどう扱うのかを、最初にはっきり示す一曲です。",
+    "audio_file": "audio/episode_045_2026-07-27_v2.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-04",
+    "episode_number": 46,
+    "series_number": 4,
+    "track_number": 4,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Perfumito Nuevo (feat. RaiNao)",
+    "title": "新しい香り",
+    "web_summary": "第4回は4曲目、RaiNaoを迎えた『Perfumito Nuevo』を取り上げます。タイトルは「新しい香水」。新しい香りをまとうことが、そのまま新しい相手・新しい自分の始まりを意味する、誘惑と高揚の一曲です。",
+    "key_points": [
+      {
+        "heading": "RaiNaoを迎える",
+        "body": "この曲は、RaiNaoにとってキャリアで初めてのBillboardチャート首位となりました。"
+      },
+      {
+        "heading": "島の新しい世代",
+        "body": "客演の選び方に、島で活動する同時代の担い手を押し上げる意図が見えます。"
+      },
+      {
+        "heading": "誰を呼ぶかが主張になる",
+        "body": "このシリーズでは、客演の人選を作品の主題の一部として扱います。"
+      }
+    ],
+    "album_role": "先輩世代だけでなく、同時代の島の作り手にも場所を渡す位置にあたります。",
+    "audio_file": "audio/episode_046_2026-07-27_v3.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-05",
+    "episode_number": 47,
+    "series_number": 4,
+    "track_number": 5,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Weltita (feat. Chuwi)",
+    "title": "引き継がれる名旋律",
+    "web_summary": "第5回は5曲目、プエルトリコのバンドChuwiを迎えた『Weltita』を取り上げます。この曲が下敷きにしているのは、スペインのバンドJarabe de Paloが1996年に放った大ヒット曲『La Flaca』。",
+    "key_points": [
+      {
+        "heading": "Chuwiとの共演",
+        "body": "島のバンドを迎えた一曲です。"
+      },
+      {
+        "heading": "「La Flaca」の引用",
+        "body": "スペインのJarabe de Paloの曲をインターポレートしています。"
+      },
+      {
+        "heading": "カリブの外とつながる",
+        "body": "このシリーズでは、島の内側を掘る作品でありながら、スペイン語圏全体へ耳を開いている点に注目します。"
+      }
+    ],
+    "album_role": "島の音楽をたどる流れの中で、外部からの引用が入る珍しい位置です。",
+    "audio_file": "audio/episode_047_2026-07-27_v2.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-06",
+    "episode_number": 48,
+    "series_number": 4,
+    "track_number": 6,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Veldá (feat. Omar Courtz & Dei V)",
+    "title": "“ホント”という綴り",
+    "web_summary": "第6回は6曲目、Omar CourtzとDei Vを迎えた『Veldá』を取り上げます。タイトルは『verdad(本当)』を、プエルトリコの人々が実際に発音するとおりに綴ったもの。正しい綴りではなく、自分たちの口の形で書くという、このアルバムを貫く言語の政治を解説します。",
+    "key_points": [
+      {
+        "heading": "題は島の発音の綴り",
+        "body": "verdad（真実）を、島で発音されるとおりに綴ったものです。"
+      },
+      {
+        "heading": "三つの世代が交差する",
+        "body": "Plan Bの曲を用い、アウトロにはWisinが登場します。客演のOmar CourtzとDei Vは若い世代です。"
+      },
+      {
+        "heading": "発音を綴りにする",
+        "body": "このシリーズでは、標準的な綴りを崩す選択を、島の言葉をそのまま書き残す行為として読みます。"
+      }
+    ],
+    "album_role": "レゲトンの世代を縦に貫く一曲です。本作が誰の系譜に立っているかが分かります。",
+    "audio_file": "audio/episode_048_2026-07-27_v2.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-07",
+    "episode_number": 49,
+    "series_number": 4,
+    "track_number": 7,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "El Clúb",
+    "title": "踊りながら独りでいる",
+    "web_summary": "第7回は7曲目『El Clúb』を取り上げます。アルバムに先駆けて2024年に公開された先行シングル。人でいっぱいのクラブにいながら、頭の中は別れた相手のことでいっぱい——という、踊りながら独りでいる感覚を、ハウスのビートで描きます。",
+    "key_points": [
+      {
+        "heading": "2024年の先行シングル",
+        "body": "アルバムより早く発表された曲です。ハウスの質感を持ちます。"
+      },
+      {
+        "heading": "MVがアルバムを予告していた",
+        "body": "映像の終盤に「DTmF 2025」の表示が置かれ、次の作品の存在が示されていました。"
+      },
+      {
+        "heading": "踊り場としての位置",
+        "body": "このシリーズでは、伝統音楽が続く流れの中で、この曲を息を入れ替える場所として捉えます。"
+      }
+    ],
+    "album_role": "アルバムの前半と中盤をつなぐ位置にあります。単独で聴くときとは役割が変わります。",
+    "audio_file": "audio/episode_049_2026-07-27_v3.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-08",
+    "episode_number": 50,
+    "series_number": 4,
+    "track_number": 8,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Ketu Tecré",
+    "title": "何様のつもり",
+    "web_summary": "第8回は8曲目『Ketu Tecré』を取り上げます。タイトルは『Qué tú te crees(何様のつもりだ)』を、プエルトリコの発音のまま綴ったもの。失恋の痛みを歌いながら、そこに島の日常が次々と流れ込んできます——たびたび起こる停電、1月6日の三賢者の日、路上のドミノ、",
+    "key_points": [
+      {
+        "heading": "題は島の発音の綴り",
+        "body": "「Qué tú te crees」を発音どおりに綴ったものです。"
+      },
+      {
+        "heading": "生活の細部が並ぶ",
+        "body": "停電、三賢者の日、ドミノ、ピトーロといった、島の暮らしの具体が出てきます。"
+      },
+      {
+        "heading": "固有名詞は翻訳しない",
+        "body": "このシリーズでは、島の生活語をそのまま置く姿勢を、本作の一貫した方針として扱います。"
+      }
+    ],
+    "album_role": "島の日常を、説明せずに列挙する位置です。分かる人にだけ分かる書き方が徹底されています。",
+    "audio_file": "audio/episode_050_2026-07-27_v3.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-09",
+    "episode_number": 51,
+    "series_number": 4,
+    "track_number": 9,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Bokete",
+    "title": "道路の穴、心の穴",
+    "web_summary": "第9回は9曲目『Bokete』を取り上げます。タイトルの『boquete』は、道路にあいた穴——つまり、誰も直さないまま放置された“ポットホール”のこと。冷えていった恋の顛末を語りながら、その比喩として、島の直されない道路の穴が置かれます。心にあいた穴と、行政に放置された穴。",
+    "key_points": [
+      {
+        "heading": "題は道路の穴",
+        "body": "boquete（穴）から来ています。整備されないまま残る道の穴が下敷きです。"
+      },
+      {
+        "heading": "穴が二重の意味を持つ",
+        "body": "心にあいた穴と、行政に放置された穴が重ねられています。"
+      },
+      {
+        "heading": "私的な比喩が公共の話になる",
+        "body": "このシリーズでは、恋愛の言葉が社会の状態を指す構造を、本作の基本の書き方として読みます。"
+      }
+    ],
+    "album_role": "私的な歌と島の状況が、同じ一語で結ばれる位置にあたります。",
+    "audio_file": "audio/episode_051_2026-07-27_v2.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-10",
+    "episode_number": 52,
+    "series_number": 4,
+    "track_number": 10,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Kloufrens",
+    "title": "限られた人にだけ見える",
+    "web_summary": "第10回は10曲目『Kloufrens』を取り上げます。タイトルは英語の“close friends”——SNSの、限られた相手にだけ公開する機能のこと——を、スペイン語話者の発音のまま綴ったもの。別れたあとも相手のアカウントを見てしまう、あの現代的な未練を歌います。",
+    "key_points": [
+      {
+        "heading": "題は島の発音の綴り",
+        "body": "「close friends」を発音どおりに綴ったものです。英語が島の口に馴染んだ形で入っています。"
+      },
+      {
+        "heading": "自作への言及",
+        "body": "過去作『YHLQMDLG』の「La Santa」に触れています。"
+      },
+      {
+        "heading": "自分の過去を素材にする",
+        "body": "このシリーズでは、自作への参照を、キャリアそのものを島の時間として扱う手つきと捉えます。"
+      }
+    ],
+    "album_role": "アルバム中盤で、視点が外の世界から個人の関係へ絞られる位置です。",
+    "audio_file": "audio/episode_052_2026-07-27_v2.mp3",
+    "duration": null,
+    "published": "2026-07-26",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-11",
+    "episode_number": 53,
+    "series_number": 4,
+    "track_number": 11,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Turista",
+    "title": "君は僕の人生の観光客だった",
+    "web_summary": "第11回は11曲目『Turista』を取り上げます。タイトルは『観光客』。短く終わった恋の相手を、自分の人生を訪れただけの観光客になぞらえます——きれいな部分だけを見て、傷には触れないまま帰っていった人。しかしBad Bunny自身が語るとおり、この曲には二重の意味があります。",
+    "key_points": [
+      {
+        "heading": "題は「観光客」",
+        "body": "恋人を指す言葉として使われますが、島を訪れる観光客の意味も重なります。"
+      },
+      {
+        "heading": "本人が二重の意味を認めている",
+        "body": "本人がポッドキャストで、両方の意味を込めたと語っています。"
+      },
+      {
+        "heading": "通り過ぎる人",
+        "body": "このシリーズでは、滞在せずに去っていく存在という一点で、恋人と観光客が同じ形をしている点に注目します。"
+      }
+    ],
+    "album_role": "本作の主題であるジェントリフィケーションを、恋愛の言葉だけで語りきる位置です。",
+    "audio_file": "audio/episode_053_2026-07-27.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-12",
+    "episode_number": 54,
+    "series_number": 4,
+    "track_number": 12,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Café con Ron (feat. Los Pleneros de la Cresta)",
+    "title": "コーヒーとラム",
+    "web_summary": "第12回は12曲目、Los Pleneros de la Crestaを迎えた『Café con Ron』を取り上げます。コーヒー＝朝と日常、ラム＝夜と祝祭。二つの飲み物で、島の暮らしのリズムそのものを描く一曲です。",
+    "key_points": [
+      {
+        "heading": "プレーナの一曲",
+        "body": "島の伝統的な打楽器音楽であるプレーナを、そのまま本編に置いています。"
+      },
+      {
+        "heading": "共演が担い手を押し上げた",
+        "body": "Los Pleneros de la Crestaの月間リスナーは、この共演を機に数万規模から一千万規模へ跳ね上がりました。"
+      },
+      {
+        "heading": "記録ではなく現役として扱う",
+        "body": "このシリーズでは、伝統音楽を保存対象ではなく、いま鳴っている音楽として扱う姿勢に注目します。"
+      }
+    ],
+    "album_role": "本作が伝統音楽に対して何をしたのかが、数字の上でも確認できる一曲です。",
+    "audio_file": "audio/episode_054_2026-07-27.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-13",
+    "episode_number": 55,
+    "series_number": 4,
+    "track_number": 13,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Pitorro de Coco",
+    "title": "ひとりのクリスマス",
+    "web_summary": "第13回は13曲目『Pitorro de Coco』を取り上げます。ピトーロはプエルトリコの自家製ラム酒で、ココナッツ味はクリスマスの定番。島じゅうが賑わうその季節に、去っていった相手を想いながらひとりで飲む——祝祭と孤独が同居する一曲です。",
+    "key_points": [
+      {
+        "heading": "ヒバロのリズム",
+        "body": "島の山間部の音楽であるヒバロの拍が用いられています。"
+      },
+      {
+        "heading": "題は自家製の酒",
+        "body": "ピトーロは、クリスマスの時期に飲まれる島の蒸留酒です。"
+      },
+      {
+        "heading": "賑やかさとひとり",
+        "body": "このシリーズでは、祝祭の音楽で孤独を歌うこの構図を、本作でもっとも静かな瞬間として捉えます。"
+      }
+    ],
+    "album_role": "島の祝祭のただ中で、ひとりで飲む時間が描かれます。次の14曲目の重い主題への入口でもあります。",
+    "audio_file": "audio/episode_055_2026-07-27_v2.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-14",
+    "episode_number": 56,
+    "series_number": 4,
+    "track_number": 14,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Lo Que Le Pasó a Hawaii",
+    "title": "ハワイに起きたこと",
+    "web_summary": "第14回は、このアルバムで最も政治的な14曲目『Lo Que Le Pasó a Hawaii』を取り上げます。プエルトリコとハワイは、ともに1898年にアメリカの手に渡りました。",
+    "key_points": [
+      {
+        "heading": "ハワイと並べる",
+        "body": "プエルトリコとハワイは、いずれも1898年にアメリカの統治下に入りました。"
+      },
+      {
+        "heading": "守れと呼びかけるもの",
+        "body": "川と浜、そして島の言葉である「レロライ」が挙げられます。"
+      },
+      {
+        "heading": "夢で丸ごと浮かんだ",
+        "body": "本人は、この曲が夢の中でほぼそのままの形で現れたと語っています。"
+      }
+    ],
+    "album_role": "本作でもっとも直接的に政治を語る一曲です。17曲の中で、主題がいちばん表に出る位置にあります。",
+    "audio_file": "audio/episode_056_2026-07-27.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-15",
+    "episode_number": 57,
+    "series_number": 4,
+    "track_number": 15,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "Eoo",
+    "title": "原点に還る",
+    "web_summary": "第15回は15曲目『Eoo』を取り上げます。前曲で島の未来を正面から見据えたあと、一転してレゲトンの原点へ立ち返る一曲。2000年代の伝説的デュオHéctor & Titoの楽曲を引用し、さらに自身のデビュー作『X 100pre』収録曲にも目配せするという、",
+    "key_points": [
+      {
+        "heading": "二重の原点回帰",
+        "body": "Héctor & Titoへの参照と、自作『X 100pre』への参照が重ねられています。"
+      },
+      {
+        "heading": "受賞につながった",
+        "body": "この曲はグラミー賞の最優秀グローバル・ミュージック・パフォーマンスを受賞しました。"
+      },
+      {
+        "heading": "自分の出発点に戻る",
+        "body": "このシリーズでは、島のレゲトン史と自身のキャリア史を同時にたどる曲として読みます。"
+      }
+    ],
+    "album_role": "重い14曲目のあと、アルバムが表題曲へ向けて速度を上げ直す位置です。",
+    "audio_file": "audio/episode_057_2026-07-27.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-16",
+    "episode_number": 58,
+    "series_number": 4,
+    "track_number": 16,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "DtMF",
+    "title": "もっと写真を撮っておけばよかった",
+    "web_summary": "第16回はついに表題曲『DtMF』を取り上げます。タイトルは『もっと写真を撮っておけばよかった』。失った恋人なのか、亡くなった誰かなのか——あえて特定されないまま、撮り損ねた写真への後悔が歌われます。酔いが回るにつれて感傷的になり、友人たちに愛していると伝え、今すぐ集まって一枚撮ろうと言い出す。",
+    "key_points": [
+      {
+        "heading": "表題曲",
+        "body": "「もっと写真を撮っておけばよかった」というアルバム題が、ここで曲になります。"
+      },
+      {
+        "heading": "撮り損ねた写真",
+        "body": "失われたのは風景そのものではなく、変わる前の島を記録する機会だったことが示されます。"
+      },
+      {
+        "heading": "世界的な現象になった",
+        "body": "この曲は発表後、TikTokを中心に広く共有されました。"
+      }
+    ],
+    "album_role": "17曲の主題が一点に集まる場所です。ここまでの島の描写が、すべてこの一語に回収されます。",
+    "audio_file": "audio/episode_058_2026-07-27.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "debi-tirar-mas-fotos-17",
+    "episode_number": 59,
+    "series_number": 4,
+    "track_number": 17,
+    "album_id": "debi-tirar-mas-fotos",
+    "track_title": "La Mudanza",
+    "title": "【最終回】引っ越しから始まった",
+    "web_summary": "ついに最終回。第17回はアルバムを締めくくる『La Mudanza』を取り上げます。タイトルは『引っ越し』。曲は語りで始まります——Vega Baja出身で6人きょうだいの長男、技師を夢見ながら祖父と父と同じくトラックを運転した父ティト。そして、友人の引っ越しを手伝いに行った日に出会った母リシー。",
+    "key_points": [
+      {
+        "heading": "題は「引っ越し」",
+        "body": "両親のティトとリシーが出会った引っ越しの日が語られます。自身の出発点にあたる出来事です。"
+      },
+      {
+        "heading": "独立への言及",
+        "body": "教育者Eugenio María de Hostosの名が引かれ、島の独立をめぐる話題に触れます。"
+      },
+      {
+        "heading": "家族史と島の歴史を重ねる",
+        "body": "このシリーズでは、最終回で個人の出自と島の来歴が同じ一つの線になる構成に注目します。"
+      }
+    ],
+    "album_role": "17曲を締めくくる位置です。1曲目のニューヨークから始まった旅が、自分が生まれる前の島に着地します。",
+    "audio_file": "audio/episode_059_2026-07-27_v3.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-01",
+    "episode_number": 60,
+    "series_number": 5,
+    "track_number": 1,
+    "album_id": "ok-computer",
+    "track_title": "Airbag",
+    "title": "事故から生還する",
+    "web_summary": "消費社会、疎外、テクノロジーへの不安を描き、ブリットポップ以降の英国ロックの流れを変えた一枚です。初回は幕開けの1曲目『Airbag』。エアバッグに助けられて事故から生還する——その瞬間を「復活」として歌う一曲を解説します。",
+    "key_points": [
+      {
+        "heading": "切り貼りされたドラム",
+        "body": "DJ Shadow『Endtroducing』に触発された、断片をつなぐ手法が用いられています。"
+      },
+      {
+        "heading": "事故から生き延びる",
+        "body": "自動車事故から生還した直後の感覚が主題です。機械に殺されかけ、機械に救われます。"
+      },
+      {
+        "heading": "復活として始まる",
+        "body": "このシリーズでは、この曲を再生の歌として読み、11曲目『Lucky』と対にして扱います。"
+      }
+    ],
+    "album_role": "12曲の入口です。アルバムは生還で始まり、終盤でもう一度、生還の歌に戻ります。",
+    "audio_file": "audio/episode_060_2026-07-27_v2.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-02",
+    "episode_number": 61,
+    "series_number": 5,
+    "track_number": 2,
+    "album_id": "ok-computer",
+    "track_title": "Paranoid Android",
+    "title": "4つの顔を持つ大曲",
+    "web_summary": "第2回は6分23秒におよぶ2曲目『Paranoid Android』を取り上げます。まったく異なる4つの部分が接ぎ木のようにつながった構成で、下敷きにはQueen『Bohemian Rhapsody』とThe Beatles『Happiness Is a Warm Gun』があります。",
+    "key_points": [
+      {
+        "heading": "4部構成の6分間",
+        "body": "曲調が何度も切り替わる構成で、『Bohemian Rhapsody』や『Happiness Is a Warm Gun』が下敷きにあると語られてきました。"
+      },
+      {
+        "heading": "題の出どころ",
+        "body": "Douglas Adamsの小説に登場する、鬱状態のロボットの名から取られています。"
+      },
+      {
+        "heading": "怒りの置き場所",
+        "body": "このシリーズでは、対象の定まらない苛立ちが形式そのものを壊していく曲として読みます。"
+      }
+    ],
+    "album_role": "アルバムの野心を早い段階で示す位置です。ここで作品の振れ幅が確定します。",
+    "audio_file": "audio/episode_061_2026-07-27_v2.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-03",
+    "episode_number": 62,
+    "series_number": 5,
+    "track_number": 3,
+    "album_id": "ok-computer",
+    "track_title": "Subterranean Homesick Alien",
+    "title": "宇宙人に連れ去られたい",
+    "web_summary": "第3回は3曲目『Subterranean Homesick Alien』を取り上げます。タイトルはBob Dylanの『Subterranean Homesick Blues』のもじり。宇宙人に連れ去られ、上空から地上を眺めてみたい——そして地上に戻っても、誰も信じてくれない。",
+    "key_points": [
+      {
+        "heading": "題はBob Dylanのもじり",
+        "body": "「Subterranean Homesick Blues」を下敷きにしています。"
+      },
+      {
+        "heading": "宇宙人に連れ去られたい",
+        "body": "故郷にいながら居場所がない感覚が、UFOへの願望として書かれます。"
+      },
+      {
+        "heading": "ホームシックの反転",
+        "body": "このシリーズでは、帰る場所にいるのに帰りたいという構造を、本作全体の主題として扱います。"
+      }
+    ],
+    "album_role": "アルバムの主題である疎外が、初めてはっきり言葉になる位置です。",
+    "audio_file": "audio/episode_062_2026-07-27.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-04",
+    "episode_number": 63,
+    "series_number": 5,
+    "track_number": 4,
+    "album_id": "ok-computer",
+    "track_title": "Exit Music (For a Film)",
+    "title": "映画のための退場曲",
+    "web_summary": "第4回は4曲目『Exit Music (For a Film)』を取り上げます。この曲は、Baz Luhrmann監督の映画『ロミオ+ジュリエット』のために書かれ、エンドロールで流れました。Thom Yorkeは戯曲そのものと、1968年のZeffirelli版映画から着想を得たと語っています。",
+    "key_points": [
+      {
+        "heading": "映画のために書かれた",
+        "body": "Baz Luhrmann監督『ロミオ+ジュリエット』のために書かれた一曲です。"
+      },
+      {
+        "heading": "石段で録られた残響",
+        "body": "エフェクトではなく、録音した場所の自然な響きが使われています。"
+      },
+      {
+        "heading": "駆け落ちの歌",
+        "body": "このシリーズでは、この曲を逃避ではなく、二人で世界を降りる選択として読みます。"
+      }
+    ],
+    "album_role": "外部の依頼から生まれた曲が、アルバムの主題にそのまま噛み合っている位置です。",
+    "audio_file": "audio/episode_063_2026-07-27.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-05",
+    "episode_number": 64,
+    "series_number": 5,
+    "track_number": 5,
+    "album_id": "ok-computer",
+    "track_title": "Let Down",
+    "title": "移動し続けて、どこにもいない",
+    "web_summary": "第5回は5曲目『Let Down』を取り上げます。Thom Yorkeが語る主題は「閉じ込められることへの恐怖」——何千という場所と人のそばを通り過ぎながら、そのどれとも関われない、移動中の完全な断絶。",
+    "key_points": [
+      {
+        "heading": "移動の中の閉塞",
+        "body": "電車や車で運ばれ続ける状態が下敷きにあります。"
+      },
+      {
+        "heading": "一人だけ拍子が違う",
+        "body": "Jonny Greenwoodのパートが別の拍子で重ねられ、位相がずれていきます。"
+      },
+      {
+        "heading": "2025年に再燃した",
+        "body": "この曲は発表から30年近く経って、TikTokをきっかけに若い世代へ届き直しました。"
+      }
+    ],
+    "album_role": "本作でもっとも美しいと言われる位置にあり、同時に、いちばん動きのない場面でもあります。",
+    "audio_file": "audio/episode_064_2026-07-27.mp3",
+    "duration": null,
+    "published": "2026-07-27",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-06",
+    "episode_number": 65,
+    "series_number": 5,
+    "track_number": 6,
+    "album_id": "ok-computer",
+    "track_title": "Karma Police",
+    "title": "業のおまわりさん",
+    "web_summary": "第6回は6曲目『Karma Police』を取り上げます。タイトルはツアー中の内輪の冗談から——ひどい振る舞いをする人を見かけると「そのうちカルマ警察に捕まるぞ」と言い合っていた、あの言い回しです。",
+    "key_points": [
+      {
+        "heading": "由来はツアー中の内輪ネタ",
+        "body": "気に入らない相手を取り締まる警察、という冗談から生まれています。"
+      },
+      {
+        "heading": "裁く側が壊れる",
+        "body": "他人を裁こうとしていた語り手のほうが、途中から崩れていきます。"
+      },
+      {
+        "heading": "Beatlesの影が見える",
+        "body": "ピアノの運びは「Sexy Sadie」を思わせるとしばしば指摘されます。"
+      }
+    ],
+    "album_role": "アルバムの中で最もよく知られた一曲です。冗談として始まったものが、作品の中心に置かれています。",
+    "audio_file": "audio/episode_065_2026-07-28.mp3",
+    "duration": null,
+    "published": "2026-07-28",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-07",
+    "episode_number": 66,
+    "series_number": 5,
+    "track_number": 7,
+    "album_id": "ok-computer",
+    "track_title": "Fitter Happier",
+    "title": "コンピューターが読み上げる幸福",
+    "web_summary": "第7回は7曲目『Fitter Happier』を取り上げます。歌ではありません。Macintoshの読み上げ機能の合成音声が、望ましい生き方の箇条書きを淡々と読み上げるだけの2分弱。",
+    "key_points": [
+      {
+        "heading": "合成音声のトラック",
+        "body": "Macintoshの読み上げ機能による声で構成され、歌はありません。"
+      },
+      {
+        "heading": "10分で書かれた",
+        "body": "1990年代のスローガンを並べた一覧として、短時間で書かれたと語られています。"
+      },
+      {
+        "heading": "中心に置かれた非音楽",
+        "body": "このシリーズでは、この配置を、作品が何を批判しているかの宣言として読みます。"
+      }
+    ],
+    "album_role": "12曲のちょうど中間にあたります。ここを境に、アルバムの後半は社会の側へ向かいます。",
+    "audio_file": "audio/episode_066_2026-07-28.mp3",
+    "duration": null,
+    "published": "2026-07-28",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-08",
+    "episode_number": 67,
+    "series_number": 5,
+    "track_number": 8,
+    "album_id": "ok-computer",
+    "track_title": "Electioneering",
+    "title": "票を集めるという仕事",
+    "web_summary": "第8回は8曲目『Electioneering』を取り上げます。タイトルは「選挙運動」。当選するためなら誰にでも都合のいいことを言う候補者を描いた、アルバムで最も直接的な政治批判の一曲です。Thom Yorkeは着想源としてメディア批評家Noam Chomskyの著作を挙げています。",
+    "key_points": [
+      {
+        "heading": "Noam Chomskyに着想",
+        "body": "政治と広報をめぐる議論が下敷きにあります。"
+      },
+      {
+        "heading": "票を集めるという行為",
+        "body": "選挙運動の言葉づかいが、そのまま音楽の売り方にも重なります。"
+      },
+      {
+        "heading": "自分たちへの自嘲でもある",
+        "body": "このシリーズでは、批判の矛先が外だけでなく、演奏する側にも向いている点に注目します。"
+      }
+    ],
+    "album_role": "アルバムでもっとも粗く速い一曲です。前後の静かな曲との落差が、そのまま主題になっています。",
+    "audio_file": "audio/episode_067_2026-07-28.mp3",
+    "duration": null,
+    "published": "2026-07-28",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-09",
+    "episode_number": 68,
+    "series_number": 5,
+    "track_number": 9,
+    "album_id": "ok-computer",
+    "track_title": "Climbing Up the Walls",
+    "title": "壁を這い上がるもの",
+    "web_summary": "第9回は9曲目『Climbing Up the Walls』を取り上げます。アルバムで最も暗く、最も恐ろしい一曲。Thom Yorkeがかつて精神科の施設で働いた経験と、連続殺人犯についての新聞記事が下敷きになっています。",
+    "key_points": [
+      {
+        "heading": "二つの素材",
+        "body": "精神科施設で働いた経験と、連続殺人犯についての記事が下敷きにあります。"
+      },
+      {
+        "heading": "16の弦がずれていく",
+        "body": "弦楽器のパートが四分音ずつずらして重ねられます。Pendereckiの手法が参照されています。"
+      },
+      {
+        "heading": "外からの恐怖ではない",
+        "body": "このシリーズでは、この曲の恐怖を侵入者ではなく、自分の内側にあるものとして読みます。"
+      }
+    ],
+    "album_role": "アルバムでもっとも暗い位置です。この直後に、いちばん優しい音の曲が置かれます。",
+    "audio_file": "audio/episode_068_2026-07-28.mp3",
+    "duration": null,
+    "published": "2026-07-28",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-10",
+    "episode_number": 69,
+    "series_number": 5,
+    "track_number": 10,
+    "album_id": "ok-computer",
+    "track_title": "No Surprises",
+    "title": "何も起こらない人生を",
+    "web_summary": "第10回は10曲目『No Surprises』を取り上げます。グロッケンシュピールが鳴る、子守唄のように優しい曲。ところが歌われているのは、何も起こらない静かな人生への願いと、そこに滲む深い絶望です。",
+    "key_points": [
+      {
+        "heading": "一発録り",
+        "body": "編集を重ねず、通しで録音されたと語られています。"
+      },
+      {
+        "heading": "幸福の形をした絶望",
+        "body": "穏やかな音と子守唄のような旋律で、何も起こらない人生が願われます。"
+      },
+      {
+        "heading": "映像も一発撮り",
+        "body": "ミュージックビデオは、ヘルメットに水が満ちていく様子を途中で切らずに撮影したものです。"
+      }
+    ],
+    "album_role": "9曲目の恐怖のあとに置かれた、最も静かな場所です。安らぎと諦めの区別がつかなくなります。",
+    "audio_file": "audio/episode_069_2026-07-28.mp3",
+    "duration": null,
+    "published": "2026-07-28",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-11",
+    "episode_number": 70,
+    "series_number": 5,
+    "track_number": 11,
+    "album_id": "ok-computer",
+    "track_title": "Lucky",
+    "title": "墜落から生き延びて",
+    "web_summary": "第11回は11曲目『Lucky』を取り上げます。実はこの曲、アルバムより2年早い1995年に完成していました。ボスニア紛争の子どもたちを支援する慈善アルバム『Help』のために、Nigel Godrichと組んでわずか5時間で録音されたものです。歌われるのは飛行機事故から生還した男。",
+    "key_points": [
+      {
+        "heading": "アルバムより2年早い",
+        "body": "1995年、War Childの慈善アルバム『Help』のために、5時間で録音されました。"
+      },
+      {
+        "heading": "Nigel Godrichとの協働の起点",
+        "body": "この短い作業が、のちのアルバム全体の音づくりにつながりました。"
+      },
+      {
+        "heading": "偶然から生まれた音",
+        "body": "Ed O'Brienが日本公演のサウンドチェックで偶然出した音が、この曲の発端です。"
+      }
+    ],
+    "album_role": "1曲目『Airbag』と同じ生還の主題が、今度は高揚とともに戻ってくる位置です。",
+    "audio_file": "audio/episode_070_2026-07-28.mp3",
+    "duration": null,
+    "published": "2026-07-28",
+    "status": "published"
+  },
+  {
+    "id": "ok-computer-12",
+    "episode_number": 71,
+    "series_number": 5,
+    "track_number": 12,
+    "album_id": "ok-computer",
+    "track_title": "The Tourist",
+    "title": "【最終回】ゆっくりでいい",
+    "web_summary": "ついに最終回。第12回はアルバムを締めくくる『The Tourist』を取り上げます。この曲を主導したのはJonny Greenwood。フランスを訪れた際、名所から名所へと駆け回り、何も見ないまま消耗していく観光客たちを目にしたことが着想でした。だから曲は、意図的なまでに遅い。",
+    "key_points": [
+      {
+        "heading": "Jonny Greenwood主導",
+        "body": "この曲は、バンドの中でも珍しく彼が主導して作られました。"
+      },
+      {
+        "heading": "着想は駆け足の観光客",
+        "body": "フランスで見た、名所を急いで回りながら何も見ていない観光客が下敷きです。"
+      },
+      {
+        "heading": "最後は呼び鈴の一打",
+        "body": "曲が消えたあと、ホテルのフロントにあるような鈴の音がひとつだけ鳴って終わります。"
+      }
+    ],
+    "album_role": "53分の記録が、ゆっくりでいい、という一言で閉じられる位置です。意図的に遅い曲が最後に置かれています。",
+    "audio_file": "audio/episode_071_2026-07-28.mp3",
+    "duration": null,
+    "published": "2026-07-28",
+    "status": "published"
   }
 ]

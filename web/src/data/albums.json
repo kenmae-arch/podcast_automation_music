@@ -180,24 +180,44 @@
     "artist_name": "Beyoncé",
     "album_title": "Lemonade",
     "release_year": 2016,
-    "genre": null,
-    "language": null,
-    "country": null,
+    "genre": "R&B／ポップ（ロック・カントリー・レゲエを横断）",
+    "language": "英語",
+    "country": "アメリカ",
     "episode_count": 12,
     "published_count": 12,
     "status": "complete",
-    "introduction": null,
-    "cultural_context": null,
-    "selection_reason": null,
-    "editorial_theme": null,
-    "listening_points": [],
+    "introduction": "2016年4月23日にParkwood Entertainment / Columbia Recordsから発表された、Beyoncéの6枚目のスタジオアルバム。全12曲。同時に約1時間の映像作品としてHBOで公開され、音楽と映像が一体の作品として設計されています。",
+    "cultural_context": "裏切りと和解という個人的な物語を、黒人女性の歴史という大きな主題に接続した作品として受け止められました。映像版には詩人Warsan Shireの言葉が用いられ、ニューオーリンズの風景や、警官の暴力で亡くなった被害者の母親たちが登場します。",
+    "selection_reason": "12曲が、疑い、怒り、無関心、空虚、責任、赦し、再生、といった段階を順にたどる構成になっています。1曲ずつ解説する番組にとって、曲順そのものが意味を持つ好例です。",
+    "editorial_theme": "個人の痛みは、どこで歴史とつながるのか。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "映像作品と対になっている",
+        "body": "発表と同時に映像作品が公開され、曲と曲のあいだに詩の朗読が挟まれます。アルバム単体で聴く場合も、章立てされた構成であることが手がかりになります。"
+      },
+      {
+        "kind": "fact",
+        "heading": "ジャンルを横断する",
+        "body": "ロック、カントリー、レゲエ、ブルースなど、曲ごとに大きく手触りが変わります。黒人音楽が源流にありながら白人の音楽とされてきたジャンルを、あえて自分の側に引き寄せています。"
+      },
+      {
+        "kind": "reading",
+        "heading": "12曲を感情の段階として読む",
+        "body": "このシリーズでは、本作を単なる楽曲集ではなく、疑いから赦しへ向かう段階として捉えます。曲順を入れ替えると成立しない構成である点を、各回の軸にしています。"
+      }
+    ],
     "original_artwork": {
       "src": "art/lemonade.jpg",
       "alt": "Beyoncé『Lemonade』全曲解説シリーズのアートワーク"
     },
-    "related_album_ids": [],
+    "related_album_ids": [
+      "lux",
+      "good-kid-maad-city",
+      "debi-tirar-mas-fotos"
+    ],
     "related_reason": null,
-    "accent": null
+    "accent": "#C9A227"
   },
   {
     "id": "debi-tirar-mas-fotos",
@@ -205,24 +225,44 @@
     "artist_name": "Bad Bunny",
     "album_title": "DeBÍ TiRAR MáS FOToS",
     "release_year": 2025,
-    "genre": null,
+    "genre": "レゲトン／プレーナ・ボンバ・サルサ",
     "language": "スペイン語",
-    "country": null,
+    "country": "プエルトリコ",
     "episode_count": 17,
     "published_count": 17,
     "status": "complete",
-    "introduction": null,
-    "cultural_context": null,
-    "selection_reason": null,
-    "editorial_theme": null,
-    "listening_points": [],
+    "introduction": "2025年1月5日にRimas Entertainmentから発表された、Bad Bunnyのスタジオアルバム。全17曲。レゲトンに、プレーナ、ボンバ、ヒバロ、サルサといったプエルトリコの伝統音楽を大きく取り込んでいます。",
+    "cultural_context": "タイトルは「もっと写真を撮っておけばよかった」の意。ジェントリフィケーションと文化の喪失、島への愛が主題です。各曲のビジュアライザーには歴史家の監修による解説が添えられ、2026年のグラミー賞では、スペイン語のアルバムとして史上初めて年間最優秀アルバム賞を受賞しました。",
+    "selection_reason": "レゲトンの現在地を示す一枚であると同時に、島の音楽史をたどる資料でもあります。第6弾『Barrio Fino』の直接の延長線上にあり、シリーズを続けて聴くと20年の変化が見えてきます。",
+    "editorial_theme": "島に残るとは、どういうことか。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "伝統音楽が前面に出る",
+        "body": "プレーナ、ボンバ、ヒバロ、サルサといった島の音楽が、引用ではなく曲の骨格として使われています。レゲトンのアルバムでこの比率は異例です。"
+      },
+      {
+        "kind": "fact",
+        "heading": "先行世代を客演に招く",
+        "body": "島の先輩世代のミュージシャンが複数参加しています。誰を呼ぶかという選択そのものが、作品の主張になっています。"
+      },
+      {
+        "kind": "reading",
+        "heading": "楽しむことが主張になる",
+        "body": "このシリーズでは、本作の踊るための曲を、政治的な曲の息抜きとしてではなく、島に居続けることの表明として捉えます。"
+      }
+    ],
     "original_artwork": {
       "src": "art/dtmf.jpg",
       "alt": "Bad Bunny『DeBÍ TiRAR MáS FOToS』全曲解説シリーズのアートワーク"
     },
-    "related_album_ids": [],
+    "related_album_ids": [
+      "barrio-fino",
+      "lux",
+      "lemonade"
+    ],
     "related_reason": "同じ言語から",
-    "accent": null
+    "accent": "#3E8F7C"
   },
   {
     "id": "ok-computer",
@@ -230,23 +270,43 @@
     "artist_name": "Radiohead",
     "album_title": "OK Computer",
     "release_year": 1997,
-    "genre": null,
-    "language": null,
-    "country": null,
+    "genre": "オルタナティヴ・ロック／アート・ロック",
+    "language": "英語",
+    "country": "イギリス",
     "episode_count": 12,
     "published_count": 12,
     "status": "complete",
-    "introduction": null,
-    "cultural_context": null,
-    "selection_reason": null,
-    "editorial_theme": null,
-    "listening_points": [],
+    "introduction": "1997年5月21日にParlophone / Capitolから発表された、Radioheadの3枚目のスタジオアルバム。全12曲。プロデュースはNigel Godrichとバンドの共同で、録音はSt Catherine's Courtなどで行われました。",
+    "cultural_context": "消費社会、疎外、テクノロジーへの不安、政治の腐敗を描き、ブリットポップ以降の英国ロックの流れを変えた一枚とされます。1998年のグラミー賞で最優秀オルタナティヴ・ミュージック・アルバムを受賞し、2014年には米議会図書館のNational Recording Registryに登録されました。",
+    "selection_reason": "この番組で扱ってきた他のアルバムが、出自や受け継ぐものを主題にしてきたのに対し、本作だけは帰る場所を持たない不安を描いています。並べて聴くための対照として選びました。",
+    "editorial_theme": "根を持たない不安を、どう音にするか。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "物語としては設計されていない",
+        "body": "バンド自身は、曲を物語でつなぐ意図はなかったと述べています。通して聴いたときに立ち上がる印象は、明示的な筋書きによるものではありません。"
+      },
+      {
+        "kind": "fact",
+        "heading": "合成音声の一曲が中央にある",
+        "body": "7曲目はMacintoshの合成音声が読み上げるトラックで、歌ではありません。この位置に何を置いたかが、作品の性格を決めています。"
+      },
+      {
+        "kind": "reading",
+        "heading": "生還から始まり、減速で終わる",
+        "body": "このシリーズでは、1曲目の事故からの生還と、12曲目の「ゆっくりでいい」という着地を対にして読みます。加速し続ける世界の記録として捉える立場です。"
+      }
+    ],
     "original_artwork": {
       "src": "art/okc.jpg",
       "alt": "Radiohead『OK Computer』全曲解説シリーズのアートワーク"
     },
-    "related_album_ids": [],
+    "related_album_ids": [
+      "lux",
+      "good-kid-maad-city",
+      "discovery"
+    ],
     "related_reason": null,
-    "accent": null
+    "accent": "#5B7C8F"
   }
 ]
