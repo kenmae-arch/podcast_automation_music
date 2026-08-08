@@ -1,5 +1,6 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { gsap } from 'gsap';
 import { ListenPlatformSheet } from '../components/ListenPlatformSheet';
 import { Reveal } from '../components/Reveal';
 import { SeriesArtwork } from '../components/SeriesArtwork';
@@ -77,6 +78,7 @@ function AlbumCard({ album, index }: { album: Album; index: number }) {
 
 export function HomePage() {
   const listen = useDialog();
+  const heroRef = useRef<HTMLElement | null>(null);
   const albums = getAlbums();
   const currentAlbum = albums.find((album) => album.status === 'in_progress') ?? albums[0];
   const currentEpisodes = currentAlbum ? getEpisodes(currentAlbum.id) : [];
@@ -105,6 +107,61 @@ export function HomePage() {
     meta.setAttribute('content', description);
   }, []);
 
+  // HEROロードシーケンス — 1本のGSAPタイムライン。
+  // reduced-motionではタイムラインを生成せず静的表示（DESIGN.md §23）。
+  // JS無効・プリレンダー時も要素は最初から可視なので何も失われない（§31-9）。
+  const seriesNumber = currentAlbum?.series_number ?? 1;
+  useEffect(() => {
+    const scope = heroRef.current;
+    if (!scope) return;
+
+    const mm = gsap.matchMedia();
+    mm.add('(prefers-reduced-motion: no-preference)', () => {
+      const isDesktop = window.matchMedia('(min-width: 1024px)').matches;
+      const q = (name: string) => scope.querySelectorAll(`[data-hero="${name}"]`);
+      const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+
+      // 1. アクセント面がワイプで開く（PC: 右から / SP: 上から）
+      tl.from(isDesktop ? q('panel') : q('stage'), {
+        clipPath: isDesktop ? 'inset(0 0 0 100%)' : 'inset(0 0 100% 0)',
+        duration: 0.9,
+        ease: 'power3.inOut',
+      }, 0);
+      // 2. ラベル（罫線の伸長はCSS側）
+      tl.from(q('label'), { autoAlpha: 0, duration: 0.5 }, 0.2);
+      // 3. 見出し3行：行マスクからのせり上がり
+      tl.from(q('line'), { yPercent: 115, duration: 0.9, stagger: 0.07, ease: 'power4.out' }, 0.25);
+      // 4. アートワーク：沈み込みから浮上して「置かれる」
+      tl.from(q('art'), { y: 28, scale: 1.02, autoAlpha: 0, duration: 0.9 }, 0.35);
+      // 5. リード・CTA
+      tl.from(q('lead'), { y: 16, autoAlpha: 0, duration: 0.6 }, 0.55);
+      tl.from(q('actions'), { y: 16, autoAlpha: 0, duration: 0.6 }, 0.63);
+      // 6. シリーズ番号：スライドイン＋01→現番号のイージング付きカウント（§24の転用）
+      const numEl = scope.querySelector<HTMLElement>('[data-hero="number"]');
+      if (numEl) {
+        const counter = { n: Math.min(1, seriesNumber) };
+        tl.from(numEl, { x: 24, autoAlpha: 0, duration: 0.5 }, 0.7);
+        tl.to(counter, {
+          n: seriesNumber,
+          duration: 0.8,
+          ease: 'power2.inOut',
+          snap: { n: 1 },
+          onUpdate: () => {
+            numEl.textContent = String(Math.round(counter.n)).padStart(2, '0');
+          },
+        }, 0.7);
+      }
+      // 7. NOW EXPLORINGストリップ：最後に下から差し込む
+      tl.from(q('strip'), { clipPath: 'inset(100% 0 0 0)', y: 12, duration: 0.6, ease: 'power3.inOut' }, 0.95);
+      // 8. 縦書き注記
+      tl.from(q('side'), { autoAlpha: 0, duration: 0.5 }, 1.2);
+
+      return () => tl.kill();
+    });
+
+    return () => mm.revert();
+  }, [seriesNumber]);
+
   if (!currentAlbum) return null;
 
   const currentCta =
@@ -128,21 +185,39 @@ export function HomePage() {
       <SiteHeader current="HOME" onOpenListen={listen.openDialog} />
 
       <main id="main" className={styles.main}>
-        <section className={`${styles.hero} container`} aria-labelledby="home-title">
-          <div className={`${styles.heroGrid} grid`}>
+        {/* HOME HERO — 案C「Immersive Liner」。右42%をアルバムアクセントの面として
+            天地ブリードさせ、アートと NOW EXPLORING ストリップを載せる。SPはビジュアル先行。 */}
+        <section ref={heroRef} className={styles.hero} aria-labelledby="home-title">
+          <div className={styles.accentPanel} aria-hidden="true" data-hero="panel" />
+          <p className={`${styles.sideNote} mono`} aria-hidden="true" data-hero="side">
+            SERIES {pad2(currentAlbum.series_number)} — {currentAlbum.album_title.toUpperCase()}
+            {currentAlbum.release_year ? `, ${currentAlbum.release_year}` : ''}
+          </p>
+          <div className={`${styles.heroInner} container`}>
             <div className={styles.heroCopy}>
-              <p className="label">TRACK BY TRACK</p>
+              <p className={`${styles.ruleLabel} label`} data-hero="label">TRACK BY TRACK</p>
+              {/* 文節単位の行マスク。改行位置を固定し「読み / 解く。」の分断を防ぐ */}
               <h1 className={styles.heroTitle} id="home-title">
-                アルバムを、
-                <br />
-                曲順で読み解く。
+                <span className={styles.mask}>
+                  <span className={styles.hl} data-hero="line">アルバムを、</span>
+                </span>
+                <span className={styles.mask}>
+                  <span className={`${styles.hl} ${styles.hl2}`} data-hero="line">曲順で</span>
+                </span>
+                <span className={styles.mask}>
+                  <span className={`${styles.hl} ${styles.hl3}`} data-hero="line">読み解く。</span>
+                </span>
               </h1>
-              <p className={styles.heroLead}>{HERO_COPY}</p>
-              <div className={styles.heroActions}>
+              <p className={styles.heroLead} data-hero="lead">{HERO_COPY}</p>
+              <div className={styles.heroActions} data-hero="actions">
                 {latestCurrent && (
                   <Link className="btn btn-primary" to={episodePath(latestCurrent)}>
                     現在の解説を聴く
-                    <span className="btn-glyph" aria-hidden="true">→</span>
+                    <span className="btn-glyph" aria-hidden="true">
+                      <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                        <path d="M2 1.5v9l8-4.5z" />
+                      </svg>
+                    </span>
                   </Link>
                 )}
                 <Link className="btn btn-secondary" to="/albums">
@@ -150,24 +225,39 @@ export function HomePage() {
                   <span className="btn-glyph" aria-hidden="true">→</span>
                 </Link>
               </div>
-              <p className={`${styles.heroNote} mono`}>
-                ONE ALBUM / ONE TRACK / ONE STORY AT A TIME
-              </p>
             </div>
 
-            <div className={styles.heroVisual}>
-              <span className={`${styles.heroNumber} mono`} aria-hidden="true">
-                {pad2(currentAlbum.series_number)}
-              </span>
-              <SeriesArtwork album={currentAlbum} priority />
-              <span className={`${styles.heroTrack} mono`} aria-hidden="true">
-                {pad2(latestCurrent?.track_number ?? 1)}
-              </span>
+            <div className={styles.stageOuter}>
+              <div className={styles.stage} data-hero="stage">
+                <div className={styles.stageInner} data-hero="art">
+                  <Link
+                    className={styles.stageLink}
+                    to={`/albums/${currentAlbum.id}`}
+                    aria-label={`${currentAlbum.artist_name}『${currentAlbum.album_title}』の全曲解説を見る`}
+                  >
+                    <span className={`${styles.seriesNo} mono`} aria-hidden="true" data-hero="number">
+                      {pad2(currentAlbum.series_number)}
+                    </span>
+                    <SeriesArtwork album={currentAlbum} priority />
+                    <span className={styles.nowStrip} data-hero="strip">
+                      <span className={styles.nowHead}>
+                        <span className={`${styles.nowLabel} label`}>NOW EXPLORING</span>
+                        <span className={styles.nowName}>
+                          {currentAlbum.artist_name}『{currentAlbum.album_title}』
+                        </span>
+                      </span>
+                      <span className={`${styles.nowMeta} mono`}>
+                        {currentAlbum.published_count} / {currentAlbum.episode_count} TRACKS
+                        {latestCurrent && (
+                          <b>{pad2(latestCurrent.track_number)}. {latestCurrent.track_title}</b>
+                        )}
+                      </span>
+                      <span className={`${styles.nowGo} mono`} aria-hidden="true">→</span>
+                    </span>
+                  </Link>
+                </div>
+              </div>
             </div>
-          </div>
-          <div className={styles.scrollCue} aria-hidden="true">
-            <span />
-            <span className="label">SCROLL TO EXPLORE</span>
           </div>
         </section>
 
