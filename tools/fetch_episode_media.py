@@ -48,7 +48,10 @@ BROWSER_USER_AGENT = (
 
 def _get_json(url: str, headers: dict[str, str] | None = None) -> Any:
     response = requests.get(url, headers={"User-Agent": USER_AGENT, **(headers or {})}, timeout=30)
-    response.raise_for_status()
+    if not response.ok:
+        # The status alone is not actionable — Spotify explains the refusal in
+        # the body (wrong scope, market, quota mode, account tier).
+        raise RuntimeError(f"{response.status_code} {url}\n  {response.text[:500]}")
     return response.json()
 
 
@@ -136,7 +139,9 @@ def spotify_episode_urls(show_id: str) -> dict[str, str]:
         timeout=30,
     )
     token_response.raise_for_status()
-    token = token_response.json()["access_token"]
+    granted = token_response.json()
+    token = granted["access_token"]
+    print(f"Spotify: 付与されたスコープ = {granted.get('scope') or '(なし)'}")
 
     headers = {"Authorization": f"Bearer {token}"}
     urls: dict[str, str] = {}
