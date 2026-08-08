@@ -33,10 +33,11 @@ back into the terminal when prompted.
 from __future__ import annotations
 
 import base64
+import json
 import os
+import subprocess
 import sys
 import urllib.parse
-import urllib.request
 
 REDIRECT_URI = "http://127.0.0.1:8888/callback"
 SCOPE = "user-read-playback-position"
@@ -80,28 +81,34 @@ def main() -> int:
         return 1
 
     basic = base64.b64encode(f"{client_id}:{client_secret}".encode()).decode()
-    body = urllib.parse.urlencode(
-        {
-            "grant_type": "authorization_code",
-            "code": code,
-            "redirect_uri": REDIRECT_URI,
-        }
-    ).encode()
-    request = urllib.request.Request(
-        TOKEN_URL,
-        data=body,
-        headers={
-            "Authorization": f"Basic {basic}",
-            "Content-Type": "application/x-www-form-urlencoded",
-        },
+    # curl, not urllib: python.org's macOS build ships without a CA bundle
+    # unless "Install Certificates.command" has been run, and this script has
+    # to work on a machine it is run on exactly once. curl uses the system
+    # trust store. The secret goes to Spotify's token endpoint and nowhere else.
+    completed = subprocess.run(
+        [
+            "curl", "--silent", "--show-error", "--fail-with-body",
+            "--max-time", "30",
+            "--header", f"Authorization: Basic {basic}",
+            "--data-urlencode", "grant_type=authorization_code",
+            "--data-urlencode", f"code={code}",
+            "--data-urlencode", f"redirect_uri={REDIRECT_URI}",
+            TOKEN_URL,
+        ],
+        capture_output=True,
+        text=True,
     )
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            import json
+    if completed.returncode != 0:
+        print(
+            f"トークン交換に失敗しました:\n{completed.stdout}{completed.stderr}",
+            file=sys.stderr,
+        )
+        return 1
 
-            payload = json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as error:  # noqa: PERF203 - one-shot script
-        print(f"トークン交換に失敗しました: {error.read().decode('utf-8')}", file=sys.stderr)
+    try:
+        payload = json.loads(completed.stdout)
+    except json.JSONDecodeError:
+        print(f"応答を解釈できませんでした: {completed.stdout}", file=sys.stderr)
         return 1
 
     refresh_token = payload.get("refresh_token")
