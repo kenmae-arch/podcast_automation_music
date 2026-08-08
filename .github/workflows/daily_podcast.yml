@@ -5,6 +5,11 @@ on:
     paths:
       - "scripts/pending.json" # 台本がpushされたら音声化して配信
   workflow_dispatch: # 手動実行も可能
+    inputs:
+      sync_media_only:
+        description: "エピソード生成をスキップし、配信URLの再取得とサイト再ビルドだけ行う(scripts/pending.jsonが無い時用)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -39,6 +44,7 @@ jobs:
         run: npm ci --prefix web
 
       - name: Generate podcast episode
+        if: github.event_name != 'workflow_dispatch' || github.event.inputs.sync_media_only != 'true'
         env:
           FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
           FISH_AUDIO_REFERENCE_ID: ${{ vars.FISH_AUDIO_REFERENCE_ID }}
@@ -117,6 +123,11 @@ jobs:
           if git diff --cached --quiet; then
             echo "変更なし。コミットをスキップします。"
           else
-            git commit -m "Publish episode $(date -u +%Y-%m-%d)"
+            if [ "${{ github.event.inputs.sync_media_only }}" = "true" ]; then
+              message="Sync episode listen links $(date -u +%Y-%m-%d)"
+            else
+              message="Publish episode $(date -u +%Y-%m-%d)"
+            fi
+            git commit -m "$message"
             git push
           fi
