@@ -114,16 +114,24 @@ def apple_episode_urls(show_id: str) -> dict[str, str]:
 
 
 def spotify_episode_urls(show_id: str) -> dict[str, str]:
-    """Same mapping for Spotify. Returns {} when credentials are unavailable."""
+    """Same mapping for Spotify. Returns {} when credentials are unavailable.
+
+    `GET /shows/{id}/episodes` requires the `user-read-playback-position`
+    scope, which the Client Credentials flow cannot grant (Spotify returns
+    403 regardless of the app's quota mode). A refresh token obtained once
+    via the Authorization Code flow is required instead — see
+    tools/spotify_authorize.py for the one-time setup that produces one.
+    """
     client_id = os.getenv("SPOTIFY_CLIENT_ID")
     client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
-    if not client_id or not client_secret:
+    refresh_token = os.getenv("SPOTIFY_REFRESH_TOKEN")
+    if not client_id or not client_secret or not refresh_token:
         return {}
 
     basic = base64.b64encode(f"{client_id}:{client_secret}".encode()).decode()
     token_response = requests.post(
         "https://accounts.spotify.com/api/token",
-        data={"grant_type": "client_credentials"},
+        data={"grant_type": "refresh_token", "refresh_token": refresh_token},
         headers={"Authorization": f"Basic {basic}", "User-Agent": USER_AGENT},
         timeout=30,
     )
@@ -207,7 +215,10 @@ def sync_episode_media(check_only: bool = False) -> int:
     if spotify_urls:
         print(f"Spotify: {len(spotify_urls)}件の配信URLを取得")
     else:
-        print("Spotify: 認証情報(SPOTIFY_CLIENT_ID/SPOTIFY_CLIENT_SECRET)が無いため既存値を維持")
+        print(
+            "Spotify: 認証情報(SPOTIFY_CLIENT_ID/SPOTIFY_CLIENT_SECRET/SPOTIFY_REFRESH_TOKEN)"
+            "が無いため既存値を維持。SPOTIFY_REFRESH_TOKENはtools/spotify_authorize.pyで発行"
+        )
 
     # Original-song previews: one page fetch per album, shared by its episodes.
     track_ids: dict[str, dict[int, str]] = {}
