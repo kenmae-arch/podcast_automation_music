@@ -11,7 +11,8 @@
 - **第4弾**: Bad Bunny『Debí Tirar Más Fotos』(2025) — 全17曲 … ✅ **完結**(番組内 #1〜#17)
 - **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … ✅ **完結**(番組内 #1〜#21)
-- **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … 🔄 **進行中**(#1〜#10 配信済み)
+- **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … ✅ **完結**(番組内 #1〜#14)
+- **第8弾**: Nas『Illmatic』(1994) — 全10曲 … 🔄 **次シリーズ**(#14で予告済み。制作はこれから)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -23,6 +24,11 @@
 > 第7弾は路線を変え、フランスの電子音楽へ。過去のサンプル、幼少期の記憶、ポップな曲構造を
 > 未来の喜びへ再構成した『Discovery』を選定(2026-08-02)。ラテン作品が続いた番組の色を変えつつ、
 > サンプリングとアルバム全体の物語という、これまでのシリーズとの接点も残す。
+> 第8弾は90年代NYヒップホップへ。『Illmatic』を選定(2026-08-09、ユーザー発案)。理由:
+> ①カタログの穴(90年代ヒップホップが未カバー。GKMC=2012、TPABは温存中)を埋める
+> ②第7弾Discoveryの通し軸だったサンプリング芸術を、ジャズ/ソウル掘りのブーンバップ側から続けられる
+> ③第2弾GKMC(一日の物語×街)の直接の祖形で、本命TPABへのリスナー育成としても最短経路
+> ④全10曲と凝縮されており、21曲のBarrio Fino・14曲のDiscoveryの後のペース配分としてよい。
 
 > 音声ファイルは番組通算の連番 `episode_{連番}_{日付}.mp3`(第1弾 001〜018、第2弾 019〜030、第3弾 031〜042、第4弾 043〜059、第5弾 060〜071、第6弾 072〜092、第7弾 093〜)。エピソードタイトルの番号(#N)はシリーズごとにリセット。
 
@@ -53,7 +59,30 @@
 
 ---
 
-# 第7弾: Daft Punk『Discovery』(進行中)
+# 第8弾: Nas『Illmatic』(次シリーズ・未着手)
+
+アルバム: 1994年4月19日 / Columbia Records / 全10曲。Nasのデビュー作。The Source誌が発売時に最高評価の5マイクを付け、以後「ヒップホップ史上最も完成されたデビュー作」の定番評を保ち続ける。Billboard 200初登場12位、2001年にプラチナ認定。DJ Premier、Pete Rock、Q-Tip、Large Professor、L.E.S.という当時のNY最高峰プロデューサー陣がジャズ/ソウルのサンプリングで支えた。クイーンズブリッジ団地の日常を描く緻密な言葉と、全10曲の凝縮された構成。トラックリストは英語版Wikipediaで確認済み(2026-08-09時点)。**各曲のプロデューサー credit は資料間で揺れがあるため、各回の制作前に必ず再検証すること。**
+
+| # | 曲名 | ステータス | メモ |
+|---|------|-----------|------|
+| 1 | The Genesis | ⬜ | 次回制作予定。イントロ。『Wild Style』(1983)の音声を引用したオープニング |
+| 2 | N.Y. State of Mind | ⬜ | DJ Premier制作 |
+| 3 | Life's a Bitch | ⬜ | AZ客演、父Olu Daraのコルネット |
+| 4 | The World Is Yours | ⬜ | Pete Rock制作 |
+| 5 | Halftime | ⬜ | Large Professor制作 |
+| 6 | Memory Lane (Sittin' in da Park) | ⬜ | DJ Premier制作 |
+| 7 | One Love | ⬜ | Q-Tip制作 |
+| 8 | One Time 4 Your Mind | ⬜ |  |
+| 9 | Represent | ⬜ | DJ Premier制作 |
+| 10 | It Ain't Hard to Tell | ⬜ | Large Professor制作。Michael Jackson『Human Nature』サンプル |
+
+> ⬜ **着手前の準備**: `docs/art/illmatic.jpg`(3000px四方・RGB・オリジナル図案)を `tools/make_art.py` に追加して生成し、台本の `"image"` に指定する。実在ジャケットの複製は不可。
+
+---
+
+# 第7弾: Daft Punk『Discovery』(完結)
+
+> 🎉 **2026-08-09、全14曲の解説を配信完了。第7弾シリーズ完結。**
 
 アルバム: 2001年3月12日 / Virgin Records / 全14曲。Daft Punkの2作目。『Homework』の生々しいハウスから、ディスコ、ファンク、ロック、シンセポップへ音楽的な射程を広げた。幼少期の音楽・映像体験を大人の制作技術で再発見することが通し軸。アルバム全編は、松本零士監修の台詞のないアニメーション映画『Interstella 5555』へ展開した。トラックリストとApple Music曲IDはDaft Punk公式サイト、Apple公式カタログで検証済み(2026-08-02時点)。
 
@@ -69,10 +98,10 @@
 | 8 | High Life | ✅ | 2026-08-06 / #8。Tavares『Break Down for Love』(1980)。出典非公表で長くネット上の議論の的だった。声から意味を剥がす回(#4の逆)。映画では受賞式＝空虚な成功 |
 | 9 | Something About Us | ✅ | 2026-08-06 / #9。サンプルなし。2003年に映画宣伝でシングル化、「ラブ・テーマ」の副題。Shepの死の場面。仮面をつけたほうが本当のことが言えるという逆説 |
 | 10 | Voyager | ✅ | 2026-08-06 / #10。歌なし・引用なし。映画では敵の館への移動場面。1977年のボイジャー探査機の金のレコード(贈り物)と、劇中の悪役が集める金のレコード(戦利品)の対比で構成 |
-| 11 | Veridis Quo | ⬜ | 次回制作予定 |
-| 12 | Short Circuit | ⬜ |  |
-| 13 | Face to Face | ⬜ |  |
-| 14 | Too Long | ⬜ |  |
+| 11 | Veridis Quo | ✅ | 2026-08-09 / #11。バロック風オルガン。題はQuo vadisのもじり＋並べ替えでVery Disco→Discovery。映画では隠し部屋で秘密の書『Veridis Quo』を発見、5555枚の金のレコードの企みが明かされる |
+| 12 | Short Circuit | ✅ | 2026-08-09 / #12。電子ファンクが曲中で文字どおりショートし故障して終わる構造。映画では記憶ディスク奪還に向かったオクターヴが電撃で倒れ、肌が本来の青に戻る |
+| 13 | Face to Face | ✅ | 2026-08-09 / #13。Todd Edwards共同制作・歌唱。約70個のマイクロサンプル(ELO、Doobie Brothers、Alan Parsons Project、ELP等)。出典は長年謎で、後年Edwards本人がフロッピーから種明かし。2004年Billboardダンス・チャート1位。映画では記憶と素顔の回復 |
+| 14 | Too Long | ✅ | 2026-08-09 / #14【最終回】。Romanthony再登場、10分の大団円。#1と対になる円環構造。映画は帰郷の大歓声と、全てがレコードを聴く少年の想像だったという結末。第8弾Nas『Illmatic』を予告 |
 
 ### 配信済みファイル対応(第7弾)
 | 話 | 音声 | アーカイブ台本 |
@@ -87,6 +116,10 @@
 | #8 | docs/audio/episode_100_2026-08-06.mp3 | scripts/published/2026-08-06_ep100.json |
 | #9 | docs/audio/episode_101_2026-08-06.mp3 | scripts/published/2026-08-06_ep101.json |
 | #10 | docs/audio/episode_102_2026-08-06.mp3 | scripts/published/2026-08-06_ep102.json |
+| #11 | docs/audio/episode_103_2026-08-09.mp3 | scripts/published/2026-08-09_ep103.json |
+| #12 | docs/audio/episode_104_2026-08-09.mp3 | scripts/published/2026-08-09_ep104.json |
+| #13 | docs/audio/episode_105_2026-08-09.mp3 | scripts/published/2026-08-09_ep105.json |
+| #14 | docs/audio/episode_106_2026-08-09.mp3 | scripts/published/2026-08-09_ep106.json |
 
 # 第6弾: Daddy Yankee『Barrio Fino』(完結)
 
