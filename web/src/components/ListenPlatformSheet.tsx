@@ -47,11 +47,21 @@ export function ListenPlatformSheet({ open, onClose, panelRef, directUrls, episo
             {platforms.map((platform) => (
               <li key={platform.key}>
                 <a
-                  className={`${styles.row} ${platform.badge ? styles.badgeRow : ''}`}
+                  className={[
+                    styles.row,
+                    platform.badge ? styles.badgeRow : '',
+                    episodeTitle && platform.atShowLevel ? styles.rowWithNote : '',
+                  ]
+                    .filter(Boolean)
+                    .join(' ')}
                   href={platform.url ?? undefined}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={`${platform.label}（新しいタブで開きます）`}
+                  aria-label={
+                    episodeTitle && platform.atShowLevel
+                      ? `${platform.label}（番組トップを新しいタブで開きます）`
+                      : `${platform.label}（新しいタブで開きます）`
+                  }
                 >
                   {platform.badge ? (
                     <img
@@ -70,6 +80,13 @@ export function ListenPlatformSheet({ open, onClose, panelRef, directUrls, episo
                         <ExternalIcon size={16} />
                       </span>
                     </>
+                  )}
+                  {/*
+                    Say so when the link only reaches the show. Promising "この回"
+                    and landing on the episode list is worse than the extra word.
+                  */}
+                  {episodeTitle && platform.atShowLevel && (
+                    <span className={styles.showLevelNote}>番組トップが開きます</span>
                   )}
                 </a>
               </li>

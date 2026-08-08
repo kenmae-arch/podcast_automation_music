@@ -2,7 +2,13 @@ import albumsJson from './albums.json';
 import episodeMediaJson from './episode-media.json';
 import episodesJson from './episodes.json';
 import siteJson from './site.json';
-import type { Album, Episode, PlatformKey, PlatformLink, SiteSettings } from './types';
+import type {
+  Album,
+  Episode,
+  PlatformKey,
+  ResolvedPlatformLink,
+  SiteSettings,
+} from './types';
 
 const albums = albumsJson as Album[];
 const episodeMedia = episodeMediaJson as Record<
@@ -82,15 +88,28 @@ export function getRelatedAlbums(album: Album): Album[] {
     .filter((a): a is Album => a !== undefined);
 }
 
-/** CONTENTS.md §2: services without a URL are hidden, not disabled. */
+/**
+ * CONTENTS.md §2: services without a URL are hidden, not disabled.
+ *
+ * Episode context (`directUrls` given) prefers the deep link to that回, but
+ * falls back to the show's own page rather than dropping the service. A
+ * missing deep link is a gap in our data, not a service the listener cannot
+ * use — hiding it would tell them the opposite. `atShowLevel` lets the UI say
+ * which one it is instead of quietly sending them somewhere else.
+ */
 export function availablePlatforms(
   directUrls?: Partial<Record<PlatformKey, string>>,
-): PlatformLink[] {
+): ResolvedPlatformLink[] {
   return site.platforms
-    .map((platform) => ({
-      ...platform,
-      url: directUrls === undefined ? platform.url : directUrls[platform.key] ?? null,
-    }))
+    .map((platform) => {
+      if (directUrls === undefined) return { ...platform, atShowLevel: false };
+      const episodeUrl = directUrls[platform.key] ?? null;
+      return {
+        ...platform,
+        url: episodeUrl ?? platform.url,
+        atShowLevel: !episodeUrl,
+      };
+    })
     .filter((platform) => Boolean(platform.url));
 }
 

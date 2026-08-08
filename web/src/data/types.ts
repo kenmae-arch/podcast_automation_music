@@ -107,6 +107,12 @@ export interface PlatformLink {
   };
 }
 
+/** A platform row resolved for a specific context by `availablePlatforms`. */
+export interface ResolvedPlatformLink extends PlatformLink {
+  /** True when only the show's page is available, not a link to this one回. */
+  atShowLevel: boolean;
+}
+
 export interface SiteSettings {
   site_name: string;
   tagline: string;
