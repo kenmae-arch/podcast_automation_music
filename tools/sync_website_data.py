@@ -26,6 +26,7 @@ SERIES = {
     "ok-computer": {"image": "art/okc.jpg", "tracks": 12, "year": 1997},
     "barrio-fino": {"image": "art/barrio.jpg", "tracks": 21, "year": 2004},
     "discovery": {"image": "art/discovery.jpg", "tracks": 14, "year": 2001},
+    "illmatic": {"image": "art/illmatic.jpg", "tracks": 10, "year": 1994},
 }
 
 TRACK_TITLES = {
@@ -125,6 +126,18 @@ TRACK_TITLES = {
         "No Surprises",
         "Lucky",
         "The Tourist",
+    ],
+    "illmatic": [
+        "The Genesis",
+        "N.Y. State of Mind",
+        "Life's a Bitch (feat. AZ)",
+        "The World Is Yours",
+        "Halftime",
+        "Memory Lane (Sittin' in da Park)",
+        "One Love",
+        "One Time 4 Your Mind",
+        "Represent",
+        "It Ain't Hard to Tell",
     ],
 }
 

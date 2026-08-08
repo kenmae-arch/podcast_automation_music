@@ -12,7 +12,7 @@
 - **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … ✅ **完結**(番組内 #1〜#21)
 - **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … ✅ **完結**(番組内 #1〜#14)
-- **第8弾**: Nas『Illmatic』(1994) — 全10曲 … 🔄 **次シリーズ**(#14で予告済み。制作はこれから)
+- **第8弾**: Nas『Illmatic』(1994) — 全10曲 … 🔄 **進行中**(#1 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -43,6 +43,7 @@
 | 第5弾 OK Computer | `docs/art/okc.jpg` | 夜の高速道路と走査線。他4枚が有機的な情景なのに対し幾何学・無機質。#60〜 に付与 |
 | 第6弾 Barrio Fino | `docs/art/barrio.jpg` | 団地(カセリオ)の窓のグリッドと、そこから広がる低音の同心円。金＋深い紫。#72〜 に付与 |
 | 第7弾 Discovery | `docs/art/discovery.jpg` | 古い音の断片が、光のポータルを通って未来のグリッドへ再構成されるオリジナル図案。藍＋シアン＋琥珀。#93〜 に付与 |
+| 第8弾 Illmatic | `docs/art/illmatic.jpg` | クイーンズボロ橋の鋼のXラティス越しに、霞んだマンハッタンの夜景を望む図案。煤色＋セピア金。#107〜 に付与 |
 
 > ✅ **音声化の前に読みチェックが自動で走る**(`main.py` に組み込み済み)。未登録の固有名詞や
 > 読みの割れる助数詞が残っていると音声化せずに中止するので、指摘された語を
@@ -59,14 +60,14 @@
 
 ---
 
-# 第8弾: Nas『Illmatic』(次シリーズ・未着手)
+# 第8弾: Nas『Illmatic』(進行中)
 
 アルバム: 1994年4月19日 / Columbia Records / 全10曲。Nasのデビュー作。The Source誌が発売時に最高評価の5マイクを付け、以後「ヒップホップ史上最も完成されたデビュー作」の定番評を保ち続ける。Billboard 200初登場12位、2001年にプラチナ認定。DJ Premier、Pete Rock、Q-Tip、Large Professor、L.E.S.という当時のNY最高峰プロデューサー陣がジャズ/ソウルのサンプリングで支えた。クイーンズブリッジ団地の日常を描く緻密な言葉と、全10曲の凝縮された構成。トラックリストは英語版Wikipediaで確認済み(2026-08-09時点)。**各曲のプロデューサー credit は資料間で揺れがあるため、各回の制作前に必ず再検証すること。**
 
 | # | 曲名 | ステータス | メモ |
 |---|------|-----------|------|
-| 1 | The Genesis | ⬜ | 次回制作予定。イントロ。『Wild Style』(1983)の音声を引用したオープニング |
-| 2 | N.Y. State of Mind | ⬜ | DJ Premier制作 |
+| 1 | The Genesis | ✅ | 2026-08-09 / #1。Nas＋Faith Newman(コロンビアのA&R)制作。地下鉄音＋『Wild Style』(1983)の台詞と『Subway Theme』＋Main Source『Live at the Bar-B-Que』(1991)の17歳のデビュー・ヴァース断片。弟Jungle・AZとの部屋の会話。「文化の創世記×個人の創世記」の二重構造として解説 |
+| 2 | N.Y. State of Mind | ⬜ | 次回制作予定。DJ Premier制作 |
 | 3 | Life's a Bitch | ⬜ | AZ客演、父Olu Daraのコルネット |
 | 4 | The World Is Yours | ⬜ | Pete Rock制作 |
 | 5 | Halftime | ⬜ | Large Professor制作 |
@@ -76,7 +77,10 @@
 | 9 | Represent | ⬜ | DJ Premier制作 |
 | 10 | It Ain't Hard to Tell | ⬜ | Large Professor制作。Michael Jackson『Human Nature』サンプル |
 
-> ⬜ **着手前の準備**: `docs/art/illmatic.jpg`(3000px四方・RGB・オリジナル図案)を `tools/make_art.py` に追加して生成し、台本の `"image"` に指定する。実在ジャケットの複製は不可。
+### 配信済みファイル対応(第8弾)
+| 話 | 音声 | アーカイブ台本 |
+|----|------|--------------|
+| #1 | docs/audio/episode_107_2026-08-09.mp3 | scripts/published/2026-08-09_ep107.json |
 
 ---
 

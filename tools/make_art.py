@@ -614,6 +614,112 @@ def make_barrio():
     return grain(img, 0.062)
 
 
+# =====================================================================
+# 8. 第8弾 Nas『Illmatic』 ── 鋼の格子越しの街(クイーンズブリッジ 1994)
+# =====================================================================
+
+def make_illmatic():
+    """クイーンズブリッジ団地の足元から、橋の鋼格子越しにマンハッタンを望む構図。
+    バリオ・フィノが「窓のグリッド=正面の幾何学」なのに対し、こちらは
+    「格子の向こうの遠景=隔たり」。The World Is Yours と歌いながら、
+    川の手前に立っている距離感を、鋼のXラティスで言う。
+    色は煤けたセピア＋青灰。90年代のダストの粒子を強めに乗せる。"""
+    img = vgradient([
+        (0.0, (16, 20, 28)), (0.36, (36, 38, 44)), (0.58, (86, 70, 50)),
+        (0.66, (24, 22, 24)), (1.0, (10, 10, 13)),
+    ])
+
+    horizon = S * 0.660
+
+    # スモッグに滲む街の明かり(ナトリウム灯のセピア)
+    glow(img, S * 0.46, horizon - S * 0.10, S * 0.36, (168, 122, 58), falloff=2.7)
+    glow(img, S * 0.46, horizon - S * 0.10, S * 0.09, (240, 198, 128), falloff=1.9)
+
+    d = ImageDraw.Draw(img)
+
+    # 対岸マンハッタンのスカイライン(遠景・シルエット)
+    rnd = random.Random(1994)          # 発売年で固定
+    dark = (14, 13, 17)
+    x = 0.0
+    towers = []
+    while x < 1.0:
+        bw = rnd.uniform(0.035, 0.085)
+        bh = rnd.uniform(0.055, 0.200) * (1.25 if 0.30 < x < 0.66 else 1.0)
+        towers.append((x, bw, bh))
+        x += bw * rnd.uniform(0.82, 1.05)
+    for bx, bw, bh in towers:
+        x0, x1 = S * bx, S * min(1.0, bx + bw)
+        y0 = horizon - S * bh
+        d.rectangle([x0, y0, x1, horizon], fill=dark)
+        cols = max(2, int((x1 - x0) / (S * 0.022)))
+        rows = max(3, int((horizon - y0) / (S * 0.030)))
+        mw, mh = (x1 - x0) / cols, (horizon - y0) / rows
+        for c in range(cols):
+            for rr in range(rows):
+                if rnd.random() < 0.16:
+                    wx = x0 + mw * (c + 0.34)
+                    wy = y0 + mh * (rr + 0.36)
+                    d.rectangle([wx, wy, wx + mw * 0.30, wy + mh * 0.26],
+                                fill=(214, 168, 96))
+
+    # 川面(イースト・リバー)。控えめな照り返し
+    river = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    rp = ImageDraw.Draw(river)
+    y = horizon + S * 0.004
+    while y < S * 0.78:
+        t = (y - horizon) / (S * 0.78 - horizon)
+        w = S * 0.02 + S * 0.13 * t + rnd.uniform(-S * 0.02, S * 0.02)
+        a = int(70 * (1 - t) ** 1.4)
+        off = rnd.uniform(-S * 0.03, S * 0.03)
+        rp.line([S * 0.46 - w + off, y, S * 0.46 + w + off, y],
+                fill=(218, 172, 104, a), width=4)
+        y += S * 0.011
+    img = Image.alpha_composite(img.convert("RGBA"), river).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 手前: 橋の鋼格子(Xラティス)。画面上半分を斜めに横切る
+    steel = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(steel)
+    girder = (8, 8, 11, 255)
+    top_y, bot_y = S * 0.075, S * 0.470
+    sd.line([0, top_y, S, top_y], fill=girder, width=int(S * 0.030))
+    sd.line([0, bot_y, S, bot_y], fill=girder, width=int(S * 0.040))
+    n = 6
+    for i in range(n + 1):
+        x0 = S * i / n
+        sd.line([x0, top_y, x0, bot_y], fill=girder, width=int(S * 0.020))
+    for i in range(n):
+        xa, xb = S * i / n, S * (i + 1) / n
+        sd.line([xa, top_y, xb, bot_y], fill=girder, width=int(S * 0.015))
+        sd.line([xb, top_y, xa, bot_y], fill=girder, width=int(S * 0.015))
+    # リベット(鋲)を淡く
+    for i in range(n + 1):
+        x0 = S * i / n
+        for yy in (top_y, bot_y):
+            r = S * 0.006
+            sd.ellipse([x0 - r, yy - r, x0 + r, yy + r], fill=(52, 46, 42, 255))
+    img = Image.alpha_composite(img.convert("RGBA"), steel).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 手前の岸(足元)。黒く沈める
+    d.rectangle([0, S * 0.78, S, S], fill=(9, 9, 12))
+    d.line([0, S * 0.78, S, S * 0.78], fill=(120, 96, 58), width=4)
+
+    cream, gold, muted = (238, 230, 214), (216, 170, 92), (152, 146, 140)
+
+    Stack(d, S * 0.028).text("SERIES 08", font(F_FUTURA, 58, 0), muted, tracking=40)
+
+    s = Stack(d, S * 0.800)
+    s.text("NAS", font(F_FUTURA, 92, 0), gold, tracking=64)
+    s.gap(50).text("ILLMATIC", font(F_DIDOT, 262, 2), cream, tracking=26)
+    s.gap(56).rule(S * 0.080, (118, 100, 72), 3).gap(46)
+    s.text("全曲解説", font(F_JP, 72, 0), muted, tracking=26)
+    print("  illmatic type bottom:", int(s.y))
+
+    vignette(img, 0.60, 0.84)
+    return grain(img, 0.072)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -628,3 +734,4 @@ if __name__ == "__main__":
     save(make_dtmf(), OUT / "art" / "dtmf.jpg")
     save(make_okc(), OUT / "art" / "okc.jpg")
     save(make_barrio(), OUT / "art" / "barrio.jpg")
+    save(make_illmatic(), OUT / "art" / "illmatic.jpg")

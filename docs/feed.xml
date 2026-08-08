@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_music</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 08 Aug 2026 22:08:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 22:25:47 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/cover-v2.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Nas『Illmatic』全曲解説 #1 地下鉄の轟音から始まる創世記『The Genesis』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第8弾はNasのデビュー作『Illmatic』(1994)。第1回は1曲目『The Genesis』。地下鉄の轟音、映画『Wild Style』(1983)の台詞と音楽、そして17歳のNasがMain Source『Live at the Bar-B-Que』(1991)に残した伝説のデビュー・ヴァースの断片。クイーンズブリッジの部屋での会話だけで作られた1分45秒のイントロが、なぜ「創世記」と題されているのか。ヒップホップという文化の起源と、一人の20歳の起源を重ね合わせた設計を読み解き、新シリーズを開始します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_107_2026-08-09.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_107_2026-08-09.mp3" length="5523328" type="audio/mpeg"/>
+      <pubDate>Sat, 08 Aug 2026 22:25:47 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/illmatic.jpg"/>
+    </item>
     <item>
       <title>Daft Punk『Discovery』全曲解説 #14【最終回】10分間の大団円『Too Long』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第7弾はDaft Punkの『Discovery』(2001)。最終回は14曲目『Too Long』。1曲目『One More Time』のRomanthonyが再び歌う、10分におよぶアルバムの大団円です。「長すぎる」という題名の自己言及、祝祭で開き祝祭で閉じる円環の構造、そして『Interstella 5555』の結末——物語すべてが、レコードを聴く一人の少年の想像だったという種明かしまで。アルバム『Discovery』が最後に届ける「音楽を聴くことそのものへの讃歌」を読み解き、第7弾シリーズを締めくくります。次シリーズ第8弾はNas『Illmatic』(1994)。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>

@@ -1,5 +1,54 @@
 [
   {
+    "id": "illmatic",
+    "series_number": 8,
+    "artist_name": "Nas",
+    "album_title": "Illmatic",
+    "release_year": 1994,
+    "genre": "ヒップホップ(イースト・コースト／ブーンバップ)",
+    "language": "英語",
+    "country": "アメリカ",
+    "episode_count": 10,
+    "published_count": 1,
+    "status": "in_progress",
+    "introduction": "1994年4月19日にColumbia Recordsから発表された、Nasのデビュー作。全10曲。DJ Premier、Pete Rock、Q-Tip、Large Professor、L.E.S.という当時のニューヨークを代表するプロデューサー陣が、ジャズやソウルのサンプリングで20歳の言葉を支えました。",
+    "cultural_context": "The Source誌が発売時に最高評価の5マイクを付け、以後も「ヒップホップ史上最も完成されたデビュー作」の定番評を保ち続ける一枚。クイーンズブリッジ団地の日常を、誇張ではなく観察の言葉で書き取った作品として、後続の世代に参照され続けています。",
+    "selection_reason": "第7弾『Discovery』で聴いたサンプリングの芸術を、その7年前のニューヨークから聴き直すために選びました。ジャズやソウルの古いレコードが、コンクリートの街の音楽へ変わる瞬間を、全10曲という凝縮された構成で辿ります。",
+    "editorial_theme": "窓から見える街を、どこまで正確に言葉にできるか。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "5人のプロデューサー、10曲の凝縮",
+        "body": "当時最高峰の作り手たちが1枚に集まりながら、水増しのない全10曲で終わります。曲数の少なさそのものが、このアルバムの主張です。"
+      },
+      {
+        "kind": "fact",
+        "heading": "サンプリングはジャズとソウルの記憶",
+        "body": "父親がジャズ・ミュージシャンであるNasの言葉を、古いレコードから掘り出された音が支えます。元の曲と新しい曲の関係に注目します。"
+      },
+      {
+        "kind": "reading",
+        "heading": "観察者としてのラップ",
+        "body": "このシリーズでは、自慢でも告発でもなく、窓から街を見て書き取る「観察の文体」がヒップホップに何をもたらしたかを軸に読み解きます。"
+      }
+    ],
+    "original_artwork": {
+      "src": "art/illmatic.jpg",
+      "alt": "Nas『Illmatic』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [
+      "discovery",
+      "good-kid-maad-city",
+      "barrio-fino"
+    ],
+    "related_reason": "サンプリングと街の記録として",
+    "accent": "#C9A05C",
+    "apple_music": {
+      "album_id": "662324135",
+      "slug": "illmatic"
+    }
+  },
+  {
     "id": "discovery",
     "series_number": 7,
     "artist_name": "Daft Punk",
