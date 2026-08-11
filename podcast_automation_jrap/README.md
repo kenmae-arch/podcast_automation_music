@@ -2,7 +2,7 @@
 
 日本語ラップの名盤を **1曲ずつ深掘り解説** する音楽ポッドキャストの自動生成プロジェクトです。台本を用意すると、Fish Audio の TTS で音声化し、Podcast 用の RSS フィード(`docs/feed.xml`)を生成して GitHub Pages で配信します。
 
-海外アーティスト編の姉妹番組 [podcast_automation_music](https://github.com/kenmae-arch/podcast_automation_music) と同じ仕組みで、こちらは **日本語ラップ専門・1話長め(4,000〜6,000字 ≒ 13〜18分)** の編成です。
+海外アーティスト編の姉妹番組 [podcast_automation_music](https://github.com/kenmae-arch/podcast_automation_music) と同じ仕組みで、こちらは **日本語ラップ専門・1話長め(4,000〜6,000字 ≒ 10〜15分)** の編成です。
 
 - **配信ページ**: https://kenmae-arch.github.io/podcast_automation_jrap/
 - **RSS フィード**: https://kenmae-arch.github.io/podcast_automation_jrap/feed.xml
@@ -99,7 +99,7 @@ python3 tools/check_reading.py --all      # 配信済み全話を検査
 - **著作権**: 歌詞そのものの朗読・逐語引用・逐語訳は行わない。曲のテーマ・制作背景・音楽的分析を自分の言葉で解説する。
 - **事実は必ず裏付け**: リリース日・レーベル・制作陣・チャート成績などは一次情報に近いソースで確認する。
 - **トーン**: 音楽好きに語りかける、熱量のある「です・ます」調の1人語り。
-- **長さ**: 1話1曲・**4,000〜6,000字**(姉妹番組より長尺。読み上げでおよそ13〜18分)。
+- **長さ**: 1話1曲・**4,000〜6,000字**(姉妹番組より長尺。読み上げでおよそ10〜15分)。
   背景 → アルバム/シーンの文脈 → 曲の深掘り → リスニングポイント、の流れで厚めに構成する。
 
 ## GitHub Actions

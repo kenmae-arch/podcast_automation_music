@@ -2,7 +2,7 @@
 
 1つの番組(1つのフィード)で、日本語ラップの名盤を1枚ずつ、シリーズとして解説していく運用。各回の制作前に、トラックリストと事実関係を必ず最新情報で再確認すること。
 
-姉妹番組(海外編)は [podcast_automation_music](https://github.com/kenmae-arch/podcast_automation_music)。本番組は **1話4,000〜6,000字(約13〜18分)の長尺編成**。
+姉妹番組(海外編)は [podcast_automation_music](https://github.com/kenmae-arch/podcast_automation_music)。本番組は **1話4,000〜6,000字(約10〜15分)の長尺編成**。
 
 ステータス: ✅配信済み / ⬜未作成 / 🔄進行中
 
