@@ -1,0 +1,60 @@
+name: JRap Episode Preview
+
+# 新番組(podcast_automation_jrap/)の台本を音声化して試聴するための一時ワークフロー。
+# 配信はせず、mp3 を podcast_automation_jrap/preview/ にコミットするだけ。
+# 新リポジトリへの移行が済んだら削除してよい。
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: podcast_automation_jrap
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install ffmpeg (pydub用)
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Synthesize preview audio (no publishing)
+        env:
+          FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
+          FISH_AUDIO_REFERENCE_ID: ${{ vars.FISH_AUDIO_REFERENCE_ID }}
+          LLM_PROVIDER: manual
+        run: |
+          python - <<'EOF'
+          from pathlib import Path
+
+          from audio_generator import create_audio_generator
+          from script_generator import create_script_generator
+
+          episode = create_script_generator().generate([])
+          print(f"台本: {episode.title} ({len(episode.script)}文字)")
+          out = Path("preview") / "episode_001_preview.mp3"
+          create_audio_generator().generate(episode.script, out)
+          print(f"生成完了: {out} ({out.stat().st_size / 1024:.0f} KB)")
+          EOF
+
+      - name: Commit preview audio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add preview/
+          git commit -m "Add episode #1 preview audio (jrap)"
+          git push origin "HEAD:${{ github.ref_name }}"
