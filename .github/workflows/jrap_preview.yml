@@ -3,9 +3,15 @@ name: JRap Episode Preview
 # 新番組(podcast_automation_jrap/)の台本を音声化して試聴するための一時ワークフロー。
 # 配信はせず、mp3 を podcast_automation_jrap/preview/ にコミットするだけ。
 # 新リポジトリへの移行が済んだら削除してよい。
+#
+# workflow_dispatch はデフォルトブランチ上のワークフローにしか使えないため、
+# このファイル自体(または request マーカー)の push で起動する方式にしている。
 
 on:
-  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/jrap_preview.yml"
+      - "podcast_automation_jrap/preview/request*"
 
 permissions:
   contents: write
