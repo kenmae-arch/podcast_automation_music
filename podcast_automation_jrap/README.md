@@ -36,7 +36,7 @@
 | `rss_manager.py` | `feed.xml` / `episodes.json` の生成 |
 | `pronunciation_dict.json` | TTSが読み間違える固有名詞のカタカナ読み辞書 |
 | `scripts/pending.json` | 次に音声化する台本(処理後 `scripts/published/` へアーカイブ) |
-| `docs/` | GitHub Pages 配信ディレクトリ(`feed.xml` / `audio/` / `cover-v1.jpg` / `art/`) |
+| `docs/` | GitHub Pages 配信ディレクトリ(`feed.xml` / `audio/` / `cover-v2.jpg` / `art/`) |
 | `docs/art/` | シリーズ(アルバム)ごとのエピソード・アートワーク |
 | `tools/check_reading.py` | 読み事故の検出リンター(音声化前のゲート) |
 | `tools/make_art.py` | カバー/シリーズ別アートワークの生成(`python3 tools/make_art.py`) |

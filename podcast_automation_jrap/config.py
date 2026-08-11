@@ -30,8 +30,11 @@ GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 # 【重要】完全無料・フェアユースモデル。変更しないこと。
 FISH_AUDIO_MODEL = "s2.1-pro-free"
 FISH_AUDIO_API_URL = "https://api.fish.audio/v1/tts"
-# 任意: 使いたい音声のリファレンスID(Fish Audioのボイスライブラリから取得)
-FISH_AUDIO_REFERENCE_ID = os.getenv("FISH_AUDIO_REFERENCE_ID", "")
+# 使いたい音声のリファレンスID(Fish Audioのボイスライブラリから取得)。
+# 既定は姉妹番組と同じ声。変える場合は環境変数で上書きする。
+FISH_AUDIO_REFERENCE_ID = os.getenv(
+    "FISH_AUDIO_REFERENCE_ID", "5161d41404314212af1254556477c17d"
+)
 # 1リクエストあたりの最大文字数(超過時はチャンク分割して結合する)
 TTS_CHUNK_SIZE = int(os.getenv("TTS_CHUNK_SIZE", "1500"))
 
@@ -62,7 +65,7 @@ PODCAST_CATEGORY = os.getenv("PODCAST_CATEGORY", "Music")
 # 【重要】カバーを差し替えるときは中身だけでなく**ファイル名も変える**こと。
 # Spotify等の配信先はアートワークをURL単位でキャッシュするため、同名のまま
 # 差し替えても反映されない。cover-v1 → cover-v2 のように番号を上げる運用。
-PODCAST_COVER_FILE = os.getenv("PODCAST_COVER_FILE", "cover-v1.jpg")
+PODCAST_COVER_FILE = os.getenv("PODCAST_COVER_FILE", "cover-v2.jpg")
 # Webサイト、RSS、メディアは別ホストへ移行できるように分離する。
 # 未設定時は従来どおり SITE_BASE_URL 配下ですべて配信する。
 SITE_BASE_URL = os.getenv(

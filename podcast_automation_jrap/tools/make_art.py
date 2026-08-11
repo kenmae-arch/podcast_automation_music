@@ -1,10 +1,16 @@
-"""ポッドキャストのアートワーク生成。
+"""ポッドキャストのアートワーク生成(フォールバック用)。
 
-- docs/cover-v1.jpg      : 番組全体のカバー(チャンネル)
-  ※ 差し替えるときは COVER_FILE の番号を上げ、config.PODCAST_COVER_FILE も
-    合わせて更新すること。配信先がURL単位でキャッシュするため、同名のまま
-    中身だけ差し替えても反映されない。
-- docs/art/malltape.jpg  : 第1弾 Mall Boyz『Mall Tape』のエピソード・アート
+本番のアートワークはChatGPT等で生成した画像を使う運用(CURRICULUM.md 参照)。
+このスクリプトはプログラム生成版のフォールバックで、本番ファイル
+(docs/cover-v2.jpg / docs/art/malltape.jpg)は上書きせず、
+docs/art_generated/ 以下に書き出す。
+
+- docs/art_generated/cover.jpg    : 番組全体のカバー(チャンネル)案
+- docs/art_generated/malltape.jpg : 第1弾 Mall Boyz『Mall Tape』のエピソード・アート案
+
+※ 本番カバーを差し替えるときはファイル名の番号を上げ(cover-v2 → cover-v3)、
+  config.PODCAST_COVER_FILE も合わせて更新すること。配信先がURL単位で
+  キャッシュするため、同名のまま中身だけ差し替えても反映されない。
 
 実在のアルバムジャケットは複製せず、作品のテーマから起こしたオリジナルの図案。
 フォントは Noto Sans CJK JP / DejaVu(Linux) と macOS システムフォントの
@@ -19,8 +25,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 S = 3000          # 書き出しサイズ(正方形)
 SMALL = 600       # グラデーション/マスクの内部生成サイズ(拡大して滑らかに)
 
-OUT = Path(__file__).resolve().parent.parent / "docs"
-COVER_FILE = "cover-v1.jpg"   # config.PODCAST_COVER_FILE と揃えること
+OUT = Path(__file__).resolve().parent.parent / "docs" / "art_generated"
 
 
 def _find_font(candidates):
@@ -332,5 +337,5 @@ def save(img, path, quality=88):
 
 
 if __name__ == "__main__":
-    save(make_channel_cover(), OUT / COVER_FILE)
-    save(make_malltape(), OUT / "art" / "malltape.jpg")
+    save(make_channel_cover(), OUT / "cover.jpg")
+    save(make_malltape(), OUT / "malltape.jpg")

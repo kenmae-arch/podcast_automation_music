@@ -51,7 +51,7 @@
 <body>
 <div class="wrap">
   <header>
-    <img class="cover" src="cover-v1.jpg" alt="番組カバー">
+    <img class="cover" src="cover-v2.jpg" alt="番組カバー">
     <div class="kicker">J-RAP DEEP DIVE</div>
     <h1>日本語ラップ アルバム全曲解説</h1>
     <p class="lead">日本語ラップの名盤を、1曲ずつじっくり深掘りするポッドキャスト。制作背景・リリックのテーマ・音楽的な仕掛けを、1話1曲で解説します。第1弾は Mall Boyz『Mall Tape』。</p>
@@ -79,7 +79,7 @@ fetch("episodes.json")
     eps.slice().reverse().forEach(ep => {
       const el = document.createElement("div");
       el.className = "episode";
-      const img = ep.image ? ep.image : "cover-v1.jpg";
+      const img = ep.image ? ep.image : "cover-v2.jpg";
       el.innerHTML =
         '<img src="' + img + '" alt="" loading="lazy">' +
         '<div style="flex:1;min-width:0">' +
