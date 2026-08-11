@@ -12,7 +12,7 @@
 - **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … ✅ **完結**(番組内 #1〜#21)
 - **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … ✅ **完結**(番組内 #1〜#14)
-- **第8弾**: Nas『Illmatic』(1994) — 全10曲 … 🔄 **進行中**(#1 配信済み)
+- **第8弾**: Nas『Illmatic』(1994) — 全10曲 … 🔄 **進行中**(#1〜#5 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -67,11 +67,11 @@
 | # | 曲名 | ステータス | メモ |
 |---|------|-----------|------|
 | 1 | The Genesis | ✅ | 2026-08-09 / #1。Nas＋Faith Newman(コロンビアのA&R)制作。地下鉄音＋『Wild Style』(1983)の台詞と『Subway Theme』＋Main Source『Live at the Bar-B-Que』(1991)の17歳のデビュー・ヴァース断片。弟Jungle・AZとの部屋の会話。「文化の創世記×個人の創世記」の二重構造として解説 |
-| 2 | N.Y. State of Mind | ⬜ | 次回制作予定。DJ Premier制作 |
-| 3 | Life's a Bitch | ⬜ | AZ客演、父Olu Daraのコルネット |
-| 4 | The World Is Yours | ⬜ | Pete Rock制作 |
-| 5 | Halftime | ⬜ | Large Professor制作 |
-| 6 | Memory Lane (Sittin' in da Park) | ⬜ | DJ Premier制作 |
+| 2 | N.Y. State of Mind | ✅ | 2026-08-12 / #2。DJ Premier制作(Illmatic録音は『Represent』に次ぐ2曲目)。Joe Chambers『Mind Rain』のピアノ(選定にはNas本人も関与)＋Donald Byrd『Flight Time』。サビはEric B. & Rakim『Mahogany』とバーベキュー・ヴァースのスクラッチ。冒頭の「どう始めればいいか分からない」の呟きと、ワンテイクと伝わる第1ヴァース。観察者の文体の実演として解説 |
+| 3 | Life's a Bitch | ✅ | 2026-08-12 / #3。L.E.S.制作(出世作)。Gap Band『Yearning for Your Love』＋Grover Washington Jr.『Black Frost』。本来はMtume『Juicy Fruit』の予定がレコード忘れで差し替え(Juicy FruitはBiggie『Juicy』へ)。AZの初録音にして「史上最高の客演ヴァース」、これで契約獲得。ラストに実父Olu Daraのコルネット。20歳の誕生日=生存の証として解説 |
+| 4 | The World Is Yours | ✅ | 2026-08-12 / #4。Pete Rock制作。Ahmad Jamal『I Love Music』(1970)の約5秒をループ、サビはPete Rock本人の歌。題は『Scarface』(1983)の飛行船の標語＋T La Rock『It's Yours』(1984、スクラッチで引用)。「まだ持たない者への呪文」として解説。後年の再利用はJeru the Damaja等(Kendrick説は裏付けなしのため不使用) |
+| 5 | Halftime | ✅ | 2026-08-12 / #5。Large Professor制作。1992年10月『Zebrahead』サントラ(Ruffhouse)からNasty Nas名義でシングル・デビューした曲をアルバム中央に再配置。MC Serchの橋渡し→Columbia契約へ。AWB『School Boy Crush』ドラム＋Gary Byrd『Soul Travelin'』ホーン＋ミュージカル『ヘアー』日本語キャスト盤『Dead End』のベースライン。17歳/18歳/20歳の三つの声の同居として解説 |
+| 6 | Memory Lane (Sittin' in da Park) | ⬜ | 次回制作予定。DJ Premier制作 |
 | 7 | One Love | ⬜ | Q-Tip制作 |
 | 8 | One Time 4 Your Mind | ⬜ |  |
 | 9 | Represent | ⬜ | DJ Premier制作 |
@@ -81,6 +81,10 @@
 | 話 | 音声 | アーカイブ台本 |
 |----|------|--------------|
 | #1 | docs/audio/episode_107_2026-08-09.mp3 | scripts/published/2026-08-09_ep107.json |
+| #2 | docs/audio/episode_108_2026-08-12.mp3 | scripts/published/2026-08-12_ep108.json |
+| #3 | docs/audio/episode_109_2026-08-12.mp3 | scripts/published/2026-08-12_ep109.json |
+| #4 | docs/audio/episode_110_2026-08-12.mp3 | scripts/published/2026-08-12_ep110.json |
+| #5 | docs/audio/episode_111_2026-08-12.mp3 | scripts/published/2026-08-12_ep111.json |
 
 ---
 
