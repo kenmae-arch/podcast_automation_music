@@ -41,10 +41,12 @@ jobs:
       - name: Synthesize preview audio (no publishing)
         env:
           FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
-          # 声はこの姉妹番組の変数ではなく、jrap側 config.py の既定
-          # (番組公式ボイス 63bc41e6…)を使う
+          # 姉妹番組と同じ声(リポジトリ変数)に戻す
+          FISH_AUDIO_REFERENCE_ID: ${{ vars.FISH_AUDIO_REFERENCE_ID }}
           LLM_PROVIDER: manual
         run: |
+          # 新リポジトリ側に同じ声を設定するため、IDをログに出す(秘密情報ではない)
+          echo "voice reference id: ${FISH_AUDIO_REFERENCE_ID}"
           python - <<'EOF'
           from pathlib import Path
 

@@ -30,11 +30,8 @@ GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 # 【重要】完全無料・フェアユースモデル。変更しないこと。
 FISH_AUDIO_MODEL = "s2.1-pro-free"
 FISH_AUDIO_API_URL = "https://api.fish.audio/v1/tts"
-# 使いたい音声のリファレンスID(Fish Audioのボイスライブラリから取得)。
-# 既定はこの番組の公式ボイス。変える場合は環境変数で上書きする。
-FISH_AUDIO_REFERENCE_ID = os.getenv(
-    "FISH_AUDIO_REFERENCE_ID", "63bc41e652214372b15d9416a30a60b4"
-)
+# 任意: 使いたい音声のリファレンスID(Fish Audioのボイスライブラリから取得)
+FISH_AUDIO_REFERENCE_ID = os.getenv("FISH_AUDIO_REFERENCE_ID", "")
 # 1リクエストあたりの最大文字数(超過時はチャンク分割して結合する)
 TTS_CHUNK_SIZE = int(os.getenv("TTS_CHUNK_SIZE", "1500"))
 
