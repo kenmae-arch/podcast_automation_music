@@ -27,6 +27,7 @@ SERIES = {
     "barrio-fino": {"image": "art/barrio.jpg", "tracks": 21, "year": 2004},
     "discovery": {"image": "art/discovery.jpg", "tracks": 14, "year": 2001},
     "illmatic": {"image": "art/illmatic.jpg", "tracks": 10, "year": 1994},
+    "velvet-underground-nico": {"image": "art/velvet.jpg", "tracks": 11, "year": 1967},
 }
 
 TRACK_TITLES = {
@@ -138,6 +139,19 @@ TRACK_TITLES = {
         "One Time 4 Your Mind",
         "Represent",
         "It Ain't Hard to Tell",
+    ],
+    "velvet-underground-nico": [
+        "Sunday Morning",
+        "I'm Waiting for the Man",
+        "Femme Fatale",
+        "Venus in Furs",
+        "Run Run Run",
+        "All Tomorrow's Parties",
+        "Heroin",
+        "There She Goes Again",
+        "I'll Be Your Mirror",
+        "The Black Angel's Death Song",
+        "European Son",
     ],
 }
 

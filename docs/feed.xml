@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_music</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 12 Aug 2026 13:40:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 13:48:37 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/cover-v2.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The Velvet Underground &amp; Nico 全曲解説 #1 日曜の朝の、優しい不安『Sunday Morning』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第9弾はThe Velvet Underground &amp; Nico(1967)。第1回は1曲目『Sunday Morning』。アルバムで最後に録音された曲であり、プロデューサーTom Wilsonは「Nicoが歌うシングル候補」を求めたのに、マイクの前に立ったのはLou Reed本人でした。スタジオで見つけたチェレスタをJohn Caleが弾き、オルゴールのように優しい音の下に、誰かに見られているような不安が忍び込む。Andy Warholが主題として「パラノイア」を示唆したと伝えられる、子守唄の顔をした冒頭曲から、「売れなかった傑作」の物語を始めます。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_music/audio/episode_117_2026-08-12.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_music/audio/episode_117_2026-08-12.mp3" length="5535866" type="audio/mpeg"/>
+      <pubDate>Wed, 12 Aug 2026 13:48:37 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_music/art/velvet.jpg"/>
+    </item>
     <item>
       <title>Nas『Illmatic』全曲解説 #10【最終回】マイケルの吐息と20歳の署名『It Ain't Hard to Tell』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第8弾はNasのデビュー作『Illmatic』(1994)。最終回は10曲目『It Ain't Hard to Tell』。Large Professorが、Michael Jackson『Human Nature』(1983)の吐息のようなコーラスに、Kool &amp; the Gang、Mountain、Stanley Clarkeの断片を重ねた、アルバムからの先行シングルです。「分かりきったことだ」という題名の意味、自らを世に出した恩人Large Professorがアルバムの入口と出口を締める円環、そして全10曲が30年間「完璧」と呼ばれ続ける理由。第8弾シリーズを締めくくり、次シリーズ第9弾『The Velvet Underground &amp; Nico』(1967)を予告します。※歌詞の朗読・逐語引用は行わず、背景とテーマの解説をお届けします。</description>

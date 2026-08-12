@@ -1,5 +1,54 @@
 [
   {
+    "id": "velvet-underground-nico",
+    "series_number": 9,
+    "artist_name": "The Velvet Underground & Nico",
+    "album_title": "The Velvet Underground & Nico",
+    "release_year": 1967,
+    "genre": "アート・ロック／プロト・パンク",
+    "language": "英語",
+    "country": "アメリカ",
+    "episode_count": 11,
+    "published_count": 1,
+    "status": "in_progress",
+    "introduction": "1967年3月にVerve Recordsから発表された、The Velvet Undergroundのデビュー作。全11曲。プロデューサーにはAndy Warholが名を連ね、実務はTom Wilsonが担いました。Lou Reedの観察する詞と、John Caleの実験的なアレンジ、Nicoの声が同居します。",
+    "cultural_context": "発売当時は放送も広告も拒まれ、商業的には失敗に終わりました。しかし後年、「聴いた者は皆バンドを始めた」と語り継がれるほど後続への影響は巨大で、2006年に米議会図書館のNational Recording Registryへ登録されています。",
+    "selection_reason": "第8弾『Illmatic』で辿った「街を観察して書く」文体の、もうひとつの源流として選びました。Nasが生まれる前のニューヨークで、都市の暗部を初めて正面から歌にした人たちの記録を、全11曲で辿ります。",
+    "editorial_theme": "誰も歌わなかったことを、どうやって歌にするか。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "売れなかった傑作の代表",
+        "body": "発売当時は店頭からも電波からも締め出されました。時間が評価を逆転させた最も有名な例のひとつです。"
+      },
+      {
+        "kind": "fact",
+        "heading": "三つの声の同居",
+        "body": "Lou Reedの乾いた語り、John Caleのヴィオラと実験、Nicoの低い歌声。ひとつのバンドの中の異物同士のぶつかり合いが、そのまま音になっています。"
+      },
+      {
+        "kind": "reading",
+        "heading": "都市の観察者の系譜",
+        "body": "このシリーズでは、美化も断罪もせずに街の暗部を書き取る文体の出発点として読み解きます。第8弾『Illmatic』と対で聴くための線です。"
+      }
+    ],
+    "original_artwork": {
+      "src": "art/velvet.jpg",
+      "alt": "The Velvet Underground & Nico『The Velvet Underground & Nico』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [
+      "illmatic",
+      "ok-computer",
+      "discovery"
+    ],
+    "related_reason": "都市と観察の系譜として",
+    "accent": "#A8A8B0",
+    "apple_music": {
+      "album_id": "1440851613",
+      "slug": "the-velvet-underground-nico-45th-anniversary-edition"
+    }
+  },
+  {
     "id": "illmatic",
     "series_number": 8,
     "artist_name": "Nas",

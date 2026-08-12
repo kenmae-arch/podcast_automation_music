@@ -720,6 +720,98 @@ def make_illmatic():
     return grain(img, 0.072)
 
 
+# =====================================================================
+# 9. 第9弾 The Velvet Underground & Nico ── 銀箔の壁と、一灯のタングステン
+# =====================================================================
+
+def make_velvet():
+    """ウォーホルのファクトリーは、壁も天井も銀箔で覆われていた。
+    その銀箔の壁に、タングステン電球がひとつ灯り、暗色の人影が立つ構図。
+    実在のバナナ・ジャケットは複製しない。色はモノクロ＋銀＋電球の琥珀のみ。
+    他シリーズが風景なのに対し、これは「部屋の壁」。最も接写の一枚。"""
+    img = vgradient([
+        (0.0, (30, 30, 33)), (0.45, (52, 52, 56)), (0.62, (40, 40, 44)),
+        (1.0, (14, 14, 16)),
+    ])
+
+    rnd = random.Random(1967)          # 発売年で固定
+
+    # 銀箔の壁: 縦に走る不規則な皺(ハイライトと影の細い縦線)
+    foil = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    fd = ImageDraw.Draw(foil)
+    x = 0
+    while x < S:
+        w = rnd.uniform(S * 0.004, S * 0.028)
+        bright = rnd.random()
+        if bright < 0.30:
+            col = (214, 214, 220, rnd.randint(26, 70))      # ハイライト
+        elif bright < 0.55:
+            col = (8, 8, 10, rnd.randint(30, 80))           # 影
+        else:
+            col = (120, 120, 128, rnd.randint(12, 36))      # 中間
+        drift = rnd.uniform(-S * 0.012, S * 0.012)
+        fd.polygon([(x, 0), (x + w, 0), (x + w + drift, S), (x + drift, S)], fill=col)
+        x += w * rnd.uniform(0.7, 1.5)
+    # 皺の折れ(斜めの短い筋)
+    for _ in range(90):
+        cx0 = rnd.uniform(0, S)
+        cy0 = rnd.uniform(0, S * 0.72)
+        ln = rnd.uniform(S * 0.02, S * 0.10)
+        ang = rnd.uniform(-0.5, 0.5) + (math.pi / 2)
+        col = (230, 230, 236, rnd.randint(14, 40)) if rnd.random() < 0.5 else (0, 0, 0, rnd.randint(16, 44))
+        fd.line([cx0, cy0, cx0 + ln * math.cos(ang), cy0 + ln * math.sin(ang)],
+                fill=col, width=rnd.randint(2, 5))
+    img = Image.alpha_composite(img.convert("RGBA"), foil).convert("RGB")
+
+    # タングステン電球: 一灯だけの暖色。コードで天井から吊るす
+    bx, by = S * 0.640, S * 0.300
+    glow(img, bx, by, S * 0.30, (170, 120, 58), falloff=2.9)
+    glow(img, bx, by, S * 0.075, (255, 210, 140), falloff=1.9)
+    d = ImageDraw.Draw(img)
+    d.line([bx, 0, bx, by - S * 0.020], fill=(10, 10, 12), width=9)
+    rr = S * 0.020
+    d.ellipse([bx - rr, by - rr, bx + rr, by + rr], fill=(255, 232, 178))
+
+    # 人影: サングラスの立ち姿(黒いシルエット、画面左)
+    px, base = S * 0.300, S * 0.760
+    sh = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(sh)
+    black = (7, 7, 9, 255)
+    head_r = S * 0.052
+    hx, hy = px, base - S * 0.330
+    sd.ellipse([hx - head_r, hy - head_r, hx + head_r, hy + head_r], fill=black)
+    sd.polygon([  # 肩から胴(細身のジャケット)
+        (hx - S * 0.105, hy + head_r * 1.7), (hx + S * 0.105, hy + head_r * 1.7),
+        (hx + S * 0.088, base), (hx - S * 0.088, base),
+    ], fill=black)
+    sd.rectangle([hx - S * 0.024, hy + head_r * 0.8, hx + S * 0.024, hy + head_r * 1.8], fill=black)
+    img = Image.alpha_composite(img.convert("RGBA"), sh).convert("RGB")
+    d = ImageDraw.Draw(img)
+    # サングラスの反射: 頭部に銀の細線を2本
+    d.line([hx - head_r * 0.62, hy - head_r * 0.1, hx - head_r * 0.10, hy - head_r * 0.1],
+           fill=(196, 196, 204), width=7)
+    d.line([hx + head_r * 0.10, hy - head_r * 0.1, hx + head_r * 0.62, hy - head_r * 0.1],
+           fill=(196, 196, 204), width=7)
+
+    # 床: 暗色で沈める
+    d.rectangle([0, S * 0.760, S, S], fill=(11, 11, 13))
+    d.line([0, S * 0.760, S, S * 0.760], fill=(96, 96, 104), width=4)
+
+    cream, silver, muted = (238, 236, 232), (196, 196, 204), (150, 148, 150)
+
+    Stack(d, S * 0.045).text("SERIES 09", font(F_FUTURA, 58, 0), muted, tracking=40)
+
+    s = Stack(d, S * 0.790)
+    s.text("THE VELVET UNDERGROUND", font(F_FUTURA, 84, 0), silver, tracking=30)
+    s.gap(54).text("& NICO", font(F_DIDOT, 252, 2), cream, tracking=28)
+    s.gap(56).rule(S * 0.080, (110, 110, 118), 3).gap(46)
+    s.text("全曲解説", font(F_JP, 72, 0), muted, tracking=26)
+    print("  velvet type bottom:", int(s.y))
+
+    vignette(img, 0.62, 0.82)
+    return grain(img, 0.075)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -735,3 +827,4 @@ if __name__ == "__main__":
     save(make_okc(), OUT / "art" / "okc.jpg")
     save(make_barrio(), OUT / "art" / "barrio.jpg")
     save(make_illmatic(), OUT / "art" / "illmatic.jpg")
+    save(make_velvet(), OUT / "art" / "velvet.jpg")

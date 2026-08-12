@@ -13,7 +13,7 @@
 - **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … ✅ **完結**(番組内 #1〜#21)
 - **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … ✅ **完結**(番組内 #1〜#14)
 - **第8弾**: Nas『Illmatic』(1994) — 全10曲 … ✅ **完結**(番組内 #1〜#10)
-- **第9弾**: The Velvet Underground & Nico『The Velvet Underground & Nico』(1967) — 全11曲 … 🔄 **次シリーズ**(#10で予告済み。制作はこれから)
+- **第9弾**: The Velvet Underground & Nico『The Velvet Underground & Nico』(1967) — 全11曲 … 🔄 **進行中**(#1 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -45,6 +45,7 @@
 | 第6弾 Barrio Fino | `docs/art/barrio.jpg` | 団地(カセリオ)の窓のグリッドと、そこから広がる低音の同心円。金＋深い紫。#72〜 に付与 |
 | 第7弾 Discovery | `docs/art/discovery.jpg` | 古い音の断片が、光のポータルを通って未来のグリッドへ再構成されるオリジナル図案。藍＋シアン＋琥珀。#93〜 に付与 |
 | 第8弾 Illmatic | `docs/art/illmatic.jpg` | クイーンズボロ橋の鋼のXラティス越しに、霞んだマンハッタンの夜景を望む図案。煤色＋セピア金。#107〜 に付与 |
+| 第9弾 VU & Nico | `docs/art/velvet.jpg` | 暗幕のような銀箔の壁、一灯のタングステン、サングラスの人影。モノクロ＋琥珀。バナナは不使用。#117〜 に付与 |
 
 > ✅ **音声化の前に読みチェックが自動で走る**(`main.py` に組み込み済み)。未登録の固有名詞や
 > 読みの割れる助数詞が残っていると音声化せずに中止するので、指摘された語を
@@ -61,14 +62,28 @@
 
 ---
 
-# 第9弾: The Velvet Underground & Nico(次シリーズ・未着手)
+# 第9弾: The Velvet Underground & Nico(進行中)
 
-アルバム: 『The Velvet Underground & Nico』1967年3月 / Verve Records / 全11曲(ユーザー指定、2026-08-12決定。#10で予告済み)。Andy Warholがプロデュースに名を連ね、バナナのジャケットを手がけたデビュー作。発売当時は商業的に失敗したが、「これを聴いた者は皆バンドを始めた」と語り継がれる、ロック史上最重要のデビュー作のひとつ。**着手前にトラックリスト・事実関係をWebで検証すること**(下記は出発点)。
+アルバム: 『The Velvet Underground & Nico』1967年3月 / Verve Records / 全11曲。プロデュース名義はAndy Warholだが、実務はTom Wilson(John Cale証言)。発売当時は放送拒否・広告拒否で商業的に失敗。後年Brian Enoの「買った者は皆バンドを始めた」の言で象徴される再評価。2006年National Recording Registry登録。トラックリストは英語版Wikipediaで検証済み(2026-08-12時点)。通し軸=**都市の観察者の系譜**(第8弾Illmaticの文体の源流として読む)。
 
-想定トラックリスト(要検証): Sunday Morning / I'm Waiting for the Man / Femme Fatale / Venus in Furs / Run Run Run / All Tomorrow's Parties / Heroin / There She Goes Again / I'll Be Your Mirror / The Black Angel's Death Song / European Son
+| # | 曲名 | ステータス | メモ |
+|---|------|-----------|------|
+| 1 | Sunday Morning | ✅ | 2026-08-12 / #1。最後に録音された曲(1966-11、Mayfair)。Tom Wilsonが「Nico歌唱のシングル候補」を要求→Lou Reed本人が歌唱。John Caleがスタジオで見つけたチェレスタ。Warholが主題「パラノイア」を示唆と伝わる。1966-12先行シングル。子守唄の顔をした監視不安として解説 |
+| 2 | I'm Waiting for the Man | ⬜ | 次回制作予定 |
+| 3 | Femme Fatale | ⬜ | Nico歌唱 |
+| 4 | Venus in Furs | ⬜ |  |
+| 5 | Run Run Run | ⬜ |  |
+| 6 | All Tomorrow's Parties | ⬜ | Nico歌唱 |
+| 7 | Heroin | ⬜ |  |
+| 8 | There She Goes Again | ⬜ |  |
+| 9 | I'll Be Your Mirror | ⬜ | Nico歌唱 |
+| 10 | The Black Angel's Death Song | ⬜ |  |
+| 11 | European Son | ⬜ | 最終回。次シリーズ予告を入れる |
 
-> 第8弾#10の予告では「ナズが生まれる前のニューヨークで、街の暗部を初めて歌にした人たちの記録。観察者の文体のもうひとつの源流」と紹介した。この線(NYの観察者つながり)をシリーズの通し軸の候補にする。
-> ⬜ **着手前の準備**: ①`docs/art/velvet.jpg`(オリジナル図案)を `tools/make_art.py` に追加して生成(実在のバナナ・ジャケットの複製は不可) ②`tools/sync_website_data.py` の SERIES / TRACK_TITLES に登録 ③`web/src/data/albums.json` にエントリ追加 ④読み仮名辞書に固有名詞を登録
+### 配信済みファイル対応(第9弾)
+| 話 | 音声 | アーカイブ台本 |
+|----|------|--------------|
+| #1 | docs/audio/episode_117_2026-08-12.mp3 | scripts/published/2026-08-12_ep117.json |
 
 ---
 
