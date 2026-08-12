@@ -12,7 +12,8 @@
 - **第5弾**: Radiohead『OK Computer』(1997) — 全12曲 … ✅ **完結**(番組内 #1〜#12)
 - **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … ✅ **完結**(番組内 #1〜#21)
 - **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … ✅ **完結**(番組内 #1〜#14)
-- **第8弾**: Nas『Illmatic』(1994) — 全10曲 … 🔄 **進行中**(#1〜#5 配信済み)
+- **第8弾**: Nas『Illmatic』(1994) — 全10曲 … ✅ **完結**(番組内 #1〜#10)
+- **第9弾**: The Velvet Underground & Nico『The Velvet Underground & Nico』(1967) — 全11曲 … 🔄 **次シリーズ**(#10で予告済み。制作はこれから)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -60,7 +61,20 @@
 
 ---
 
-# 第8弾: Nas『Illmatic』(進行中)
+# 第9弾: The Velvet Underground & Nico(次シリーズ・未着手)
+
+アルバム: 『The Velvet Underground & Nico』1967年3月 / Verve Records / 全11曲(ユーザー指定、2026-08-12決定。#10で予告済み)。Andy Warholがプロデュースに名を連ね、バナナのジャケットを手がけたデビュー作。発売当時は商業的に失敗したが、「これを聴いた者は皆バンドを始めた」と語り継がれる、ロック史上最重要のデビュー作のひとつ。**着手前にトラックリスト・事実関係をWebで検証すること**(下記は出発点)。
+
+想定トラックリスト(要検証): Sunday Morning / I'm Waiting for the Man / Femme Fatale / Venus in Furs / Run Run Run / All Tomorrow's Parties / Heroin / There She Goes Again / I'll Be Your Mirror / The Black Angel's Death Song / European Son
+
+> 第8弾#10の予告では「ナズが生まれる前のニューヨークで、街の暗部を初めて歌にした人たちの記録。観察者の文体のもうひとつの源流」と紹介した。この線(NYの観察者つながり)をシリーズの通し軸の候補にする。
+> ⬜ **着手前の準備**: ①`docs/art/velvet.jpg`(オリジナル図案)を `tools/make_art.py` に追加して生成(実在のバナナ・ジャケットの複製は不可) ②`tools/sync_website_data.py` の SERIES / TRACK_TITLES に登録 ③`web/src/data/albums.json` にエントリ追加 ④読み仮名辞書に固有名詞を登録
+
+---
+
+# 第8弾: Nas『Illmatic』(完結)
+
+> 🎉 **2026-08-12、全10曲の解説を配信完了。第8弾シリーズ完結。**
 
 アルバム: 1994年4月19日 / Columbia Records / 全10曲。Nasのデビュー作。The Source誌が発売時に最高評価の5マイクを付け、以後「ヒップホップ史上最も完成されたデビュー作」の定番評を保ち続ける。Billboard 200初登場12位、2001年にプラチナ認定。DJ Premier、Pete Rock、Q-Tip、Large Professor、L.E.S.という当時のNY最高峰プロデューサー陣がジャズ/ソウルのサンプリングで支えた。クイーンズブリッジ団地の日常を描く緻密な言葉と、全10曲の凝縮された構成。トラックリストは英語版Wikipediaで確認済み(2026-08-09時点)。**各曲のプロデューサー credit は資料間で揺れがあるため、各回の制作前に必ず再検証すること。**
 
@@ -71,11 +85,11 @@
 | 3 | Life's a Bitch | ✅ | 2026-08-12 / #3。L.E.S.制作(出世作)。Gap Band『Yearning for Your Love』＋Grover Washington Jr.『Black Frost』。本来はMtume『Juicy Fruit』の予定がレコード忘れで差し替え(Juicy FruitはBiggie『Juicy』へ)。AZの初録音にして「史上最高の客演ヴァース」、これで契約獲得。ラストに実父Olu Daraのコルネット。20歳の誕生日=生存の証として解説 |
 | 4 | The World Is Yours | ✅ | 2026-08-12 / #4。Pete Rock制作。Ahmad Jamal『I Love Music』(1970)の約5秒をループ、サビはPete Rock本人の歌。題は『Scarface』(1983)の飛行船の標語＋T La Rock『It's Yours』(1984、スクラッチで引用)。「まだ持たない者への呪文」として解説。後年の再利用はJeru the Damaja等(Kendrick説は裏付けなしのため不使用) |
 | 5 | Halftime | ✅ | 2026-08-12 / #5。Large Professor制作。1992年10月『Zebrahead』サントラ(Ruffhouse)からNasty Nas名義でシングル・デビューした曲をアルバム中央に再配置。MC Serchの橋渡し→Columbia契約へ。AWB『School Boy Crush』ドラム＋Gary Byrd『Soul Travelin'』ホーン＋ミュージカル『ヘアー』日本語キャスト盤『Dead End』のベースライン。17歳/18歳/20歳の三つの声の同居として解説 |
-| 6 | Memory Lane (Sittin' in da Park) | ⬜ | 次回制作予定。DJ Premier制作 |
-| 7 | One Love | ⬜ | Q-Tip制作 |
-| 8 | One Time 4 Your Mind | ⬜ |  |
-| 9 | Represent | ⬜ | DJ Premier制作 |
-| 10 | It Ain't Hard to Tell | ⬜ | Large Professor制作。Michael Jackson『Human Nature』サンプル |
+| 6 | Memory Lane (Sittin' in da Park) | ✅ | 2026-08-12 / #6。DJ Premier制作。Reuben Wilson『We're in Love』(1971)のオルガン。サビにMarley Marl『Droppin' Science』(1988)のスクラッチ=QB先輩世代(Juice Crew)への目配せ。個人の記憶×土地の記憶の二重の小道として解説 |
+| 7 | One Love | ✅ | 2026-08-12 / #7。Q-Tip制作＋サビ歌唱。Heath Brothers『Smilin' Billy Suite Pt. II』(1975、親指ピアノ)＋Parliament。題はWhodini(1986)への目配せ。ループはサンプラーでなくポーズテープで組んだとのPremier証言。獄中の友への書簡体ラップ、終盤の少年との対話まで |
+| 8 | One Time 4 Your Mind | ✅ | 2026-08-12 / #8。L.E.S.制作。最も語られない曲をあえて1回分で扱い、「休符の設計」「言葉の産地としての何も起こらない一日」「10曲で足りる構成論」として解説 |
+| 9 | Represent | ✅ | 2026-08-12 / #9。DJ Premier制作。Illmaticセッション最初の録音(2バージョン存在)。Lee Erwin『Thief of Bagdad』=1924年無声映画の劇場オルガン伴奏をサンプル。「代表する」という合言葉と、ラストの仲間の名前の点呼 |
+| 10 | It Ain't Hard to Tell | ✅ | 2026-08-12 / #10【最終回】。Large Professor制作(入口と出口の円環)。MJ『Human Nature』＋Kool & the Gang『N.T.』＋Mountain『Long Red』＋Stanley Clarke『Slow Dance』。1994年1月の先行シングル、Hot 100で97位。シリーズ総括＋第9弾『The Velvet Underground & Nico』を予告 |
 
 ### 配信済みファイル対応(第8弾)
 | 話 | 音声 | アーカイブ台本 |
@@ -85,6 +99,11 @@
 | #3 | docs/audio/episode_109_2026-08-12.mp3 | scripts/published/2026-08-12_ep109.json |
 | #4 | docs/audio/episode_110_2026-08-12.mp3 | scripts/published/2026-08-12_ep110.json |
 | #5 | docs/audio/episode_111_2026-08-12.mp3 | scripts/published/2026-08-12_ep111.json |
+| #6 | docs/audio/episode_112_2026-08-12.mp3 | scripts/published/2026-08-12_ep112.json |
+| #7 | docs/audio/episode_113_2026-08-12.mp3 | scripts/published/2026-08-12_ep113.json |
+| #8 | docs/audio/episode_114_2026-08-12.mp3 | scripts/published/2026-08-12_ep114.json |
+| #9 | docs/audio/episode_115_2026-08-12.mp3 | scripts/published/2026-08-12_ep115.json |
+| #10 | docs/audio/episode_116_2026-08-12.mp3 | scripts/published/2026-08-12_ep116.json |
 
 ---
 
