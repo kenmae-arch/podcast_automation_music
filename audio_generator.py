@@ -152,17 +152,21 @@ class FishAudioGenerator(AudioGenerator):
         if config.FISH_AUDIO_REFERENCE_ID:
             payload["reference_id"] = config.FISH_AUDIO_REFERENCE_ID
 
-        response = requests.post(
-            config.FISH_AUDIO_API_URL,
-            headers={
-                "Authorization": f"Bearer {self.api_key}",
-                "Content-Type": "application/json",
-                # 【重要】モデル指定は必ず s2.1-pro-free(ヘッダーで指定する仕様)
-                "model": config.FISH_AUDIO_MODEL,
-            },
-            json=payload,
-            timeout=300,
-        )
+        try:
+            response = requests.post(
+                config.FISH_AUDIO_API_URL,
+                headers={
+                    "Authorization": f"Bearer {self.api_key}",
+                    "Content-Type": "application/json",
+                    # 【重要】モデル指定は必ず s2.1-pro-free(ヘッダーで指定する仕様)
+                    "model": config.FISH_AUDIO_MODEL,
+                },
+                json=payload,
+                timeout=300,
+            )
+        except (requests.ConnectionError, requests.Timeout) as e:
+            # 読み取りタイムアウトや接続断は一時障害なのでリトライに回す
+            raise RetryableError(f"Fish Audio API 接続エラー: {e}") from e
         if response.status_code == 429 or response.status_code >= 500:
             raise RetryableError(
                 f"Fish Audio API {response.status_code}: {response.text[:200]}"

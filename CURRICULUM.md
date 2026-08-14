@@ -13,7 +13,7 @@
 - **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … ✅ **完結**(番組内 #1〜#21)
 - **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … ✅ **完結**(番組内 #1〜#14)
 - **第8弾**: Nas『Illmatic』(1994) — 全10曲 … ✅ **完結**(番組内 #1〜#10)
-- **第9弾**: The Velvet Underground & Nico『The Velvet Underground & Nico』(1967) — 全11曲 … 🔄 **進行中**(#1 配信済み)
+- **第9弾**: The Velvet Underground & Nico『The Velvet Underground & Nico』(1967) — 全11曲 … 🔄 **進行中**(#1〜#5 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -69,11 +69,11 @@
 | # | 曲名 | ステータス | メモ |
 |---|------|-----------|------|
 | 1 | Sunday Morning | ✅ | 2026-08-12 / #1。最後に録音された曲(1966-11、Mayfair)。Tom Wilsonが「Nico歌唱のシングル候補」を要求→Lou Reed本人が歌唱。John Caleがスタジオで見つけたチェレスタ。Warholが主題「パラノイア」を示唆と伝わる。1966-12先行シングル。子守唄の顔をした監視不安として解説 |
-| 2 | I'm Waiting for the Man | ⬜ | 次回制作予定 |
-| 3 | Femme Fatale | ⬜ | Nico歌唱 |
-| 4 | Venus in Furs | ⬜ |  |
-| 5 | Run Run Run | ⬜ |  |
-| 6 | All Tomorrow's Parties | ⬜ | Nico歌唱 |
+| 2 | I'm Waiting for the Man | ✅ | 2026-08-12 / #2。ハーレム125丁目×レキシントンで売人を待つ26ドルの数分間。Caleの叩きつけるブギウギ・ピアノ=「待つ時間の音楽化」。Bowieが発売前のテスト盤で聴きカバーした逸話。Illmatic『N.Y. State of Mind』と対にする観察者の文体の源流として解説 |
+| 3 | Femme Fatale | ✅ | 2026-08-12 / #3。Warholの注文(モデルはEdie Sedgwick)でReedが書き、Nicoが歌う。依頼主・モデル・歌い手・作者の四角関係と、ニコの大理石の声の距離感。1971年に28歳で亡くなったSedgwickの記録として |
+| 4 | Venus in Furs | ✅ | 2026-08-14 / #4。Sacher-Masoch『毛皮を着たヴィーナス』(1870)が下敷き。Caleのエレクトリック・ヴィオラのドローン、全弦同音のオーストリッチ・ギター、Tuckerの儀式の打撃。サマー・オブ・ラヴ1967への徹底した逆張りとして解説 |
+| 5 | Run Run Run | ✅ | 2026-08-14 / #5。ライブへ向かう道中に紙切れへ走り書きと伝わる。ユニオン・スクエアの群像劇、あだ名の記録法(Represent#9の点呼と接続)。ノイズ寸前のReedのソロ=パンクの教科書 |
+| 6 | All Tomorrow's Parties | ⬜ | 次回制作予定。Nico歌唱 |
 | 7 | Heroin | ⬜ |  |
 | 8 | There She Goes Again | ⬜ |  |
 | 9 | I'll Be Your Mirror | ⬜ | Nico歌唱 |
@@ -84,6 +84,10 @@
 | 話 | 音声 | アーカイブ台本 |
 |----|------|--------------|
 | #1 | docs/audio/episode_117_2026-08-12.mp3 | scripts/published/2026-08-12_ep117.json |
+| #2 | docs/audio/episode_118_2026-08-12.mp3 | scripts/published/2026-08-12_ep118.json |
+| #3 | docs/audio/episode_119_2026-08-12.mp3 | scripts/published/2026-08-12_ep119.json |
+| #4 | docs/audio/episode_120_2026-08-14.mp3 | scripts/published/2026-08-14_ep120.json |
+| #5 | docs/audio/episode_121_2026-08-14.mp3 | scripts/published/2026-08-14_ep121.json |
 
 ---
 
