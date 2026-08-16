@@ -2590,19 +2590,19 @@
   },
   {
     "id": "velvet-underground-nico-07",
-    "episode_number": null,
+    "episode_number": 123,
     "series_number": 9,
     "track_number": 7,
     "album_id": "velvet-underground-nico",
     "track_title": "Heroin",
-    "title": null,
-    "web_summary": null,
+    "title": "加速と減速だけでできた7分間",
+    "web_summary": "第7回は7曲目『Heroin』。二つの和音だけで7分を走り抜ける、ロック史上もっとも議論を呼び続けている一曲です。John Caleがギター弦とマンドリン弦を張った電気ヴィオラ、テンポの加速と減速そのものが主題になった構造、",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_123_2026-08-16.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-16",
+    "status": "published"
   },
   {
     "id": "velvet-underground-nico-08",
