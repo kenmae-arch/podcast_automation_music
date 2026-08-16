@@ -2654,19 +2654,19 @@
   },
   {
     "id": "velvet-underground-nico-11",
-    "episode_number": null,
+    "episode_number": 127,
     "series_number": 9,
     "track_number": 11,
     "album_id": "velvet-underground-nico",
     "track_title": "European Son",
-    "title": null,
-    "web_summary": null,
+    "title": "【最終回】詩人に捧げた7分半の轟音",
+    "web_summary": "第9弾The Velvet Underground & Nico(1967)の最終回は、11曲目『European Son』。Lou Reedの大学時代の師である詩人Delmore Schwartzに捧げられた、アルバム最長の一曲です。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_127_2026-08-16.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-16",
+    "status": "published"
   },
   {
     "id": "tour-de-france-01",
