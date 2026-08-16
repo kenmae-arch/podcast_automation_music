@@ -2702,19 +2702,19 @@
   },
   {
     "id": "tour-de-france-03",
-    "episode_number": null,
+    "episode_number": 130,
     "series_number": 10,
     "track_number": 3,
     "album_id": "tour-de-france",
     "track_title": "Tour de France Étape 2",
-    "title": null,
-    "web_summary": null,
+    "title": "何も起こらない時間を設計する",
+    "web_summary": "第3回は3曲目『Tour de France Étape 2』。6分41秒、冒頭の組曲でいちばん長い一曲です。作曲クレジットに名を連ねるMaxime Schmittは、フランスのPathé-Marconiでキャピトル・レーベルを率い、1970年代半ばからバンドと関わり、",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_130_2026-08-16.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-16",
+    "status": "published"
   },
   {
     "id": "tour-de-france-04",

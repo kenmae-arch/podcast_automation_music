@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 16 Aug 2026 07:18:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 07:22:49 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Kraftwerk『Tour de France』全曲解説 #3 何も起こらない時間を設計する『Tour de France Étape 2』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第10弾はリスナー・リクエスト作品、Kraftwerk『Tour de France』(2009 remaster)。第3回は3曲目『Tour de France Étape 2』。6分41秒、冒頭の組曲でいちばん長い一曲です。作曲クレジットに名を連ねるMaxime Schmittは、フランスのPathé-Marconiでキャピトル・レーベルを率い、1970年代半ばからバンドと関わり、1983年のシングルの歌詞をRalf Hütterと共作した人物。ドイツのグループがフランス語で歌う土台を作った人です。同じ曲名が1983年の12インチにも存在したという20年越しの再利用と、ステージレースの中盤=耐える時間を、長い持続でどう設計したかを解説します。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_130_2026-08-16.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_130_2026-08-16.mp3" length="5775822" type="audio/mpeg"/>
+      <pubDate>Sun, 16 Aug 2026 07:22:49 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/tdf.jpg"/>
+    </item>
     <item>
       <title>Kraftwerk『Tour de France』全曲解説 #2 呼吸が打楽器になる『Tour de France Étape 1』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第10弾は、番組ホームページ albumatlas.jp に届いた初のリスナー・リクエスト作品、Kraftwerk『Tour de France』(2009 remaster)。第2回は2曲目『Tour de France Étape 1』。前回の『Prologue』から続く、4つの曲でひとつながりの15分半の組曲が、ここから本格的に走り出します。打楽器のように使われる呼吸音、登り坂を思わせる上昇音形、そして1983年のシングル版が引いていたとされるPaul Hindemith『フルートとピアノのためのソナタ』の面影。『Autobahn』『Trans-Europe Express』から続く「移動する音楽」の系譜として解説します。</description>
