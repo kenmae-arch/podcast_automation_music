@@ -405,19 +405,27 @@
   },
   "discovery-11": {
     "apple_music_track_id": "697196125",
-    "podcast_urls": {}
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000781124173"
+    }
   },
   "discovery-12": {
     "apple_music_track_id": "697196212",
-    "podcast_urls": {}
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000781124303"
+    }
   },
   "discovery-13": {
     "apple_music_track_id": "697196420",
-    "podcast_urls": {}
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000781124245"
+    }
   },
   "discovery-14": {
     "apple_music_track_id": "697196490",
-    "podcast_urls": {}
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000781124216"
+    }
   },
   "lemonade-01": {
     "podcast_urls": {
@@ -664,5 +672,137 @@
       "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000778717727"
     },
     "apple_music_track_id": "1097861845"
+  },
+  "illmatic-01": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000781125791"
+    },
+    "apple_music_track_id": "662324538"
+  },
+  "illmatic-02": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000782784768"
+    },
+    "apple_music_track_id": "662324539"
+  },
+  "illmatic-03": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000782784806"
+    },
+    "apple_music_track_id": "662324540"
+  },
+  "illmatic-04": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000782784805"
+    },
+    "apple_music_track_id": "662324541"
+  },
+  "illmatic-05": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000782784886"
+    },
+    "apple_music_track_id": "662324542"
+  },
+  "illmatic-06": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000782968011"
+    },
+    "apple_music_track_id": "662324543"
+  },
+  "illmatic-07": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000782967915"
+    },
+    "apple_music_track_id": "662324544"
+  },
+  "illmatic-08": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000782967795"
+    },
+    "apple_music_track_id": "662324545"
+  },
+  "illmatic-09": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000782967886"
+    },
+    "apple_music_track_id": "662324546"
+  },
+  "illmatic-10": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000782967885"
+    },
+    "apple_music_track_id": "662324547"
+  },
+  "velvet-underground-nico-01": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000782970501"
+    },
+    "apple_music_track_id": "1440851619"
+  },
+  "velvet-underground-nico-02": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783286369"
+    },
+    "apple_music_track_id": "1440851895"
+  },
+  "velvet-underground-nico-03": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783286340"
+    },
+    "apple_music_track_id": "1440851898"
+  },
+  "velvet-underground-nico-04": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783286068"
+    },
+    "apple_music_track_id": "1440851901"
+  },
+  "velvet-underground-nico-05": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783286316"
+    },
+    "apple_music_track_id": "1440851905"
+  },
+  "velvet-underground-nico-06": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783553421"
+    },
+    "apple_music_track_id": "1440851908"
+  },
+  "velvet-underground-nico-07": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783553282"
+    },
+    "apple_music_track_id": "1440851909"
+  },
+  "velvet-underground-nico-08": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783553661"
+    },
+    "apple_music_track_id": "1440851914"
+  },
+  "velvet-underground-nico-09": {
+    "podcast_urls": {},
+    "apple_music_track_id": "1440851916"
+  },
+  "velvet-underground-nico-10": {
+    "podcast_urls": {},
+    "apple_music_track_id": "1440851918"
+  },
+  "velvet-underground-nico-11": {
+    "podcast_urls": {},
+    "apple_music_track_id": "1440852071"
+  },
+  "tour-de-france-01": {
+    "podcast_urls": {},
+    "apple_music_track_id": "726341353"
+  },
+  "tour-de-france-02": {
+    "podcast_urls": {},
+    "apple_music_track_id": "726341357"
+  },
+  "tour-de-france-03": {
+    "podcast_urls": {},
+    "apple_music_track_id": "726341360"
   }
 }
