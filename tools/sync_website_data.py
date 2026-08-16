@@ -28,6 +28,7 @@ SERIES = {
     "discovery": {"image": "art/discovery.jpg", "tracks": 14, "year": 2001},
     "illmatic": {"image": "art/illmatic.jpg", "tracks": 10, "year": 1994},
     "velvet-underground-nico": {"image": "art/velvet.jpg", "tracks": 11, "year": 1967},
+    "tour-de-france": {"image": "art/tdf.jpg", "tracks": 12, "year": 2003},
 }
 
 TRACK_TITLES = {
@@ -152,6 +153,22 @@ TRACK_TITLES = {
         "I'll Be Your Mirror",
         "The Black Angel's Death Song",
         "European Son",
+    ],
+    # 2009年リマスター版の曲名。2003年の初出時は表題が『Tour de France
+    # Soundtracks』で、2〜4曲目は「Étape 1／2／3」名義だった。
+    "tour-de-france": [
+        "Prologue",
+        "Tour de France Étape 1",
+        "Tour de France Étape 2",
+        "Tour de France Étape 3",
+        "Chrono",
+        "Vitamin",
+        "Aéro Dynamik",
+        "Titanium",
+        "Elektro Kardiogramm",
+        "La Forme",
+        "Régéneration",
+        "Tour de France",
     ],
 }
 

@@ -23,13 +23,41 @@ SMALL = 600       # グラデーション/マスクの内部生成サイズ(拡�
 OUT = Path(__file__).resolve().parent.parent / "docs"
 COVER_FILE = "cover-v2.jpg"   # config.PODCAST_COVER_FILE と揃えること
 
-F_DIDOT = "/System/Library/Fonts/Supplemental/Didot.ttc"
-F_FUTURA = "/System/Library/Fonts/Supplemental/Futura.ttc"
-F_AVENIR = "/System/Library/Fonts/Avenir Next.ttc"
-F_JP = "/System/Library/Fonts/Hiragino Sans GB.ttc"
+def _pick_font(*candidates):
+    """先に見つかったフォントを使う。
+
+    既定は macOS のシステムフォント。Linux(CI や作業用コンテナ)には存在しないので、
+    同系統の代替を後ろに並べておく。代替は Debian/Ubuntu の
+    fonts-gfs-didot / fonts-texgyre / fonts-noto-cjk で入る。
+    """
+    for path in candidates:
+        if Path(path).exists():
+            return path
+    raise FileNotFoundError(f"使えるフォントがありません: {candidates}")
+
+
+F_DIDOT = _pick_font(
+    "/System/Library/Fonts/Supplemental/Didot.ttc",
+    "/usr/share/fonts/opentype/didot/GFSDidot.otf",
+)
+F_FUTURA = _pick_font(
+    "/System/Library/Fonts/Supplemental/Futura.ttc",
+    "/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyreadventor-regular.otf",
+)
+F_AVENIR = _pick_font(
+    "/System/Library/Fonts/Avenir Next.ttc",
+    "/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf",
+)
+F_JP = _pick_font(
+    "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+)
 
 
 def font(path, size, index=0):
+    # 代替フォントは単一フェイスの .otf なので、フェイス番号は捨てる
+    if not path.endswith(".ttc"):
+        index = 0
     return ImageFont.truetype(path, size, index=index)
 
 
@@ -812,6 +840,95 @@ def make_velvet():
     return grain(img, 0.075)
 
 
+# =====================================================================
+# 10. 第10弾 Kraftwerk『Tour de France』 ── 車輪の同心円と、一本の心電図
+# =====================================================================
+
+def make_tdf():
+    """路面を走る一本の線が、二つの車輪のあいだで心拍の波形になる図案。
+
+    他シリーズが情景(街・光・部屋)なのに対し、こちらは計器盤の抽象。
+    アルバムの主題である「身体を機械として設計し直す」を、
+    車輪=回転する幾何と、心電図=生き物の証拠、の重ね合わせで言う。
+    実在のジャケットは複製せず、鋼灰＋朱赤の二色で構成する。
+    """
+    img = vgradient([
+        (0.00, (24, 28, 36)), (0.34, (44, 49, 58)), (0.52, (66, 71, 80)),
+        (0.57, (18, 19, 23)), (1.00, (7, 7, 9)),
+    ])
+
+    road = S * 0.552
+    red = (214, 38, 34)
+    steel = (146, 154, 166)
+
+    # 走行光: 路面のすぐ上に冷たい光を溜める
+    glow(img, S * 0.50, road - S * 0.03, S * 0.44, (96, 116, 138), falloff=2.8)
+    glow(img, S * 0.50, road - S * 0.02, S * 0.12, (168, 188, 208), falloff=2.0)
+
+    d = ImageDraw.Draw(img)
+
+    # 速度の残像: 路面の手前を横切る細い線を、下へ行くほど薄く
+    streaks = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(streaks)
+    rnd = random.Random(2003)          # 発表年で固定
+    for i in range(26):
+        t = i / 25
+        y = road + S * (0.020 + 0.300 * t * t)
+        half = S * rnd.uniform(0.18, 0.50)
+        cx = S * rnd.uniform(0.42, 0.58)
+        x0, x1 = cx - half, cx + half
+        a = int(52 * (1 - t) ** 1.6)
+        sd.line([x0, y, x1, y], fill=(178, 190, 204, a), width=max(2, int(S * 0.0016)))
+    img = Image.alpha_composite(img.convert("RGBA"), streaks).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 車輪: 同心円とスポーク。左右2枚を路面の上に立てる
+    def wheel(cx, r):
+        d.ellipse([cx - r, road - r, cx + r, road + r], outline=steel, width=int(S * 0.0055))
+        d.ellipse([cx - r * 0.93, road - r * 0.93, cx + r * 0.93, road + r * 0.93],
+                  outline=(88, 94, 104), width=int(S * 0.0022))
+        for k in range(36):          # スポーク
+            a = math.pi * 2 * k / 36
+            d.line([cx + math.cos(a) * r * 0.10, road + math.sin(a) * r * 0.10,
+                    cx + math.cos(a) * r * 0.90, road + math.sin(a) * r * 0.90],
+                   fill=(74, 80, 90), width=max(2, int(S * 0.0012)))
+        hr = r * 0.085               # ハブ
+        d.ellipse([cx - hr, road - hr, cx + hr, road + hr], fill=(20, 21, 25))
+        d.ellipse([cx - hr, road - hr, cx + hr, road + hr], outline=red, width=int(S * 0.0030))
+
+    rw = S * 0.148
+    wheel(S * 0.268, rw)
+    wheel(S * 0.732, rw)
+
+    # 路面の一本線。車輪と車輪のあいだだけ、心電図の波形になる
+    pulse = [(0.000, 0.00), (0.150, 0.00), (0.230, 0.14), (0.300, -0.16),
+             (0.370, 0.00), (0.430, 0.10), (0.500, -1.00), (0.560, 0.62),
+             (0.620, 0.00), (0.760, -0.10), (0.850, 0.00), (1.000, 0.00)]
+    px0, px1 = S * 0.400, S * 0.600
+    ph = S * 0.150
+    pts = [(0, road), (px0, road)]
+    pts += [(px0 + (px1 - px0) * t, road + ph * v) for t, v in pulse]
+    pts += [(px1, road), (S, road)]
+    d.line(pts, fill=red, width=int(S * 0.0042), joint="curve")
+
+    # 地平の細い罫: 路面と空を分ける
+    d.line([0, road + S * 0.001, S, road + S * 0.001], fill=(40, 44, 52), width=3)
+
+    cream, muted = (238, 236, 232), (146, 150, 158)
+
+    Stack(d, S * 0.040).text("SERIES 10", font(F_FUTURA, 58, 0), muted, tracking=40)
+
+    s = Stack(d, S * 0.790)
+    s.text("KRAFTWERK", font(F_FUTURA, 86, 0), red, tracking=52)
+    s.gap(52).text("TOUR DE FRANCE", font(F_DIDOT, 196, 2), cream, tracking=18)
+    s.gap(56).rule(S * 0.080, (96, 102, 112), 3).gap(46)
+    s.text("全曲解説", font(F_JP, 72, 0), muted, tracking=26)
+    print("  tdf type bottom:", int(s.y))
+
+    vignette(img, 0.58, 0.84)
+    return grain(img, 0.070)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -828,3 +945,4 @@ if __name__ == "__main__":
     save(make_barrio(), OUT / "art" / "barrio.jpg")
     save(make_illmatic(), OUT / "art" / "illmatic.jpg")
     save(make_velvet(), OUT / "art" / "velvet.jpg")
+    save(make_tdf(), OUT / "art" / "tdf.jpg")
