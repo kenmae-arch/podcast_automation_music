@@ -2638,19 +2638,19 @@
   },
   {
     "id": "velvet-underground-nico-10",
-    "episode_number": null,
+    "episode_number": 126,
     "series_number": 9,
     "track_number": 10,
     "album_id": "velvet-underground-nico",
     "track_title": "The Black Angel's Death Song",
-    "title": null,
-    "web_summary": null,
+    "title": "この曲をもう一度やったらクビだ",
+    "web_summary": "第10回は10曲目『The Black Angel's Death Song』。1965年、グリニッジ・ヴィレッジのCafé Bizarreで「その曲をもう一度やったらクビだ」と言われ、次のセットの頭でわざと演奏して本当にクビになった、いわくつきの一曲です。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_126_2026-08-16.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-16",
+    "status": "published"
   },
   {
     "id": "velvet-underground-nico-11",
