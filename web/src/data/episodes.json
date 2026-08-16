@@ -2670,19 +2670,19 @@
   },
   {
     "id": "tour-de-france-01",
-    "episode_number": null,
+    "episode_number": 128,
     "series_number": 10,
     "track_number": 1,
     "album_id": "tour-de-france",
     "track_title": "Prologue",
-    "title": null,
-    "web_summary": null,
+    "title": "レースは第1ステージの前に始まっている",
+    "web_summary": "2003年8月にTour de France Soundtracksとして発表され、2009年のリマスターで題名と曲名が整理された、Electric Café以来17年ぶりのスタジオ・アルバム。ドイツのアルバム・チャートで彼ら初の1位を獲得しました。第1回は1曲目『Prologue』。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_128_2026-08-16.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-16",
+    "status": "published"
   },
   {
     "id": "tour-de-france-02",
