@@ -43,7 +43,10 @@
     ],
     "related_reason": "電子音楽の源流として",
     "accent": "#D6262A",
-    "apple_music": null
+    "apple_music": {
+      "album_id": "726341054",
+      "slug": "tour-de-france-remastered"
+    }
   },
   {
     "id": "velvet-underground-nico",
