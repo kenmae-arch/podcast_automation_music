@@ -2574,19 +2574,19 @@
   },
   {
     "id": "velvet-underground-nico-06",
-    "episode_number": null,
+    "episode_number": 122,
     "series_number": 9,
     "track_number": 6,
     "album_id": "velvet-underground-nico",
     "track_title": "All Tomorrow's Parties",
-    "title": null,
-    "web_summary": null,
+    "title": "ファクトリーの明日を歌う",
+    "web_summary": "第6回は6曲目『All Tomorrow's Parties』。1966年7月にデビュー・シングルとして世に出た、アルバム前半の頂点です。John Caleがピアノの弦にクリップの鎖を絡めて弾いたプリペアド・ピアノ、Terry RileyやLa Monte Youngから受け継いだ反復、",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_122_2026-08-16.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-16",
+    "status": "published"
   },
   {
     "id": "velvet-underground-nico-07",
