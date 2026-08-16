@@ -13,8 +13,8 @@
 - **第6弾**: Daddy Yankee『Barrio Fino』(2004) — 全21曲 … ✅ **完結**(番組内 #1〜#21)
 - **第7弾**: Daft Punk『Discovery』(2001) — 全14曲 … ✅ **完結**(番組内 #1〜#14)
 - **第8弾**: Nas『Illmatic』(1994) — 全10曲 … ✅ **完結**(番組内 #1〜#10)
-- **第9弾**: The Velvet Underground & Nico『The Velvet Underground & Nico』(1967) — 全11曲 … 🔄 **進行中**(#1〜#5 配信済み / #6〜#11 制作済み・音声化待ち)
-- **第10弾**: Kraftwerk『Tour de France』(2003 / 2009 remaster) — 全12曲 … 🔄 **進行中**(#1 制作済み・音声化待ち)
+- **第9弾**: The Velvet Underground & Nico『The Velvet Underground & Nico』(1967) — 全11曲 … ✅ **完結**(番組内 #1〜#11)
+- **第10弾**: Kraftwerk『Tour de France』(2003 / 2009 remaster) — 全12曲 … 🔄 **進行中**(#1 配信済み)
 - **将来の本命**: Kendrick Lamar『To Pimp a Butterfly』(2015) — リスナーが育った段階で“本命”として投入する。時期は未定
 
 > 第5弾は当初TPABの予定だったが、TPABは番組の代表作として温存し、まずは射程を広げてリスナーを増やす方針に変更(2026-07-27)。
@@ -90,7 +90,7 @@
 
 | # | 曲名 | ステータス | メモ |
 |---|------|-----------|------|
-| 1 | Prologue | 🔄 | 制作済み・音声化待ち / #1。30秒あまりの序奏。「プロローグ」はステージ・レースで第1ステージの前に行う短い個人タイムトライアルの呼称=レースは第1ステージの前に始まっている、という形式論として解説。シリーズ導入＋ホームページとリクエスト・フォームの紹介を兼ねる |
+| 1 | Prologue | ✅ | 2026-08-16 / #1。30秒あまりの序奏。「プロローグ」はステージ・レースで第1ステージの前に行う短い個人タイムトライアルの呼称=レースは第1ステージの前に始まっている、という形式論として解説。シリーズ導入＋ホームページとリクエスト・フォームの紹介を兼ねる |
 | 2 | Tour de France Étape 1 | ⬜ | 次回制作予定 |
 | 3 | Tour de France Étape 2 | ⬜ |  |
 | 4 | Tour de France Étape 3 | ⬜ |  |
@@ -103,9 +103,16 @@
 | 11 | Régéneration | ⬜ | 回復 |
 | 12 | Tour de France | ⬜ | 最終回。1983年シングルの再録。シリーズ総括＋次シリーズ予告を入れる |
 
+### 配信済みファイル対応(第10弾)
+| 話 | 音声 | アーカイブ台本 |
+|----|------|--------------|
+| #1 | docs/audio/episode_128_2026-08-16.mp3 | scripts/published/2026-08-16_ep128.json |
+
 ---
 
-# 第9弾: The Velvet Underground & Nico(進行中)
+# 第9弾: The Velvet Underground & Nico(完結)
+
+> 🎉 **2026-08-16、全11曲の解説を配信完了。第9弾シリーズ完結。**
 
 アルバム: 『The Velvet Underground & Nico』1967年3月 / Verve Records / 全11曲。プロデュース名義はAndy Warholだが、実務はTom Wilson(John Cale証言)。発売当時は放送拒否・広告拒否で商業的に失敗。後年Brian Enoの「買った者は皆バンドを始めた」の言で象徴される再評価。2006年National Recording Registry登録。トラックリストは英語版Wikipediaで検証済み(2026-08-12時点)。通し軸=**都市の観察者の系譜**(第8弾Illmaticの文体の源流として読む)。
 
@@ -116,12 +123,12 @@
 | 3 | Femme Fatale | ✅ | 2026-08-12 / #3。Warholの注文(モデルはEdie Sedgwick)でReedが書き、Nicoが歌う。依頼主・モデル・歌い手・作者の四角関係と、ニコの大理石の声の距離感。1971年に28歳で亡くなったSedgwickの記録として |
 | 4 | Venus in Furs | ✅ | 2026-08-14 / #4。Sacher-Masoch『毛皮を着たヴィーナス』(1870)が下敷き。Caleのエレクトリック・ヴィオラのドローン、全弦同音のオーストリッチ・ギター、Tuckerの儀式の打撃。サマー・オブ・ラヴ1967への徹底した逆張りとして解説 |
 | 5 | Run Run Run | ✅ | 2026-08-14 / #5。ライブへ向かう道中に紙切れへ走り書きと伝わる。ユニオン・スクエアの群像劇、あだ名の記録法(Represent#9の点呼と接続)。ノイズ寸前のReedのソロ=パンクの教科書 |
-| 6 | All Tomorrow's Parties | 🔄 | 制作済み・音声化待ち / #6。Nico歌唱(二重録音)。Caleのプリペアド・ピアノ(弦にクリップの鎖)=ポップでは最も早い部類。旋律は練習用の断片が出自でトーン・クラスタ基調、反復はTerry Riley/La Monte Young人脈と地続き。Reedはオーストリッチ・チューニング。Warholが最も好んだ曲。1966-07デビュー・シングルA面(B面は#9)。1曲目『Sunday Morning』の前夜として読む |
-| 7 | Heroin | 🔄 | 制作済み・音声化待ち / #7。1964年頃の大学時代に書かれたと伝わる最古参の曲。和音は2つだけで、主題を担うのはテンポの加減速。Caleの電気ヴィオラ(ギター弦・マンドリン弦＋チェロ弓)。轟音部でTuckerが音を聴き取れず数秒間叩くのをやめ、そのテイクが採用された逸話。賛美も断罪もしない一人称=Illmaticの文体の源流として解説 |
-| 8 | There She Goes Again | 🔄 | 制作済み・音声化待ち / #8。跳ねるリフはMarvin Gaye『Hitch Hike』(1962)由来(Rolling Stones経由説にも触れる)。Reedのピックウィック時代=ヒットの作り方を知る人がそれを選ばない話。明るい音に冷たい(現代の耳には擁護しにくい)言葉を載せる落差として扱い、7分の『Heroin』の後の踊り場という配置論も |
-| 9 | I'll Be Your Mirror | 🔄 | 制作済み・音声化待ち / #9。Nicoが1965年にReedへ言った一言が題名の出自(伝記作家Victor Bockris)。弱く歌ってほしいバンドと強く歌ってしまうNico、泣き出すまでやり直させられた録音。1966-07シングルB面。Nicoの3曲を「肖像・群像・鏡」として束ねる |
-| 10 | The Black Angel's Death Song | 🔄 | 制作済み・音声化待ち / #10。Caleの電気ヴィオラの不協和音＋マイクへの息の破裂音。Reed自身の註「意味ではなく音の楽しさのために言葉を並べた」。1965年末Café Bizarreで「もう一度やったらクビだ」と言われ次のセット冒頭で演奏しクビ、同じ出演中にWarhol周辺に見出される。聴き手をふるいにかける配置として解説 |
-| 11 | European Son | 🔄 | 制作済み・音声化待ち / #11【最終回】。詩人Delmore Schwartz(Reedのシラキュース大学の恩師)に献辞、初版は曲名に併記。ロックの歌詞を嫌った師のため、最も言葉の少ない曲を選んだ。録音は1966-04、Schwartzは3か月後の7月14日に死去。冒頭1分の歌＋6分超の自由演奏、椅子と皿による破壊音。シリーズ総括(Billboard 200で171位／Enoの「買った者は皆バンドを始めた」／2006年National Recording Registry)＋**ホームページ albumatlas.jp とリクエスト・フォームの紹介**＋第10弾Kraftwerk予告 |
+| 6 | All Tomorrow's Parties | ✅ | 2026-08-16 / #6。Nico歌唱(二重録音)。Caleのプリペアド・ピアノ(弦にクリップの鎖)=ポップでは最も早い部類。旋律は練習用の断片が出自でトーン・クラスタ基調、反復はTerry Riley/La Monte Young人脈と地続き。Reedはオーストリッチ・チューニング。Warholが最も好んだ曲。1966-07デビュー・シングルA面(B面は#9)。1曲目『Sunday Morning』の前夜として読む |
+| 7 | Heroin | ✅ | 2026-08-16 / #7。1964年頃の大学時代に書かれたと伝わる最古参の曲。和音は2つだけで、主題を担うのはテンポの加減速。Caleの電気ヴィオラ(ギター弦・マンドリン弦＋チェロ弓)。轟音部でTuckerが音を聴き取れず数秒間叩くのをやめ、そのテイクが採用された逸話。賛美も断罪もしない一人称=Illmaticの文体の源流として解説 |
+| 8 | There She Goes Again | ✅ | 2026-08-16 / #8。跳ねるリフはMarvin Gaye『Hitch Hike』(1962)由来(Rolling Stones経由説にも触れる)。Reedのピックウィック時代=ヒットの作り方を知る人がそれを選ばない話。明るい音に冷たい(現代の耳には擁護しにくい)言葉を載せる落差として扱い、7分の『Heroin』の後の踊り場という配置論も |
+| 9 | I'll Be Your Mirror | ✅ | 2026-08-16 / #9。Nicoが1965年にReedへ言った一言が題名の出自(伝記作家Victor Bockris)。弱く歌ってほしいバンドと強く歌ってしまうNico、泣き出すまでやり直させられた録音。1966-07シングルB面。Nicoの3曲を「肖像・群像・鏡」として束ねる |
+| 10 | The Black Angel's Death Song | ✅ | 2026-08-16 / #10。Caleの電気ヴィオラの不協和音＋マイクへの息の破裂音。Reed自身の註「意味ではなく音の楽しさのために言葉を並べた」。1965年末Café Bizarreで「もう一度やったらクビだ」と言われ次のセット冒頭で演奏しクビ、同じ出演中にWarhol周辺に見出される。聴き手をふるいにかける配置として解説 |
+| 11 | European Son | ✅ | 2026-08-16 / #11【最終回】。詩人Delmore Schwartz(Reedのシラキュース大学の恩師)に献辞、初版は曲名に併記。ロックの歌詞を嫌った師のため、最も言葉の少ない曲を選んだ。録音は1966-04、Schwartzは3か月後の7月14日に死去。冒頭1分の歌＋6分超の自由演奏、椅子と皿による破壊音。シリーズ総括(Billboard 200で171位／Enoの「買った者は皆バンドを始めた」／2006年National Recording Registry)＋**ホームページ albumatlas.jp とリクエスト・フォームの紹介**＋第10弾Kraftwerk予告 |
 
 ### 配信済みファイル対応(第9弾)
 | 話 | 音声 | アーカイブ台本 |
@@ -131,6 +138,12 @@
 | #3 | docs/audio/episode_119_2026-08-12.mp3 | scripts/published/2026-08-12_ep119.json |
 | #4 | docs/audio/episode_120_2026-08-14.mp3 | scripts/published/2026-08-14_ep120.json |
 | #5 | docs/audio/episode_121_2026-08-14.mp3 | scripts/published/2026-08-14_ep121.json |
+| #6 | docs/audio/episode_122_2026-08-16.mp3 | scripts/published/2026-08-16_ep122.json |
+| #7 | docs/audio/episode_123_2026-08-16.mp3 | scripts/published/2026-08-16_ep123.json |
+| #8 | docs/audio/episode_124_2026-08-16.mp3 | scripts/published/2026-08-16_ep124.json |
+| #9 | docs/audio/episode_125_2026-08-16.mp3 | scripts/published/2026-08-16_ep125.json |
+| #10 | docs/audio/episode_126_2026-08-16.mp3 | scripts/published/2026-08-16_ep126.json |
+| #11 | docs/audio/episode_127_2026-08-16.mp3 | scripts/published/2026-08-16_ep127.json |
 
 ---
 
