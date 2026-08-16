@@ -2686,19 +2686,19 @@
   },
   {
     "id": "tour-de-france-02",
-    "episode_number": null,
+    "episode_number": 129,
     "series_number": 10,
     "track_number": 2,
     "album_id": "tour-de-france",
     "track_title": "Tour de France Étape 1",
-    "title": null,
-    "web_summary": null,
+    "title": "呼吸が打楽器になる",
+    "web_summary": "第2回は2曲目『Tour de France Étape 1』。前回の『Prologue』から続く、4つの曲でひとつながりの15分半の組曲が、ここから本格的に走り出します。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_129_2026-08-16.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-16",
+    "status": "published"
   },
   {
     "id": "tour-de-france-03",
