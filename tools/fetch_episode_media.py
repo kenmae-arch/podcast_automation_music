@@ -201,6 +201,15 @@ def apple_music_track_ids(album_id: str, slug: str) -> dict[int, str]:
     return found
 
 
+def _safely(label: str, fetch: Any, show_id: str) -> dict[str, str]:
+    """Run one source's lookup, reporting a failure instead of aborting the sync."""
+    try:
+        return fetch(show_id)
+    except Exception as error:  # noqa: BLE001 - one source must not stop the rest
+        print(f"{label}: 取得に失敗しました。既存値を維持します ({error})")
+        return {}
+
+
 def sync_episode_media(check_only: bool = False) -> int:
     site = _read(SITE)
     web_episodes = _read(WEB_EPISODES)
@@ -213,8 +222,14 @@ def sync_episode_media(check_only: bool = False) -> int:
 
     apple_show = _apple_show_id(site)
     spotify_show = _spotify_show_id(site)
-    apple_urls = apple_episode_urls(apple_show) if apple_show else {}
-    spotify_urls = spotify_episode_urls(spotify_show) if spotify_show else {}
+    # One unreachable source must not take the others down with it. Without this
+    # an iTunes outage also wipes out the Apple Music previews, and the run still
+    # reports success because the workflow step is continue-on-error — the exact
+    # silent gap this module exists to prevent.
+    apple_urls = _safely("Apple Podcasts", apple_episode_urls, apple_show) if apple_show else {}
+    spotify_urls = (
+        _safely("Spotify", spotify_episode_urls, spotify_show) if spotify_show else {}
+    )
 
     print(f"Apple Podcasts: {len(apple_urls)}件の配信URLを取得")
     if spotify_urls:
