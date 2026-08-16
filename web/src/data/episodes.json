@@ -2606,19 +2606,19 @@
   },
   {
     "id": "velvet-underground-nico-08",
-    "episode_number": null,
+    "episode_number": 124,
     "series_number": 9,
     "track_number": 8,
     "album_id": "velvet-underground-nico",
     "track_title": "There She Goes Again",
-    "title": null,
-    "web_summary": null,
+    "title": "モータウンから盗んだリフ",
+    "web_summary": "第8回は8曲目『There She Goes Again』。7分の『Heroin』の直後に置かれた、2分半の爽やかなポップ・ソングです。跳ねるギター・リフの出どころはMarvin Gayeの1962年『Hitch Hike』。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_124_2026-08-16.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-16",
+    "status": "published"
   },
   {
     "id": "velvet-underground-nico-09",
