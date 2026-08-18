@@ -2718,19 +2718,19 @@
   },
   {
     "id": "tour-de-france-04",
-    "episode_number": null,
+    "episode_number": 131,
     "series_number": 10,
     "track_number": 4,
     "album_id": "tour-de-france",
     "track_title": "Tour de France Étape 3",
-    "title": null,
-    "web_summary": null,
+    "title": "同じ一日を、何度も繰り返す",
+    "web_summary": "第4回は4曲目『Tour de France Étape 3』。3分56秒。1曲目『Prologue』から続いてきた約15分半の組曲が、ここで終着します。30秒・4分半・6分41秒・3分56秒という長さの配分が描いているレースの形、",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_131_2026-08-18.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-18",
+    "status": "published"
   },
   {
     "id": "tour-de-france-05",

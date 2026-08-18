@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 16 Aug 2026 07:22:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 01:49:08 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Kraftwerk『Tour de France』全曲解説 #4 同じ一日を、何度も繰り返す『Tour de France Étape 3』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第10弾はリスナー・リクエスト作品、Kraftwerk『Tour de France』(2009 remaster)。第4回は4曲目『Tour de France Étape 3』。3分56秒。1曲目『Prologue』から続いてきた約15分半の組曲が、ここで終着します。30秒・4分半・6分41秒・3分56秒という長さの配分が描いているレースの形、そして3つの『エタップ』があえて似た顔をしている理由——ステージレースとは、同じ構造の一日を何十回も繰り返す競技だという主題から読み解きます。ここから曲名は、レースの時間そのものから、走る身体の部品へと移っていきます。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_131_2026-08-18.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_131_2026-08-18.mp3" length="5046901" type="audio/mpeg"/>
+      <pubDate>Tue, 18 Aug 2026 01:49:08 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/tdf.jpg"/>
+    </item>
     <item>
       <title>Kraftwerk『Tour de France』全曲解説 #3 何も起こらない時間を設計する『Tour de France Étape 2』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第10弾はリスナー・リクエスト作品、Kraftwerk『Tour de France』(2009 remaster)。第3回は3曲目『Tour de France Étape 2』。6分41秒、冒頭の組曲でいちばん長い一曲です。作曲クレジットに名を連ねるMaxime Schmittは、フランスのPathé-Marconiでキャピトル・レーベルを率い、1970年代半ばからバンドと関わり、1983年のシングルの歌詞をRalf Hütterと共作した人物。ドイツのグループがフランス語で歌う土台を作った人です。同じ曲名が1983年の12インチにも存在したという20年越しの再利用と、ステージレースの中盤=耐える時間を、長い持続でどう設計したかを解説します。</description>

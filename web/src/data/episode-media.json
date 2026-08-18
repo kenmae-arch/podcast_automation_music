@@ -782,27 +782,43 @@
     "apple_music_track_id": "1440851914"
   },
   "velvet-underground-nico-09": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783559260"
+    },
     "apple_music_track_id": "1440851916"
   },
   "velvet-underground-nico-10": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783559276"
+    },
     "apple_music_track_id": "1440851918"
   },
   "velvet-underground-nico-11": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783559277"
+    },
     "apple_music_track_id": "1440852071"
   },
   "tour-de-france-01": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783559140"
+    },
     "apple_music_track_id": "726341353"
   },
   "tour-de-france-02": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783564318"
+    },
     "apple_music_track_id": "726341357"
   },
   "tour-de-france-03": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783564403"
+    },
     "apple_music_track_id": "726341360"
+  },
+  "tour-de-france-04": {
+    "podcast_urls": {},
+    "apple_music_track_id": "726341369"
   }
 }
