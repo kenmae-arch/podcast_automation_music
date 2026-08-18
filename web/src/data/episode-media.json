@@ -818,11 +818,19 @@
     "apple_music_track_id": "726341360"
   },
   "tour-de-france-04": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783969167"
+    },
     "apple_music_track_id": "726341369"
   },
   "tour-de-france-05": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000783969704"
+    },
     "apple_music_track_id": "726341371"
+  },
+  "tour-de-france-06": {
+    "podcast_urls": {},
+    "apple_music_track_id": "726341373"
   }
 }

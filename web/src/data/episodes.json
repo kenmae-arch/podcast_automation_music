@@ -2750,19 +2750,19 @@
   },
   {
     "id": "tour-de-france-06",
-    "episode_number": null,
+    "episode_number": 133,
     "series_number": 10,
     "track_number": 6,
     "album_id": "tour-de-france",
     "track_title": "Vitamin",
-    "title": null,
-    "web_summary": null,
+    "title": "成分表を読み上げるだけの8分間",
+    "web_summary": "第6回は6曲目『Vitamin』。8分を超える長尺です。ボコーダーが読み上げるのは炭水化物、たんぱく質、そしてビタミンの名前だけ。「サプリメントの瓶の成分表示を読んでいるだけだ」と評されたほどの、ただの列挙です。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_133_2026-08-18.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-18",
+    "status": "published"
   },
   {
     "id": "tour-de-france-07",
