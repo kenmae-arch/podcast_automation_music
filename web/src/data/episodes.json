@@ -2734,19 +2734,19 @@
   },
   {
     "id": "tour-de-france-05",
-    "episode_number": null,
+    "episode_number": 132,
     "series_number": 10,
     "track_number": 5,
     "album_id": "tour-de-france",
     "track_title": "Chrono",
-    "title": null,
-    "web_summary": null,
+    "title": "時計と一人で向き合う競技",
+    "web_summary": "第5回は5曲目『Chrono』。題名は個人タイムトライアルを指すフランス語 contre la montre——直訳すれば「時計に抗して」——の呼び名から来ています。選手は1分から2分ほどの間隔で一人ずつ出発し、誰の後ろにも隠れられない。ゆえに「真実のレース」と呼ばれる競技です。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_132_2026-08-18.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-18",
+    "status": "published"
   },
   {
     "id": "tour-de-france-06",
