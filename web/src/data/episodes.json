@@ -2782,19 +2782,19 @@
   },
   {
     "id": "tour-de-france-08",
-    "episode_number": null,
+    "episode_number": 135,
     "series_number": 10,
     "track_number": 8,
     "album_id": "tour-de-france",
     "track_title": "Titanium",
-    "title": null,
-    "web_summary": null,
+    "title": "人とモノの境目が消える",
+    "web_summary": "第8回は8曲目『Titanium』。短く、硬く、金属的な一曲です。アルバムでただひとつ、人間でも時間でもなく「モノ」を題名にした曲。自転車競技が機材のスポーツでもあること、鉄からアルミ、チタン、そしてカーボンへと移った素材の歴史の中で2003年にチタンを選ぶことの含み、",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_135_2026-08-22.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-22",
+    "status": "published"
   },
   {
     "id": "tour-de-france-09",
