@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 Aug 2026 06:46:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 06:52:06 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Kraftwerk『Tour de France』全曲解説 #9 ライブ盤の題名になった心拍『Elektro Kardiogramm』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第10弾はリスナー・リクエスト作品、Kraftwerk『Tour de France』(2009 remaster)。第9回は9曲目『Elektro Kardiogramm』。心電図です。人間の内側を流れる電気を線として描き出す装置を、電子音楽の始祖が題名にしました。2005年、最初のライブ演奏からおよそ35年を経て発表された初の公式ライブ盤『Minimum-Maximum』は、その題名をこの曲の歌詞から採っています。バンド自身がこの曲を看板に選んだということです。時計・栄養・空気・素材と外側を測ってきたアルバムが、ついに心臓そのものへ到達する回。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_136_2026-08-22.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_136_2026-08-22.mp3" length="5500386" type="audio/mpeg"/>
+      <pubDate>Sat, 22 Aug 2026 06:52:06 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/tdf.jpg"/>
+    </item>
     <item>
       <title>Kraftwerk『Tour de France』全曲解説 #8 人とモノの境目が消える『Titanium』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第10弾はリスナー・リクエスト作品、Kraftwerk『Tour de France』(2009 remaster)。第8回は8曲目『Titanium』。短く、硬く、金属的な一曲です。アルバムでただひとつ、人間でも時間でもなく「モノ」を題名にした曲。自転車競技が機材のスポーツでもあること、鉄からアルミ、チタン、そしてカーボンへと移った素材の歴史の中で2003年にチタンを選ぶことの含み、そしてビンディングで足が固定され人と機械がひとつの装置になる競技において、このシリーズの通し軸「身体を機械として設計し直す」が最も文字どおりになる地点として解説します。</description>

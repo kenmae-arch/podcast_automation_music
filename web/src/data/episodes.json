@@ -2798,19 +2798,19 @@
   },
   {
     "id": "tour-de-france-09",
-    "episode_number": null,
+    "episode_number": 136,
     "series_number": 10,
     "track_number": 9,
     "album_id": "tour-de-france",
     "track_title": "Elektro Kardiogramm",
-    "title": null,
-    "web_summary": null,
+    "title": "ライブ盤の題名になった心拍",
+    "web_summary": "第9回は9曲目『Elektro Kardiogramm』。心電図です。人間の内側を流れる電気を線として描き出す装置を、電子音楽の始祖が題名にしました。2005年、最初のライブ演奏からおよそ35年を経て発表された初の公式ライブ盤『Minimum-Maximum』は、",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_136_2026-08-22.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-22",
+    "status": "published"
   },
   {
     "id": "tour-de-france-10",
