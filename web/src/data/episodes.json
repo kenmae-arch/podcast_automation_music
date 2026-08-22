@@ -2766,19 +2766,19 @@
   },
   {
     "id": "tour-de-france-07",
-    "episode_number": null,
+    "episode_number": 134,
     "series_number": 10,
     "track_number": 7,
     "album_id": "tour-de-france",
     "track_title": "Aéro Dynamik",
-    "title": null,
-    "web_summary": null,
+    "title": "いちばんの敵は空気だった",
+    "web_summary": "第7回は7曲目『Aéro Dynamik』。2004年3月15日にシングルとして発売され、英国のダンス・シングル・チャートで1位を獲得した、アルバムでいちばんダンスフロアに近い一曲です。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_134_2026-08-22.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-22",
+    "status": "published"
   },
   {
     "id": "tour-de-france-08",
