@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 Aug 2026 06:52:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 15:25:55 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Kraftwerk『Tour de France』全曲解説 #10 ただひとつ、測れないもの『La Forme』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第10弾はリスナー・リクエスト作品、Kraftwerk『Tour de France』(2009 remaster)。第10回は10曲目『La Forme』。8分41秒、アルバム最長の曲です。フランス語で調子、コンディションを指すこの言葉は、自転車競技でいちばん使われ、いちばん説明のつかない語でもあります。時計も、栄養も、空気抵抗も、素材も、心拍も数字にできるのに、調子だけは測れない。身体を機械として設計し直してきたアルバムが、最後の最後で「それでも設計できないものがある」と認める地点として解説します。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_137_2026-08-28.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_137_2026-08-28.mp3" length="5146375" type="audio/mpeg"/>
+      <pubDate>Fri, 28 Aug 2026 15:25:55 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/tdf.jpg"/>
+    </item>
     <item>
       <title>Kraftwerk『Tour de France』全曲解説 #9 ライブ盤の題名になった心拍『Elektro Kardiogramm』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第10弾はリスナー・リクエスト作品、Kraftwerk『Tour de France』(2009 remaster)。第9回は9曲目『Elektro Kardiogramm』。心電図です。人間の内側を流れる電気を線として描き出す装置を、電子音楽の始祖が題名にしました。2005年、最初のライブ演奏からおよそ35年を経て発表された初の公式ライブ盤『Minimum-Maximum』は、その題名をこの曲の歌詞から採っています。バンド自身がこの曲を看板に選んだということです。時計・栄養・空気・素材と外側を測ってきたアルバムが、ついに心臓そのものへ到達する回。</description>
