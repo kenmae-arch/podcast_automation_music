@@ -2830,19 +2830,19 @@
   },
   {
     "id": "tour-de-france-11",
-    "episode_number": null,
+    "episode_number": 138,
     "series_number": 10,
     "track_number": 11,
     "album_id": "tour-de-france",
     "track_title": "Régéneration",
-    "title": null,
-    "web_summary": null,
+    "title": "走っていない時間の1分16秒",
+    "web_summary": "第11回は11曲目『Régéneration』。1分16秒、アルバムで最も短い曲です。8分41秒の『La Forme』の直後に、いちばん短い曲を置く配置。回復はテレビに映らず、競技時間にも数えられない。それでいて、三週間走り続けるステージレースの勝敗を決めるのは回復です。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_138_2026-08-28.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-08-28",
+    "status": "published"
   },
   {
     "id": "tour-de-france-12",
