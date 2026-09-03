@@ -2894,19 +2894,19 @@
   },
   {
     "id": "blonde-03",
-    "episode_number": null,
+    "episode_number": 142,
     "series_number": 11,
     "track_number": 3,
     "album_id": "blonde",
     "track_title": "Pink + White",
-    "title": null,
-    "web_summary": null,
+    "title": "名前を出さずに歌う人",
+    "web_summary": "第3回は3曲目『Pink + White』。Pharrell Williamsとの共作・共同プロデュース。簡素なピアノと歩くようなベースの上で、クライマックスにはクレジットのないBeyoncéの背景ヴォーカルが重なります。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_142_2026-09-03.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-03",
+    "status": "published"
   },
   {
     "id": "blonde-04",
