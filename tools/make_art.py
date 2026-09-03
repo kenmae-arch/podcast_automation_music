@@ -929,6 +929,69 @@ def make_tdf():
     return grain(img, 0.070)
 
 
+# =====================================================================
+# 11. 第11弾 Frank Ocean『Blonde』 ── 桃色の空と、二重にずれた人影
+# =====================================================================
+
+def make_blonde():
+    """夏の終わりの、桃色から白へ抜ける空。水平線の上に、同じ人影が二重にずれて立つ。
+
+    本作の中心技法は声のピッチ加工=ひとりの人間が「二つのバージョン」で歌うこと。
+    それを、色のずれた二重露光の人影で言う。他シリーズが夜や室内なのに対し、
+    これだけは昼の屋外で、明るい。実在のジャケット(緑髪・シャワー)は複製しない。
+    色は桃・生成り・砂。粒子を強めに乗せて、褪せた写真の質感にする。"""
+    img = vgradient([
+        (0.00, (238, 196, 200)), (0.30, (247, 222, 218)), (0.56, (252, 242, 230)),
+        (0.61, (250, 236, 220)), (0.80, (236, 224, 210)), (1.00, (222, 208, 194)),
+    ])
+
+    horizon = S * 0.605
+
+    # 低い太陽: 水平線のすぐ上に白い光を溜める
+    glow(img, S * 0.62, horizon - S * 0.035, S * 0.42, (255, 250, 240), falloff=2.6)
+    glow(img, S * 0.62, horizon - S * 0.02, S * 0.10, (255, 255, 250), falloff=1.6)
+
+    d = ImageDraw.Draw(img)
+    d.line([0, horizon, S, horizon], fill=(214, 186, 178), width=3)
+
+    # 人影: 同じ立ち姿を、色を変えて二重にずらす(=二つのバージョン)
+    def figure(layer, cx, base, tint):
+        ld = ImageDraw.Draw(layer)
+        head_r = S * 0.050
+        hx, hy = cx, base - S * 0.335
+        ld.ellipse([hx - head_r, hy - head_r, hx + head_r, hy + head_r], fill=tint)
+        ld.rectangle([hx - S * 0.022, hy + head_r * 0.85, hx + S * 0.022, hy + head_r * 1.75], fill=tint)
+        ld.polygon([
+            (hx - S * 0.100, hy + head_r * 1.75), (hx + S * 0.100, hy + head_r * 1.75),
+            (hx + S * 0.082, base), (hx - S * 0.082, base),
+        ], fill=tint)
+
+    base = S * 0.760
+    for cx, tint in ((S * 0.352, (108, 88, 118, 150)), (S * 0.388, (150, 84, 96, 170))):
+        layer = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+        figure(layer, cx, base, tint)
+        img = Image.alpha_composite(img.convert("RGBA"), layer).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 足元の砂: 明るいまま、わずかに沈める
+    d.rectangle([0, base, S, S], fill=(224, 210, 196))
+    d.line([0, base, S, base], fill=(206, 190, 176), width=3)
+
+    ink, rose, muted = (74, 54, 62), (150, 84, 96), (132, 110, 116)
+
+    Stack(d, S * 0.040).text("SERIES 11", font(F_FUTURA, 58, 0), muted, tracking=40)
+
+    s = Stack(d, S * 0.790)
+    s.text("FRANK OCEAN", font(F_FUTURA, 86, 0), rose, tracking=52)
+    s.gap(52).text("BLONDE", font(F_DIDOT, 262, 2), ink, tracking=30)
+    s.gap(56).rule(S * 0.080, (176, 150, 150), 3).gap(46)
+    s.text("全曲解説", font(F_JP, 72, 0), muted, tracking=26)
+    print("  blonde type bottom:", int(s.y))
+
+    vignette(img, 0.22, 0.90)
+    return grain(img, 0.085)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -946,3 +1009,4 @@ if __name__ == "__main__":
     save(make_illmatic(), OUT / "art" / "illmatic.jpg")
     save(make_velvet(), OUT / "art" / "velvet.jpg")
     save(make_tdf(), OUT / "art" / "tdf.jpg")
+    save(make_blonde(), OUT / "art" / "blonde.jpg")

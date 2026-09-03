@@ -1,5 +1,54 @@
 [
   {
+    "id": "blonde",
+    "series_number": 11,
+    "artist_name": "Frank Ocean",
+    "album_title": "Blonde",
+    "release_year": 2016,
+    "genre": "オルタナティヴR&B／アート・ポップ",
+    "language": "英語",
+    "country": "アメリカ",
+    "episode_count": 17,
+    "published_count": 0,
+    "status": "in_progress",
+    "introduction": "2016年8月20日にBoys Don't Cryから発表された、Frank Oceanの2作目のスタジオ・アルバム。全17曲。前日に映像作品『Endless』を発表してレコード会社との契約を満了させ、翌日に事実上の自主リリースとして本作を出したと報じられました。Apple Music／iTunesの先行独占として登場し、Billboard 200に初登場1位。ジャケットの表記は『Blond』、配信上の表題は『Blonde』です。",
+    "cultural_context": "Pharrell Williams、James Blake、Jon Brion、Rostam Batmanglijらが制作に加わり、André 3000、Beyoncé、Kim Burrellらが声を寄せています。本人はグラミーに出品せず、賞レースの外側でこの作品を置きました。声のピッチを大きく変える加工を全編で用い、ひとりの歌い手が複数の声を使い分けます。",
+    "selection_reason": "第10弾『Tour de France』でKraftwerkがボコーダーによって声を機械へ近づけたのに対し、本作は同じ種類の技術で、素のままでは言えない感情をかえって露出させます。同じ道具の正反対の使い方として、続けて聴くために選びました。走る身体の次に扱うのは、思い出す心です。",
+    "editorial_theme": "加工された声で、記憶と喪失を書く。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "声が何人ぶんもある",
+        "body": "1曲目から、歌っているのが本人だと分からないほど高く加工された声で始まります。ピッチを変えた声を、別の人格や別の時間の自分として使い分けるのが本作の方法です。"
+      },
+      {
+        "kind": "fact",
+        "heading": "二つの版がある",
+        "body": "配信版と、雑誌『Boys Don't Cry』に付属したフィジカル版では収録曲と曲順が異なります。このシリーズは配信版の曲順で扱います。"
+      },
+      {
+        "kind": "reading",
+        "heading": "動くことの音楽から、留まることの音楽へ",
+        "body": "このシリーズでは、過ぎた夏や失われた関係を、加工された声で振り返る作品として読み解きます。前へ進む身体を描いた第10弾と対で聴くための線です。"
+      }
+    ],
+    "original_artwork": {
+      "src": "art/blonde.jpg",
+      "alt": "Frank Ocean『Blonde』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [
+      "lemonade",
+      "tour-de-france",
+      "debi-tirar-mas-fotos"
+    ],
+    "related_reason": "記憶を一枚で書く系譜として",
+    "accent": "#D9A0A6",
+    "apple_music": {
+      "album_id": "1146195596",
+      "slug": "blonde"
+    }
+  },
+  {
     "id": "tour-de-france",
     "series_number": 10,
     "artist_name": "Kraftwerk",

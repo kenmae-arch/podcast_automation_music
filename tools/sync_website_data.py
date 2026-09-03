@@ -29,6 +29,7 @@ SERIES = {
     "illmatic": {"image": "art/illmatic.jpg", "tracks": 10, "year": 1994},
     "velvet-underground-nico": {"image": "art/velvet.jpg", "tracks": 11, "year": 1967},
     "tour-de-france": {"image": "art/tdf.jpg", "tracks": 12, "year": 2003},
+    "blonde": {"image": "art/blonde.jpg", "tracks": 17, "year": 2016},
 }
 
 TRACK_TITLES = {
@@ -169,6 +170,13 @@ TRACK_TITLES = {
         "La Forme",
         "Régéneration",
         "Tour de France",
+    ],
+    # 配信版の曲順。雑誌付属のフィジカル版とは収録・曲順が異なる。
+    "blonde": [
+        "Nikes", "Ivy", "Pink + White", "Be Yourself", "Solo", "Skyline To",
+        "Self Control", "Good Guy", "Nights", "Solo (Reprise)", "Pretty Sweet",
+        "Facebook Story", "Close to You", "White Ferrari", "Seigfried",
+        "Godspeed", "Futura Free",
     ],
 }
 
