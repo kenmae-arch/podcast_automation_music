@@ -854,15 +854,33 @@
     "apple_music_track_id": "726341414"
   },
   "tour-de-france-10": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000786522432"
+    },
     "apple_music_track_id": "726341448"
   },
   "tour-de-france-11": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000786522670"
+    },
     "apple_music_track_id": "726341450"
   },
   "tour-de-france-12": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000786523170"
+    },
     "apple_music_track_id": "726341452"
+  },
+  "blonde-01": {
+    "podcast_urls": {},
+    "apple_music_track_id": "1146195712"
+  },
+  "blonde-02": {
+    "podcast_urls": {},
+    "apple_music_track_id": "1146195713"
+  },
+  "blonde-03": {
+    "podcast_urls": {},
+    "apple_music_track_id": "1146195714"
   }
 }
