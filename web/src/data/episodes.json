@@ -2878,19 +2878,19 @@
   },
   {
     "id": "blonde-02",
-    "episode_number": null,
+    "episode_number": 141,
     "series_number": 11,
     "track_number": 2,
     "album_id": "blonde",
     "track_title": "Ivy",
-    "title": null,
-    "web_summary": null,
+    "title": "壊れたあとに振り返る初恋",
+    "web_summary": "第2回は2曲目『Ivy』。明るく軽く歪んだギターと控えめなドラムだけで進む、初恋の記憶の歌です。制作はMalayとの共作に、Om'Mas Keithと元Vampire WeekendのRostam Batmanglij(編曲も担当)。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_141_2026-09-03.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-03",
+    "status": "published"
   },
   {
     "id": "blonde-03",
