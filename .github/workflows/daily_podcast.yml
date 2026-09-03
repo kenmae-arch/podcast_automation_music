@@ -10,6 +10,10 @@ on:
         description: "エピソード生成をスキップし、配信URLの再取得とサイト再ビルドだけ行う(scripts/pending.jsonが無い時用)"
         type: boolean
         default: false
+      regenerate_episode:
+        description: "配信済みエピソードの音声を台本から作り直す(通算の話数を指定。読み修正用。別名 _v2 で書き出し guid は据え置き)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -44,7 +48,7 @@ jobs:
         run: npm ci --prefix web
 
       - name: Generate podcast episode
-        if: github.event_name != 'workflow_dispatch' || github.event.inputs.sync_media_only != 'true'
+        if: github.event_name != 'workflow_dispatch' || (github.event.inputs.sync_media_only != 'true' && github.event.inputs.regenerate_episode == '')
         env:
           FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
           FISH_AUDIO_REFERENCE_ID: ${{ vars.FISH_AUDIO_REFERENCE_ID }}
@@ -59,6 +63,23 @@ jobs:
           PODCAST_CATEGORY: ${{ vars.PODCAST_CATEGORY || 'Sports' }}
           PODCAST_EMAIL: ${{ vars.PODCAST_EMAIL }}
         run: python main.py
+
+      # 読み修正など、配信済みの音声だけを作り直す(workflow_dispatch の regenerate_episode)
+      - name: Regenerate a published episode
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.regenerate_episode != ''
+        env:
+          FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
+          FISH_AUDIO_REFERENCE_ID: ${{ vars.FISH_AUDIO_REFERENCE_ID }}
+          SITE_BASE_URL: ${{ vars.SITE_BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+          FEED_BASE_URL: ${{ vars.FEED_BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+          MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+          PODCAST_NEW_FEED_URL: ${{ vars.PODCAST_NEW_FEED_URL }}
+          PODCAST_TITLE: ${{ vars.PODCAST_TITLE }}
+          PODCAST_DESCRIPTION: ${{ vars.PODCAST_DESCRIPTION }}
+          PODCAST_AUTHOR: ${{ vars.PODCAST_AUTHOR }}
+          PODCAST_CATEGORY: ${{ vars.PODCAST_CATEGORY || 'Sports' }}
+          PODCAST_EMAIL: ${{ vars.PODCAST_EMAIL }}
+        run: python tools/regenerate_audio.py "${{ github.event.inputs.regenerate_episode }}"
 
       # 各話の「配信アプリで聴く」URLはUI側で欠けても無言で消えるだけなので、
       # 配信元から取り直してから公開する。取得できない場合も既存値は壊さない。
@@ -124,7 +145,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "変更なし。コミットをスキップします。"
           else
-            if [ "${{ github.event.inputs.sync_media_only }}" = "true" ]; then
+            if [ -n "${{ github.event.inputs.regenerate_episode }}" ]; then
+              message="Regenerate episode ${{ github.event.inputs.regenerate_episode }} $(date -u +%Y-%m-%d)"
+            elif [ "${{ github.event.inputs.sync_media_only }}" = "true" ]; then
               message="Sync episode listen links $(date -u +%Y-%m-%d)"
             else
               message="Publish episode $(date -u +%Y-%m-%d)"
