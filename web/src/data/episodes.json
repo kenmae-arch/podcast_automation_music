@@ -2862,19 +2862,19 @@
   },
   {
     "id": "blonde-01",
-    "episode_number": null,
+    "episode_number": 140,
     "series_number": 11,
     "track_number": 1,
     "album_id": "blonde",
     "track_title": "Nikes",
-    "title": null,
-    "web_summary": null,
+    "title": "誰の声か分からない声で始まる",
+    "web_summary": "前日に映像作品『Endless』でレーベルとの契約を満了させ、翌日に事実上の自主リリースとして世に出た、Billboard 200初登場1位、そして本人がグラミーに出品しなかった一枚です。第1回は1曲目『Nikes』。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_140_2026-09-03.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-03",
+    "status": "published"
   },
   {
     "id": "blonde-02",
