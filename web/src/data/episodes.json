@@ -2910,19 +2910,19 @@
   },
   {
     "id": "blonde-04",
-    "episode_number": null,
+    "episode_number": 143,
     "series_number": 11,
     "track_number": 4,
     "album_id": "blonde",
     "track_title": "Be Yourself",
-    "title": null,
-    "web_summary": null,
+    "title": "母親ではなかった留守番電話",
+    "web_summary": "第4回は4曲目『Be Yourself』。歌ではなく、留守番電話に残された声だけで1分半ほどが進みます。大学へ発つ息子に、薬物に手を出さないよう、自分自身でいるよう語りかける女性の声。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_143_2026-09-07.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-07",
+    "status": "published"
   },
   {
     "id": "blonde-05",
