@@ -2942,19 +2942,19 @@
   },
   {
     "id": "blonde-06",
-    "episode_number": null,
+    "episode_number": 145,
     "series_number": 11,
     "track_number": 6,
     "album_id": "blonde",
     "track_title": "Skyline To",
-    "title": null,
-    "web_summary": null,
+    "title": "終わらない夏の一行",
+    "web_summary": "第6回は6曲目『Skyline To』。夏と、夜と、身体のことを歌う一曲です。制作にTyler, the Creator、James Blake、Malay、Om'Mas Keith。作詞クレジットにはKendrick Lamarの名前もあります。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_145_2026-09-07.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-07",
+    "status": "published"
   },
   {
     "id": "blonde-07",
