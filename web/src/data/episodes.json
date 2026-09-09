@@ -2974,19 +2974,19 @@
   },
   {
     "id": "blonde-08",
-    "episode_number": null,
+    "episode_number": 147,
     "series_number": 11,
     "track_number": 8,
     "album_id": "blonde",
     "track_title": "Good Guy",
-    "title": null,
-    "web_summary": null,
+    "title": "1分で終わる、ある夜のこと",
+    "web_summary": "第8回は8曲目『Good Guy』。1分あまりで終わる、この作品で最も短い曲のひとつです。友人の紹介で会った相手との、噛み合わない一夜。連れて行かれた店の名前が、2012年の公表を経たこの人が、作品の中で自分の性のあり方に触れる場面になっています。曲の終わりには、失恋を語る他人の声が重なる。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_147_2026-09-09.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-09",
+    "status": "published"
   },
   {
     "id": "blonde-09",
