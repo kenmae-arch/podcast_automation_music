@@ -2958,19 +2958,19 @@
   },
   {
     "id": "blonde-07",
-    "episode_number": null,
+    "episode_number": 146,
     "series_number": 11,
     "track_number": 7,
     "album_id": "blonde",
     "track_title": "Self Control",
-    "title": null,
-    "web_summary": null,
+    "title": "ひとりでは出せない声",
+    "web_summary": "第7回は7曲目『Self Control』。この作品でも指折りに愛されている一曲です。サビで聴こえる高い声は本人ではなく、Slow HollowsのAustin Feinstein。自分でピッチを上げて録った試作をFrank Oceanが気に入り、そのまま採用されたと伝えられます。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_146_2026-09-09.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-09",
+    "status": "published"
   },
   {
     "id": "blonde-08",
