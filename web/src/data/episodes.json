@@ -2990,19 +2990,19 @@
   },
   {
     "id": "blonde-09",
-    "episode_number": null,
+    "episode_number": 148,
     "series_number": 11,
     "track_number": 9,
     "album_id": "blonde",
     "track_title": "Nights",
-    "title": null,
-    "web_summary": null,
+    "title": "60分のちょうど真ん中で切り替わる",
+    "web_summary": "第9回は9曲目『Nights』。この作品の心臓部です。曲の途中でビートが切り替わりますが、その瞬間はおよそ60分のアルバムの、ちょうど30分地点にあたります。作品全体が、この一点で前半と後半に分かれる設計です。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_148_2026-09-09.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-09",
+    "status": "published"
   },
   {
     "id": "blonde-10",
