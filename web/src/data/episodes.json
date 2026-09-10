@@ -3038,19 +3038,19 @@
   },
   {
     "id": "blonde-12",
-    "episode_number": null,
+    "episode_number": 151,
     "series_number": 11,
     "track_number": 12,
     "album_id": "blonde",
     "track_title": "Facebook Story",
-    "title": null,
-    "web_summary": null,
+    "title": "録音されていると知らなかった声",
+    "web_summary": "第12回は12曲目『Facebook Story』。歌のない語りだけの一曲です。話しているのはフランスの音楽家SebastiAn。友達申請を承認しなかったことで恋人との関係が壊れた、という実話を語ります。本人は後年、この会話が録音されていることを知らなかったと明かしました。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_151_2026-09-10.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-10",
+    "status": "published"
   },
   {
     "id": "blonde-13",
