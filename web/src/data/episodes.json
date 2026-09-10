@@ -3006,19 +3006,19 @@
   },
   {
     "id": "blonde-10",
-    "episode_number": null,
+    "episode_number": 149,
     "series_number": 11,
     "track_number": 10,
     "album_id": "blonde",
     "track_title": "Solo (Reprise)",
-    "title": null,
-    "web_summary": null,
+    "title": "自分の曲を、他人に明け渡す",
+    "web_summary": "第10回は10曲目『Solo (Reprise)』。1分あまりを、André 3000がひとりで担当します。Frank Oceanの声は、最初から最後まで一度も入りません。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_149_2026-09-10.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-10",
+    "status": "published"
   },
   {
     "id": "blonde-11",
