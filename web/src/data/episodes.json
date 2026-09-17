@@ -3070,19 +3070,19 @@
   },
   {
     "id": "blonde-14",
-    "episode_number": null,
+    "episode_number": 153,
     "series_number": 11,
     "track_number": 14,
     "album_id": "blonde",
     "track_title": "White Ferrari",
-    "title": null,
-    "web_summary": null,
+    "title": "ビートルズの旋律を借りた車の中",
+    "web_summary": "第14回は14曲目『White Ferrari』。この作品でも指折りに愛されている、静かな一曲です。The Beatles『Here, There and Everywhere』の旋律が織り込まれ、作詞クレジットにはKanye Westの名前もあります。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_153_2026-09-17.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-17",
+    "status": "published"
   },
   {
     "id": "blonde-15",
