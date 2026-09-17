@@ -3102,19 +3102,19 @@
   },
   {
     "id": "blonde-16",
-    "episode_number": null,
+    "episode_number": 155,
     "series_number": 11,
     "track_number": 16,
     "album_id": "blonde",
     "track_title": "Godspeed",
-    "title": null,
-    "web_summary": null,
+    "title": "教会の音で、見送る",
+    "web_summary": "第16回は16曲目『Godspeed』。ハモンド・オルガンが鳴り、ゴスペル歌手であり牧師でもあるKim Burrellの声が加わる、教会の音楽の形をした一曲です。題名は旅立つ人へ「道中ご無事で」と告げる古い言葉。別れの歌でありながら恨みも未練の主張もなく、相手の幸福を祈って送り出す。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_155_2026-09-17.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-17",
+    "status": "published"
   },
   {
     "id": "blonde-17",
