@@ -3118,18 +3118,18 @@
   },
   {
     "id": "blonde-17",
-    "episode_number": null,
+    "episode_number": 156,
     "series_number": 11,
     "track_number": 17,
     "album_id": "blonde",
     "track_title": "Futura Free",
-    "title": null,
-    "web_summary": null,
+    "title": "【最終回】弟が録った、友達の声",
+    "web_summary": "第11弾Frank Ocean『Blonde』(2016)の最終回は、17曲目『Futura Free』。9分を超える最長曲で、30秒ほどの無音を挟んで前後に割れています。前半は時給7ドルで働いていた頃からの独白。そして後半は、弟のRyan Breauxが友人たちに素朴な質問をして回った録音です。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_156_2026-09-17.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-17",
+    "status": "published"
   }
 ]
