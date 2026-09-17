@@ -944,15 +944,29 @@
     "apple_music_track_id": "1146195723"
   },
   "blonde-13": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000790316767"
+    },
     "apple_music_track_id": "1146195724"
   },
   "blonde-14": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000790317629"
+    },
     "apple_music_track_id": "1146195725"
   },
   "blonde-15": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000790317782"
+    },
     "apple_music_track_id": "1146195726"
+  },
+  "blonde-16": {
+    "podcast_urls": {},
+    "apple_music_track_id": "1146195727"
+  },
+  "blonde-17": {
+    "podcast_urls": {},
+    "apple_music_track_id": "1146195728"
   }
 }
