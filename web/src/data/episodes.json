@@ -3086,19 +3086,19 @@
   },
   {
     "id": "blonde-15",
-    "episode_number": null,
+    "episode_number": 154,
     "series_number": 11,
     "track_number": 15,
     "album_id": "blonde",
     "track_title": "Seigfried",
-    "title": null,
-    "web_summary": null,
+    "title": "選べなかった人生のほう",
+    "web_summary": "第15回は15曲目『Seigfried』。この作品で最も率直に、自分がどう生きられなかったかが語られる一曲です。弦の編曲はRadioheadのJonny Greenwood、演奏はLondon Contemporary Orchestra。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_154_2026-09-17.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-17",
+    "status": "published"
   },
   {
     "id": "blonde-16",
