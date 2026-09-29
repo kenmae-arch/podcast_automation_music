@@ -3166,19 +3166,19 @@
   },
   {
     "id": "richard-d-james-album-03",
-    "episode_number": null,
+    "episode_number": 159,
     "series_number": 12,
     "track_number": 3,
     "album_id": "richard-d-james-album",
     "track_title": "Peek 824545201",
-    "title": null,
-    "web_summary": null,
+    "title": "速い層と遅い層が同時に鳴る",
+    "web_summary": "第3回は3曲目『Peek 824545201』。のぞく、という言葉のあとに9桁の数字が続く、意味を明かさない題名です。泡がはじけるような異質な打楽器が細かく駆け回る下で、幽霊のような低いオルガンが、落ち着いた旋律をゆっくり歌う。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_159_2026-09-29.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-29",
+    "status": "published"
   },
   {
     "id": "richard-d-james-album-04",

@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Sep 2026 11:06:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 11:12:14 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Aphex Twin『Richard D. James Album』全曲解説 #3 速い層と遅い層が同時に鳴る『Peek 824545201』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第12弾はAphex Twin『Richard D. James Album』(1996)。第3回は3曲目『Peek 824545201』。のぞく、という言葉のあとに9桁の数字が続く、意味を明かさない題名です。泡がはじけるような異質な打楽器が細かく駆け回る下で、幽霊のような低いオルガンが、落ち着いた旋律をゆっくり歌う。機械の速さで刻まれる層と、人の呼吸の速さで流れる層が、同時に鳴っている。どちらを追うかを聴き手に委ねる、この作品の聴き方そのものを解説します。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_159_2026-09-29.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_159_2026-09-29.mp3" length="4994656" type="audio/mpeg"/>
+      <pubDate>Tue, 29 Sep 2026 11:12:14 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/rdj.jpg"/>
+    </item>
     <item>
       <title>Aphex Twin『Richard D. James Album』全曲解説 #2 シカゴの音を、故郷の名で呼ぶ『Cornish Acid』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第12弾はAphex Twin『Richard D. James Album』(1996)。第2回は2曲目『Cornish Acid』。題名は「コーンウォールのアシッド」。アシッドは1980年代後半のシカゴで生まれた、うねる低音を特徴とする電子音楽の呼び名です。その音を、作者が育ったイングランド南西端の土地の名前で呼び直している。短調なのに、ドタバタ喜劇のように転がる曲調。そしてこの作品の曲名がコーンウォールの地図になっていることを解説します。</description>
