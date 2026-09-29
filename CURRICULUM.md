@@ -96,7 +96,8 @@
 
 # 第12弾: Aphex Twin『Richard D. James Album』(進行中)
 
-> 2026-09-29 着手。`docs/art/rdj.jpg`、`albums.json`(Apple Music アルバムID `281111401` / slug `richard-d-james-album`)、`sync_website_data.py`(配信版全10曲)を登録済み。3曲目の題名は `Peek 824545201` で確定。
+> 2026-09-29 着手。`docs/art/rdj.jpg`、`albums.json`(Apple Music アルバムID `313158353` / slug `richard-d-james-album`)、`sync_website_data.py`(配信版全10曲)を登録済み。3曲目の題名は `Peek 824545201` で確定。
+> ⚠️ **Apple Music のIDは必ず日本ストア(`/jp/album/…`)のものを使うこと**。当初は米国ストアのID `281111401` を設定したが、日本ストアでは別ID(`313158353`)で、試聴IDが取得できなかった。Warp作品など、国によって流通元が異なる作品で起きやすい。
 
 アルバム: 1996年11月4日 / Warp Records / 全10曲・約32分51秒。Richard D. James(イングランド南西部コーンウォール育ち)の最も知られた名義 Aphex Twin の代表作。**本名をそのまま題名にし、ジャケットに本人の顔を据える**。中身はドリルンベース／IDM に分類され、人間の手では叩けない細かさまで刻み直したブレイクビーツの上に、極端に甘い旋律と、楽器のように散りばめられた加工声が乗る。通し軸(案)=**名前と顔は本人のもの、中身は機械のもの**(第11弾の「名前を伏せ声を加工する」と正反対の側から同じ問いを立てる)。
 
