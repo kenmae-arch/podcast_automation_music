@@ -1,5 +1,54 @@
 [
   {
+    "id": "richard-d-james-album",
+    "series_number": 12,
+    "artist_name": "Aphex Twin",
+    "album_title": "Richard D. James Album",
+    "release_year": 1996,
+    "genre": "エレクトロニック／ドリルンベース",
+    "language": null,
+    "country": "イギリス",
+    "episode_count": 10,
+    "published_count": 0,
+    "status": "in_progress",
+    "introduction": "1996年11月4日にWarp Recordsから発表された、Aphex Twinのアルバム。全10曲・約33分。本名のRichard D. Jamesをそのまま題名にし、ジャケットには本人の顔を据えました。本人のMacintoshで作曲され、それまでの作品より長い時間をかけて仕上げられたとされます。英国のダンス・アルバム・チャートで7位、総合チャートで62位。",
+    "cultural_context": "ジャングルやドラムンベースの速いブレイクビーツを、人間の手では叩けない細かさまで刻み直し、その上に甘い旋律と弦を重ねた作品です。後にドリルンベースと呼ばれる作風の代表例とされます。作者はイングランド南西部コーンウォールのラナーで育ち、曲名にはその土地の地名がいくつも使われています。",
+    "selection_reason": "第10弾Kraftwerk(電子音楽の始祖)と第11弾Frank Ocean『Blonde』(その技術で感情を露出させた作品)のあいだにある1990年代を埋める一枚として選びました。名前を伏せ声を加工し続けた前作に対し、本名と顔を正面から掲げながら中身は人間離れしている、という正反対の側から同じ問いを立てる作品です。",
+    "editorial_theme": "名前と顔は本人のもの、中身は機械のもの。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "本名と顔を、そのまま掲げる",
+        "body": "題名は作者の本名で、ジャケットは本人の顔です。多くの別名義を使い分けてきた人が、この作品では自分の名前を前に出しました。"
+      },
+      {
+        "kind": "fact",
+        "heading": "曲名が故郷の地図になっている",
+        "body": "Cornish Acid、Carn Marth、Logan Rock Witch。コーンウォールの地名や形容詞が、曲名にいくつも入っています。"
+      },
+      {
+        "kind": "reading",
+        "heading": "速い層と、遅い層",
+        "body": "このシリーズでは、機械の速さで刻まれるリズムと、人の呼吸の速さで流れる旋律が、同時に鳴っている作品として読み解きます。どちらを追うかは聴き手に委ねられています。"
+      }
+    ],
+    "original_artwork": {
+      "src": "art/rdj.jpg",
+      "alt": "Aphex Twin『Richard D. James Album』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [
+      "tour-de-france",
+      "blonde",
+      "discovery"
+    ],
+    "related_reason": "電子音楽の系譜として",
+    "accent": "#B2EC40",
+    "apple_music": {
+      "album_id": "281111401",
+      "slug": "richard-d-james-album"
+    }
+  },
+  {
     "id": "blonde",
     "series_number": 11,
     "artist_name": "Frank Ocean",

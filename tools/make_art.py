@@ -992,6 +992,88 @@ def make_blonde():
     return grain(img, 0.085)
 
 
+# =====================================================================
+# 12. 第12弾 Aphex Twin『Richard D. James Album』 ── 岬の揺れ岩と、砕ける格子
+# =====================================================================
+
+def make_rdj():
+    """コーンウォールの岬に、均衡した揺れ岩(ローガン・ロック)が立つ夜。
+
+    空には細かな短冊が格子状に並ぶが、左から右へ進むほど規則を失って散っていく。
+    人間の手では叩けない細かさまで刻み直されたブレイクビーツ=機械の精度が、
+    それ自体の細かさで砕けていく様子を言う。風景は本人の故郷、格子は機械の中身。
+    「名前と顔は本人のもの、中身は機械のもの」を、顔を描かずに言う図案。
+    実在のジャケット(本人の顔のアップ)は複製しない。色は粘板岩の青緑＋白墨＋アシッド・グリーン。"""
+    img = vgradient([
+        (0.00, (14, 24, 28)), (0.40, (26, 44, 48)), (0.60, (58, 82, 80)),
+        (0.63, (16, 26, 28)), (1.00, (8, 12, 14)),
+    ])
+    horizon = S * 0.625
+
+    glow(img, S * 0.30, horizon - S * 0.02, S * 0.40, (60, 96, 92), falloff=2.8)
+
+    # 空: 短冊の格子。右へ行くほど位置と角度が乱れ、一部がアシッド・グリーンに変わる
+    rnd = random.Random(1996)          # 発表年で固定
+    shards = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(shards)
+    cols, rows = 30, 15
+    x0, y0, cw, rh = S * 0.06, S * 0.10, S * 0.88 / cols, S * 0.42 / rows
+    for r in range(rows):
+        for c in range(cols):
+            k = c / (cols - 1)                     # 0=規則的 … 1=崩壊
+            chaos = k ** 2.2
+            if rnd.random() < chaos * 0.35:
+                continue                           # 抜け落ちる短冊
+            cx = x0 + cw * (c + 0.5) + rnd.uniform(-1, 1) * cw * 2.4 * chaos
+            cy = y0 + rh * (r + 0.5) + rnd.uniform(-1, 1) * rh * 2.8 * chaos
+            w, h = cw * 0.52, rh * 0.18
+            a = rnd.uniform(-1, 1) * math.pi * 0.5 * chaos
+            pts = [(-w / 2, -h / 2), (w / 2, -h / 2), (w / 2, h / 2), (-w / 2, h / 2)]
+            pts = [(cx + px * math.cos(a) - py * math.sin(a), cy + px * math.sin(a) + py * math.cos(a)) for px, py in pts]
+            acid = rnd.random() < 0.05 + 0.22 * chaos
+            col = (178, 236, 64, int(150 + 90 * chaos)) if acid else (214, 226, 220, int(120 - 40 * chaos))
+            sd.polygon(pts, fill=col)
+    img = Image.alpha_composite(img.convert("RGBA"), shards).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 海面: 細い横線で、わずかに光を返す
+    sea = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sp = ImageDraw.Draw(sea)
+    y = horizon + S * 0.006
+    while y < S * 0.76:
+        t = (y - horizon) / (S * 0.76 - horizon)
+        w = S * (0.05 + 0.20 * t)
+        sp.line([S * 0.30 - w, y, S * 0.30 + w, y], fill=(150, 180, 172, int(60 * (1 - t) ** 1.5)), width=3)
+        y += S * 0.012
+    img = Image.alpha_composite(img.convert("RGBA"), sea).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 岬(右)と、その上で均衡する揺れ岩
+    dark = (6, 10, 12)
+    d.polygon([(S * 0.52, horizon), (S * 0.60, horizon - S * 0.035), (S * 0.70, horizon - S * 0.075),
+               (S * 0.80, horizon - S * 0.090), (S * 0.92, horizon - S * 0.070), (S, horizon - S * 0.060),
+               (S, S * 0.76), (S * 0.52, S * 0.76)], fill=dark)
+    bx, by = S * 0.795, horizon - S * 0.090
+    d.ellipse([bx - S * 0.058, by - S * 0.082, bx + S * 0.062, by + S * 0.004], fill=dark)
+    d.line([bx - S * 0.050, by - S * 0.040, bx + S * 0.054, by - S * 0.046], fill=(40, 56, 56), width=4)
+    d.ellipse([bx - S * 0.006, by - S * 0.004, bx + S * 0.006, by + S * 0.008], fill=(178, 236, 64))
+
+    d.rectangle([0, S * 0.76, S, S], fill=(7, 11, 13))
+    d.line([0, S * 0.76, S, S * 0.76], fill=(60, 84, 82), width=4)
+
+    chalk, acid, muted = (226, 232, 226), (178, 236, 64), (132, 150, 146)
+    Stack(d, S * 0.040).text("SERIES 12", font(F_FUTURA, 58, 0), muted, tracking=40)
+    s = Stack(d, S * 0.790)
+    s.text("APHEX TWIN", font(F_FUTURA, 86, 0), acid, tracking=52)
+    s.gap(52).text("RICHARD D. JAMES", font(F_DIDOT, 176, 2), chalk, tracking=14)
+    s.gap(56).rule(S * 0.080, (78, 100, 98), 3).gap(46)
+    s.text("全曲解説", font(F_JP, 72, 0), muted, tracking=26)
+    print("  rdj type bottom:", int(s.y))
+
+    vignette(img, 0.55, 0.84)
+    return grain(img, 0.075)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -1010,3 +1092,4 @@ if __name__ == "__main__":
     save(make_velvet(), OUT / "art" / "velvet.jpg")
     save(make_tdf(), OUT / "art" / "tdf.jpg")
     save(make_blonde(), OUT / "art" / "blonde.jpg")
+    save(make_rdj(), OUT / "art" / "rdj.jpg")

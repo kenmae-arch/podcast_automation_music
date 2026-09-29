@@ -30,6 +30,7 @@ SERIES = {
     "velvet-underground-nico": {"image": "art/velvet.jpg", "tracks": 11, "year": 1967},
     "tour-de-france": {"image": "art/tdf.jpg", "tracks": 12, "year": 2003},
     "blonde": {"image": "art/blonde.jpg", "tracks": 17, "year": 2016},
+    "richard-d-james-album": {"image": "art/rdj.jpg", "tracks": 10, "year": 1996},
 }
 
 TRACK_TITLES = {
@@ -177,6 +178,12 @@ TRACK_TITLES = {
         "Self Control", "Good Guy", "Nights", "Solo (Reprise)", "Pretty Sweet",
         "Facebook Story", "Close to You", "White Ferrari", "Seigfried",
         "Godspeed", "Futura Free",
+    ],
+    # 配信版(全10曲)。米国盤などは Girl/Boy EP 由来のボーナス曲を含み曲数が異なる。
+    "richard-d-james-album": [
+        "4", "Cornish Acid", "Peek 824545201", "Fingerbib", "Carn Marth",
+        "To Cure a Weakling Child", "Goon Gumpas", "Yellow Calx", "Girl/Boy Song",
+        "Logan Rock Witch",
     ],
 }
 
