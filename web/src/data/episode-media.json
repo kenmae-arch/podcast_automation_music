@@ -962,11 +962,18 @@
     "apple_music_track_id": "1146195726"
   },
   "blonde-16": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000790322157"
+    },
     "apple_music_track_id": "1146195727"
   },
   "blonde-17": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000790322587"
+    },
     "apple_music_track_id": "1146195728"
+  },
+  "richard-d-james-album-01": {
+    "podcast_urls": {}
   }
 }

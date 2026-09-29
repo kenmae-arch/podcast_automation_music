@@ -3134,19 +3134,19 @@
   },
   {
     "id": "richard-d-james-album-01",
-    "episode_number": null,
+    "episode_number": 157,
     "series_number": 12,
     "track_number": 1,
     "album_id": "richard-d-james-album",
     "track_title": "4",
-    "title": null,
-    "web_summary": null,
+    "title": "咳払いで何度も始まり直す",
+    "web_summary": "1996年11月4日にWarp Recordsから出た全10曲・約33分の一枚で、本名をそのまま題名にし、ジャケットには本人の顔を据えました。本人のMacintoshで作曲され、英国のダンス・アルバム・チャートで7位、総合で62位。第1回は1曲目『4』。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_157_2026-09-29.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-09-29",
+    "status": "published"
   },
   {
     "id": "richard-d-james-album-02",
