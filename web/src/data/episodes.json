@@ -3230,19 +3230,19 @@
   },
   {
     "id": "richard-d-james-album-07",
-    "episode_number": null,
+    "episode_number": 163,
     "series_number": 12,
     "track_number": 7,
     "album_id": "richard-d-james-album",
     "track_title": "Goon Gumpas",
-    "title": null,
-    "web_summary": null,
+    "title": "鉱山跡の丘にあてた、短い弦の歌",
+    "web_summary": "第7回は7曲目『Goon Gumpas』。でたらめな言葉だと思われてきたこの題名も、実はコーンウォールの丘と集落の名前です。閉じた鉱山の跡に広がる開けた土地と、土地の産業が終わろうとしていた時期の話をしたうえで、アルバムでいちばん短い、弦の響きが主役の素朴な小品を聴きます。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_163_2026-10-06.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-06",
+    "status": "published"
   },
   {
     "id": "richard-d-james-album-08",
