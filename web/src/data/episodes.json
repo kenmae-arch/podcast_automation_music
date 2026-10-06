@@ -3182,19 +3182,19 @@
   },
   {
     "id": "richard-d-james-album-04",
-    "episode_number": null,
+    "episode_number": 160,
     "series_number": 12,
     "track_number": 4,
     "album_id": "richard-d-james-album",
     "track_title": "Fingerbib",
-    "title": null,
-    "web_summary": null,
+    "title": "指のよだれかけ、という幸福な旋律",
+    "web_summary": "第4回は4曲目『Fingerbib』。指と、赤ちゃんのよだれかけを組み合わせた、辞書にない題名です。ぼんやり光るやわらかい電子音の旋律が、穏やかなリズムの上で、少しずつ形を変えながら続いていく。大きな事件の起きない、幸福な響きの一曲です。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_160_2026-10-06.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-06",
+    "status": "published"
   },
   {
     "id": "richard-d-james-album-05",

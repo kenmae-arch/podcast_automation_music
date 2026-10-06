@@ -974,15 +974,25 @@
     "apple_music_track_id": "1146195728"
   },
   "richard-d-james-album-01": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000792187237"
+    },
     "apple_music_track_id": "313158361"
   },
   "richard-d-james-album-02": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000792187840"
+    },
     "apple_music_track_id": "313158363"
   },
   "richard-d-james-album-03": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000792188540"
+    },
     "apple_music_track_id": "313158364"
+  },
+  "richard-d-james-album-04": {
+    "podcast_urls": {},
+    "apple_music_track_id": "313158367"
   }
 }
