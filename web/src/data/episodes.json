@@ -3214,19 +3214,19 @@
   },
   {
     "id": "richard-d-james-album-06",
-    "episode_number": null,
+    "episode_number": 162,
     "series_number": 12,
     "track_number": 6,
     "album_id": "richard-d-james-album",
     "track_title": "To Cure a Weakling Child",
-    "title": null,
-    "web_summary": null,
+    "title": "子どもの形をした声が、体を数える",
+    "web_summary": "第6回は6曲目『To Cure a Weakling Child』。古い育児書の見出しのような題名の曲で、子どものように聴こえる声が、自分の体の部分を数えるように唱えていきます。かわいらしいのに、どこか不気味なその声。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_162_2026-10-06.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-06",
+    "status": "published"
   },
   {
     "id": "richard-d-james-album-07",

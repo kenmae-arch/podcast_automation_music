@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 06 Oct 2026 13:43:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 13:49:47 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Aphex Twin『Richard D. James Album』全曲解説 #6 子どもの形をした声が、体を数える『To Cure a Weakling Child』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第12弾はAphex Twin『Richard D. James Album』(1996)。第6回は6曲目『To Cure a Weakling Child』。古い育児書の見出しのような題名の曲で、子どものように聴こえる声が、自分の体の部分を数えるように唱えていきます。かわいらしいのに、どこか不気味なその声。出どころをめぐる説、『ブロンド』の加工された声との比較を通して、子どもらしさを機械で組み立てることの意味と、歪んだ記憶の音としての美しさを解説します。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_162_2026-10-06.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_162_2026-10-06.mp3" length="4800723" type="audio/mpeg"/>
+      <pubDate>Tue, 06 Oct 2026 13:49:47 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/rdj.jpg"/>
+    </item>
     <item>
       <title>Aphex Twin『Richard D. James Album』全曲解説 #5 静かな丘の名前に、嵐のドラム『Carn Marth』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第12弾はAphex Twin『Richard D. James Album』(1996)。第5回は5曲目『Carn Marth』。作者が育ったラナーの村のすぐそばにある、コーンウォールの丘の名前です。古いコーンウォール語の地名、鉱山の土地の歴史をたどったうえで、その穏やかな名前にまったく似ていない、息つく暇もなく暴れるドラムを聴きます。題名を名札として貼るこの作品のやり方と、丘で過ごした体の速さという、もうひとつの聴き方を解説します。</description>
