@@ -3262,19 +3262,19 @@
   },
   {
     "id": "richard-d-james-album-09",
-    "episode_number": null,
+    "episode_number": 165,
     "series_number": 12,
     "track_number": 9,
     "album_id": "richard-d-james-album",
     "track_title": "Girl/Boy Song",
-    "title": null,
-    "web_summary": null,
+    "title": "弦の旋律と、同じ名前の墓石",
+    "web_summary": "第9回は9曲目『Girl/Boy Song』。アルバムに先立つ1996年8月に同名の作品として世に出た、代表曲です。室内楽のような弦の旋律を、速く硬いリズムが取り囲む。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_165_2026-10-10.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-10",
+    "status": "published"
   },
   {
     "id": "richard-d-james-album-10",
