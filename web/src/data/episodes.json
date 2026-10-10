@@ -3278,18 +3278,18 @@
   },
   {
     "id": "richard-d-james-album-10",
-    "episode_number": null,
+    "episode_number": 166,
     "series_number": 12,
     "track_number": 10,
     "album_id": "richard-d-james-album",
     "track_title": "Logan Rock Witch",
-    "title": null,
-    "web_summary": null,
+    "title": "【最終回】押し倒され、戻された揺れ岩",
+    "web_summary": "第12弾Aphex Twin『Richard D. James Album』(1996)の最終回は、10曲目『Logan Rock Witch』。コーンウォールの岬に乗る揺れ岩は、1824年に海軍の乗組員に押し倒され、元に戻されたあと、以前のようには揺れなくなりました。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_166_2026-10-10.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-10",
+    "status": "published"
   }
 ]
