@@ -3246,19 +3246,19 @@
   },
   {
     "id": "richard-d-james-album-08",
-    "episode_number": null,
+    "episode_number": 164,
     "series_number": 12,
     "track_number": 8,
     "album_id": "richard-d-james-album",
     "track_title": "Yellow Calx",
-    "title": null,
-    "web_summary": null,
+    "title": "焼いたあとに残る、黄色い粉",
+    "web_summary": "第8回は8曲目『Yellow Calx』。カルクスは、鉱物や金属を焼いたあとに残る粉を指す古い言葉です。セミの声やスプーンで食器を叩く音にたとえられる、乾いてざらついた激しいドラムの上を、冷たい旋律が流れていく。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_164_2026-10-10.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-10",
+    "status": "published"
   },
   {
     "id": "richard-d-james-album-09",
