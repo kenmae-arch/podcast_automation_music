@@ -3294,19 +3294,19 @@
   },
   {
     "id": "homogenic-01",
-    "episode_number": null,
+    "episode_number": 167,
     "series_number": 13,
     "track_number": 1,
     "album_id": "homogenic",
     "track_title": "Hunter",
-    "title": null,
-    "web_summary": null,
+    "title": "狩りに出る人の、行進のリズム",
+    "web_summary": "新シリーズ開幕。アイスランド出身のBjörkが、ロンドンでの事件を経て、スペイン南部で録音した3枚目のソロ作です。電子のビートとアイスランド弦楽八重奏だけでほぼ全体を組み、ビートは故郷の火山の土地を思わせるように作られたと言われます。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_167_2026-10-11.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-11",
+    "status": "published"
   },
   {
     "id": "homogenic-02",
