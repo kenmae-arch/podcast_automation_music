@@ -1074,6 +1074,76 @@ def make_rdj():
     return grain(img, 0.075)
 
 
+def make_homogenic():
+    """アイスランドの溶岩台地。夜の地面に一本の裂け目が走り、その奥で溶岩が光る。
+
+    空には、細く張った八本の弦が縦に並ぶ(アイスランド弦楽八重奏)。弦は地面の裂け目で
+    途切れず、裂け目の光を受けて揺れる=電子のビートを火山の地面に、弦を自然の側に
+    置いたという作品の作り方を言う図案。左右から迫る玄武岩の柱状節理が、機械の規則。
+    実在のジャケット(本人の装いのポートレート)は複製しない。
+    色は黒曜石の黒＋氷河の青白＋溶岩の橙。"""
+    img = vgradient([
+        (0.00, (10, 14, 22)), (0.45, (22, 32, 46)), (0.62, (54, 66, 80)),
+        (0.64, (14, 14, 16)), (1.00, (6, 6, 8)),
+    ])
+    horizon = S * 0.64
+    glow(img, S * 0.5, horizon, S * 0.30, (120, 60, 30), falloff=2.4)
+    d = ImageDraw.Draw(img)
+
+    # 左右の玄武岩の柱(規則正しい六角柱の側面)
+    rnd = random.Random(1997)          # 発表年で固定
+    for side in (-1, 1):
+        for i in range(9):
+            w = S * 0.034
+            x = S * 0.5 + side * (S * 0.20 + i * w * 1.05)
+            top = horizon - S * (0.05 + 0.028 * i) - rnd.uniform(0, S * 0.02)
+            shade = 18 + i * 2
+            d.rectangle([x - w / 2, top, x + w / 2, S * 0.78], fill=(shade, shade + 2, shade + 6))
+            d.line([x - w / 2, top, x - w / 2, S * 0.78], fill=(40, 48, 58), width=3)
+
+    # 八本の弦(空から地面の裂け目へ)
+    strings = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(strings)
+    for k in range(8):
+        x = S * (0.395 + k * 0.03)
+        pts = []
+        for j in range(61):
+            t = j / 60
+            y = S * 0.08 + t * (horizon - S * 0.08)
+            amp = S * 0.006 * t ** 2 * (1 + (k % 3))
+            pts.append((x + amp * math.sin(t * math.pi * (6 + k)), y))
+        sd.line(pts, fill=(214, 232, 240, 170), width=4)
+    img = Image.alpha_composite(img.convert("RGBA"), strings).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 地面と、溶岩の裂け目
+    d.rectangle([0, horizon, S, S * 0.78], fill=(10, 10, 12))
+    crack = [(S * 0.5, horizon)]
+    x, y = S * 0.5, horizon
+    while y < S * 0.78:
+        y += S * 0.012
+        x += rnd.uniform(-1, 1) * S * 0.012
+        crack.append((x, y))
+    for width, col in ((26, (120, 40, 14)), (12, (236, 120, 40)), (4, (255, 214, 140))):
+        d.line(crack, fill=col, width=width)
+    d.line([0, horizon, S, horizon], fill=(236, 120, 40), width=3)
+
+    d.rectangle([0, S * 0.78, S, S], fill=(6, 6, 8))
+    d.line([0, S * 0.78, S, S * 0.78], fill=(70, 84, 98), width=4)
+
+    ice, lava, muted = (224, 236, 242), (236, 120, 40), (130, 144, 156)
+    Stack(d, S * 0.040).text("SERIES 13", font(F_FUTURA, 58, 0), muted, tracking=40)
+    s = Stack(d, S * 0.810)
+    s.text("BJÖRK", font(F_FUTURA, 86, 0), lava, tracking=52)
+    s.gap(52).text("HOMOGENIC", font(F_DIDOT, 196, 2), ice, tracking=18)
+    s.gap(56).rule(S * 0.080, (84, 98, 110), 3).gap(46)
+    s.text("全曲解説", font(F_JP, 72, 0), muted, tracking=26)
+    print("  homogenic type bottom:", int(s.y))
+
+    vignette(img, 0.55, 0.84)
+    return grain(img, 0.07)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -1093,3 +1163,4 @@ if __name__ == "__main__":
     save(make_tdf(), OUT / "art" / "tdf.jpg")
     save(make_blonde(), OUT / "art" / "blonde.jpg")
     save(make_rdj(), OUT / "art" / "rdj.jpg")
+    save(make_homogenic(), OUT / "art" / "homogenic.jpg")

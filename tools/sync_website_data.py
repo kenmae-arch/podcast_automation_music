@@ -31,6 +31,7 @@ SERIES = {
     "tour-de-france": {"image": "art/tdf.jpg", "tracks": 12, "year": 2003},
     "blonde": {"image": "art/blonde.jpg", "tracks": 17, "year": 2016},
     "richard-d-james-album": {"image": "art/rdj.jpg", "tracks": 10, "year": 1996},
+    "homogenic": {"image": "art/homogenic.jpg", "tracks": 10, "year": 1997},
 }
 
 TRACK_TITLES = {
@@ -184,6 +185,10 @@ TRACK_TITLES = {
         "4", "Cornish Acid", "Peek 824545201", "Fingerbib", "Carn Marth",
         "To Cure a Weakling Child", "Goon Gumpas", "Yellow Calx", "Girl/Boy Song",
         "Logan Rock Witch",
+    ],
+    "homogenic": [
+        "Hunter", "Jóga", "Unravel", "Bachelorette", "All Neon Like", "5 Years",
+        "Immature", "Alarm Call", "Pluto", "All Is Full of Love",
     ],
 }
 
