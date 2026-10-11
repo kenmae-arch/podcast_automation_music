@@ -3326,19 +3326,19 @@
   },
   {
     "id": "homogenic-03",
-    "episode_number": null,
+    "episode_number": 169,
     "series_number": 13,
     "track_number": 3,
     "album_id": "homogenic",
     "track_title": "Unravel",
-    "title": null,
-    "web_summary": null,
+    "title": "離れているあいだに、ほどける愛",
+    "web_summary": "第3回は3曲目『Unravel』。離れているあいだに愛がほどけていく、という静かな歌で、Guy Sigsworthと初めて共作した曲です。オルガンとかすかな弦、抑えられたビート。地面の音が遠のき、声だけが宙に浮く。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_169_2026-10-11.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-11",
+    "status": "published"
   },
   {
     "id": "homogenic-04",
