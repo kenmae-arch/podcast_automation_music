@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 11 Oct 2026 16:58:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 17:03:34 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Björk『Homogenic』全曲解説 #2 親友の名前の下に、地面が広がる『Jóga』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第13弾はBjörk『Homogenic』(1997)。第2回は2曲目『Jóga』。題名は親友の呼び名で、本人が「いちばん激しい愛の歌」と語った、友だちへの愛の歌です。雄大にうねる弦の下で、ひび割れ、弾けるような、地面の音のビートが鳴る。作品全体の設計図がいちばんはっきり聴こえる一曲として、ミシェル・ゴンドリーが撮った、アイスランドの大地が裂けていく映像とあわせて解説します。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_168_2026-10-11.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_168_2026-10-11.mp3" length="4193428" type="audio/mpeg"/>
+      <pubDate>Sun, 11 Oct 2026 17:03:34 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/homogenic.jpg"/>
+    </item>
     <item>
       <title>Björk『Homogenic』全曲解説 #1 狩りに出る人の、行進のリズム『Hunter』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第13弾はBjörk『Homogenic』(1997)。新シリーズ開幕。アイスランド出身のBjörkが、ロンドンでの事件を経て、スペイン南部で録音した3枚目のソロ作です。電子のビートとアイスランド弦楽八重奏だけでほぼ全体を組み、ビートは故郷の火山の土地を思わせるように作られたと言われます。通し軸「遠く離れた場所で、故郷の地面を鳴らす」を示し、行進のような1曲目『Hunter』と、顔がホッキョクグマへ変わっていくミュージック・ビデオを解説します。</description>

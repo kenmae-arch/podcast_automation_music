@@ -3310,19 +3310,19 @@
   },
   {
     "id": "homogenic-02",
-    "episode_number": null,
+    "episode_number": 168,
     "series_number": 13,
     "track_number": 2,
     "album_id": "homogenic",
     "track_title": "Jóga",
-    "title": null,
-    "web_summary": null,
+    "title": "親友の名前の下に、地面が広がる",
+    "web_summary": "第2回は2曲目『Jóga』。題名は親友の呼び名で、本人が「いちばん激しい愛の歌」と語った、友だちへの愛の歌です。雄大にうねる弦の下で、ひび割れ、弾けるような、地面の音のビートが鳴る。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_168_2026-10-11.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-11",
+    "status": "published"
   },
   {
     "id": "homogenic-03",
