@@ -1016,27 +1016,43 @@
     "apple_music_track_id": "313158372"
   },
   "richard-d-james-album-08": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000795170221"
+    },
     "apple_music_track_id": "313158374"
   },
   "richard-d-james-album-09": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000795170499"
+    },
     "apple_music_track_id": "313158377"
   },
   "richard-d-james-album-10": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000795170737"
+    },
     "apple_music_track_id": "313158380"
   },
   "homogenic-01": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000795395416"
+    },
     "apple_music_track_id": "1726654449"
   },
   "homogenic-02": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000795449854"
+    },
     "apple_music_track_id": "1726654451"
   },
   "homogenic-03": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000795449802"
+    },
     "apple_music_track_id": "1726654452"
+  },
+  "homogenic-04": {
+    "podcast_urls": {},
+    "apple_music_track_id": "1726654453"
   }
 }

@@ -3342,19 +3342,19 @@
   },
   {
     "id": "homogenic-04",
-    "episode_number": null,
+    "episode_number": 170,
     "series_number": 13,
     "track_number": 4,
     "album_id": "homogenic",
     "track_title": "Bachelorette",
-    "title": null,
-    "web_summary": null,
+    "title": "森を出た女性と、自分を書く本",
+    "web_summary": "第4回は4曲目『Bachelorette』。本人が「イゾベルが都会へ行く話」と説明した、森の女性が都会へ向かう物語の歌です。劇場の幕開けのような弦に、ティンパニやアコーディオン、アルプホルンまで加わる劇的な一曲。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_170_2026-10-21.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-21",
+    "status": "published"
   },
   {
     "id": "homogenic-05",
