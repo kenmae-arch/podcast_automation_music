@@ -3374,19 +3374,19 @@
   },
   {
     "id": "homogenic-06",
-    "episode_number": null,
+    "episode_number": 172,
     "series_number": 13,
     "track_number": 6,
     "album_id": "homogenic",
     "track_title": "5 Years",
-    "title": null,
-    "web_summary": null,
+    "title": "地面が噴き出す、いちばん怒っている曲",
+    "web_summary": "第6回は6曲目『5 Years』。愛が欲しいと言いながら受け止めきれずに逃げる相手への、まっすぐな怒りの歌です。制作の最初期に作られ、強い歪みのかかったざらつく太鼓と、金属のような打楽器が声を切り裂く。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_172_2026-10-21.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-21",
+    "status": "published"
   },
   {
     "id": "homogenic-07",
