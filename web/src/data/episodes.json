@@ -3390,19 +3390,19 @@
   },
   {
     "id": "homogenic-07",
-    "episode_number": null,
+    "episode_number": 173,
     "series_number": 13,
     "track_number": 7,
     "album_id": "homogenic",
     "track_title": "Immature",
-    "title": null,
-    "web_summary": null,
+    "title": "噴火のあと、冷えて固まる地面",
+    "web_summary": "第7回は7曲目『Immature』。題名の「未熟」が向けられているのは、自分自身です。相手が自分の欠けたものを埋めてくれると思っていた、という、このアルバムでいちばん単純で無防備な言葉。それは同時に、相手への冷たい別れの言葉にもなっています。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_173_2026-10-21.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-21",
+    "status": "published"
   },
   {
     "id": "homogenic-08",
