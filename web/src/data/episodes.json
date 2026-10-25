@@ -3406,19 +3406,19 @@
   },
   {
     "id": "homogenic-08",
-    "episode_number": null,
+    "episode_number": 174,
     "series_number": 13,
     "track_number": 8,
     "album_id": "homogenic",
     "track_title": "Alarm Call",
-    "title": null,
-    "web_summary": null,
+    "title": "長い夜のあとの、目覚ましの音",
+    "web_summary": "第8回は8曲目『Alarm Call』。怒り、反省、別れと続いたアルバムが、ここでぱっと目を覚まします。音楽には物事を変える力がある、と本人が語った、音楽で人を揺り起こす楽天的な歌です。跳ねるように進むビートと晴れやかな声を、噴火で生まれ冷えて固まった地面に差してくる、朝の光として聴きます。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_174_2026-10-25.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-25",
+    "status": "published"
   },
   {
     "id": "homogenic-09",
