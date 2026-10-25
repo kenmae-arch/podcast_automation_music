@@ -3438,18 +3438,18 @@
   },
   {
     "id": "homogenic-10",
-    "episode_number": null,
+    "episode_number": 176,
     "series_number": 13,
     "track_number": 10,
     "album_id": "homogenic",
     "track_title": "All Is Full of Love",
-    "title": null,
-    "web_summary": null,
+    "title": "【最終回】壊れたあとの地面で、愛を歌う",
+    "web_summary": "第13弾Björk『Homogenic』(1997)の最終回は、10曲目『All Is Full of Love』。スペインの山での孤独のあと、4月の朝の散歩で生まれた曲です。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_176_2026-10-25.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-25",
+    "status": "published"
   }
 ]
