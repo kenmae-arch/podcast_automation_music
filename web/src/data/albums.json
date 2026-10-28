@@ -1,5 +1,54 @@
 [
   {
+    "id": "taylor-swift-1989",
+    "series_number": 14,
+    "artist_name": "Taylor Swift",
+    "album_title": "1989",
+    "release_year": 2014,
+    "genre": "ポップ／シンセ・ポップ",
+    "language": "英語",
+    "country": "アメリカ",
+    "episode_count": 13,
+    "published_count": 3,
+    "status": "in_progress",
+    "introduction": "2014年10月27日にBig Machine Recordsから発表された、Taylor Swiftの5枚目のスタジオ・アルバム。全13曲(標準盤)。題名は本人の生年で、本人が「最初の正式なポップ・アルバム」と呼んだ作品です。Max Martin、Shellback、Jack Antonoff、Ryan Tedderらと制作。発売初週に米国で約129万枚を売り、2016年のグラミー賞で最優秀アルバム賞を受賞しました。",
+    "cultural_context": "カントリー音楽の歌い手として出発した本人が、1980年代のシンセ・ポップを手本に、はっきりとポップへ移った作品です。2014年春のニューヨークへの移住が出発点になっています。2023年には、原盤の権利を持てなかった録音を自分の権利で作り直した『1989 (Taylor's Version)』が出ていますが、このシリーズでは2014年のオリジナル標準盤を扱います。",
+    "selection_reason": "第3弾Lemonade以来のポップスター枠として選びました。故郷を離れて故郷を鳴らした第13弾Björkに続き、カントリーという音楽の故郷を離れ、生年を題名に自分を作り直した作品です。ヒット曲がどう設計されているかを、正面から扱える一枚でもあります。",
+    "editorial_theme": "他人に描かれた自分を、自分の手で描き直す。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "生まれた年を題名にした",
+        "body": "題名の1989は本人の生年です。音楽の作り方を変えた作品に、自分の始まりの年を付けました。"
+      },
+      {
+        "kind": "fact",
+        "heading": "スウェーデンのポップ職人と組んだ",
+        "body": "Max MartinとShellbackが多くの曲の作曲と制作に加わり、Jack Antonoffとの共作もここから始まりました。"
+      },
+      {
+        "kind": "reading",
+        "heading": "ゴシップの中の自分を演じ直す",
+        "body": "このシリーズでは、報道や噂が作り上げた自分の像を、ポップの技術で描き直していく作品として読み解きます。"
+      }
+    ],
+    "original_artwork": {
+      "src": "art/1989.jpg",
+      "alt": "Taylor Swift『1989』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [
+      "lemonade",
+      "homogenic",
+      "discovery"
+    ],
+    "related_reason": "ポップの作り方を変えた作品として",
+    "accent": "#EEA8BA",
+    "apple_music": {
+      "album_id": "1440825230",
+      "slug": "1989"
+    }
+  },
+  {
     "id": "homogenic",
     "series_number": 13,
     "artist_name": "Björk",

@@ -1144,6 +1144,66 @@ def make_homogenic():
     return grain(img, 0.07)
 
 
+def make_1989():
+    """明け方のマンハッタン。碁盤の目の街を見下ろす空に、何も描かれていない白い額縁がひとつ浮かぶ。
+
+    額縁=「Blank Space」、他人が勝手に書き込んできた自分の像と、これから自分で描き直す余白。
+    左下から右上へ、夜の紺が1980年代のシンセ・ポップを思わせる淡い桃色と水色の朝へほどけていく。
+    街は高層ビルの影絵、窓にはまだ灯りが残る。カントリーの故郷を離れて出てきた街。
+    実在のジャケット(本人の顔を切り取ったインスタント写真風)は複製しない。"""
+    img = vgradient([
+        (0.00, (34, 40, 78)), (0.35, (92, 104, 150)), (0.55, (214, 170, 186)),
+        (0.68, (246, 214, 200)), (0.70, (40, 38, 58)), (1.00, (18, 18, 30)),
+    ])
+    horizon = S * 0.69
+    glow(img, S * 0.62, horizon, S * 0.34, (255, 226, 214), falloff=2.2)
+    d = ImageDraw.Draw(img)
+
+    # 白い額縁(中身は空のまま、わずかに傾く)
+    frame = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    fd = ImageDraw.Draw(frame)
+    cx, cy, w, h, a = S * 0.5, S * 0.35, S * 0.44, S * 0.36, math.radians(-4)
+    def rect(hw, hh):
+        pts = [(-hw, -hh), (hw, -hh), (hw, hh), (-hw, hh)]
+        return [(cx + x * math.cos(a) - y * math.sin(a), cy + x * math.sin(a) + y * math.cos(a)) for x, y in pts]
+    fd.polygon(rect(w / 2 + 6, h / 2 + 6), fill=(30, 30, 50, 60))
+    fd.polygon(rect(w / 2, h / 2), fill=(250, 246, 240, 236))
+    fd.polygon(rect(w / 2 - S * 0.022, h / 2 - S * 0.022), fill=(200, 196, 214, 70))
+    img = Image.alpha_composite(img.convert("RGBA"), frame).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    # 摩天楼の影絵と、残った窓の灯り
+    rnd = random.Random(1989)          # 生年で固定
+    x = -S * 0.02
+    while x < S:
+        bw = rnd.uniform(S * 0.035, S * 0.085)
+        bh = rnd.uniform(S * 0.05, S * 0.22) * (1.5 if rnd.random() < 0.12 else 1)
+        top = horizon - bh
+        d.rectangle([x, top, x + bw, S * 0.80], fill=(24, 22, 38))
+        if rnd.random() < 0.25:
+            d.polygon([(x + bw * 0.3, top), (x + bw * 0.5, top - S * 0.03), (x + bw * 0.7, top)], fill=(24, 22, 38))
+        for wy in range(int(top + S * 0.01), int(S * 0.79), int(S * 0.016)):
+            for wx in range(int(x + S * 0.008), int(x + bw - S * 0.006), int(S * 0.014)):
+                if rnd.random() < 0.10:
+                    d.rectangle([wx, wy, wx + S * 0.004, wy + S * 0.006], fill=(255, 214, 160))
+        x += bw + rnd.uniform(0, S * 0.006)
+
+    d.rectangle([0, S * 0.80, S, S], fill=(16, 16, 28))
+    d.line([0, S * 0.80, S, S * 0.80], fill=(214, 170, 186), width=4)
+
+    pale, rose, muted = (248, 242, 236), (238, 168, 186), (150, 150, 178)
+    Stack(d, S * 0.040).text("SERIES 14", font(F_FUTURA, 58, 0), (250, 236, 236), tracking=40)
+    s = Stack(d, S * 0.828)
+    s.text("TAYLOR SWIFT", font(F_FUTURA, 86, 0), rose, tracking=52)
+    s.gap(52).text("1989", font(F_DIDOT, 196, 2), pale, tracking=40)
+    s.gap(56).rule(S * 0.080, (110, 104, 140), 3).gap(46)
+    s.text("全曲解説", font(F_JP, 72, 0), muted, tracking=26)
+    print("  1989 type bottom:", int(s.y))
+
+    vignette(img, 0.45, 0.86)
+    return grain(img, 0.06)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -1164,3 +1224,4 @@ if __name__ == "__main__":
     save(make_blonde(), OUT / "art" / "blonde.jpg")
     save(make_rdj(), OUT / "art" / "rdj.jpg")
     save(make_homogenic(), OUT / "art" / "homogenic.jpg")
+    save(make_1989(), OUT / "art" / "1989.jpg")

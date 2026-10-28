@@ -1076,15 +1076,35 @@
     "apple_music_track_id": "1726654456"
   },
   "homogenic-08": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000798027498"
+    },
     "apple_music_track_id": "1726654727"
   },
   "homogenic-09": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000798027937"
+    },
     "apple_music_track_id": "1726654728"
   },
   "homogenic-10": {
-    "podcast_urls": {},
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000798028421"
+    },
     "apple_music_track_id": "1726654729"
+  },
+  "taylor-swift-1989-01": {
+    "podcast_urls": {
+      "apple_podcasts": "https://podcasts.apple.com/jp/podcast/id6794883065?i=1000798445445"
+    },
+    "apple_music_track_id": "1440825240"
+  },
+  "taylor-swift-1989-02": {
+    "podcast_urls": {},
+    "apple_music_track_id": "1440825246"
+  },
+  "taylor-swift-1989-03": {
+    "podcast_urls": {},
+    "apple_music_track_id": "1440825250"
   }
 }
