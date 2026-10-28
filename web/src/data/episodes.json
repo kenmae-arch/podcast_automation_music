@@ -3470,19 +3470,19 @@
   },
   {
     "id": "taylor-swift-1989-02",
-    "episode_number": null,
+    "episode_number": 178,
     "series_number": 14,
     "track_number": 2,
     "album_id": "taylor-swift-1989",
     "track_title": "Blank Space",
-    "title": null,
-    "web_summary": null,
+    "title": "報道が描いた自分を、演じきる",
+    "web_summary": "第2回は2曲目『Blank Space』。7週連続で全米1位になり、自分の曲を自分の曲で1位から追い出した一曲です。次々に恋人を作っては歌で仕返しをする、という報道が描いた姿を、本人がわざと大げさに演じてみせる。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_178_2026-10-28.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-28",
+    "status": "published"
   },
   {
     "id": "taylor-swift-1989-03",

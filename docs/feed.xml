@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 28 Oct 2026 00:42:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:48:31 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Taylor Swift『1989』全曲解説 #2 報道が描いた自分を、演じきる『Blank Space』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第14弾はTaylor Swift『1989』(2014)。第2回は2曲目『Blank Space』。7週連続で全米1位になり、自分の曲を自分の曲で1位から追い出した一曲です。次々に恋人を作っては歌で仕返しをする、という報道が描いた姿を、本人がわざと大げさに演じてみせる。隙間を残したMax MartinとShellbackの音と、ジョゼフ・カーンのミュージック・ビデオから、他人の描いた像を自分の作品に変える方法を解説します。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_178_2026-10-28.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_178_2026-10-28.mp3" length="4718803" type="audio/mpeg"/>
+      <pubDate>Wed, 28 Oct 2026 00:48:31 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/1989.jpg"/>
+    </item>
     <item>
       <title>Taylor Swift『1989』全曲解説 #1 カントリーを出て、新しい街に着く『Welcome to New York』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第14弾はTaylor Swift『1989』(2014)。新シリーズ開幕。カントリーの歌い手として出発した本人が「最初の正式なポップ・アルバム」と呼び、生まれ年を題名にした5枚目の作品です。2023年の再録音版との関係と、番組が2014年のオリジナル標準盤を扱う理由をお話ししたうえで、通し軸「他人に描かれた自分を、自分の手で描き直す」を示し、ニューヨーク移住から生まれた到着の歌『Welcome to New York』を解説します。</description>
