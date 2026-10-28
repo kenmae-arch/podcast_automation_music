@@ -32,6 +32,7 @@ SERIES = {
     "blonde": {"image": "art/blonde.jpg", "tracks": 17, "year": 2016},
     "richard-d-james-album": {"image": "art/rdj.jpg", "tracks": 10, "year": 1996},
     "homogenic": {"image": "art/homogenic.jpg", "tracks": 10, "year": 1997},
+    "taylor-swift-1989": {"image": "art/1989.jpg", "tracks": 13, "year": 2014},
 }
 
 TRACK_TITLES = {
@@ -189,6 +190,12 @@ TRACK_TITLES = {
     "homogenic": [
         "Hunter", "Jóga", "Unravel", "Bachelorette", "All Neon Like", "5 Years",
         "Immature", "Alarm Call", "Pluto", "All Is Full of Love",
+    ],
+    # 2014年オリジナルの標準盤(全13曲)。2023年の再録音版(Taylor's Version)は扱わない。
+    "taylor-swift-1989": [
+        "Welcome to New York", "Blank Space", "Style", "Out of the Woods",
+        "All You Had to Do Was Stay", "Shake It Off", "I Wish You Would", "Bad Blood",
+        "Wildest Dreams", "How You Get the Girl", "This Love", "I Know Places", "Clean",
     ],
 }
 
