@@ -3454,19 +3454,19 @@
   },
   {
     "id": "taylor-swift-1989-01",
-    "episode_number": null,
+    "episode_number": 177,
     "series_number": 14,
     "track_number": 1,
     "album_id": "taylor-swift-1989",
     "track_title": "Welcome to New York",
-    "title": null,
-    "web_summary": null,
+    "title": "カントリーを出て、新しい街に着く",
+    "web_summary": "新シリーズ開幕。カントリーの歌い手として出発した本人が「最初の正式なポップ・アルバム」と呼び、生まれ年を題名にした5枚目の作品です。2023年の再録音版との関係と、番組が2014年のオリジナル標準盤を扱う理由をお話ししたうえで、通し軸「他人に描かれた自分を、自分の手で描き直す」を示し、",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_177_2026-10-28.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-10-28",
+    "status": "published"
   },
   {
     "id": "taylor-swift-1989-02",

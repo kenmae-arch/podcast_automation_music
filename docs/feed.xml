@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 25 Oct 2026 14:42:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:42:44 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Taylor Swift『1989』全曲解説 #1 カントリーを出て、新しい街に着く『Welcome to New York』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第14弾はTaylor Swift『1989』(2014)。新シリーズ開幕。カントリーの歌い手として出発した本人が「最初の正式なポップ・アルバム」と呼び、生まれ年を題名にした5枚目の作品です。2023年の再録音版との関係と、番組が2014年のオリジナル標準盤を扱う理由をお話ししたうえで、通し軸「他人に描かれた自分を、自分の手で描き直す」を示し、ニューヨーク移住から生まれた到着の歌『Welcome to New York』を解説します。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_177_2026-10-28.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_177_2026-10-28.mp3" length="5696827" type="audio/mpeg"/>
+      <pubDate>Wed, 28 Oct 2026 00:42:44 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/1989.jpg"/>
+    </item>
     <item>
       <title>Björk『Homogenic』全曲解説 #10【最終回】壊れたあとの地面で、愛を歌う『All Is Full of Love』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第13弾Björk『Homogenic』(1997)の最終回は、10曲目『All Is Full of Love』。スペインの山での孤独のあと、4月の朝の散歩で生まれた曲です。最後の最後に差し替えられた簡素なアルバム版と、Aphex Twinの映像でも知られるChris Cunninghamが撮った、機械の人形が愛し合うミュージック・ビデオ。全10曲を総括し、次シリーズ第14弾Taylor Swift『1989』(2014)の予告もお届けします。</description>
