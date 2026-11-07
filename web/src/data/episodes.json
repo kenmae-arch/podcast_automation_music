@@ -3518,19 +3518,19 @@
   },
   {
     "id": "taylor-swift-1989-05",
-    "episode_number": null,
+    "episode_number": 181,
     "series_number": 14,
     "track_number": 5,
     "album_id": "taylor-swift-1989",
     "track_title": "All You Had to Do Was Stay",
-    "title": null,
-    "web_summary": null,
+    "title": "一言しか言えない夢を、仕掛けに変える",
+    "web_summary": "第5回は5曲目『All You Had to Do Was Stay』。別れた恋人が玄関に来たのに「ステイ」の一言しか言えなかった、という本人の夢から生まれた曲です。その一言を高い声で切り取り、楽器のように最初から最後まで差し込む仕掛け。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_181_2026-11-07.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-07",
+    "status": "published"
   },
   {
     "id": "taylor-swift-1989-06",
