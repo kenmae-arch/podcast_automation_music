@@ -3534,19 +3534,19 @@
   },
   {
     "id": "taylor-swift-1989-06",
-    "episode_number": null,
+    "episode_number": 182,
     "series_number": 14,
     "track_number": 6,
     "album_id": "taylor-swift-1989",
     "track_title": "Shake It Off",
-    "title": null,
-    "web_summary": null,
+    "title": "悪口を振り払って、踊り続ける",
+    "web_summary": "第6回は6曲目『Shake It Off』。アルバムから最初に世に出て、全米チャートに初登場1位を飾った曲です。悪口や噂を真に受けずに振り落とす宣言を、サクソフォンや金管の明るい音で鳴らす。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_182_2026-11-07.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-07",
+    "status": "published"
   },
   {
     "id": "taylor-swift-1989-07",
