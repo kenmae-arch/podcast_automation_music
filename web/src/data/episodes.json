@@ -3566,19 +3566,19 @@
   },
   {
     "id": "taylor-swift-1989-08",
-    "episode_number": null,
+    "episode_number": 184,
     "series_number": 14,
     "track_number": 8,
     "album_id": "taylor-swift-1989",
     "track_title": "Bad Blood",
-    "title": null,
-    "web_summary": null,
+    "title": "名前を伏せた決裂を、映画に描き直す",
+    "web_summary": "第8回は8曲目『Bad Blood』。恋愛ではなく、同じ音楽の世界の、ある女性との決裂を歌った曲です。本人は名前を明かしておらず、番組でも名前は挙げません。足を踏み鳴らす掛け声のような音、第2弾で取り上げたKendrick Lamarを迎えた全米1位の版、",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_184_2026-11-07.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-07",
+    "status": "published"
   },
   {
     "id": "taylor-swift-1989-09",
