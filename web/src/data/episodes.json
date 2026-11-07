@@ -3598,19 +3598,19 @@
   },
   {
     "id": "taylor-swift-1989-10",
-    "episode_number": null,
+    "episode_number": 186,
     "series_number": 14,
     "track_number": 10,
     "album_id": "taylor-swift-1989",
     "track_title": "How You Get the Girl",
-    "title": null,
-    "web_summary": null,
+    "title": "恋人を取り戻す、手引き書",
+    "web_summary": "第10回は10曲目『How You Get the Girl』。離れていった恋人に、彼女を取り戻すにはこうしなさい、と順番に教えていく手引き書の形の歌です。ギターをかき鳴らすような明るい響きと、アルバムには珍しい踊れるリズム。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_186_2026-11-07.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-07",
+    "status": "published"
   },
   {
     "id": "taylor-swift-1989-11",

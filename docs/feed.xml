@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 07 Nov 2026 03:51:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 03:56:03 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Taylor Swift『1989』全曲解説 #10 恋人を取り戻す、手引き書『How You Get the Girl』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第14弾はTaylor Swift『1989』(2014)。第10回は10曲目『How You Get the Girl』。離れていった恋人に、彼女を取り戻すにはこうしなさい、と順番に教えていく手引き書の形の歌です。ギターをかき鳴らすような明るい響きと、アルバムには珍しい踊れるリズム。型どおりの恋愛を指示書として並べ、相手の役まで脚本として書いてしまう、描かれる人から書く人への変化を解説します。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_186_2026-11-07.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_186_2026-11-07.mp3" length="3905036" type="audio/mpeg"/>
+      <pubDate>Sat, 07 Nov 2026 03:56:03 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/1989.jpg"/>
+    </item>
     <item>
       <title>Taylor Swift『1989』全曲解説 #9 別れる前から、思い出され方を願う『Wildest Dreams』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第14弾はTaylor Swift『1989』(2014)。第9回は9曲目『Wildest Dreams』。始まったばかりの恋に終わりを予感し、せめていちばん美しい姿で覚えていてほしいと願う歌です。心臓の鼓動のような脈動と、ため息のような声。1950年代の映画の撮影現場を描いたミュージック・ビデオと、それが受けた植民地主義的だという批判にも触れ、自分の像を描くときに何を画面の外に置くのかを考えます。</description>
