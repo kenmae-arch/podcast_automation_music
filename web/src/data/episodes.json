@@ -3502,19 +3502,19 @@
   },
   {
     "id": "taylor-swift-1989-04",
-    "episode_number": null,
+    "episode_number": 180,
     "series_number": 14,
     "track_number": 4,
     "album_id": "taylor-swift-1989",
     "track_title": "Out of the Woods",
-    "title": null,
-    "web_summary": null,
+    "title": "答えの出ない問いを、繰り返す",
+    "web_summary": "第4回は4曲目『Out of the Woods』。のちに長く組むJack Antonoffとの最初の共作で、送られてきた伴奏に、飛行機の中で30分ほどで歌詞と旋律を書いたと言われる一曲です。ぐるぐる回るシンセと大きな太鼓の上で、もう大丈夫なのか、という問いを答えのないまま繰り返す。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_180_2026-11-07.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-07",
+    "status": "published"
   },
   {
     "id": "taylor-swift-1989-05",
