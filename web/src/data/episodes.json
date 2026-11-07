@@ -3582,19 +3582,19 @@
   },
   {
     "id": "taylor-swift-1989-09",
-    "episode_number": null,
+    "episode_number": 185,
     "series_number": 14,
     "track_number": 9,
     "album_id": "taylor-swift-1989",
     "track_title": "Wildest Dreams",
-    "title": null,
-    "web_summary": null,
+    "title": "別れる前から、思い出され方を願う",
+    "web_summary": "第9回は9曲目『Wildest Dreams』。始まったばかりの恋に終わりを予感し、せめていちばん美しい姿で覚えていてほしいと願う歌です。心臓の鼓動のような脈動と、ため息のような声。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_185_2026-11-07.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-07",
+    "status": "published"
   },
   {
     "id": "taylor-swift-1989-10",
