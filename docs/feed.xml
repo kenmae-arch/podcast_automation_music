@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 07 Nov 2026 03:36:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 03:41:00 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Taylor Swift『1989』全曲解説 #7 夜中の2時、ふたりとも待っている『I Wish You Would』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第14弾はTaylor Swift『1989』(2014)。第7回は7曲目『I Wish You Would』。Jack Antonoffの伴奏に、ツアー中の本人がパソコンで歌を録って送り返して生まれた曲で、小太鼓の音は80年代のバンドの録音から借りたと伝えられます。夜中の2時、別れた相手が車で彼女の通りを過ぎていく。ふたりとも相手が先に動くのを待つ、宙づりの別れとして解説します。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_183_2026-11-07.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_183_2026-11-07.mp3" length="4240657" type="audio/mpeg"/>
+      <pubDate>Sat, 07 Nov 2026 03:41:00 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/1989.jpg"/>
+    </item>
     <item>
       <title>Taylor Swift『1989』全曲解説 #6 悪口を振り払って、踊り続ける『Shake It Off』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第14弾はTaylor Swift『1989』(2014)。第6回は6曲目『Shake It Off』。アルバムから最初に世に出て、全米チャートに初登場1位を飾った曲です。悪口や噂を真に受けずに振り落とす宣言を、サクソフォンや金管の明るい音で鳴らす。描き直しのいちばん軽やかなやり方として聴いたうえで、ミュージック・ビデオが受けた批判から、その方法の限界にも正直に触れます。</description>

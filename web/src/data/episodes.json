@@ -3550,19 +3550,19 @@
   },
   {
     "id": "taylor-swift-1989-07",
-    "episode_number": null,
+    "episode_number": 183,
     "series_number": 14,
     "track_number": 7,
     "album_id": "taylor-swift-1989",
     "track_title": "I Wish You Would",
-    "title": null,
-    "web_summary": null,
+    "title": "夜中の2時、ふたりとも待っている",
+    "web_summary": "第7回は7曲目『I Wish You Would』。Jack Antonoffの伴奏に、ツアー中の本人がパソコンで歌を録って送り返して生まれた曲で、小太鼓の音は80年代のバンドの録音から借りたと伝えられます。夜中の2時、別れた相手が車で彼女の通りを過ぎていく。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_183_2026-11-07.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-07",
+    "status": "published"
   },
   {
     "id": "taylor-swift-1989-08",
