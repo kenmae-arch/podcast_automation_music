@@ -3630,19 +3630,19 @@
   },
   {
     "id": "taylor-swift-1989-12",
-    "episode_number": null,
+    "episode_number": 188,
     "series_number": 14,
     "track_number": 12,
     "album_id": "taylor-swift-1989",
     "track_title": "I Know Places",
-    "title": null,
-    "web_summary": null,
+    "title": "狩人から隠れる、狐たちの歌",
+    "web_summary": "第12回は12曲目『I Know Places』。Ryan Tedderとの共作で、注目を浴び続ける恋人たちが、ふたりきりになれる場所を探す歌です。追う人々を狩人に、ふたりを狐にたとえ、ひそひそ声の静けさと、追っ手の足音のような重い太鼓を行き来する。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_188_2026-11-19.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-19",
+    "status": "published"
   },
   {
     "id": "taylor-swift-1989-13",
