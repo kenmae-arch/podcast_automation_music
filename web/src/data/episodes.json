@@ -3614,19 +3614,19 @@
   },
   {
     "id": "taylor-swift-1989-11",
-    "episode_number": null,
+    "episode_number": 187,
     "series_number": 14,
     "track_number": 11,
     "album_id": "taylor-swift-1989",
     "track_title": "This Love",
-    "title": null,
-    "web_summary": null,
+    "title": "日記の詩から生まれた、ひとりきりの歌",
+    "web_summary": "第11回は11曲目『This Love』。アルバムで唯一、本人がひとりで書いた曲で、もとは日記に書きつけた短い詩でした。制作にはカントリー時代からの仲間Nathan Chapmanが加わっています。寄せては返す霞んだシンセの上で、潮のように満ち引きする愛を歌う。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_187_2026-11-19.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-19",
+    "status": "published"
   },
   {
     "id": "taylor-swift-1989-12",
