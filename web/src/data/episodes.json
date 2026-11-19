@@ -3646,18 +3646,18 @@
   },
   {
     "id": "taylor-swift-1989-13",
-    "episode_number": null,
+    "episode_number": 189,
     "series_number": 14,
     "track_number": 13,
     "album_id": "taylor-swift-1989",
     "track_title": "Clean",
-    "title": null,
-    "web_summary": null,
+    "title": "【最終回】もう、描き直さなくていい",
+    "web_summary": "第14弾Taylor Swift『1989』(2014)の最終回は、13曲目『Clean』。Imogen Heapと共に書き、共に制作した、長い渇きのあとの雨と回復の歌です。別れた相手と同じ街にいても、その人を考えずにいられたと気づいた瞬間から生まれました。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_189_2026-11-19.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-19",
+    "status": "published"
   }
 ]
