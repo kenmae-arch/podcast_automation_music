@@ -3678,19 +3678,19 @@
   },
   {
     "id": "the-art-of-loving-02",
-    "episode_number": null,
+    "episode_number": 191,
     "series_number": 15,
     "track_number": 2,
     "album_id": "the-art-of-loving",
     "track_title": "Nice to Each Other",
-    "title": null,
-    "web_summary": null,
+    "title": "名前のない関係に、やさしさを",
+    "web_summary": "第2回は2曲目『Nice to Each Other』。アルバムから最初に世に出たシングルです。付き合っているのかどうかも、この先どうなるのかも分からない、名前のつけられない関係。未来の約束より、今お互いにやさしくすることを選ぶ軽やかな歌を、愛を行うことの、いちばん小さな練習問題として解説します。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_191_2026-11-27.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-27",
+    "status": "published"
   },
   {
     "id": "the-art-of-loving-03",
