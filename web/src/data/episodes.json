@@ -3662,19 +3662,19 @@
   },
   {
     "id": "the-art-of-loving-01",
-    "episode_number": null,
+    "episode_number": 190,
     "series_number": 15,
     "track_number": 1,
     "album_id": "the-art-of-loving",
     "track_title": "The Art of Loving (Intro)",
-    "title": null,
-    "web_summary": null,
+    "title": "ささやき声で始まる、愛の技術",
+    "web_summary": "新シリーズ開幕。ロンドン出身のOlivia Deanが2025年に発表し、英国で1位を記録した2枚目のアルバムです。出発点は、画家Mickalene Thomasの展覧会と、bell hooksの本『All About Love』。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_190_2026-11-27.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-27",
+    "status": "published"
   },
   {
     "id": "the-art-of-loving-02",
