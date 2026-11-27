@@ -1204,6 +1204,68 @@ def make_1989():
     return grain(img, 0.06)
 
 
+def make_art_of_loving():
+    """練習帳の一頁。クリーム色の紙に、ひとつの曲線(輪)が何十回も書き重ねられている。
+
+    上の段ほど線は震えて不揃いで、下の段へ進むほど、なめらかで迷いのない輪になっていく。
+    「愛は落ちるものではなく、学び、練習していく技術」というアルバムの問いを、
+    手習いの反復で言う図案。ところどころの輪だけが温かい赤土色で塗られている=実際に行われた愛。
+    実在のジャケットや、着想源となった美術作品の図案は用いない。
+    色はクリーム＋深い緑＋赤土色＋芥子色。"""
+    img = vgradient([(0.00, (244, 236, 218)), (1.00, (232, 220, 196))])
+    d = ImageDraw.Draw(img)
+    rnd = random.Random(2025)          # 発表年で固定
+
+    # 罫線
+    for y in range(int(S * 0.08), int(S * 0.70), int(S * 0.064)):
+        d.line([S * 0.07, y, S * 0.93, y], fill=(206, 196, 170), width=3)
+    d.line([S * 0.12, S * 0.05, S * 0.12, S * 0.72], fill=(214, 150, 120), width=4)
+
+    green, clay, mustard = (34, 74, 62), (186, 92, 62), (214, 164, 64)
+    rows, cols = 9, 9
+    for r in range(rows):
+        k = r / (rows - 1)                 # 0=ぎこちない … 1=なめらか
+        jit = (1 - k) ** 1.6
+        cy = S * (0.11 + r * 0.064)
+        for c in range(cols):
+            cx = S * (0.17 + c * 0.093)
+            rad = S * 0.024
+            pts = []
+            p1, p2, sq = rnd.uniform(0, 6.3), rnd.uniform(0, 6.3), rnd.uniform(-0.3, 0.3) * jit
+            cx += rnd.uniform(-1, 1) * S * 0.008 * jit
+            cy_ = cy + rnd.uniform(-1, 1) * S * 0.008 * jit
+            for j in range(73):
+                t = j / 72 * math.pi * 2
+                rr = rad * (1 + jit * (0.22 * math.sin(2 * t + p1) + 0.12 * math.sin(3 * t + p2)))
+                # 輪の終わりを少し伸ばして、筆の払いにする
+                tail = (t / (math.pi * 2)) ** 6 * rad * 0.6
+                pts.append((cx + (rr + tail) * math.cos(t - math.pi / 2), cy_ + rr * (0.82 + sq) * math.sin(t - math.pi / 2)))
+            filled = rnd.random() < 0.05 + 0.18 * k
+            if filled:
+                d.polygon(pts, fill=clay)
+            d.line(pts, fill=green, width=int(6 + 3 * k))
+
+    # 芥子色の、ひとつだけ大きな輪(いちばん下で、ようやく書けた一筆)
+    cx, cy, rad = S * 0.5, S * 0.705, S * 0.035
+    pts = [(cx + rad * 1.3 * math.cos(t / 72 * math.pi * 2 - math.pi / 2), cy + rad * 0.9 * math.sin(t / 72 * math.pi * 2 - math.pi / 2)) for t in range(73)]
+    d.line(pts, fill=mustard, width=12)
+
+    d.rectangle([0, S * 0.775, S, S], fill=(30, 58, 50))
+    d.line([0, S * 0.775, S, S * 0.775], fill=mustard, width=5)
+
+    cream, muted = (246, 238, 220), (170, 186, 172)
+    Stack(d, S * 0.025).text("SERIES 15", font(F_FUTURA, 58, 0), (150, 130, 100), tracking=40)
+    s = Stack(d, S * 0.806)
+    s.text("OLIVIA DEAN", font(F_FUTURA, 86, 0), mustard, tracking=52)
+    s.gap(52).text("THE ART OF LOVING", font(F_DIDOT, 168, 2), cream, tracking=12)
+    s.gap(56).rule(S * 0.080, (90, 120, 108), 3).gap(46)
+    s.text("全曲解説", font(F_JP, 72, 0), muted, tracking=26)
+    print("  art_of_loving type bottom:", int(s.y))
+
+    vignette(img, 0.35, 0.90)
+    return grain(img, 0.05)
+
+
 def save(img, path, quality=88):
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "JPEG", quality=quality, subsampling=1, optimize=True, progressive=True)
@@ -1225,3 +1287,4 @@ if __name__ == "__main__":
     save(make_rdj(), OUT / "art" / "rdj.jpg")
     save(make_homogenic(), OUT / "art" / "homogenic.jpg")
     save(make_1989(), OUT / "art" / "1989.jpg")
+    save(make_art_of_loving(), OUT / "art" / "artofloving.jpg")

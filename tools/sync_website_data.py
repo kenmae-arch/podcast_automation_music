@@ -33,6 +33,7 @@ SERIES = {
     "richard-d-james-album": {"image": "art/rdj.jpg", "tracks": 10, "year": 1996},
     "homogenic": {"image": "art/homogenic.jpg", "tracks": 10, "year": 1997},
     "taylor-swift-1989": {"image": "art/1989.jpg", "tracks": 13, "year": 2014},
+    "the-art-of-loving": {"image": "art/artofloving.jpg", "tracks": 12, "year": 2025},
 }
 
 TRACK_TITLES = {
@@ -196,6 +197,11 @@ TRACK_TITLES = {
         "Welcome to New York", "Blank Space", "Style", "Out of the Woods",
         "All You Had to Do Was Stay", "Shake It Off", "I Wish You Would", "Bad Blood",
         "Wildest Dreams", "How You Get the Girl", "This Love", "I Know Places", "Clean",
+    ],
+    "the-art-of-loving": [
+        "The Art of Loving (Intro)", "Nice to Each Other", "Lady Lady", "Close Up",
+        "So Easy (To Fall in Love)", "Let Alone the One You Love", "Man I Need",
+        "Something Inbetween", "Loud", "Baby Steps", "A Couple Minutes", "I've Seen It",
     ],
 }
 
