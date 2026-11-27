@@ -13,7 +13,7 @@
       <link>https://albumatlas.jp</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Fri, 27 Nov 2026 02:32:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 02:37:01 +0000</lastBuildDate>
     <itunes:author>Album Deep Dive</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://media.albumatlas.jp/cover-v2.jpg"/>
@@ -23,6 +23,14 @@
       <itunes:name>Album Deep Dive</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Olivia Dean『The Art of Loving』全曲解説 #3 変わっていく自分を、受け入れる『Lady Lady』</title>
+      <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第15弾はOlivia Dean『The Art of Loving』(2025)。第3回は3曲目『Lady Lady』。本人が「宇宙や母なる自然が用意した道を信じる歌」「ある自分に慣れたところで、また変わらなければならない感じの歌」と語った2枚目のシングルです。ソウルとジャズの穏やかな響き、ロイヤル・バレエのバレリーナが出演するビデオ。自分を愛する技術としての、変化の受け入れ方を解説します。</description>
+      <guid isPermaLink="false">https://albumatlas.jp/audio/episode_192_2026-11-27.mp3</guid>
+      <enclosure url="https://media.albumatlas.jp/audio/episode_192_2026-11-27.mp3" length="4308784" type="audio/mpeg"/>
+      <pubDate>Fri, 27 Nov 2026 02:37:01 +0000</pubDate>
+      <itunes:image href="https://media.albumatlas.jp/art/artofloving.jpg"/>
+    </item>
     <item>
       <title>Olivia Dean『The Art of Loving』全曲解説 #2 名前のない関係に、やさしさを『Nice to Each Other』</title>
       <description>海外アーティストの名盤を1曲ずつ深掘りするポッドキャスト。第15弾はOlivia Dean『The Art of Loving』(2025)。第2回は2曲目『Nice to Each Other』。アルバムから最初に世に出たシングルです。付き合っているのかどうかも、この先どうなるのかも分からない、名前のつけられない関係。未来の約束より、今お互いにやさしくすることを選ぶ軽やかな歌を、愛を行うことの、いちばん小さな練習問題として解説します。</description>

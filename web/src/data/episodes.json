@@ -3694,19 +3694,19 @@
   },
   {
     "id": "the-art-of-loving-03",
-    "episode_number": null,
+    "episode_number": 192,
     "series_number": 15,
     "track_number": 3,
     "album_id": "the-art-of-loving",
     "track_title": "Lady Lady",
-    "title": null,
-    "web_summary": null,
+    "title": "変わっていく自分を、受け入れる",
+    "web_summary": "第3回は3曲目『Lady Lady』。本人が「宇宙や母なる自然が用意した道を信じる歌」「ある自分に慣れたところで、また変わらなければならない感じの歌」と語った2枚目のシングルです。ソウルとジャズの穏やかな響き、ロイヤル・バレエのバレリーナが出演するビデオ。",
     "key_points": [],
     "album_role": null,
-    "audio_file": null,
+    "audio_file": "audio/episode_192_2026-11-27.mp3",
     "duration": null,
-    "published": null,
-    "status": "upcoming"
+    "published": "2026-11-27",
+    "status": "published"
   },
   {
     "id": "the-art-of-loving-04",
