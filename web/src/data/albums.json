@@ -1,5 +1,54 @@
 [
   {
+    "id": "the-art-of-loving",
+    "series_number": 15,
+    "artist_name": "Olivia Dean",
+    "album_title": "The Art of Loving",
+    "release_year": 2025,
+    "genre": "ソウル／ポップ",
+    "language": "英語",
+    "country": "イギリス",
+    "episode_count": 12,
+    "published_count": 3,
+    "status": "in_progress",
+    "introduction": "2025年9月26日にCapitol Records UK / Polydorから発表された、Olivia Deanの2枚目のスタジオ・アルバム。全12曲・約34分。全編の制作にZach Nahomeが関わっています。英国のアルバム・チャートで1位、収録曲「Man I Need」は英国のシングル・チャートで1位。本人は2026年のグラミー賞で最優秀新人賞を受けました。",
+    "cultural_context": "出発点は、米国の画家Mickalene Thomasの展覧会「All About Love」と、その題の由来となったbell hooksの同名の本でした。愛は誰もが求めているのに、きちんと教わることのないもの。その愛を、感情ではなく行い、練習していく技術として描き直そうとした作品です。",
+    "selection_reason": "2027年2月の来日公演を前に、アルバムを1曲ずつ聴いておくために選びました。他人に描かれた自分から自由になるところで終わった第14弾に続き、愛を一から学び直す作品を置きます。",
+    "editorial_theme": "愛は、感じるものではなく、行うもの。",
+    "listening_points": [
+      {
+        "kind": "fact",
+        "heading": "一冊の本と、ひとつの展覧会から",
+        "body": "題名は、bell hooksの『All About Love』にある、自分の人生を愛するという技術についての一節から取られたと本人が語っています。"
+      },
+      {
+        "kind": "fact",
+        "heading": "少人数で、手ざわりのある音",
+        "body": "ソウルやジャズの温かい響きを受け継ぐ音で、制作は少人数の仲間と進められました。"
+      },
+      {
+        "kind": "reading",
+        "heading": "愛を練習する12曲",
+        "body": "このシリーズでは、恋に落ちることではなく、愛し方を少しずつ身につけていく過程として、12曲を読み解きます。"
+      }
+    ],
+    "original_artwork": {
+      "src": "art/artofloving.jpg",
+      "alt": "Olivia Dean『The Art of Loving』全曲解説シリーズのアートワーク"
+    },
+    "related_album_ids": [
+      "taylor-swift-1989",
+      "lemonade",
+      "blonde"
+    ],
+    "related_reason": "愛と自分を描き直す作品として",
+    "accent": "#D6A440",
+    "apple_music": {
+      "album_id": "1817609404",
+      "slug": "the-art-of-loving"
+    }
+  },
+  {
     "id": "taylor-swift-1989",
     "series_number": 14,
     "artist_name": "Taylor Swift",
